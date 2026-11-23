@@ -59,12 +59,41 @@ def videos_from_releases() -> list[dict]:
     return out
 
 
+def mirror_videos(vids: list[dict], out_dir: Path, budget_mb: int = 700) -> None:
+    """Ссылки на файлы релизов отдаются как application/octet-stream с другого домена — браузерный плеер
+    их не воспроизводит. Поэтому свежие ролики копируются прямо на сайт (лимит GitHub Pages — 1 ГБ),
+    а «Скачать» ведёт на релиз."""
+    vdir = out_dir / "videos"
+    vdir.mkdir(exist_ok=True)
+    used = 0.0
+    for v in vids:
+        try:
+            with httpx.Client(follow_redirects=True, timeout=300) as c:
+                if v.get("cover"):
+                    r = c.get(v["cover"])
+                    if r.status_code == 200:
+                        (vdir / f"{v['id']}.jpg").write_bytes(r.content)
+                        v["cover"] = f"videos/{v['id']}.jpg"
+                size = (v.get("size_mb") or 0)
+                if used + size > budget_mb:
+                    continue
+                r = c.get(v["video"])
+                r.raise_for_status()
+                (vdir / f"{v['id']}.mp4").write_bytes(r.content)
+                used += len(r.content) / 1e6
+                v["download"] = v["video"]
+                v["video"] = f"videos/{v['id']}.mp4"
+        except Exception as e:  # noqa: BLE001
+            print("video mirror:", v.get("id"), e)
+
+
 def build(out_dir: Path) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "data").mkdir(exist_ok=True)
     data = trends.refresh()
     (out_dir / "data" / "trends.json").write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
     vids = videos_from_releases()
+    mirror_videos(vids, out_dir)
     (out_dir / "data" / "videos.json").write_text(json.dumps(vids, ensure_ascii=False), encoding="utf-8")
     cfg = {
         "static": True, "repo": REPO,

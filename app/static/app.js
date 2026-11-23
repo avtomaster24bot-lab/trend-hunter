@@ -150,7 +150,7 @@ async function loadJobs() {
       ${j.video ? `<video controls preload="metadata" poster="${esc(j.cover || "")}" src="${esc(j.video)}"></video>` : ""}
       ${j.error ? `<p class="accent">${esc(j.error)}</p>` : ""}
       <div class="row" style="margin-top:8px;justify-content:flex-start">
-        ${j.video ? `<a class="btn small ghost" href="${esc(j.video)}" download>⬇ Скачать</a>` : ""}
+        ${j.video ? `<a class="btn small ghost" href="${esc(j.download || j.video)}" download>⬇ Скачать</a>` : ""}
         ${(j.parts || []).length > 1 ? `<span class="muted">частей: ${j.parts.length}</span>` : ""}
         ${j.release ? `<a class="btn small ghost" href="${esc(j.release)}" target="_blank" rel="noopener">Релиз</a>` : ""}
         ${(j.status === "done") && CFG.keys.telegram ? `<button class="btn small" data-pub="${j.id}">📤 В Telegram</button>` : ""}
