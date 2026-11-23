@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trend Hunter — что в тренде прямо сейчас</title>
+<link rel="stylesheet" href="/static/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="flame">🔥</span> <b>Trend Hunter</b> <span class="muted">охотник за трендами</span></div>
+  <div class="actions">
+    <span id="updated" class="muted"></span>
+    <button id="refresh" class="btn ghost">↻ Обновить тренды</button>
+  </div>
+</header>
+
+<section class="hero">
+  <h1>Самое горячее — <span class="accent">прямо сейчас</span></h1>
+  <p>Собираю тренды из Google Трендов, Google Новостей, YouTube, Reddit, Hacker News, Хабра, СМИ и Instagram, склеиваю их в темы и оцениваю «горячесть». Выберите тему — сделаю видео 1–30 минут с мужской озвучкой и отправлю в Telegram-канал.</p>
+  <div id="keys" class="chips"></div>
+  <div id="sources" class="chips small"></div>
+</section>
+
+<main class="layout">
+  <section>
+    <div class="section-head"><h2>Топ тем</h2><input id="search" placeholder="Поиск по темам…"></div>
+    <div id="topics" class="grid"><div class="loader">Собираю тренды со всех источников…</div></div>
+  </section>
+  <aside>
+    <h2>Видео</h2>
+    <div id="jobs"><p class="muted">Пока пусто. Нажмите «Сделать видео» у любой темы.</p></div>
+  </aside>
+</main>
+
+<dialog id="dlg">
+  <form method="dialog" id="form">
+    <h3 id="dlg-title"></h3>
+    <p class="muted" id="dlg-meta"></p>
+    <label class="lbl">Длительность: <b id="min-val"></b> мин <span class="rec" id="rec"></span></label>
+    <div class="slider-wrap">
+      <input type="range" id="minutes" min="1" max="30" step="1">
+      <div class="rec-mark" id="rec-mark" title="Рекомендовано"></div>
+    </div>
+    <div class="scale"><span>1</span><span>10</span><span>20</span><span>30 мин</span></div>
+    <label class="lbl">Голос (мужской)</label>
+    <select id="tts">
+      <option value="edge">Дмитрий — Microsoft Edge (бесплатно)</option>
+      <option value="piper">Дмитрий — Piper (офлайн, без интернета)</option>
+      <option value="openai">OpenAI «onyx» (нужен ключ)</option>
+      <option value="elevenlabs">ElevenLabs «Adam» (нужен ключ)</option>
+    </select>
+    <label class="lbl">Telegram-канал</label>
+    <input id="channel" placeholder="@koleso_uspeha">
+    <label class="check"><input type="checkbox" id="publish"> Сразу опубликовать в канал</label>
+    <label class="lbl" id="pw-wrap" hidden>Пароль администратора <input id="pw" type="password"></label>
+    <div class="row">
+      <button value="cancel" class="btn ghost">Отмена</button>
+      <button id="go" value="go" class="btn">🎬 Сделать видео</button>
+    </div>
+  </form>
+</dialog>
+
+<footer class="muted">Trend Hunter · открытый код на GitHub · <a href="https://github.com/avtomaster24bot-lab/trend-hunter" target="_blank">avtomaster24bot-lab/trend-hunter</a></footer>
+<script src="/static/app.js"></script>
+</body>
+</html>
