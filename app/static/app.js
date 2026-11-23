@@ -153,7 +153,7 @@ async function loadJobs() {
         ${j.video ? `<a class="btn small ghost" href="${esc(j.download || j.video)}" download>⬇ Скачать</a>` : ""}
         ${(j.parts || []).length > 1 ? `<span class="muted">частей: ${j.parts.length}</span>` : ""}
         ${j.release ? `<a class="btn small ghost" href="${esc(j.release)}" target="_blank" rel="noopener">Релиз</a>` : ""}
-        ${(j.status === "done") && CFG.keys.telegram ? `<button class="btn small" data-pub="${j.id}">📤 В Telegram</button>` : ""}
+        ${!STATIC && (j.status === "done") && CFG.keys.telegram ? `<button class="btn small" data-pub="${j.id}">📤 В Telegram</button>` : ""}
       </div>
       ${(j.log || []).length ? `<details><summary class="muted">журнал</summary><div class="log">${esc((j.log || []).join("\n"))}</div></details>` : ""}
     </div>`).join("");
