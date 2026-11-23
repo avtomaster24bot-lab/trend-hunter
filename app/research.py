@@ -95,7 +95,7 @@ def gather(topic: dict, log=print) -> dict:
         caps = [w.strip("«»\"',.:;!?()") for w in query.split() if w[:1].isupper() or w[:1] in "«\""]
         caps = [c for c in caps if len(c) >= 3]
         wq = " ".join(caps[:3]) or query
-    for w in wikipedia(wq, settings.language):
+    for w in ([] if topic.get("practical") else wikipedia(wq, settings.language)):
         docs.append(w)
         if w["image"]:
             images.append(w["image"])

@@ -51,7 +51,7 @@ def create(topic: dict, minutes: int | None, publish: bool, channel: str | None 
     job = {
         "id": time.strftime("%Y%m%d-%H%M%S-") + uuid.uuid4().hex[:4],
         "created": time.time(), "status": "queued", "progress": 0, "log": [],
-        "topic": {k: topic[k] for k in ("id", "title", "query", "hotness", "sources", "recommended_minutes") if k in topic},
+        "topic": {k: topic[k] for k in ("id", "title", "query", "hotness", "sources", "recommended_minutes", "practical", "url") if k in topic},
         "minutes": minutes, "publish": publish, "channel": channel or settings.telegram_channel,
         "tts_provider": tts_provider or settings.tts_provider, "voice": voice,
     }
@@ -120,6 +120,12 @@ def caption_for(job: dict) -> str:
     t = job["topic"]
     title = escape(sc.get("title") or t["title"])
     src = escape(", ".join(t.get("sources", [])[:5]))
+    p = t.get("practical")
+    if p:
+        link = f"\n\n🔗 Источник: {escape(t.get('url', ''))}" if t.get("url") else ""
+        return (f"🛠 <b>{title}</b>\n\nПрактичная ИИ-находка, которую можно повторить на своём ПК.\n"
+                f"Тип: {escape(p.get('type_ru', ''))} · Сложность: {escape(p.get('level', ''))} · Нужно: {escape(', '.join(p.get('needs', [])))}"
+                f"{link}\n\n#ии #агенты #автоматизация #машинадохода")
     return (f"🔥 <b>{title}</b>\n\nТема, которая набирает популярность прямо сейчас.\n"
             f"Горячесть: {t.get('hotness', '—')}/100 · Источники: {src}\n\n#тренды #новости")
 

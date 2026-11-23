@@ -124,7 +124,7 @@ def render_slide(seg: dict, img: Path | None, idx: int, total: int, channel: str
     # верхняя плашка
     d.rectangle([0, 0, w, int(56 * s)], fill=(0, 0, 0, 150))
     d.rectangle([int(24 * s), int(16 * s), int(36 * s), int(40 * s)], fill=ACCENT)
-    d.text((int(46 * s), int(14 * s)), "TREND HUNTER · В ТРЕНДЕ СЕЙЧАС", font=_font(int(22 * s), True), fill="white")
+    d.text((int(46 * s), int(14 * s)), "TREND HUNTER · ПРАКТИЧНЫЙ ИИ", font=_font(int(22 * s), True), fill="white")
     ch = channel.replace("https://t.me/", "@")
     f = _font(int(20 * s))
     d.text((w - d.textlength(ch, font=f) - int(24 * s), int(17 * s)), ch, font=f, fill=(220, 220, 220))

@@ -33,7 +33,10 @@ def _adhoc_topic(text: str) -> dict:
     except Exception as e:  # noqa: BLE001
         print("Google Новости:", e)
     srcs = sorted({i.source_label for i in items}) or ["Запрос"]
-    return {"id": "t" + hashlib.md5(text.encode()).hexdigest()[:10], "title": text[:1].upper() + text[1:], "query": text,
+    from .practical import analyze
+    a = analyze(text, " ".join(i.title for i in items[:5]))
+    return {"practical": {k: a[k] for k in ("score", "type", "type_ru", "level", "needs", "money")},
+            "url": items[0].url if items else "","id": "t" + hashlib.md5(text.encode()).hexdigest()[:10], "title": text[:1].upper() + text[1:], "query": text,
             "hotness": 0, "sources": srcs, "items": [i.to_dict() for i in items], "image": "",
             "recommended_minutes": trends.recommend_minutes(len(items), len(srcs))}
 
@@ -48,7 +51,10 @@ def pick_topic(data: dict, wanted: str | None, posted: dict) -> dict | None:
             if w in t["title"].lower() or w in t["query"].lower():
                 return t
         return _adhoc_topic(wanted.strip())
-    return next((t for t in data["topics"] if t["id"] not in posted and t["query"].lower() not in posted.values()), None)
+    fresh = [t for t in data["topics"] if t["id"] not in posted and t["query"].lower() not in posted.values()]
+    # для автопилота — лучшая находка с потенциалом дохода из первой десятки
+    money = [t for t in fresh[:10] if (t.get("practical") or {}).get("money") in ("высокий", "средний")]
+    return (money or fresh or [None])[0]
 
 
 def auto(minutes: int | None, publish: bool, max_minutes: int | None = None, topic_text: str | None = None,
@@ -63,7 +69,7 @@ def auto(minutes: int | None, publish: bool, max_minutes: int | None = None, top
     print(f"Тема: {topic['title']} (горячесть {topic['hotness']}, рекомендовано {topic['recommended_minutes']} мин)")
     job = {
         "id": time.strftime("%Y%m%d-%H%M%S-auto"), "created": time.time(), "status": "queued", "progress": 0,
-        "log": [], "topic": {k: topic[k] for k in ("id", "title", "query", "hotness", "sources", "recommended_minutes")},
+        "log": [], "topic": {k: topic[k] for k in ("id", "title", "query", "hotness", "sources", "recommended_minutes", "practical", "url") if k in topic},
         "minutes": minutes, "publish": publish, "channel": settings.telegram_channel,
         "tts_provider": settings.tts_provider, "voice": None,
     }

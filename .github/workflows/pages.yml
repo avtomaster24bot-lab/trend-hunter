@@ -9,7 +9,7 @@ on:
     paths: ["app/**", ".github/workflows/pages.yml"]
 
 permissions:
-  contents: read
+  contents: write   # сохранить пополненную базу знаний в репозиторий
   pages: write
   id-token: write
 
@@ -36,9 +36,19 @@ jobs:
           TELEGRAM_CHANNEL: ${{ vars.TELEGRAM_CHANNEL || '@glush_io' }}
           LLM_MODEL: ${{ vars.LLM_MODEL || 'gpt-4o-mini' }}
           HAS_LLM: ${{ secrets.LLM_API_KEY != '' }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL || 'https://api.openai.com/v1' }}
           HAS_TELEGRAM: ${{ secrets.TELEGRAM_BOT_TOKEN != '' }}
           DATA_DIR: ${{ runner.temp }}/data
         run: python -m app.static_build _site
+      - name: Сохранить базу знаний в репозиторий
+        run: |
+          git config user.name "trend-hunter-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add knowledge/knowledge.json
+          if git diff --cached --quiet; then echo "База знаний без изменений"; exit 0; fi
+          git commit -m "База знаний: автообновление" -q
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with: { path: _site }

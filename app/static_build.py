@@ -16,7 +16,7 @@ from pathlib import Path
 
 import httpx
 
-from . import trends
+from . import knowledge, trends
 from .config import ROOT, settings
 
 REPO = os.getenv("GITHUB_REPOSITORY", "avtomaster24bot-lab/trend-hunter")
@@ -92,7 +92,10 @@ def build(out_dir: Path) -> None:
     (out_dir / "data").mkdir(exist_ok=True)
     data = trends.refresh()
     (out_dir / "data" / "trends.json").write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
-    vids = videos_from_releases()
+    kb = knowledge.load()
+    (out_dir / "data" / "knowledge.json").write_text(json.dumps(kb, ensure_ascii=False), encoding="utf-8")
+    (out_dir / "data" / "roadmap.json").write_text(json.dumps(knowledge.roadmap(kb), ensure_ascii=False), encoding="utf-8")
+    vids = [v for v in videos_from_releases() if (v.get("topic") or {}).get("practical")]  # старые «общие» ролики не показываем
     mirror_videos(vids, out_dir)
     (out_dir / "data" / "videos.json").write_text(json.dumps(vids, ensure_ascii=False), encoding="utf-8")
     cfg = {
@@ -114,7 +117,7 @@ def build(out_dir: Path) -> None:
     for f in ("app.js", "style.css"):
         shutil.copy(static / f, out_dir / f)
     (out_dir / ".nojekyll").write_text("")
-    print(f"Готово: {len(data['topics'])} тем, {len(vids)} видео → {out_dir}")
+    print(f"Готово: {len(data['topics'])} находок, база знаний {len(kb)} (+{data.get('kb_new', 0)}), {len(vids)} видео → {out_dir}")
 
 
 if __name__ == "__main__":

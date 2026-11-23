@@ -41,9 +41,21 @@ def _material(research: dict, limit: int = 24000) -> str:
     return "\n".join(parts)[:limit]
 
 
+PRACTICAL_PLAN = ("Структура обязательна: 1) что это за находка; 2) кто это сделал и какой результат — только по фактам "
+                  "из материалов, с упоминанием источника, без выдуманных цифр дохода; 3) как повторить на своём ПК — "
+                  "конкретные шаги; 4) что понадобится: ПК, видеокарта, API-ключи, примерные расходы; 5) как это встроить "
+                  "в свою «машину дохода»; 6) вывод и призыв подписаться на канал. Материалы могут быть на английском — "
+                  "пиши по-русски.")
+
+
 def _llm_script(topic: dict, research: dict, minutes: int, channel: str) -> dict:
     words = minutes * settings.words_per_minute
     material = _material(research)
+    if topic.get("practical"):
+        p = topic["practical"]
+        material = (f"ТИП: {p.get('type_ru')}; сложность: {p.get('level')}; нужно: {', '.join(p.get('needs', []))}; "
+                    f"ссылка: {topic.get('url', '')}\n\n" + material)
+        return _llm_practical(topic, material, minutes, words, channel)
     n_sections = max(3, min(24, round(minutes * 1.2)))
     if minutes <= 4:
         prompt = (
@@ -74,6 +86,102 @@ def _llm_script(topic: dict, research: dict, minutes: int, channel: str) -> dict
         )}], max_tokens=min(8000, per * 4 + 500)))
         segments += part["segments"]
     return {"title": outline["title"], "segments": segments}
+
+
+def _llm_practical(topic: dict, material: str, minutes: int, words: int, channel: str) -> dict:
+    n = max(4, min(24, round(minutes * 1.2)))
+    if minutes <= 4:
+        prompt = (f"Находка: «{topic['title']}». Сценарий ролика «как повторить это у себя» на {minutes} мин "
+                  f"(~{words} слов), {n}-{n + 2} слайдов. {PRACTICAL_PLAN} Канал: {channel}.\nВерни ТОЛЬКО JSON: "
+                  "{\"title\": str, \"segments\": [{\"heading\": str, \"bullets\": [str], \"narration\": str}]}\n\nМАТЕРИАЛЫ:\n" + material)
+        return _json(_llm([{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt}]))
+    outline = _json(_llm([{"role": "system", "content": SYSTEM}, {"role": "user", "content": (
+        f"Находка: «{topic['title']}». План ролика на {minutes} минут из {n} частей. {PRACTICAL_PLAN} "
+        "Верни ТОЛЬКО JSON: {\"title\": str, \"sections\": [{\"heading\": str, \"points\": [str]}]}\n\nМАТЕРИАЛЫ:\n" + material)}],
+        max_tokens=2000))
+    per = max(60, words // len(outline["sections"]))
+    segs = []
+    for i, sec in enumerate(outline["sections"]):
+        part = _json(_llm([{"role": "system", "content": SYSTEM}, {"role": "user", "content": (
+            f"Ролик «{outline['title']}». Часть {i + 1}/{len(outline['sections'])}: «{sec['heading']}» "
+            f"({'; '.join(sec.get('points', []))}). ~{per} слов, 1-3 слайда, конкретно и по шагам. "
+            "Верни ТОЛЬКО JSON: {\"segments\": [{\"heading\": str, \"bullets\": [str], \"narration\": str}]}\n\nМАТЕРИАЛЫ:\n" + material)}],
+            max_tokens=min(8000, per * 4 + 500)))
+        segs += part["segments"]
+    return {"title": outline["title"], "segments": segs}
+
+
+_CYR = re.compile(r"[а-яё]", re.I)
+
+
+def _is_ru(t: str) -> bool:
+    letters = re.findall(r"[a-zа-яё]", t, re.I)
+    return bool(letters) and len(_CYR.findall(t)) / len(letters) > 0.5
+
+
+_RESULT = re.compile(r"\$\s?\d|\d+\s?(тыс|млн|k\b|%)|подписчик|просмотр|клиент|доход|заработ|выручк|mrr|revenue|users|views|звёзд|stars", re.I)
+
+
+def _practical_script(topic: dict, research: dict, minutes: int, channel: str) -> dict:
+    """Без LLM: что это → кто/результат → как повторить → что нужно. Англоязычные тексты не зачитываем."""
+    from .practical import apply_steps
+    p = topic["practical"]
+    target = minutes * settings.words_per_minute
+    title = topic["title"]
+    src = ", ".join(topic.get("sources", [])[:3]) or "сеть"
+    ru_sents = []
+    for d in research["docs"]:
+        for x in _SENT.split(_clean(d["text"])):
+            x = _clean(x)
+            if 30 < len(x) < 350 and _is_ru(x):
+                ru_sents.append(x)
+    for h in research["headlines"]:
+        t = _strip_pub(_clean(h["title"]))
+        if _is_ru(t):
+            ru_sents.append(t.rstrip(".") + ".")
+    results = [x for x in ru_sents if _RESULT.search(x)]
+    other = [x for x in ru_sents if x not in results]
+
+    segs = [{"heading": _short(title, 60), "bullets": [f"Тип: {p['type_ru']}", f"Сложность: {p['level']}", f"Источник: {src}"],
+             "narration": f"Находка для вашей машины дохода. {title}. Это {p['type_ru']}, сложность — {p['level']}. "
+                          f"Нашёл на {src}. Разбираем, что это и как повторить на своём компьютере."}]
+    budget = target - 60
+    what = other[:3] if other else []
+    if what:
+        n = " ".join(what)
+        segs.append({"heading": "Что это", "bullets": [_short(x) for x in what[:3]], "narration": n})
+        budget -= len(n.split())
+    else:
+        segs.append({"heading": "Что это", "bullets": [_short(title, 100)],
+                     "narration": f"Коротко: {title}. Подробности — по ссылке в описании, материал на английском."})
+    if results:
+        chunk = results[: max(1, min(4, budget // 40))]
+        n = "Что известно о результате, по данным источника. " + " ".join(chunk)
+        segs.append({"heading": "Кто сделал и что получил", "bullets": [_short(x) for x in chunk[:3]], "narration": n})
+        budget -= len(n.split())
+    steps = [x for x in apply_steps({**topic, **p, "extra": {"repo": _repo(topic.get("url", ""))}}) if not x.startswith("Источник")]
+    for i in range(0, len(steps), 3):
+        ch = steps[i:i + 3]
+        segs.append({"heading": "Как повторить на своём ПК" + (f" ({i // 3 + 1})" if len(steps) > 3 else ""),
+                     "bullets": [_short(x, 90) for x in ch],
+                     "narration": " ".join(f"Шаг {i + k + 1}. {re.sub(r'https?://', '', x)}" for k, x in enumerate(ch))})
+    segs.append({"heading": "Что понадобится", "bullets": [", ".join(p["needs"]), f"Сложность: {p['level']}", f"Потенциал дохода: {p['money']} (оценка)"],
+                 "narration": f"Что понадобится: {', '.join(p['needs']).replace('API-ключ', 'ключ API')}. Сложность — {p['level']}. "
+                              f"Потенциал дохода я оцениваю как {p['money']} — это оценка, не обещание: деньги приносит не инструмент, а продукт и клиенты."})
+    for x in other[3:]:
+        if budget <= 20:
+            break
+        segs[-1:-1] = [{"heading": "Подробнее", "bullets": [_short(x)], "narration": x}]
+        budget -= len(x.split())
+    segs.append({"heading": "Собирайте свою машину дохода", "bullets": [f"Канал: {channel}", "Новые практичные находки — каждый день"],
+                 "narration": "Сохраните себе и повторите на выходных. Подписывайтесь на канал — каждый день новые находки, "
+                              "которые можно применить у себя. До встречи!"})
+    return {"title": f"Как повторить: {title}"[:120], "segments": segs}
+
+
+def _repo(url: str) -> str | None:
+    m = re.match(r"https?://github\.com/([^/]+/[^/#?]+)", url or "")
+    return m.group(1) if m else None
 
 
 # ---------- без LLM ----------
@@ -174,6 +282,6 @@ def make_script(topic: dict, research: dict, minutes: int, channel: str, log=pri
         except Exception as e:  # noqa: BLE001
             log(f"LLM не сработал ({e}) — делаю сценарий без LLM")
     log("Сценарий без LLM: собираю из найденных текстов")
-    sc = _extractive_script(topic, research, minutes, channel)
+    sc = (_practical_script if topic.get("practical") else _extractive_script)(topic, research, minutes, channel)
     sc["mode"] = "extractive"
     return sc

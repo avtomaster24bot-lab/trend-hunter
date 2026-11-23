@@ -30,7 +30,7 @@ class Settings:
     language = _get("TREND_LANGUAGE", "ru")
     custom_rss = [u for u in _get("EXTRA_RSS_FEEDS").split(",") if u.strip()]
     enabled_sources = [s.strip() for s in _get(
-        "SOURCES", "google_trends,google_news,youtube,hackernews,reddit,habr,lenta,tass,instagram,custom_rss"
+        "SOURCES", "hn_ai,hn_cases,github,producthunt,habr_ai,vcru,devto,medium,reddit_ai,news_ai,youtube_ai,instagram,custom_rss"
     ).split(",") if s.strip()]
 
     # YouTube Data API v3
@@ -38,7 +38,7 @@ class Settings:
 
     # Instagram — только через сторонний сервис (Apify)
     apify_token = _get("APIFY_TOKEN")
-    instagram_hashtags = [h.strip().lstrip("#") for h in _get("INSTAGRAM_HASHTAGS", "новости,тренды").split(",") if h.strip()]
+    instagram_hashtags = [h.strip().lstrip("#") for h in _get("INSTAGRAM_HASHTAGS", "aiagent,aiautomation,нейросети").split(",") if h.strip()]
 
     # LLM (любой OpenAI-совместимый API: OpenAI, xAI, OpenRouter, DeepSeek, локальный Ollama...)
     llm_api_key = _get("LLM_API_KEY") or _get("OPENAI_API_KEY") or _get("XAI_API_KEY")

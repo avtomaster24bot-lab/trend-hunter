@@ -4,7 +4,7 @@ from __future__ import annotations
 from concurrent.futures import ThreadPoolExecutor
 
 from ..config import settings
-from . import rss, social
+from . import ai, rss, social
 from .base import Item
 
 
@@ -21,6 +21,18 @@ def _jobs():
         "tass": rss.tass,
         "instagram": lambda: social.instagram(s.apify_token, s.instagram_hashtags),
         "custom_rss": lambda: rss.custom(s.custom_rss) if s.custom_rss else [],
+        # практичный ИИ (по умолчанию)
+        "hn_ai": ai.hn_ai,
+        "hn_cases": ai.hn_cases,
+        "github": ai.github_new,
+        "producthunt": ai.product_hunt,
+        "habr_ai": ai.habr_ai,
+        "vcru": ai.vc_ru,
+        "devto": ai.devto,
+        "medium": ai.medium,
+        "reddit_ai": ai.reddit_ai,
+        "news_ai": ai.news_ai,
+        "youtube_ai": lambda: ai.youtube_ai(s.youtube_api_key),
     }
 
 

@@ -13,6 +13,7 @@ from .collectors.base import Item
 from .config import settings
 
 SOURCE_WEIGHT = {
+    "github": 1.0, "producthunt": 1.0, "devto": 0.8, "medium": 0.8, "vcru": 0.9,
     "google_trends": 1.4, "youtube": 1.3, "instagram": 1.1, "reddit": 1.0, "google_news": 1.0,
     "lenta": 0.9, "tass": 0.8, "hackernews": 0.9, "habr": 0.7, "custom_rss": 0.8,
 }
@@ -53,12 +54,14 @@ def _item_scores(items: list[Item]) -> dict[int, float]:
         pops = sorted(math.log1p(max(0, i.popularity)) for i in lst)
         n = len(lst)
         for it in lst:
-            rank_score = 1 - it.rank / max(n, 1)
+            rank_score = max(0.0, 1 - it.rank / max(n, 1))
             lp = math.log1p(max(0, it.popularity))
             pct = (sum(1 for p in pops if p <= lp) / n) if n else 0
             age_h = max(0, (now - it.published) / 3600)
             fresh = math.exp(-age_h / 36)
-            scores[id(it)] = SOURCE_WEIGHT.get(src, 0.8) * (0.5 * rank_score + 0.5 * pct) * (0.35 + 0.65 * fresh)
+            prac = (it.extra or {}).get("practical", {}).get("score")
+            boost = 1.0 if prac is None else (0.2 + prac / 60)
+            scores[id(it)] = SOURCE_WEIGHT.get(src, 0.8) * (0.5 * rank_score + 0.5 * pct) * (0.35 + 0.65 * fresh) * boost
     return scores
 
 
@@ -96,10 +99,12 @@ def cluster(items: list[Item]) -> list[dict]:
             elif it.source == "google_trends" and title_st <= seed and (len(title_st) >= 2 or df[next(iter(title_st))] <= 2):
                 ov = 1.0
             else:
-                shared = title_st & seed
+                shared = {w for w in title_st & seed if df[w] <= 5}  # частые слова («agent», «open») не склеивают
                 if len(shared) < 2:
                     continue
                 ov = len(shared) / max(1, min(len(title_st), len(seed)))
+                if ov < 0.5:
+                    continue
             if ov > best_ov:
                 best, best_ov = c, ov
         if best is not None and best_ov >= 0.4:
@@ -124,8 +129,15 @@ def cluster(items: list[Item]) -> list[dict]:
         headline = next((i.title for i in its if i.source != "google_trends"), its[0].title)
         query = c["query"] or headline
         image = next((i.image for i in its if i.image and i.source != "google_trends"), "") or next((i.image for i in its if i.image), "")
+        best = max(its, key=lambda i: (i.extra or {}).get("practical", {}).get("score", 0))
+        prac = (best.extra or {}).get("practical")
+        if prac:
+            headline = best.title
+            query = c["query"] or best.title
         topics.append({
             "id": "t" + hashlib.md5(query.encode()).hexdigest()[:10],
+            "practical": prac and {k: prac[k] for k in ("score", "type", "type_ru", "level", "needs", "money")},
+            "url": best.url,
             "title": headline[:1].upper() + headline[1:],
             "query": query,
             "raw": raw,
@@ -134,10 +146,14 @@ def cluster(items: list[Item]) -> list[dict]:
             "image": image,
             "recommended_minutes": recommend_minutes(len(its), len(sources)),
         })
-    topics.sort(key=lambda t: t["raw"], reverse=True)
-    top = topics[0]["raw"] if topics else 1
+    # итоговый порядок: «горячо» × «применимо у себя» × «потенциал дохода»
     for t in topics:
-        t["hotness"] = max(1, round(100 * math.sqrt(t["raw"] / top)))
+        p = t.get("practical") or {}
+        t["raw"] *= (0.4 + p.get("score", 40) / 100) * {"высокий": 1.8, "средний": 1.2}.get(p.get("money"), 1.0)
+    topics.sort(key=lambda t: t["raw"], reverse=True)
+    top = max([t["raw"] for t in topics] + [1e-9])
+    for t in topics:
+        t["hotness"] = max(1, round(100 * math.sqrt(max(0.0, t["raw"]) / top)))
         del t["raw"]
     return topics
 
@@ -146,9 +162,20 @@ TRENDS_FILE = settings.data_dir / "trends.json"
 
 
 def refresh() -> dict:
+    from . import knowledge, practical
     items, status = collect_all()
-    topics = cluster(items)[:60]
-    data = {"updated": time.time(), "region": settings.region, "status": status, "topics": topics}
+    keep = []
+    for it in items:
+        a = practical.analyze(it.title, it.summary, it.source, it.extra)
+        it.extra = {**(it.extra or {}), "practical": a}
+        if a["is_ai"] and a["score"] >= knowledge.MIN_SCORE:
+            keep.append(it)
+    topics = cluster(keep)[:60]
+    kb, new = knowledge.merge([i.to_dict() for i in items])
+    knowledge.enrich_with_llm(kb)
+    knowledge.save(kb)
+    data = {"updated": time.time(), "region": settings.region, "status": status, "topics": topics,
+            "collected": len(items), "practical": len(keep), "kb_new": len(new), "kb_total": len(kb)}
     TRENDS_FILE.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
     return data
 

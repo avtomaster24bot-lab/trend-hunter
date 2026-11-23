@@ -73,6 +73,7 @@ def clean_for_speech(text: str) -> str:
     text = text.replace("\u0301", "")                 # ударения из Википедии
     text = re.sub(r"=+\s*[^=]{1,80}?\s*=+", " ", text)  # == Заголовки ==
     text = re.sub(r"https?://\S+", "", text)
+    text = text.replace("→", ", затем ").replace("×", " на ").replace("≈", "примерно ")
     text = re.sub(r"[*_#`|<>]", " ", text)
     return re.sub(r"\s+", " ", text).strip()
 

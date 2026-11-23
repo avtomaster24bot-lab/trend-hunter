@@ -65,3 +65,29 @@ footer{text-align:center;padding:20px}
 .copy span{width:64px;color:var(--muted);font-family:ui-monospace,monospace}
 .copy input{flex:1}
 body.static #pw-wrap{display:none}
+.tabs{display:flex;gap:8px;padding:8px 24px 0;max-width:1400px;margin:0 auto;flex-wrap:wrap}
+.tab{background:var(--card);border:1px solid #262c45;color:var(--text);border-radius:12px 12px 0 0;padding:10px 16px;font-weight:600;cursor:pointer;font-size:15px}
+.tab.active{background:var(--accent);border-color:var(--accent)}
+.pane.wide{max-width:1400px;margin:0 auto;padding:16px 24px 40px}
+.filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+.filters input,.filters select{background:var(--card);border:1px solid #262c45;color:var(--text);border-radius:10px;padding:9px 12px}
+.filters input{flex:1;min-width:260px}
+.kb-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px}
+.kb{background:var(--card);border:1px solid #1f2438;border-radius:var(--r);padding:14px;display:flex;flex-direction:column;gap:8px}
+.kb h3{margin:0;font-size:15px;line-height:1.35}
+.kb p{margin:0;color:#c5c9d8;font-size:13.5px}
+.kb .foot{display:flex;gap:8px;justify-content:space-between;align-items:center;margin-top:auto}
+.tag{font-size:12px;border-radius:8px;padding:2px 8px;background:#262c45}
+.tag.case{background:#6b4a10}.tag.agent{background:#1d4f7a}.tag.skill{background:#4b2a7a}.tag.tool{background:#1f6f45}.tag.guide{background:#3a3f55}
+.tag.m-высокий{background:#7a1f1f}.tag.m-средний{background:#5a4a1a}
+.pin{color:#ffb02e}
+#kb-dlg{max-width:720px}
+#kb-detail h3{margin-top:0}#kb-detail ol{padding-left:20px}#kb-detail li{margin:6px 0}
+.stage{background:var(--card);border:1px solid #1f2438;border-radius:var(--r);padding:16px 18px;margin:14px 0}
+.stage h3{margin:0 0 4px}.stage .goal{color:#c5c9d8;margin:0 0 10px}
+.stage.done{border-color:#1f6f45}
+.task{display:flex;gap:10px;align-items:flex-start;margin:6px 0;cursor:pointer}
+.task input{margin-top:4px;accent-color:var(--ok)}
+.links{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.links a{font-size:13px;background:var(--bg);border:1px solid #2c3250;border-radius:10px;padding:6px 10px;text-decoration:none;color:var(--text)}
+.mm-bar{height:10px;background:#262c45;border-radius:99px;overflow:hidden;margin:8px 0}.mm-bar i{display:block;height:100%;background:var(--ok)}

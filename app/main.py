@@ -88,6 +88,18 @@ def publish(job_id: str, x_admin_password: str | None = Header(default=None)):
     return {"ok": True}
 
 
+@app.get("/api/knowledge")
+def get_knowledge():
+    from . import knowledge
+    return knowledge.load()
+
+
+@app.get("/api/roadmap")
+def get_roadmap():
+    from . import knowledge
+    return knowledge.roadmap(knowledge.load())
+
+
 @app.get("/api/telegram/check")
 def tg_check():
     try:

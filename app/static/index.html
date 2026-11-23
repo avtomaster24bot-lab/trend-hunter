@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Trend Hunter — что в тренде прямо сейчас</title>
+<title>Trend Hunter — практичный ИИ и машина дохода</title>
 <link rel="stylesheet" href="/static/style.css">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>">
 </head>
@@ -18,16 +18,22 @@
 </header>
 
 <section class="hero">
-  <h1>Самое горячее — <span class="accent">прямо сейчас</span></h1>
-  <p>Собираю тренды из Google Трендов, Google Новостей, YouTube, Reddit, Hacker News, Хабра, СМИ и Instagram, склеиваю их в темы и оцениваю «горячесть». Выберите тему — сделаю видео 1–30 минут с мужской озвучкой и отправлю в Telegram-канал.</p>
-  <p id="static-note" class="note" hidden>🌐 Это версия сайта на GitHub Pages: тренды обновляются автоматически каждые 2 часа. Видео делаются в GitHub Actions и появляются справа, в блоке «Видео».</p>
+  <h1>Практичный ИИ, который можно <span class="accent">повторить у себя</span></h1>
+  <p>Ищу агентов, навыки, инструменты и реальные кейсы «собрал → заработал» на Hacker News, GitHub, Product Hunt, Хабре, vc.ru, dev.to, Medium и в новостях. Оцениваю, можно ли это запустить на своём ПК и есть ли потенциал дохода. Политику, космос и корпоративные новости отсеиваю. Всё полезное копится в «Базе знаний», а «Машина дохода» собирает из неё пошаговый план.</p>
+  <p id="static-note" class="note" hidden>🌐 Версия на GitHub Pages: находки обновляются автоматически каждые 2 часа, база знаний пополняется и хранится в репозитории. Видео делаются в GitHub Actions и появляются во вкладке «Находки» справа.</p>
   <div id="keys" class="chips"></div>
   <div id="sources" class="chips small"></div>
 </section>
 
-<main class="layout">
+<nav class="tabs">
+  <button class="tab active" data-tab="now">🔥 Находки сейчас</button>
+  <button class="tab" data-tab="kb">📚 База знаний <span id="kb-count" class="muted"></span></button>
+  <button class="tab" data-tab="machine">💰 Машина дохода <span id="mm-progress" class="muted"></span></button>
+</nav>
+
+<main class="layout pane" id="pane-now">
   <section>
-    <div class="section-head"><h2>Топ тем</h2><input id="search" placeholder="Поиск по темам…"></div>
+    <div class="section-head"><h2>Топ находок</h2><input id="search" placeholder="Поиск…"></div>
     <div id="topics" class="grid"><div class="loader">Собираю тренды со всех источников…</div></div>
   </section>
   <aside>
@@ -35,6 +41,26 @@
     <div id="jobs"><p class="muted">Пока пусто. Нажмите «Сделать видео» у любой темы.</p></div>
   </aside>
 </main>
+
+<main class="pane wide" id="pane-kb" hidden>
+  <div class="filters">
+    <input id="kb-search" placeholder="Поиск по базе: агент, n8n, TikTok, локальная модель…">
+    <select id="kb-type"><option value="">Все типы</option><option value="case">Кейсы с доходом</option><option value="agent">Агенты</option><option value="skill">Навыки</option><option value="tool">Инструменты</option><option value="guide">Гайды</option></select>
+    <select id="kb-level"><option value="">Любая сложность</option><option>новичок</option><option>средний</option><option>продвинутый</option></select>
+    <select id="kb-need"><option value="">Любые требования</option><option value="noGPU">Без видеокарты</option><option value="GPU">Нужна GPU</option><option value="local">Локальная модель</option><option value="noAPI">Без API-ключа</option></select>
+    <select id="kb-money"><option value="">Любой потенциал</option><option>высокий</option><option>средний</option><option>низкий</option></select>
+    <select id="kb-sort"><option value="score">Сначала полезные</option><option value="new">Сначала новые</option></select>
+  </div>
+  <div id="kb-list" class="kb-grid"><div class="loader">Загружаю базу знаний…</div></div>
+  <div class="row"><button id="kb-more" class="btn ghost" hidden>Показать ещё</button></div>
+</main>
+
+<main class="pane wide" id="pane-machine" hidden>
+  <div class="note">Это план сборки <b>своего</b> продукта с постоянным доходом — по кусочку, из проверенных находок. Отмечайте выполненное (сохраняется в этом браузере). Важно: <b>Trend Hunter — уже этап 3</b> такой машины: контент-канал @glush_io с автоматическими видео. Цифры дохода в кейсах — только как их сообщают авторы, со ссылкой на источник; это не обещание заработка.</div>
+  <div id="machine"></div>
+</main>
+
+<dialog id="kb-dlg"><div id="kb-detail"></div><div class="row"><button class="btn ghost" onclick="this.closest('dialog').close()">Закрыть</button></div></dialog>
 
 <dialog id="dlg">
   <form method="dialog" id="form">
