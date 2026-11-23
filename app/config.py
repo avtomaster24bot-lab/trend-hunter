@@ -62,7 +62,7 @@ class Settings:
 
     # Telegram
     telegram_bot_token = _get("TELEGRAM_BOT_TOKEN")
-    telegram_channel = _get("TELEGRAM_CHANNEL", "@koleso_uspeha")
+    telegram_channel = _get("TELEGRAM_CHANNEL", "@glush_io")
     telegram_api_url = _get("TELEGRAM_API_URL", "https://api.telegram.org").rstrip("/")
     # Лимит обычного Bot API — 50 МБ. Для локального Bot API сервера можно поставить 2000.
     telegram_max_mb = _int("TELEGRAM_MAX_MB", 49)

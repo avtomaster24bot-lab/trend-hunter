@@ -1,0 +1,106 @@
+name: Сделать видео
+
+on:
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: "Тема (скопируйте с сайта). Пусто = самая горячая сейчас"
+        required: false
+        default: ""
+      minutes:
+        description: "Длительность, мин (1–30). Пусто = рекомендованная"
+        required: false
+        default: ""
+      publish:
+        description: "Опубликовать в Telegram (если подключён бот)"
+        type: boolean
+        default: true
+      voice:
+        description: "Мужской голос"
+        type: choice
+        options: [edge, piper]
+        default: edge
+  schedule:
+    - cron: "0 */6 * * *"   # автопостинг каждые 6 часов (UTC) — только если задан секрет TELEGRAM_BOT_TOKEN
+
+permissions:
+  contents: write   # создать релиз с видео
+  actions: write    # перезапустить сборку сайта
+
+concurrency:
+  group: generate-video
+  cancel-in-progress: false
+
+jobs:
+  video:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHANNEL: ${{ vars.TELEGRAM_CHANNEL || '@glush_io' }}
+      LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+      LLM_BASE_URL: ${{ vars.LLM_BASE_URL || 'https://api.openai.com/v1' }}
+      LLM_MODEL: ${{ vars.LLM_MODEL || 'gpt-4o-mini' }}
+      YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+      APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+      TTS_PROVIDER: ${{ inputs.voice || vars.TTS_PROVIDER || 'edge' }}
+      TREND_REGION: ${{ vars.TREND_REGION || 'RU' }}
+      DATA_DIR: ${{ github.workspace }}/data
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Проверка настроек
+        id: check
+        run: |
+          if [ -z "$TELEGRAM_BOT_TOKEN" ] && [ "${{ github.event_name }}" = "schedule" ]; then
+            echo "Нет секрета TELEGRAM_BOT_TOKEN — автопостинг по расписанию пропущен"; echo "skip=1" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@v4
+        if: steps.check.outputs.skip != '1'
+      - uses: actions/setup-python@v5
+        if: steps.check.outputs.skip != '1'
+        with: { python-version: "3.12", cache: pip }
+      - name: Установка
+        if: steps.check.outputs.skip != '1'
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+          pip install -r requirements.txt
+      - name: Память опубликованных тем
+        if: steps.check.outputs.skip != '1'
+        uses: actions/cache@v4
+        with:
+          path: data/posted.json
+          key: posted-${{ github.run_id }}
+          restore-keys: posted-
+      - name: Тренд → материалы → сценарий → озвучка → видео
+        if: steps.check.outputs.skip != '1'
+        env:
+          IN_TOPIC: ${{ inputs.topic }}
+          IN_MINUTES: ${{ inputs.minutes }}
+          IN_PUBLISH: ${{ inputs.publish }}
+        run: |
+          ARGS=(--meta-out meta.json)
+          if [ -n "$IN_TOPIC" ]; then ARGS+=(--topic "$IN_TOPIC"); fi
+          if [ -n "$IN_MINUTES" ]; then ARGS+=(--minutes "$IN_MINUTES"); else ARGS+=(--max-minutes 10); fi
+          if [ -n "$TELEGRAM_BOT_TOKEN" ] && [ "$IN_PUBLISH" != "false" ]; then ARGS+=(--publish); fi
+          python -m app.cli auto "${ARGS[@]}"
+      - name: Сохранить видео в GitHub Releases
+        if: steps.check.outputs.skip != '1'
+        run: |
+          DIR=$(python -c "import json;print(json.load(open('meta.json'))['dir'])")
+          ID=$(python -c "import json;print(json.load(open('meta.json'))['id'])")
+          TITLE=$(python -c "import json;m=json.load(open('meta.json'));print((m.get('script_title') or m['topic']['title'])[:120])")
+          {
+            echo "🎬 Видео по теме, которая сейчас набирает популярность."
+            echo
+            echo "Смотреть на сайте: https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/"
+            echo
+            echo "<!--meta"; cat meta.json; echo "-->"
+          } > notes.md
+          FILES=("$DIR/video.mp4" "$DIR/cover.jpg")
+          for p in "$DIR"/part*.mp4; do [ -f "$p" ] && FILES+=("$p"); done
+          gh release create "video-$ID" "${FILES[@]}" --title "$TITLE" --notes-file notes.md --latest=false
+      - name: Обновить сайт
+        if: steps.check.outputs.skip != '1'
+        run: gh workflow run pages.yml --ref "${{ github.ref_name }}"

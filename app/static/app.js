@@ -1,8 +1,15 @@
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 let CFG = {}, TOPICS = [], CURRENT = null;
+const STATIC = !!window.TH_STATIC;  // GitHub Pages: только просмотр, генерация — через GitHub Actions
+const STATIC_MAP = { "/api/config": "data/config.json", "/api/trends": "data/trends.json", "/api/jobs": "data/videos.json" };
 
 async function api(path, opts = {}) {
+  if (STATIC) {
+    const r = await fetch(`${STATIC_MAP[path.split("?")[0]]}?t=${Date.now()}`);
+    if (!r.ok) throw new Error(r.statusText);
+    return r.json();
+  }
   const headers = { "Content-Type": "application/json" };
   const pw = localStorage.getItem("th_pw");
   if (pw) headers["X-Admin-Password"] = pw;
@@ -22,7 +29,27 @@ async function loadConfig() {
     chip(`Telegram → ${CFG.channel}`, k.telegram), chip(`Голос: ${CFG.edge_voice}`, true),
   ].join("");
   $("#channel").value = CFG.channel;
+  const ch = String(CFG.channel || "").replace(/^https?:\/\/t\.me\//, "@");
+  if (ch.startsWith("@")) { $("#tg-link").href = "https://t.me/" + ch.slice(1); $("#tg-link").textContent = "📣 " + ch; }
   $("#pw-wrap").hidden = !CFG.needs_password;
+  if (STATIC) setupStatic();
+}
+
+function setupStatic() {
+  document.body.classList.add("static");
+  $("#refresh").textContent = "↻ Обновить";
+  $("#static-note").hidden = false;
+  $("#go").textContent = "🚀 Открыть запуск в GitHub";
+  $("#publish-wrap").hidden = true;
+  $("#channel-wrap").hidden = true;
+  $("#tts-wrap").hidden = true;
+  $("#gh-hint").hidden = false;
+}
+
+function updateHint() {
+  if (!STATIC || !CURRENT) return;
+  $("#hint-topic").value = CURRENT.query;
+  $("#hint-min").value = $("#minutes").value;
 }
 
 const SRC = { google_trends: "Google Тренды", google_news: "Google Новости", youtube: "YouTube", hackernews: "Hacker News",
@@ -34,7 +61,7 @@ async function loadTrends(refresh = false) {
   try {
     const d = await api(`/api/trends${refresh ? "?refresh=true" : ""}`);
     TOPICS = d.topics;
-    $("#updated").textContent = "обновлено " + new Date(d.updated * 1000).toLocaleTimeString("ru-RU", { hour: "2-digit", minute: "2-digit" });
+    $("#updated").textContent = "обновлено " + new Date(d.updated * 1000).toLocaleString("ru-RU", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" });
     $("#sources").innerHTML = Object.entries(d.status).map(([k, v]) => `<span class="chip ${v.startsWith("ok") ? "ok" : "off"}" title="${esc(v)}">${esc(SRC[k] || k)}: ${v.startsWith("ok") ? v.slice(4) : "—"}</span>`).join("");
     renderTopics();
   } catch (e) {
@@ -72,16 +99,31 @@ function openDialog(id) {
   $("#min-val").textContent = m.value;
   $("#publish").disabled = !CFG.keys.telegram;
   $("#publish").checked = false;
+  updateHint();
   $("#dlg").showModal();
 }
 
-$("#minutes").addEventListener("input", (e) => ($("#min-val").textContent = e.target.value));
+$("#minutes").addEventListener("input", (e) => { $("#min-val").textContent = e.target.value; updateHint(); });
+document.addEventListener("click", (e) => {
+  const b = e.target.closest("[data-copy]");
+  if (!b) return;
+  const inp = document.getElementById(b.dataset.copy);
+  inp.select();
+  navigator.clipboard?.writeText(inp.value);
+  b.textContent = "✓";
+  setTimeout(() => (b.textContent = "Копировать"), 1200);
+});
 $("#search").addEventListener("input", renderTopics);
-$("#refresh").addEventListener("click", () => loadTrends(true));
+$("#refresh").addEventListener("click", () => (STATIC ? loadTrends(false).then(loadJobs) : loadTrends(true)));
 $("#topics").addEventListener("click", (e) => { const b = e.target.closest("button[data-id]"); if (b) openDialog(b.dataset.id); });
 $("#form").addEventListener("submit", async (e) => {
   if (e.submitter?.value !== "go") return;
   e.preventDefault();
+  if (STATIC) {
+    navigator.clipboard?.writeText(CURRENT.query).catch(() => {});
+    window.open(CFG.workflow_url, "_blank", "noopener");
+    return;
+  }
   if (CFG.needs_password && $("#pw").value) localStorage.setItem("th_pw", $("#pw").value);
   try {
     await api("/api/jobs", { method: "POST", body: JSON.stringify({
@@ -95,10 +137,13 @@ $("#form").addEventListener("submit", async (e) => {
 const STATUS = { queued: "в очереди", running: "делаю", done: "готово", published: "в канале", error: "ошибка", publishing: "отправляю" };
 async function loadJobs() {
   const jobs = await api("/api/jobs").catch(() => []);
-  if (!jobs.length) return;
+  if (!jobs.length) {
+    if (STATIC) $("#jobs").innerHTML = `<p class="muted">Видео пока нет. Выберите тему → «Сделать видео» → запустите в GitHub Actions — через 5–15 минут ролик появится здесь.</p>`;
+    return;
+  }
   $("#jobs").innerHTML = jobs.map((j) => `
     <div class="job">
-      <h4>${esc(j.topic.title)}</h4>
+      <h4>${esc(j.title || j.topic.title)}</h4>
       <span class="status ${j.status}">${STATUS[j.status] || j.status}</span>
       <span class="muted"> · ${j.minutes || "авто"} мин${j.duration ? ` · вышло ${Math.floor(j.duration / 60)}:${String(j.duration % 60).padStart(2, "0")}` : ""}${j.size_mb ? ` · ${j.size_mb} МБ` : ""}</span>
       <div class="progress"><i style="width:${j.progress || 0}%"></i></div>
@@ -106,9 +151,11 @@ async function loadJobs() {
       ${j.error ? `<p class="accent">${esc(j.error)}</p>` : ""}
       <div class="row" style="margin-top:8px;justify-content:flex-start">
         ${j.video ? `<a class="btn small ghost" href="${esc(j.video)}" download>⬇ Скачать</a>` : ""}
+        ${(j.parts || []).length > 1 ? `<span class="muted">частей: ${j.parts.length}</span>` : ""}
+        ${j.release ? `<a class="btn small ghost" href="${esc(j.release)}" target="_blank" rel="noopener">Релиз</a>` : ""}
         ${(j.status === "done") && CFG.keys.telegram ? `<button class="btn small" data-pub="${j.id}">📤 В Telegram</button>` : ""}
       </div>
-      <details><summary class="muted">журнал</summary><div class="log">${esc((j.log || []).join("\n"))}</div></details>
+      ${(j.log || []).length ? `<details><summary class="muted">журнал</summary><div class="log">${esc((j.log || []).join("\n"))}</div></details>` : ""}
     </div>`).join("");
 }
 $("#jobs").addEventListener("click", async (e) => {

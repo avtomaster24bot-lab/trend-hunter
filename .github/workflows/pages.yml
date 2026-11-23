@@ -1,0 +1,53 @@
+name: Сайт на GitHub Pages
+
+on:
+  schedule:
+    - cron: "23 */2 * * *"   # свежие тренды каждые 2 часа (UTC)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["app/**", ".github/workflows/pages.yml"]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Установка
+        run: pip install httpx feedparser python-dotenv
+      - name: Собрать тренды и список видео
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          TREND_REGION: ${{ vars.TREND_REGION || 'RU' }}
+          TELEGRAM_CHANNEL: ${{ vars.TELEGRAM_CHANNEL || '@glush_io' }}
+          LLM_MODEL: ${{ vars.LLM_MODEL || 'gpt-4o-mini' }}
+          HAS_LLM: ${{ secrets.LLM_API_KEY != '' }}
+          HAS_TELEGRAM: ${{ secrets.TELEGRAM_BOT_TOKEN != '' }}
+          DATA_DIR: ${{ runner.temp }}/data
+        run: python -m app.static_build _site
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: _site }
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
