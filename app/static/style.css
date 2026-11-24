@@ -25,7 +25,6 @@ a{color:#ff8a70}
 #search{background:var(--card);border:1px solid #262c45;color:var(--text);border-radius:10px;padding:8px 12px;min-width:220px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
 .card{background:var(--card);border:1px solid #1f2438;border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column}
-.card .img{height:150px;background:#20263c center/cover no-repeat;position:relative}
 .card .rank{position:absolute;top:10px;left:10px;background:rgba(0,0,0,.7);border-radius:10px;padding:2px 10px;font-weight:700}
 .card .body{padding:14px;display:flex;flex-direction:column;gap:10px;flex:1}
 .card h3{margin:0;font-size:16px;line-height:1.35}
@@ -91,3 +90,58 @@ body.static #pw-wrap{display:none}
 .links{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
 .links a{font-size:13px;background:var(--bg);border:1px solid #2c3250;border-radius:10px;padding:6px 10px;text-decoration:none;color:var(--text)}
 .mm-bar{height:10px;background:#262c45;border-radius:99px;overflow:hidden;margin:8px 0}.mm-bar i{display:block;height:100%;background:var(--ok)}
+
+/* обложки */
+.cover{position:relative;height:160px;overflow:hidden;flex:none;background:linear-gradient(135deg,#2a1f4d,#13243f)}
+.cover.t-case{background:linear-gradient(135deg,#5b3a0a,#2a1430)}.cover.t-agent{background:linear-gradient(135deg,#12395f,#1c1446)}
+.cover.t-skill{background:linear-gradient(135deg,#3e1f6b,#14253f)}.cover.t-tool{background:linear-gradient(135deg,#0f4d36,#122340)}
+.cover.t-guide{background:linear-gradient(135deg,#2d3350,#3a1626)}
+.cover img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;background:#141827}
+.ph{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;gap:4px;padding:14px 16px;
+  background:radial-gradient(260px 160px at 85% 15%,rgba(255,77,46,.35),transparent 70%)}
+.ph-emoji{position:absolute;top:10px;right:14px;font-size:44px;opacity:.9}
+.ph-title{font-weight:700;font-size:15px;line-height:1.25;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;max-width:85%}
+.ph-src{font-size:12px;color:#cfd3e6;opacity:.8;font-family:ui-monospace,monospace}
+.cover .rank{z-index:2}
+.pinb{position:absolute;top:10px;right:10px;z-index:2;background:rgba(0,0,0,.75);color:#ffb02e;border-radius:10px;padding:2px 10px;font-size:12px;font-weight:700}
+.orig{font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:-6px}
+.desc{margin:0;color:#c5c9d8;font-size:13.5px;display:-webkit-box;-webkit-line-clamp:5;-webkit-box-orient:vertical;overflow:hidden}
+.links-row{display:flex;flex-wrap:wrap;gap:8px}
+.links-row.big{margin:10px 0}
+.btn.gh{background:#24292f;border:1px solid #444c56;color:#fff;text-decoration:none}
+a.btn{text-decoration:none;display:inline-block}
+.small{font-size:12.5px}
+.kb{padding:0;overflow:hidden}
+.kb-body{padding:14px;display:flex;flex-direction:column;gap:8px;flex:1}
+#kb-detail .cover{border-radius:14px;height:180px;margin-bottom:12px}
+.build li{margin:10px 0}
+.code{position:relative;margin-top:6px}
+.code pre{background:#0b0d16;border:1px solid #2c3250;border-radius:10px;padding:10px 12px;margin:0;overflow:auto;font:12.5px/1.45 ui-monospace,monospace;white-space:pre-wrap;word-break:break-word}
+.code .cp{position:absolute;top:6px;right:6px;background:#1b2033}
+#about-toggle{display:none}
+.hero-head{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}
+
+/* мобильный */
+@media(max-width:700px){
+  .top{padding:8px 12px;gap:8px}
+  .brand{font-size:16px;white-space:nowrap}.brand .sub{display:none}.flame{font-size:18px}
+  .actions{gap:6px}
+  #updated{display:none}
+  .btn.small-m{padding:6px 9px;font-size:12.5px;white-space:nowrap}
+  .hero{padding:12px 12px 4px}
+  .hero h1{font-size:20px;line-height:1.25;margin:0}
+  #about-toggle{display:inline-block;flex:none}
+  .about{display:none}
+  body.about-open .about{display:block}
+  .tabs{padding:8px 12px 0;gap:6px;flex-wrap:nowrap;overflow-x:auto}
+  .tab{padding:8px 10px;font-size:13px;white-space:nowrap}
+  .layout,.pane.wide{padding:10px 12px 30px}
+  .section-head h2{font-size:18px}
+  #search{min-width:0;width:50%}
+  .grid,.kb-grid{grid-template-columns:1fr}
+  .filters input{min-width:0;width:100%}
+  .filters select{flex:1 1 45%}
+  dialog{padding:16px;width:96vw}
+}
+.card h3,.kb h3{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+#kb-detail h3{display:block}

@@ -1,0 +1,2973 @@
+{
+"21stware/bowel": {
+"archived": false,
+"branch": "main",
+"commands": [
+"brew install --cask 21stware/tap/bowel",
+"irm https://github.com/21stware/bowel/releases/latest/download/install.ps1 | iex",
+"curl -fsSL https://21stware.github.io/packages/install.sh | sh",
+"claude mcp add --scope user bowel -- /Applications/bowel.app/Contents/MacOS/bowel mcp",
+"go tool mygo dev            # the app, rebuilt on every change",
+"go tool mygo build          # bowel.app and a .dmg, signed but not notarized",
+"go tool mygo build -platform linux/amd64 .",
+"go generate ./...               # the app's translations and skins, from the desktop's",
+"cd mobile/flutter && flutter run"
+],
+"description": "Native mihomo (Clash Meta) client for macOS, Windows, Linux & Android: GPU-rendered Go UI, no Electron or WebView. Rules, TUN, gateway mode, CLI/TUI and a built-in MCP server.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492773.9150276,
+"full": "21stware/bowel",
+"homepage": "https://bowel.dev",
+"language": "Go",
+"license": "NOASSERTION",
+"ok": true,
+"pushed": "2026-11-24T03:41:10Z",
+"stack": [
+"Go"
+],
+"stars": 632,
+"topics": [
+"android",
+"clash",
+"clash-meta",
+"flutter",
+"golang",
+"gui",
+"hysteria2",
+"linux"
+],
+"url": "https://github.com/21stware/bowel"
+},
+"abuzar-ansarii/jarvis": {
+"archived": false,
+"branch": "master",
+"commands": [
+"flutter pub get",
+"flutter build apk --release",
+"cd jarvis-android",
+"flutter analyze",
+"flutter test test/jarvis_features_test.dart"
+],
+"description": "An autonomous, local-first on-device AI agent and Android OS automation framework featuring full accessibility control,   │ continuous voice intelligence, and self-evolving workflow execution.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492120.015194,
+"full": "AbuZar-Ansarii/Jarvis",
+"homepage": "",
+"language": "Dart",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-06T05:57:32Z",
+"stack": [
+"Dart"
+],
+"stars": 145,
+"topics": [
+"ai-agents",
+"android",
+"automation-agent",
+"edge-tts",
+"ironman",
+"jarvis",
+"jarvis-ai",
+"jarvis-ai-assistant"
+],
+"url": "https://github.com/AbuZar-Ansarii/Jarvis"
+},
+"agentes-chat/agentes-chat": {
+"archived": false,
+"branch": "main",
+"commands": [
+"curl -fsSL https://agentes.chat/install | sh"
+],
+"description": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.",
+"env": [],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795492772.6866343,
+"full": "agentes-chat/agentes-chat",
+"homepage": "https://agentes.chat",
+"language": "TypeScript",
+"license": "AGPL-3.0",
+"ok": true,
+"pushed": "2026-11-24T03:58:50Z",
+"stack": [
+"Node.js",
+"Docker",
+"Docker Compose"
+],
+"stars": 1994,
+"topics": [
+"agentic-ai",
+"ai-agents",
+"browser-automation",
+"chat",
+"claude",
+"claude-code",
+"codex",
+"collaboration"
+],
+"url": "https://github.com/agentes-chat/agentes-chat"
+},
+"ai-timon/timon": {
+"archived": false,
+"branch": "main",
+"commands": [
+"curl -fsSL https://timon-ai.com/install.sh | sh",
+"irm https://timon-ai.com/install.ps1 | iex"
+],
+"description": "Timon is an Agentic Workstation who let you orchestrates all your AI agents in the same place",
+"env": [],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795492596.396836,
+"full": "ai-timon/timon",
+"homepage": "https://timon-ai.com",
+"language": "TypeScript",
+"license": "AGPL-3.0",
+"ok": true,
+"pushed": "2026-11-23T18:58:25Z",
+"stack": [
+"Docker Compose",
+"Node.js"
+],
+"stars": 729,
+"topics": [
+"ai-agents",
+"claude-code",
+"codex",
+"deepseek-harness",
+"dsh",
+"dsh-plugin",
+"harness",
+"hermes"
+],
+"url": "https://github.com/ai-timon/timon"
+},
+"aindeev/agent-chrome-relay": {
+"archived": false,
+"branch": "main",
+"commands": [
+"./build                    # compiles chrome-relay and signs it on this Mac (see below)",
+"./chrome-relay setup       # secret, background service, identities, `chrome-relay` on PATH, Claude Code skill",
+"go generate ./internal/macos            # the Swift Secure Enclave / Keychain / Touch ID layer (./build does this too)",
+"go test -race ./...                   # relay, CLI, 1Password fills, passkeys (in-memory 1Password and chip stand in)",
+"node --test test/extension-*.test.mjs   # the extension's service worker",
+"node --test test/push-relay.test.mjs    # the push relay (push-relay/)"
+],
+"description": "Let your AI agents use your Chrome, signed in as you, in background tabs. By Alexey Indeev · blog: read.aindeev.com · X: @AlexeyIndeev",
+"env": [
+"TYPESAFE_API_KEY"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492589.7260976,
+"full": "aindeev/agent-chrome-relay",
+"homepage": "https://agent-chrome-relay.aindeev.com",
+"language": "Go",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-12T02:09:35Z",
+"stack": [
+"Go"
+],
+"stars": 176,
+"topics": [
+"agent-browser",
+"ai-agents",
+"browser-automation",
+"cdp",
+"chrome-extension",
+"claude",
+"claude-code",
+"codex"
+],
+"url": "https://github.com/aindeev/agent-chrome-relay"
+},
+"alchaincyf/huashu-motion": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npx skills add alchaincyf/huashu-motion"
+],
+"description": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492594.4041972,
+"full": "alchaincyf/huashu-motion",
+"homepage": "https://github.com/alchaincyf/huashu-motion",
+"language": "JavaScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-23T06:08:00Z",
+"stack": [
+"Node.js"
+],
+"stars": 3105,
+"topics": [
+"agent-skills",
+"animation",
+"claude-code",
+"claude-code-skills",
+"claude-skills",
+"codex",
+"explainer-video",
+"gsap"
+],
+"url": "https://github.com/alchaincyf/huashu-motion"
+},
+"alexsergivan/kwant": {
+"archived": false,
+"branch": "main",
+"commands": [
+"make run          # builds the web app (frontend/dist), then runs `cargo run -- serve`",
+"make build                 # web app + cargo build --release",
+"docker compose exec kwnt kwnt doctor                  # what works, and the fix for what doesn't",
+"docker compose exec kwnt claude auth login            # sign a CLI in (codex login --device-auth, grok login --device-auth)",
+"docker compose exec kwnt kwnt signin-link            # a one-time sign-in link and QR code (15 minutes)",
+"make frontend                  # build the web app once (cargo test needs frontend/dist)",
+"cargo test                     # Rust unit and integration tests",
+"cd frontend && npm test        # web app tests"
+],
+"description": "Your own team of AI bots in one self-hosted binary: spaces, every account you have, handoffs, approvals and routines. Open-source, self-hosted alternative to Grok Bot, Claude Duet and OpenAI dots. Rust + React.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492770.9259298,
+"full": "alexsergivan/kwant",
+"homepage": "https://kwant.si",
+"language": "Rust",
+"license": "AGPL-3.0",
+"ok": true,
+"pushed": "2026-11-24T03:58:27Z",
+"stack": [
+"Docker Compose",
+"Rust",
+"Make"
+],
+"stars": 701,
+"topics": [
+"ai-agents",
+"ai-assistant",
+"ai-bot",
+"automation",
+"bot",
+"bots-team",
+"chatbot",
+"claude-duet"
+],
+"url": "https://github.com/alexsergivan/kwant"
+},
+"alextnetto/res": {
+"archived": false,
+"branch": "main",
+"commands": [
+"claude plugin marketplace add alextnetto/res",
+"claude plugin install res@res",
+"node skills/reverse-engineering-saas/scripts/init-kb.mjs --product \"Acme CRM\" --git",
+"node skills/reverse-engineering-saas/scripts/check-kb.mjs re-acme-crm",
+"node skills/reverse-engineering-saas/scripts/build-report.mjs re-acme-crm",
+"node skills/reverse-engineering-saas/scripts/pack-kb.mjs re-acme-crm",
+"claude plugin marketplace update res",
+"claude plugin update res@res"
+],
+"description": "Agent skill to reverse engineer a SaaS product through the browser into a knowledge base for rebuilding it: screens, rules, data model, design tokens and production barriers, without touching production data.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492451.3068182,
+"full": "alextnetto/res",
+"homepage": "https://alextnetto.github.io/res/examples/pipedrive/REPORT.html",
+"language": "JavaScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-10-17T18:20:42Z",
+"stack": [
+"Node.js"
+],
+"stars": 318,
+"topics": [
+"agent-skills",
+"ai-agents",
+"browser-automation",
+"claude-code",
+"knowledge-base",
+"reverse-engineering",
+"saas"
+],
+"url": "https://github.com/alextnetto/res"
+},
+"arekejoker/qwen21-nsfw-pose-skill": {
+"archived": false,
+"branch": "main",
+"commands": [
+"python3 scripts/doctor.py",
+"python3 scripts/qwen_pose_test.py \\"
+],
+"description": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492118.0173383,
+"full": "Arekejoker/qwen21-nsfw-pose-skill",
+"homepage": "",
+"language": "Python",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-10-26T16:43:07Z",
+"stack": [
+"Python"
+],
+"stars": 4582,
+"topics": [
+"agent-skill",
+"comfyui",
+"image-generation",
+"openclaw",
+"pose-control",
+"qwen-image"
+],
+"url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill"
+},
+"avtomaster24bot-lab/trend-hunter": {
+"archived": false,
+"branch": "main",
+"commands": [
+"python3 -m venv .venv && . .venv/bin/activate",
+"pip install -r requirements.txt",
+"cp .env.example .env        # и впишите ключи (см. ниже)",
+"uvicorn app.main:app --port 8000",
+"python -m app.cli trends                       # топ трендов в консоли",
+"python -m app.cli sample --minutes 1 --out a.mp4   # тестовый ролик без всяких ключей",
+"python -m app.cli auto --publish               # самый горячий новый тренд → видео → канал",
+"python -m app.cli auto --minutes 5 --publish   # то же, фиксированно 5 минут",
+"docker build -t trend-hunter .",
+"docker run -d -p 8000:8000 --env-file .env -v $(pwd)/data:/data trend-hunter"
+],
+"description": "Trend Hunter — находит самые горячие темы прямо сейчас (Google Тренды, YouTube, новости, Reddit, Instagram), делает видео 1–30 мин с мужской озвучкой и публикует в Telegram",
+"env": [
+"APIFY_TOKEN",
+"ELEVENLABS_API_KEY",
+"LLM_API_KEY",
+"LLM_BASE_URL",
+"OPENAI_API_KEY",
+"YOUTUBE_API_KEY"
+],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795492446.6377273,
+"full": "avtomaster24bot-lab/trend-hunter",
+"homepage": "",
+"language": "Python",
+"license": null,
+"ok": true,
+"pushed": "2026-11-24T03:38:28Z",
+"stack": [
+"Python",
+"Docker"
+],
+"stars": 0,
+"topics": [
+"fastapi",
+"telegram",
+"trends",
+"tts",
+"video-generation"
+],
+"url": "https://github.com/avtomaster24bot-lab/trend-hunter"
+},
+"bhukyabalu12/repdix-telegram-bot": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "Repdix Telegram Bot: Community-Driven Natural Language Database Orchestrator with Local LLM Support",
+"env": [],
+"envfile": "",
+"fallback": [
+"npm install",
+"npm run dev   # или npm start — смотрите scripts в package.json"
+],
+"fetched": 1795492591.946516,
+"full": "bhukyabalu12/repdix-telegram-bot",
+"homepage": "",
+"language": "HTML",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-23T19:53:06Z",
+"stack": [
+"Node.js"
+],
+"stars": 153,
+"topics": [
+"aiogram-bot",
+"anilist",
+"anilist-api",
+"anilist-client",
+"anilist-python",
+"anilist-tracker",
+"anime",
+"data-broker"
+],
+"url": "https://github.com/bhukyabalu12/repdix-telegram-bot"
+},
+"caprichooms/capricore": {
+"archived": false,
+"branch": "main",
+"commands": [
+"node --version",
+"npm --version",
+"npm ci",
+"npm run doctor",
+"npm run setup",
+"npm run models:pull",
+"npm run desktop",
+"npm run check",
+"npm test",
+"npm run format:check"
+],
+"description": "Capri — an AI desktop companion for Windows with local/API models, Hugging Face, optional voice, memory and permission-based desktop tools.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492592.7474616,
+"full": "CapriChooms/CapriCore",
+"homepage": "https://capri-core.com/",
+"language": "JavaScript",
+"license": "GPL-3.0",
+"ok": true,
+"pushed": "2026-11-24T00:57:33Z",
+"stack": [
+"Python",
+"Node.js"
+],
+"stars": 392,
+"topics": [
+"ai-assistant",
+"cyberpunk",
+"desktop-automation",
+"desktop-companion",
+"gguf",
+"huggingface",
+"local-llm",
+"ollama"
+],
+"url": "https://github.com/CapriChooms/CapriCore"
+},
+"caru-ini/stack-diagram": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npx skills add caru-ini/stack-diagram"
+],
+"description": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492113.4679952,
+"full": "caru-ini/stack-diagram",
+"homepage": "stacks.caru.moe",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-20T16:28:58Z",
+"stack": [
+"Node.js"
+],
+"stars": 2859,
+"topics": [
+"agent-skills",
+"architecture-diagram",
+"claude-code",
+"claude-skills",
+"codex",
+"diagram",
+"system-architecture",
+"tech-stack"
+],
+"url": "https://github.com/caru-ini/stack-diagram"
+},
+"cattmonkey/chaosintelligence": {
+"archived": false,
+"branch": "main",
+"commands": [
+"./chaos setup --yes",
+"./chaos",
+"./chaos -c '40 + 2'",
+"./chaos run main.chaos",
+"./chaos repl --empty",
+"./chaos ask '给我一个函数组合的短例子' --topic getting-started --stream",
+"./chaos replace \"/absolute/path/Chaos-Project-New.zip\"",
+"./chaos status"
+],
+"description": "把智能体当函数，把想法写成程序。Agent-native functional language with a CLI, Web IDE, goal-driven bots and live UI. Source-available; no AI training.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492450.3946702,
+"full": "Cattmonkey/ChaosIntelligence",
+"homepage": "",
+"language": "Python",
+"license": "NOASSERTION",
+"ok": true,
+"pushed": "2026-10-24T16:30:44Z",
+"stack": [
+"Python"
+],
+"stars": 348,
+"topics": [
+"agentic-ai",
+"ai-agents",
+"cli",
+"developer-tools",
+"functional-programming",
+"generative-ui",
+"llm",
+"multi-agent"
+],
+"url": "https://github.com/Cattmonkey/ChaosIntelligence"
+},
+"cloveric/tarobird": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "Codex, Claude Code, DeepSeek and other agent CLIs on your computer, together in one desktop & mobile IM. Work and vibe code with AI agents, built for everyday people. Resume CLI sessions on your phone. 12 chats side by side. Multi-Bot groups and workflows. Goals split into tasks. Bots message each other. Computers join one private network.",
+"env": [],
+"envfile": "",
+"fallback": [
+"npm install",
+"npm run dev   # или npm start — смотрите scripts в package.json"
+],
+"fetched": 1795492113.6392531,
+"full": "cloveric/tarobird",
+"homepage": "https://cloveric.github.io/tarobird-site/",
+"language": "TypeScript",
+"license": "AGPL-3.0",
+"ok": true,
+"pushed": "2026-11-24T00:46:45Z",
+"stack": [
+"Node.js",
+"Docker"
+],
+"stars": 211,
+"topics": [
+"agent-orchestration",
+"ai-agents",
+"ai-assistant",
+"antigravity",
+"claude-code",
+"codex",
+"codex-cli",
+"deepseek"
+],
+"url": "https://github.com/cloveric/tarobird"
+},
+"cutetailbud/ff-ruyijs": {
+"archived": false,
+"branch": "main",
+"commands": [
+"python -m pip install ruyijs",
+"python -m pip install --upgrade ruyijs",
+"Python  ──►  ruyiJS Context (isolated process)  ──►  Target site",
+"python -m ruyijs.examples                      # list every example and its install path",
+"python -m ruyijs.examples akamai               # Akamai Bot Manager 3.x",
+"python -m ruyijs.examples datadome             # DataDome interstitial device-check",
+"python -m ruyijs.examples creepjs              # CreepJS fingerprint audit",
+"python -m ruyijs.examples --shared akamai datadome creepjs   # several at once, one shared engine",
+"python -m ruyijs.examples              # list all examples",
+"python -m ruyijs.examples akamai --proxy http://127.0.0.1:7890"
+],
+"description": "This is a lightweight, headless browser purpose-built for AI agents (such as Codex or Claude Code) to perform browser automation tasks; it is designed to navigate through various web protection systems, login processes, and reverse-engineering scenarios",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492768.502671,
+"full": "cutetailbud/ff-ruyijs",
+"homepage": "https://cutetailbud.github.io/ff-ruyijs/",
+"language": "C++",
+"license": "AGPL-3.0",
+"ok": true,
+"pushed": "2026-11-21T18:34:19Z",
+"stack": [
+"Python",
+"C++"
+],
+"stars": 976,
+"topics": [
+"anti-bot",
+"automation",
+"firefox",
+"headless-browser",
+"javascript",
+"python",
+"spidermonkey",
+"web-scraping"
+],
+"url": "https://github.com/cutetailbud/ff-ruyijs"
+},
+"daveebbelaar/bama": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npx skills@latest add daveebbelaar/bama",
+"claude plugin marketplace update bama",
+"claude plugin update bama@bama",
+"npx skills@latest add daveebbelaar/bama -a <agent>",
+"npx skills@latest add daveebbelaar/bama --skill=clone"
+],
+"description": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492446.2421546,
+"full": "daveebbelaar/bama",
+"homepage": "",
+"language": "Swift",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-05T13:09:56Z",
+"stack": [
+"Swift"
+],
+"stars": 1956,
+"topics": [
+"agent-skills",
+"ai-agents",
+"app-clone",
+"claude-code",
+"claude-code-plugin",
+"codex",
+"computer-use",
+"liquid-glass"
+],
+"url": "https://github.com/daveebbelaar/bama"
+},
+"dbx0/executioner": {
+"archived": false,
+"branch": "main",
+"commands": [
+"curl -fsSL https://raw.githubusercontent.com/dbx0/executioner/main/install.sh | bash",
+"irm https://raw.githubusercontent.com/dbx0/executioner/main/install.ps1 | iex",
+"pnpm install",
+"pnpm -r build",
+"pnpm --filter @exe/desktop dev"
+],
+"description": "The agentic pentesting environment that lives on your machine. AI agent teams, visual workflows and your own tools, 100% local.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492113.6023726,
+"full": "dbx0/executioner",
+"homepage": "https://github.com/dbx0/executioner/releases/latest",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-18T04:31:54Z",
+"stack": [
+"Node.js"
+],
+"stars": 153,
+"topics": [
+"ai-agents",
+"bug-bounty",
+"electron",
+"offensive-security",
+"pentesting",
+"recon",
+"red-team",
+"security"
+],
+"url": "https://github.com/dbx0/executioner"
+},
+"el4cteo/blender-skills": {
+"archived": false,
+"branch": "main",
+"commands": [
+"python tools/validate_skills.py   # spec + token budget checks",
+"python tools/run_tests.py         # 67 headless Blender tests (BLENDER_EXE to override)"
+],
+"description": "Professional Blender 5.3 workflows as Agent Skills for Claude Code, Codex, Gemini CLI, Copilot and Cursor: modeling, UVs, PBR, baking, rigging, animation, export and QA.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492446.648388,
+"full": "EL4CTEO/blender-skills",
+"homepage": "",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-21T14:35:50Z",
+"stack": [
+"Python"
+],
+"stars": 2798,
+"topics": [
+"3d",
+"agent-skills",
+"ai-agents",
+"blender",
+"blender-python",
+"bpy",
+"claude-code",
+"claude-skills"
+],
+"url": "https://github.com/EL4CTEO/blender-skills"
+},
+"el4cteo/fast-anything": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npm i -g @el4cteo/fast-anything      # or: cargo install fast-anything"
+],
+"description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492447.3565211,
+"full": "EL4CTEO/fast-anything",
+"homepage": "https://www.npmjs.com/package/@el4cteo/fast-anything",
+"language": "Rust",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T00:18:49Z",
+"stack": [
+"Rust"
+],
+"stars": 3224,
+"topics": [
+"agent-skills",
+"ai-agents",
+"claude-code",
+"claude-code-plugin",
+"codex",
+"developer-tools",
+"ffi",
+"mcp"
+],
+"url": "https://github.com/EL4CTEO/fast-anything"
+},
+"emanuele-em/kanzo": {
+"archived": false,
+"branch": "main",
+"commands": [
+"curl -LsSf https://github.com/emanuele-em/kanzo/releases/latest/download/kanzo-installer.sh | sh",
+"cargo install kanzo",
+"claude mcp add kanzo --scope user -- kanzo mcp   # Claude Code"
+],
+"description": "Self-hosted, sharable kanban for humans and agents. One 4.7 MB binary, 5 MB of RAM, 10 to 60 tokens per agent reply, starts in 3 ms, zero setup.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492115.9620538,
+"full": "emanuele-em/kanzo",
+"homepage": "",
+"language": "Rust",
+"license": "AGPL-3.0",
+"ok": true,
+"pushed": "2026-11-23T09:10:52Z",
+"stack": [
+"Rust"
+],
+"stars": 1330,
+"topics": [
+"ai-agents",
+"claude-code",
+"cli",
+"codex",
+"coding-agents",
+"kanban",
+"local-first",
+"mcp"
+],
+"url": "https://github.com/emanuele-em/kanzo"
+},
+"foxitsoftware/foxit-pdf-api-mcp-server": {
+"archived": false,
+"branch": "main",
+"commands": [
+"cd python/foxit-pdf-api-mcp-server",
+"cd typescript/foxit-pdf-api-mcp-server"
+],
+"description": "",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492115.1540518,
+"full": "foxitsoftware/foxit-pdf-api-mcp-server",
+"homepage": "https://www.foxit.com/api/pdf-api/",
+"language": "TypeScript",
+"license": null,
+"ok": true,
+"pushed": "2026-11-13T09:06:44Z",
+"stack": [
+"Node.js"
+],
+"stars": 13,
+"topics": [],
+"url": "https://github.com/foxitsoftware/foxit-pdf-api-mcp-server"
+},
+"frigadehq/hob": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "An easier way to use AI on your own computer. A free, open-source alternative to Claude and ChatGPT that runs open-weight models like Gemma and gpt-oss locally on Mac, Windows and Linux. Private, and works offline.",
+"env": [],
+"envfile": "",
+"fallback": [
+"npm install",
+"npm run dev   # или npm start — смотрите scripts в package.json"
+],
+"fetched": 1795492450.3932061,
+"full": "FrigadeHQ/hob",
+"homepage": "https://hob.chat",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-10-30T18:23:49Z",
+"stack": [
+"Node.js"
+],
+"stars": 561,
+"topics": [
+"ai-agent",
+"ai-assistant",
+"chatgpt-alternative",
+"claude-alternative",
+"desktop-app",
+"electron",
+"gemma",
+"gpt-oss"
+],
+"url": "https://github.com/FrigadeHQ/hob"
+},
+"frigadehq/yogurt": {
+"archived": false,
+"branch": "main",
+"commands": [
+"brew install --cask frigadehq/yogurt/yogurt"
+],
+"description": "Private AI meeting notes that stay on your computer. No meeting bot. Free and open source for Mac, Windows and Linux. An alternative to Granola, Otter and Fireflies.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492594.446507,
+"full": "FrigadeHQ/yogurt",
+"homepage": "https://yogurt.so",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T03:15:55Z",
+"stack": [
+"Node.js"
+],
+"stars": 3102,
+"topics": [
+"ai-meeting-assistant",
+"ai-notetaker",
+"electron",
+"granola-alternative",
+"linux",
+"llama-cpp",
+"local-ai",
+"local-first"
+],
+"url": "https://github.com/FrigadeHQ/yogurt"
+},
+"gauge-sh/gauge-cli": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npm install -g @withgauge/cli",
+"npm ci",
+"npm ci --prefix cli",
+"npm run check"
+],
+"description": ":dog: The open-source Gauge CLI. Hillclimb your Skills, CLI, SDK, MCP, API, or Docs to make something agents want.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492448.8622432,
+"full": "gauge-sh/gauge-cli",
+"homepage": "https://withgauge.com",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-23T19:38:30Z",
+"stack": [
+"Node.js"
+],
+"stars": 156,
+"topics": [
+"agent-skills",
+"agents",
+"cli",
+"docs",
+"mcp",
+"sdk",
+"testing"
+],
+"url": "https://github.com/gauge-sh/gauge-cli"
+},
+"gfirik/pas-agent": {
+"archived": false,
+"branch": "main",
+"commands": [
+"cargo install --git https://github.com/gfirik/pas-agent pas-agent-cli",
+"cargo install --path crates/pas-agent-cli",
+"Claude Code ──► pas-agent checkpoint ──► .pas-agent/session.json ──► pas-agent export --to codex ──► Codex"
+],
+"description": "Portable work sessions across AI coding agents. A Rust CLI that hands your task, progress and decisions from Claude Code to Codex, Cursor, Gemini CLI and more.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492449.9433105,
+"full": "gfirik/pas-agent",
+"homepage": "https://gfirik.github.io/pas-agent/",
+"language": "Rust",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-10-10T15:37:42Z",
+"stack": [
+"Rust"
+],
+"stars": 0,
+"topics": [
+"ai-agents",
+"ai-coding",
+"claude-code",
+"cli",
+"codex",
+"command-line-tool",
+"cursor",
+"developer-tools"
+],
+"url": "https://github.com/gfirik/pas-agent"
+},
+"gitroomhq/postiz-app": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "📨 The ultimate agentic social media scheduling tool 🤖",
+"env": [],
+"envfile": ".env.example",
+"fallback": [
+"docker compose up -d"
+],
+"fetched": 1795492594.554545,
+"full": "gitroomhq/postiz-app",
+"homepage": "https://postiz.com",
+"language": "TypeScript",
+"license": "AGPL-3.0",
+"ok": true,
+"pushed": "2026-11-23T18:25:51Z",
+"stack": [
+"Node.js",
+"Docker Compose"
+],
+"stars": 42253,
+"topics": [
+"nextjs",
+"open-source",
+"open-source-social-media-scheduling-tool",
+"oss",
+"postiz-cloud",
+"postiz-hosted",
+"redis",
+"scheduling-tool"
+],
+"url": "https://github.com/gitroomhq/postiz-app"
+},
+"google/adk-python": {
+"archived": false,
+"branch": "main",
+"commands": [
+"pip install google-adk",
+"curl -o constraints-3.11.txt https://raw.githubusercontent.com/google/adk-python/main/constraints-3.11.txt",
+"pip install google-adk -c constraints-3.11.txt",
+"pip install \"google-adk[extensions]\"",
+"pip install git+https://github.com/google/adk-python.git@main"
+],
+"description": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492767.608491,
+"full": "google/adk-python",
+"homepage": "https://google.github.io/adk-docs/",
+"language": "Python",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-24T01:17:18Z",
+"stack": [
+"Python"
+],
+"stars": 22331,
+"topics": [
+"agent",
+"agentic",
+"agentic-ai",
+"agents",
+"agents-sdk",
+"ai",
+"ai-agents",
+"aiagentframework"
+],
+"url": "https://github.com/google/adk-python"
+},
+"googlechrome/modern-web-guidance": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npx modern-web-guidance@latest install",
+"npx modern-web-guidance@latest search \"animate a dialog modal backdrop\"",
+"npx modern-web-guidance@latest retrieve \"animate-to-from-top-layer\"",
+"npx modern-web-guidance@latest legacy-scan .",
+"npx skills add GoogleChrome/modern-web-guidance",
+"gh skill install GoogleChrome/modern-web-guidance",
+"npx modern-web-guidance@latest install --choose",
+"export DISABLE_TELEMETRY=1"
+],
+"description": "Keep your coding agent up to date with the latest web best practices",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492589.4942586,
+"full": "GoogleChrome/modern-web-guidance",
+"homepage": "https://goo.gle/modern-web-guidance",
+"language": null,
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-23T14:54:26Z",
+"stack": [
+"Node.js"
+],
+"stars": 25588,
+"topics": [],
+"url": "https://github.com/GoogleChrome/modern-web-guidance"
+},
+"hackernews/api": {
+"archived": false,
+"branch": "master",
+"commands": [],
+"description": "Documentation and Samples for the Official HN API",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492769.9621065,
+"full": "HackerNews/API",
+"homepage": "",
+"language": null,
+"license": "MIT",
+"ok": true,
+"pushed": "2025-01-01T07:55:30Z",
+"stack": [],
+"stars": 13459,
+"topics": [],
+"url": "https://github.com/HackerNews/API"
+},
+"haydenschmitty/floorplan": {
+"archived": false,
+"branch": "main",
+"commands": [
+"claude plugin marketplace add haydenschmitty/floorplan",
+"claude plugin install floorplan@floorplan"
+],
+"description": "See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492116.410972,
+"full": "haydenschmitty/floorplan",
+"homepage": "https://haydenschmitty.github.io/floorplan-demo/",
+"language": "JavaScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-16T16:57:59Z",
+"stack": [
+"Node.js"
+],
+"stars": 6484,
+"topics": [
+"ai-coding",
+"architecture-diagram",
+"claude",
+"claude-code",
+"claude-code-plugin",
+"codebase-visualization",
+"codex",
+"codex-plugin"
+],
+"url": "https://github.com/haydenschmitty/floorplan"
+},
+"henadzh/airpulsar-mcp": {
+"archived": false,
+"branch": "main",
+"commands": [
+"claude mcp add --transport http airpulsar https://airpulsar.com/mcp"
+],
+"description": "25-tool MCP server for live B2B company discovery in any country/language, fit reasoning, DNS/MX & Microsoft 365 decision-maker verification, and send-only Gmail outreach or RFC 4180 CSV export.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492115.1040869,
+"full": "HenadzH/airpulsar-mcp",
+"homepage": "https://airpulsar.com/mcp",
+"language": null,
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-20T11:06:51Z",
+"stack": [],
+"stars": 0,
+"topics": [],
+"url": "https://github.com/HenadzH/airpulsar-mcp"
+},
+"hyphatech/spindle": {
+"archived": false,
+"branch": "main",
+"commands": [
+"curl localhost:8080/split --json '{\"total\": 90, \"tip\": 10, \"people\": 3}'"
+],
+"description": "The web framework for modern OCaml.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492592.8079262,
+"full": "hyphatech/spindle",
+"homepage": "https://hyphatech.github.io/spindle/",
+"language": "OCaml",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-22T22:48:26Z",
+"stack": [
+"Docker Compose",
+"Make",
+"OCaml"
+],
+"stars": 57,
+"topics": [],
+"url": "https://github.com/hyphatech/spindle"
+},
+"israelbh/ticktock-automation": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "TickTock Automation: Community-Driven Bot for Discord & Telegram Content Publishing",
+"env": [],
+"envfile": "",
+"fallback": [
+"npm install",
+"npm run dev   # или npm start — смотрите scripts в package.json"
+],
+"fetched": 1795492448.742495,
+"full": "IsraelBH/ticktock-automation",
+"homepage": "",
+"language": "JavaScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-23T21:00:05Z",
+"stack": [
+"Node.js"
+],
+"stars": 153,
+"topics": [
+"automations",
+"browser-automation",
+"dm",
+"github-actions",
+"reverse",
+"reversing",
+"selfbot",
+"supabase"
+],
+"url": "https://github.com/IsraelBH/ticktock-automation"
+},
+"jrswab/axe": {
+"archived": false,
+"branch": "master",
+"commands": [
+"go install github.com/jrswab/axe@latest",
+"go build .",
+"git diff --cached | axe run pr-reviewer",
+"docker build -t axe .",
+"docker buildx build --platform linux/amd64,linux/arm64 -t axe:latest .",
+"docker run --rm \\",
+"git diff | docker run --rm -i \\",
+"docker run --rm -i \\",
+"docker compose run --rm axe run my-agent",
+"docker compose --profile ollama up -d ollama"
+],
+"description": "A lightweight cli for running single-purpose AI agents. Define focused agents in TOML, trigger them from anywhere; pipes, git hooks, cron, or the terminal.",
+"env": [
+"ANTHROPIC_API_KEY",
+"ATLASCLOUD_API_KEY",
+"EDENAI_API_KEY",
+"LITELLM_API_KEY",
+"MY_TOKEN",
+"OPENAI_API_KEY",
+"OPENCODE_API_KEY",
+"RUNCRATE_API_KEY"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492593.6387358,
+"full": "jrswab/axe",
+"homepage": "https://docs.getaxe.dev",
+"language": "Go",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-23T17:41:54Z",
+"stack": [
+"Docker",
+"Docker Compose",
+"Go",
+"Make"
+],
+"stars": 913,
+"topics": [
+"ai-agents",
+"automation",
+"cli",
+"command-line",
+"developer-tools",
+"golang",
+"llm"
+],
+"url": "https://github.com/jrswab/axe"
+},
+"julianosig/easi.run": {
+"archived": false,
+"branch": "main",
+"commands": [
+"curl -fsSLO https://easi.run/install.sh && less install.sh && bash install.sh",
+"curl -fsSLO https://easi.run/install.sh && bash install.sh --update",
+"bash ~/easi.run/install.sh --uninstall",
+"claude mcp add --scope user easi -- ssh -T you@your-server docker exec -i easi-run-admin-1 admin mcp"
+],
+"description": "Self-hosted Chrome sessions for you and your AI agents. MCP, live human takeover, saved profiles, drag-and-drop files, downloads and audio.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492772.801243,
+"full": "julianosig/easi.run",
+"homepage": "https://easi.run/",
+"language": "Rust",
+"license": "AGPL-3.0",
+"ok": true,
+"pushed": "2026-11-24T01:13:29Z",
+"stack": [
+"Docker",
+"Docker Compose",
+"Rust"
+],
+"stars": 121,
+"topics": [
+"ai-agents",
+"browser",
+"browser-automation",
+"chrome",
+"docker",
+"mcp",
+"rpa",
+"rust"
+],
+"url": "https://github.com/julianosig/easi.run"
+},
+"justxor/deepseek-local-guide-ru": {
+"archived": false,
+"branch": "main",
+"commands": [
+"ollama --version",
+"ollama create ds-ru -f Modelfile",
+"ollama run ds-ru",
+"ollama ps",
+"git clone https://github.com/ggml-org/llama.cpp",
+"cd llama.cpp",
+"cmake -B build -DGGML_CUDA=ON      # NVIDIA",
+"cmake --build build --config Release -j",
+"pip install -U huggingface_hub",
+"hf download unsloth/DeepSeek-V4-Flash-0731-GGUF \\"
+],
+"description": "🐋 Полный гайд на русском: как установить и запустить DeepSeek локально (V4, R1) на ПК, Mac и сервере — Ollama, llama.cpp, LM Studio, vLLM, Open WebUI, API, RAG, агенты, fine-tuning, лучшие фишки",
+"env": [
+"DEEPSEEK_API_KEY",
+"OLLAMA_BASE_URL"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492448.3235087,
+"full": "justxor/deepseek-local-guide-ru",
+"homepage": "",
+"language": "Shell",
+"license": "NOASSERTION",
+"ok": true,
+"pushed": "2026-10-17T13:25:10Z",
+"stack": [],
+"stars": 197,
+"topics": [
+"ai-agents",
+"deepseek",
+"deepseek-r1",
+"deepseek-v4",
+"gguf",
+"guide",
+"llama-cpp",
+"llm"
+],
+"url": "https://github.com/justxor/deepseek-local-guide-ru"
+},
+"juw12/lineup": {
+"archived": false,
+"branch": "main",
+"commands": [
+"python lineup.py install",
+"python lineup.py tune --models provider/model-a,provider/model-b,provider/model-c",
+"python lineup.py tune --hard        also ask the harder third question of every role",
+"python lineup.py tune --dry-run     score only, change nothing",
+"python lineup.py tune --resume      continue a run that a usage limit stopped",
+"python lineup.py status             the current lineup",
+"python lineup.py report             open the score page",
+"python -m unittest discover -s tests"
+],
+"description": "Six role agents for OpenCode that pick their own models: every model answers the same fixed questions on your machine, and the best one per role is written into the agents, with backup and put-back.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492767.5558555,
+"full": "juw12/lineup",
+"homepage": "https://juw12.github.io/lineup/",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-23T11:43:44Z",
+"stack": [
+"Python"
+],
+"stars": 0,
+"topics": [
+"ai-agents",
+"benchmark",
+"llm",
+"model-selection",
+"opencode",
+"python",
+"windows"
+],
+"url": "https://github.com/juw12/lineup"
+},
+"kenya-west/licenses": {
+"archived": false,
+"branch": "master",
+"commands": [],
+"description": "",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492450.4039166,
+"full": "Kenya-West/licenses",
+"homepage": "",
+"language": null,
+"license": null,
+"ok": true,
+"pushed": "2023-05-06T16:11:55Z",
+"stack": [],
+"stars": 1,
+"topics": [],
+"url": "https://github.com/Kenya-West/licenses"
+},
+"kkkkhazix/agent-autoloop": {
+"archived": false,
+"branch": "main",
+"commands": [
+"irm https://raw.githubusercontent.com/KKKKhazix/agent-autoloop/main/install.ps1 | iex",
+"curl -fsSL https://raw.githubusercontent.com/KKKKhazix/agent-autoloop/main/install.sh | sh"
+],
+"description": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492595.3212118,
+"full": "KKKKhazix/agent-autoloop",
+"homepage": "",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T01:35:10Z",
+"stack": [
+"Node.js"
+],
+"stars": 6414,
+"topics": [
+"ai-agents",
+"automation",
+"claude-code",
+"cli",
+"codex",
+"event-driven",
+"mcp",
+"nodejs"
+],
+"url": "https://github.com/KKKKhazix/agent-autoloop"
+},
+"klad-app/klad": {
+"archived": false,
+"branch": "main",
+"commands": [
+"just compile    # release build of the klad CLI and the editor (plain `just` does the same)",
+"just test       # every test, and the drawkit check",
+"just lint       # rustfmt and clippy, warnings as errors",
+"just audit      # licences, RustSec advisories, sources, and the notices are current",
+"just samples    # build the sample drawings",
+"just compile"
+],
+"description": "A drawing app built for agent/human collaboration",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492770.96958,
+"full": "klad-app/klad",
+"homepage": "https://klad.studio",
+"language": "Rust",
+"license": "NOASSERTION",
+"ok": true,
+"pushed": "2026-11-23T20:47:07Z",
+"stack": [
+"Rust"
+],
+"stars": 341,
+"topics": [],
+"url": "https://github.com/klad-app/klad"
+},
+"kukemc/bili-cli": {
+"archived": false,
+"branch": "main",
+"commands": [
+"uv tool install bili-agent       # 或者 pipx install bili-agent / pip install bili-agent",
+"uv tool install --force \"bili-agent[mcp]\""
+],
+"description": "为 AI Agent 设计的哔哩哔哩命令行工具：扫码登录、看视频、评论、私信、发动态、投稿，全部 JSON 输出",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492772.2371001,
+"full": "kukemc/bili-cli",
+"homepage": "",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-23T10:01:17Z",
+"stack": [
+"Python"
+],
+"stars": 414,
+"topics": [
+"agent-skills",
+"ai-agent",
+"automation",
+"bilibili",
+"claude-code",
+"cli",
+"codex",
+"deepseek"
+],
+"url": "https://github.com/kukemc/bili-cli"
+},
+"langchain-ai/design-agent": {
+"archived": false,
+"branch": "main",
+"commands": [
+"curl -fsSL https://raw.githubusercontent.com/langchain-ai/design-agent/main/install.sh | bash",
+"uv run design-agent config set LANGSMITH_API_KEY ANTHROPIC_API_KEY   # type each key; it stays hidden",
+"uv run mda deploy --agent-server-type dedicated   # the agent, its computer and its Slack app",
+"uv run design-agent sandbox build",
+"uv run design-agent demo",
+"uv run design-agent ask \"A LinkedIn card announcing our design review service, 1200x627.\""
+],
+"description": "Open-source design agent: on-brand stills, decks, diagrams, charts and motion graphics from a chat thread, built on Deep Agents.",
+"env": [
+"ANTHROPIC_API_KEY",
+"ELEVENLABS_API_KEY",
+"GOOGLE_API_KEY",
+"LANGSMITH_API_KEY",
+"OPENAI_API_KEY"
+],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795492592.1366937,
+"full": "langchain-ai/design-agent",
+"homepage": "",
+"language": "JavaScript",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-23T21:25:28Z",
+"stack": [
+"Python",
+"Make",
+"Node.js"
+],
+"stars": 709,
+"topics": [
+"agent",
+"agents",
+"ai-agent",
+"deepagents",
+"design",
+"hyperframes",
+"langgraph",
+"managed-agents"
+],
+"url": "https://github.com/langchain-ai/design-agent"
+},
+"lemonadesaltbagel/airlock": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npm install && npm run build",
+"node apps/airlock/dist/main.js doctor                     # check the sandbox on this machine",
+"cd path/to/your-test-project",
+"node /path/to/Airlock/apps/airlock/dist/main.js init     # cover setting + crown-jewel file",
+"export ANTHROPIC_API_KEY=...                             # your own key, used only for consults",
+"node /path/to/Airlock/apps/airlock/dist/main.js run \"fix the failing date parsing test\"",
+"npm install",
+"npm run check        # typecheck + tests"
+],
+"description": "A privacy-first local coding agent that consults frontier AI models without exposing your source code.",
+"env": [
+"ANTHROPIC_API_KEY"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492769.304176,
+"full": "lemonadesaltbagel/airlock",
+"homepage": "",
+"language": "TypeScript",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-10-28T04:12:19Z",
+"stack": [
+"Node.js"
+],
+"stars": 328,
+"topics": [
+"ai-agents",
+"code-privacy",
+"data-loss-prevention",
+"local-ai",
+"local-llm",
+"privacy-first",
+"privacy-preserving-ai",
+"secure-ai"
+],
+"url": "https://github.com/lemonadesaltbagel/airlock"
+},
+"liguozheng-ac/lingbo-desk": {
+"archived": false,
+"branch": "main",
+"commands": [
+"pnpm --dir desktop install --frozen-lockfile",
+"pnpm --dir engine install --frozen-lockfile",
+"pnpm --dir speech install --frozen-lockfile",
+"python -m venv .venv",
+"pnpm start",
+"pnpm --dir desktop run build:modules",
+"pnpm run prepare:desktop",
+"pnpm run build:desktop",
+"pnpm test",
+"pnpm run verify:task"
+],
+"description": "A Windows desktop voice agent with real-time conversation, a Live2D avatar, and background tasks for files, Office documents, and the web.",
+"env": [],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795492117.4370327,
+"full": "liguozheng-ac/Lingbo-Desk",
+"homepage": "",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-19T09:35:23Z",
+"stack": [
+"Python",
+"Node.js"
+],
+"stars": 217,
+"topics": [
+"agent-skills",
+"ai-agent",
+"deepseek",
+"desktop-assistant",
+"desktop-automation",
+"electron",
+"human-in-the-loop",
+"live2d"
+],
+"url": "https://github.com/liguozheng-ac/Lingbo-Desk"
+},
+"mdiri-ai/soduwork": {
+"archived": false,
+"branch": "main",
+"commands": [
+"python3 ops/self-host/deploy.py up",
+"python3 ops/self-host/deploy.py credentials   # show the initial admin password"
+],
+"description": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492117.8348658,
+"full": "mdiri-ai/SoduWork",
+"homepage": "https://www.soduwork.ai",
+"language": "JavaScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T03:25:10Z",
+"stack": [
+"Node.js"
+],
+"stars": 7088,
+"topics": [
+"agent-harness",
+"agent-orchestration",
+"agent-workflows",
+"ai-agents",
+"ai-workflows",
+"anti-slop",
+"claude-code",
+"codex"
+],
+"url": "https://github.com/mdiri-ai/SoduWork"
+},
+"microsoft/tokeneconomizer": {
+"archived": false,
+"branch": "main",
+"commands": [
+"claude plugin marketplace add \"$PWD/TokenEconomizer\"",
+"claude plugin install tokeneconomizer@tokeneconomizer",
+"python scripts/build_plugin.py --droid",
+"python scripts/build_plugin.py --out ~/.cursor/plugins/local/",
+"python scripts/build_plugin.py --out dist/marketplace",
+"mkdir -p ~/.config/opencode/plugins"
+],
+"description": "Experience-Driven Black-Box Cost Control for Coding Agents",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492768.2789938,
+"full": "microsoft/TokenEconomizer",
+"homepage": "",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T01:47:14Z",
+"stack": [
+"Python",
+"Node.js"
+],
+"stars": 8037,
+"topics": [
+"agentic-ai",
+"agentic-coding",
+"ai-coding",
+"ai-coding-assistant",
+"anthropic",
+"artificial-intelligence",
+"claude-code",
+"codex"
+],
+"url": "https://github.com/microsoft/TokenEconomizer"
+},
+"modelflare-ai/anymodelbot": {
+"archived": false,
+"branch": "master",
+"commands": [
+"docker run -d --name amb -p 3600:3600 -v amb-data:/data ghcr.io/modelflare-ai/anymodel-bot",
+"docker exec amb cat /data/ui-token   # 然后打开 http://<主机>:3600/?token=<令牌>",
+"npm install",
+"npm run setup      # 拉取并编译内置网关",
+"npm start          # 本地管理界面：http://127.0.0.1:3600/（首次用终端里打印的带令牌地址打开）",
+"npm run setup          # 拉取并编译内置网关",
+"npm run electron:dev   # 开发模式运行桌面版",
+"npm run typecheck && npm test"
+],
+"description": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.",
+"env": [],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795492593.7979646,
+"full": "modelflare-ai/AnyModelBot",
+"homepage": "https://anymodel.bot/",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-22T18:58:42Z",
+"stack": [
+"Node.js",
+"Docker",
+"Python"
+],
+"stars": 4996,
+"topics": [
+"ai-agent",
+"ai-assistant",
+"chatbot",
+"claude",
+"computer-use",
+"deepseek",
+"desktop-app",
+"dsh"
+],
+"url": "https://github.com/modelflare-ai/AnyModelBot"
+},
+"morganlinton/beautifulrust": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npx skills add morganlinton/BeautifulRust",
+"claude plugin install beautiful-rust --marketplace morganlinton/BeautifulRust",
+"gh skill install morganlinton/BeautifulRust rust-best-practices",
+"gh skill install morganlinton/BeautifulRust rust-review",
+"gh skill install morganlinton/BeautifulRust rust-port",
+"mkdir -p ~/.agents/skills",
+"cp -R BeautifulRust/skills/rust-* ~/.agents/skills/",
+"cd skills",
+"cargo clippy --all-targets --all-features -- -D warnings",
+"bash scripts/check-lints.sh"
+],
+"description": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492446.4659712,
+"full": "morganlinton/BeautifulRust",
+"homepage": "https://www.beautifulrust.dev",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-08T17:21:11Z",
+"stack": [
+"Python"
+],
+"stars": 2120,
+"topics": [
+"agent-skills",
+"claude-code",
+"claude-plugin",
+"claude-skills",
+"clippy",
+"code-review",
+"coding-agent",
+"cursor"
+],
+"url": "https://github.com/morganlinton/BeautifulRust"
+},
+"n1neman/sapper-v2": {
+"archived": false,
+"branch": "master",
+"commands": [
+"bash install.sh                      # symlink the sapper CLI (stdlib-only, zero deps)",
+"docker build -f docker/Dockerfile.commander -t sapper:latest .",
+"docker load < sapper-v18-mixed.tar.gz",
+"git clone https://github.com/N1nEmAn/nvwabase",
+"cd nvwabase && bash install.sh          # pure Python stdlib, zero deps"
+],
+"description": "The first fruit of the Nüwa tree — an autonomous AI pentest legion (634-team champion, 8h unattended, 1B tokens beat 4.5B). Not just a tool: evolvable by design. Grow your own fruit on the Nüwa Foundation (Create/Language/History).",
+"env": [
+"ANTHROPIC_BASE_URL",
+"BENCHMARK_BASE_URL"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492450.613305,
+"full": "N1nEmAn/sapper-v2",
+"homepage": "https://github.com/N1nEmAn/nvwabase",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-11T12:18:45Z",
+"stack": [
+"Python"
+],
+"stars": 2599,
+"topics": [
+"agentic-workflows",
+"ai-agents",
+"ai-security",
+"autonomous-agents",
+"claude-code",
+"ctf",
+"cybersecurity",
+"fact-graph"
+],
+"url": "https://github.com/N1nEmAn/sapper-v2"
+},
+"n8n-io/n8n-nodes-starter": {
+"archived": false,
+"branch": "master",
+"commands": [
+"npm create @n8n/node",
+"npm run dev",
+"npm install",
+"npm run build",
+"git clone https://github.com/<your-organization>/<your-repo-name>.git",
+"cd <your-repo-name>",
+"npm run lint",
+"npm run lint:fix",
+"npm run release"
+],
+"description": "Example starter module for custom n8n nodes.",
+"env": [
+"NPM_TOKEN"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492118.9278998,
+"full": "n8n-io/n8n-nodes-starter",
+"homepage": "",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-09-13T07:22:14Z",
+"stack": [
+"Node.js"
+],
+"stars": 1194,
+"topics": [],
+"url": "https://github.com/n8n-io/n8n-nodes-starter"
+},
+"nace-ai/kapitsa": {
+"archived": false,
+"branch": "main",
+"commands": [
+"brew install nace-ai/tap/kapitsa"
+],
+"description": "Blazing fast Apple Silicon inference engine optimized for Qwen & Nemotron. OpenAI + Anthropic API compatible. Built by folks from nace.ai",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492116.2282643,
+"full": "nace-ai/kapitsa",
+"homepage": "https://kapitsa.vercel.app",
+"language": "C++",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-24T02:06:06Z",
+"stack": [
+"C++"
+],
+"stars": 874,
+"topics": [
+"apple-silicon",
+"clover",
+"coding-agents",
+"decision-models",
+"drex",
+"drex-max",
+"fast-local-inference",
+"flint"
+],
+"url": "https://github.com/nace-ai/kapitsa"
+},
+"ollama/ollama": {
+"archived": false,
+"branch": "main",
+"commands": [
+"ollama",
+"curl -fsSL https://ollama.com/install.sh | sh",
+"irm https://ollama.com/install.ps1 | iex",
+"ollama launch claude",
+"ollama launch openclaw",
+"ollama run gemma4",
+"curl http://localhost:11434/api/chat -d '{",
+"pip install ollama",
+"npm i ollama"
+],
+"description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492448.4237518,
+"full": "ollama/ollama",
+"homepage": "https://ollama.com",
+"language": "Go",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T01:41:26Z",
+"stack": [
+"Docker",
+"Go"
+],
+"stars": 187933,
+"topics": [
+"deepseek",
+"gemma",
+"glm",
+"go",
+"golang",
+"gpt-oss",
+"llama",
+"llm"
+],
+"url": "https://github.com/ollama/ollama"
+},
+"omnara-ai/omnara": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npx omnara agents launch --file agent.yaml \\",
+"docker compose -f compose.yaml --profile app up -d",
+"npx omnara config --api-url http://localhost:8000/api/v1 --issuer-url http://localhost:8000",
+"npx omnara login",
+"claude mcp add --transport http omnara https://app.omnara.com/mcp"
+],
+"description": "The open-source managed agent platform. A self-hostable alternative to Claude Managed Agents and OpenAI's Agents API.",
+"env": [
+"OMNARA_TOKEN"
+],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795492771.1181452,
+"full": "omnara-ai/omnara",
+"homepage": "https://www.omnara.com",
+"language": "Go",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-24T02:32:11Z",
+"stack": [
+"Docker",
+"Docker Compose",
+"Go",
+"Make"
+],
+"stars": 3444,
+"topics": [
+"agent-infrastructure",
+"agent-platform",
+"agent-runtime",
+"agents-api",
+"ai-infrastructure",
+"claude-managed-agents",
+"cloud-agents",
+"durable-agents"
+],
+"url": "https://github.com/omnara-ai/omnara"
+},
+"onecli/onecli": {
+"archived": false,
+"branch": "main",
+"commands": [
+"pnpm install",
+"pnpm run setup",
+"pnpm dev"
+],
+"description": "Open-source sandboxed agent harness for teams. Giving every employee a secured personal agent.",
+"env": [],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795492770.2165537,
+"full": "onecli/onecli",
+"homepage": "https://onecli.sh",
+"language": "TypeScript",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-09T16:44:11Z",
+"stack": [
+"Node.js"
+],
+"stars": 3654,
+"topics": [
+"ai-agents",
+"cli",
+"mcp",
+"nodejs",
+"postgres",
+"rust",
+"secret-management",
+"security"
+],
+"url": "https://github.com/onecli/onecli"
+},
+"onkernel/kernel-images": {
+"archived": false,
+"branch": "main",
+"commands": [
+"cd images/chromium-headful",
+"export IMAGE=kernel-docker",
+"./build-docker.sh",
+"curl http://localhost:10001/recording/start -d {}",
+"curl http://localhost:10001/recording/stop -d {}",
+"curl http://localhost:10001/recording/download --output recording.mp4"
+],
+"description": "Browsers-as-a-service for automations and web agents",
+"env": [
+"UKC_TOKEN"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492591.3470914,
+"full": "kernel/kernel-images",
+"homepage": "https://www.kernel.sh",
+"language": "Go",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-23T21:08:46Z",
+"stack": [
+"Node.js",
+"Go"
+],
+"stars": 1147,
+"topics": [
+"ai",
+"browser",
+"container",
+"docker",
+"infrastructure",
+"unikernel",
+"vm"
+],
+"url": "https://github.com/kernel/kernel-images"
+},
+"open-net-worth-ai/open-net-worth": {
+"archived": false,
+"branch": "main",
+"commands": [
+"curl -fsSLO https://github.com/open-net-worth-ai/open-net-worth-releases/releases/latest/download/docker-compose.yml",
+"curl -fsSL https://github.com/open-net-worth-ai/open-net-worth-releases/releases/latest/download/install-server.sh | sh"
+],
+"description": "Self-hosted alternative to Claude and ChatGPT Personal Finance. An AI agent that manages your budget and investments, and can place trades.",
+"env": [],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795492113.7623427,
+"full": "open-net-worth-ai/open-net-worth",
+"homepage": "https://opennetworth.ai",
+"language": "Python",
+"license": "AGPL-3.0",
+"ok": true,
+"pushed": "2026-11-24T03:09:46Z",
+"stack": [
+"Python",
+"Node.js",
+"Docker",
+"Docker Compose",
+"Make"
+],
+"stars": 727,
+"topics": [
+"agentic-trader",
+"agentic-trading-team",
+"ai-agent",
+"budgeting",
+"envelope-budgeting",
+"investment-tracker",
+"local-first",
+"mcp"
+],
+"url": "https://github.com/open-net-worth-ai/open-net-worth"
+},
+"openbin-ai/binny": {
+"archived": false,
+"branch": "main",
+"commands": [
+"curl -fsSL https://openbin.ai/install-binny.sh | sh",
+"irm https://openbin.ai/install-binny.ps1 | iex",
+"go build -o binny .",
+"go test ./..."
+],
+"description": "BINNY: an open source agent harness for reverse engineering. Plug in any model, or a local one.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492114.1551652,
+"full": "openbin-ai/binny",
+"homepage": "https://openbin.ai/#binny",
+"language": "Go",
+"license": "AGPL-3.0",
+"ok": true,
+"pushed": "2026-11-23T15:08:29Z",
+"stack": [
+"Go"
+],
+"stars": 258,
+"topics": [
+"ghidra",
+"llm-agent",
+"malware-analysis",
+"ollama",
+"reverse-engineering",
+"security-research"
+],
+"url": "https://github.com/openbin-ai/binny"
+},
+"openclaw/openclaw": {
+"archived": false,
+"branch": "main",
+"commands": [
+"curl -fsSL https://openclaw.ai/install.sh | bash",
+"openclaw onboard --install-daemon",
+"openclaw gateway status",
+"openclaw dashboard",
+"iwr -useb https://openclaw.ai/install.ps1 | iex",
+"npm install -g openclaw@latest --allow-scripts=openclaw",
+"pnpm install",
+"pnpm build",
+"pnpm ui:build"
+],
+"description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
+"env": [],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795492118.6149197,
+"full": "openclaw/openclaw",
+"homepage": "https://openclaw.ai",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T03:48:05Z",
+"stack": [
+"Node.js",
+"Docker",
+"Docker Compose"
+],
+"stars": 395124,
+"topics": [
+"ai",
+"assistant",
+"crustacean",
+"molty",
+"openclaw",
+"own-your-data",
+"personal"
+],
+"url": "https://github.com/openclaw/openclaw"
+},
+"patch-gg/pixelfx": {
+"archived": false,
+"branch": "main",
+"commands": [
+"node tools/render.mjs ice/frost-nova --sheet",
+"node tools/render.mjs fire/torch --gif --opts '{\"palette\": [\"#102\",\"#215\",\"#43a\",\"#8cf\",\"#cff\",\"#fff\"]}'",
+"node tools/new.mjs arcane/my-spell       # a working starting point (add --loop for a loop)",
+"node tools/render.mjs arcane/my-spell    # records/arcane/my-spell/contact.png: look at it",
+"node tools/check.mjs arcane/my-spell     # spills, seams, unseeded randomness, slow frames",
+"npm i -g @patchgg/cli      # or: curl -fsSL https://patch.gg/install.sh | sh"
+],
+"description": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492590.1658528,
+"full": "patch-gg/pixelfx",
+"homepage": "https://patch-gg.github.io/pixelfx/",
+"language": "JavaScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-13T08:43:39Z",
+"stack": [
+"Node.js"
+],
+"stars": 8911,
+"topics": [
+"agent-skills",
+"animation",
+"canvas",
+"claude-code-plugin",
+"gamedev",
+"pixel-art",
+"sprite-sheet",
+"vfx"
+],
+"url": "https://github.com/patch-gg/pixelfx"
+},
+"pavel-logachev/ai-tender-radar": {
+"archived": false,
+"branch": "main",
+"commands": [
+"python -m venv .venv",
+"python -m pip install -r requirements.lock -r requirements-dev.txt",
+"python -m pip check",
+"python tools/check_public_boundary.py",
+"python -m compileall -q app agent_radar scripts tests tools",
+"python -m unittest discover -s tests -p \"test_agent_radar_*.py\"",
+"python -m unittest discover",
+"python scripts/apply_migrations.py --dry-run"
+],
+"description": "Агент читает закупки серверов и СХД и отчетность ФНС и присылает менеджеру в Telegram карточку: что покупают и кому звонить. · An agent reads server and storage procurements and Federal Tax Service filings and sends a manager a Telegram card: what is being bought and whom to call.",
+"env": [],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795492595.450453,
+"full": "pavel-logachev/ai-tender-radar",
+"homepage": "https://logachev.net/journal/ii-agent-dlya-generacii-lidov-zakupki/",
+"language": "Python",
+"license": "AGPL-3.0",
+"ok": true,
+"pushed": "2026-11-20T14:10:29Z",
+"stack": [
+"Python",
+"Docker"
+],
+"stars": 3,
+"topics": [
+"ai",
+"ai-agents",
+"document-processing",
+"human-in-the-loop",
+"llm",
+"postgresql",
+"procurement",
+"python"
+],
+"url": "https://github.com/pavel-logachev/ai-tender-radar"
+},
+"phone-harness/mcp": {
+"archived": false,
+"branch": "main",
+"commands": [
+"claude mcp add --transport http phone-harness https://mcp.phone-harness.com/mcp",
+"openclaw mcp add phone-harness --url https://mcp.phone-harness.com/mcp --transport streamable-http --auth oauth",
+"openclaw mcp login phone-harness",
+"uv sync",
+"uv run pytest",
+"uv run phone-harness-mcp --help"
+],
+"description": "Connect AI agents to real iPhones and Androids",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492773.371621,
+"full": "phone-harness/mcp",
+"homepage": "https://phone-harness.com",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T03:20:48Z",
+"stack": [
+"Python",
+"Docker"
+],
+"stars": 837,
+"topics": [
+"ai-agents",
+"android",
+"iphone",
+"mcp",
+"mcp-server",
+"mobile-automation",
+"model-context-protocol",
+"phone-automation"
+],
+"url": "https://github.com/phone-harness/mcp"
+},
+"pipelex/pipelex": {
+"archived": false,
+"branch": "main",
+"commands": [
+"claude plugin marketplace add Pipelex/pipelex-plugins",
+"claude plugin install pipelex@pipelex-plugins",
+"export PIPELEX_API_KEY=plx_sk_...     # create one in your console at app.pipelex.com",
+"uv tool install \"pipelex[cli]\"",
+"uv tool install \"pipelex[cli,anthropic,google,google-genai,mistralai,bedrock,fal,linkup,docling]\"",
+"make install   # create .venv and install the dependencies",
+"make check     # formatting, lint and type checks",
+"make test      # the unit tests"
+],
+"description": "Build AI methods with your coding agent, then run them anywhere: as an MCP for chatbots, as a webapp for people, or via API for your software.",
+"env": [
+"PIPELEX_API_KEY"
+],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795492114.6260557,
+"full": "Pipelex/pipelex",
+"homepage": "https://pipelex.com",
+"language": "Python",
+"license": "NOASSERTION",
+"ok": true,
+"pushed": "2026-11-23T19:38:24Z",
+"stack": [
+"Python",
+"Make"
+],
+"stars": 951,
+"topics": [
+"ai",
+"ai-agents",
+"ai-methods",
+"api",
+"claude-code",
+"codex",
+"docker",
+"fastapi"
+],
+"url": "https://github.com/Pipelex/pipelex"
+},
+"plandex-ai/plandex": {
+"archived": false,
+"branch": "main",
+"commands": [
+"curl -sL https://plandex.ai/install.sh | bash",
+"cd your-project-dir",
+"git init",
+"export OPENROUTER_API_KEY=... # if using OpenRouter.ai"
+],
+"description": "Open source AI coding agent. Designed for large projects and real world tasks.",
+"env": [
+"OPENROUTER_API_KEY"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492772.521854,
+"full": "plandex-ai/plandex",
+"homepage": "https://plandex.ai",
+"language": "Go",
+"license": "MIT",
+"ok": true,
+"pushed": "2025-10-03T21:49:58Z",
+"stack": [
+"Go"
+],
+"stars": 15929,
+"topics": [
+"ai",
+"ai-agents",
+"ai-developer-tools",
+"ai-tools",
+"cli",
+"command-line",
+"developer-tools",
+"git"
+],
+"url": "https://github.com/plandex-ai/plandex"
+},
+"reason-machines/reason-network": {
+"archived": false,
+"branch": "main",
+"commands": [
+"curl -fsSL https://reasonmachines.com/install.sh | bash -s -- network",
+"curl -fsSL https://reasonmachines.com/install.sh | bash -s -- network join '<link>'",
+"cargo fmt && cargo clippy --all-targets -- -D warnings && cargo test",
+"cargo build && python3 tests/e2e/two_machines.py   # two machines over iroh (needs internet)",
+"python3 tests/e2e/hooks.py && python3 tests/e2e/codex_busy.py && python3 tests/e2e/guided.py",
+"python3 tests/e2e/tray_memory.py --output /tmp/tray-memory.json  # macOS desktop; keep the test menu closed"
+],
+"description": "Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492590.304887,
+"full": "reason-machines/reason-network",
+"homepage": "https://reasonmachines.com",
+"language": "Rust",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-22T08:05:14Z",
+"stack": [
+"Rust"
+],
+"stars": 1816,
+"topics": [
+"agent-to-agent",
+"ai-agents",
+"claude-code",
+"codex",
+"coding-agents",
+"cursor",
+"grok",
+"iroh"
+],
+"url": "https://github.com/reason-machines/reason-network"
+},
+"rociiu/talorys": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npx create-talorys@latest",
+"npx create-talorys@latest reset-password",
+"npm install",
+"npm run dev",
+"npx create-talorys@latest update"
+],
+"description": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492445.7043364,
+"full": "rociiu/talorys",
+"homepage": "https://rociiu.github.io/talorys/",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-23T07:45:10Z",
+"stack": [
+"Node.js"
+],
+"stars": 1481,
+"topics": [
+"ai-agent",
+"cloudflare",
+"cloudflare-workers",
+"durable-objects",
+"personal-assistant",
+"react",
+"self-hosted",
+"typescript"
+],
+"url": "https://github.com/rociiu/talorys"
+},
+"simplexai-labs/linger": {
+"archived": false,
+"branch": "main",
+"commands": [
+"cp .env.example .env",
+"docker compose up --build --detach --wait"
+],
+"description": "Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own.",
+"env": [],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795492448.4613762,
+"full": "simplexai-labs/linger",
+"homepage": "heylinger.com",
+"language": "TypeScript",
+"license": "NOASSERTION",
+"ok": true,
+"pushed": "2026-11-24T03:51:14Z",
+"stack": [
+"Node.js",
+"Docker Compose",
+"Make"
+],
+"stars": 4218,
+"topics": [
+"agent-teams",
+"local-llm",
+"memory",
+"personal-agent",
+"proactive-agent",
+"proactive-ai"
+],
+"url": "https://github.com/simplexai-labs/linger"
+},
+"simstudioai/sim": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npx sim-setup",
+"npx sim-setup config",
+"npx sim-setup add email",
+"npx sim-setup add storage",
+"npx sim-setup add sandbox",
+"npx sim-setup add jobs",
+"npx sim-setup add knowledge",
+"npx sim-setup add chat",
+"npx sim-setup add llm",
+"npx sim-setup add integration slack"
+],
+"description": "Sim is the collaborative workspace to build, deploy, and monitor AI agents and workflows. Used by 100,000+ builders.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492119.3744357,
+"full": "simstudioai/sim",
+"homepage": "https://www.sim.ai",
+"language": "TypeScript",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-23T23:02:13Z",
+"stack": [
+"Node.js"
+],
+"stars": 30194,
+"topics": [
+"agent-workflow",
+"agentic-workflow",
+"agents",
+"ai",
+"aiagents",
+"anthropic",
+"artificial-intelligence",
+"automation"
+],
+"url": "https://github.com/simstudioai/sim"
+},
+"skyvern-ai/skyvern": {
+"archived": false,
+"branch": "main",
+"commands": [
+"pip install \"skyvern[server]\"",
+"cp .env.example .env  # if not already created",
+"docker compose up -d",
+"uv sync --group dev",
+"uv run skyvern quickstart",
+"pip install --upgrade skyvern   # 1.0.32+ contains the fix",
+"uv pip install skyvern"
+],
+"description": "Automate browser based workflows with AI",
+"env": [
+"YOUR_API_KEY"
+],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795492768.6326966,
+"full": "Skyvern-AI/skyvern",
+"homepage": "https://www.skyvern.com",
+"language": "Python",
+"license": "AGPL-3.0",
+"ok": true,
+"pushed": "2026-11-24T03:45:46Z",
+"stack": [
+"Python",
+"Docker",
+"Docker Compose"
+],
+"stars": 23501,
+"topics": [
+"ai",
+"api",
+"automation",
+"browser",
+"browser-automation",
+"computer",
+"gpt",
+"llm"
+],
+"url": "https://github.com/Skyvern-AI/skyvern"
+},
+"souravberaakaspeed/xiryn": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npm run dev                    # or: npm run build && npm start",
+"npm run background              # starts Xiryn with no terminal or browser needed",
+"npm run background -- login     # …and whenever you log in to this computer",
+"npm run background -- stop      # stop it (status, restart and no-login work too)",
+"curl -fsSL https://raw.githubusercontent.com/SouravBeraAkaSpeed/xiryn/main/setup.sh | bash",
+"irm https://raw.githubusercontent.com/SouravBeraAkaSpeed/xiryn/main/setup.ps1 | iex",
+"curl -fsSL https://raw.githubusercontent.com/SouravBeraAkaSpeed/xiryn/main/setup.sh | bash -s -- --local",
+"npm install",
+"npm run setup     # checks Docker, builds the agents' desktop image, creates .env",
+"npm run dev"
+],
+"description": "Xiryn — the open-source personal agent. Does everything Muse, Grok Bot and Dots do, on your own computer: each agent gets its own Linux desktop in Docker, any model with your keys, an encrypted vault, and control from Telegram.",
+"env": [
+"ANTHROPIC_API_KEY",
+"CUSTOM_BASE_URL",
+"DEEPSEEK_API_KEY",
+"FIRECRAWL_API_KEY",
+"GROQ_API_KEY",
+"LMSTUDIO_BASE_URL",
+"MISTRAL_API_KEY",
+"OLLAMA_BASE_URL"
+],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795492771.7623823,
+"full": "SouravBeraAkaSpeed/xiryn",
+"homepage": "https://xiryn.com",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-02T14:07:52Z",
+"stack": [
+"Node.js",
+"Docker",
+"Docker Compose"
+],
+"stars": 441,
+"topics": [
+"ai-agents",
+"ai-sdk",
+"anthropic",
+"byok",
+"computer-use",
+"docker",
+"firecrawl",
+"llm"
+],
+"url": "https://github.com/SouravBeraAkaSpeed/xiryn"
+},
+"speedrunlab/reverse-engineer-anything-self-learning-loop": {
+"archived": false,
+"branch": "main",
+"commands": [
+"mkdir -p ~/.claude/skills",
+"mkdir -p ~/.openclaw/skills"
+],
+"description": "Agent skill: examine a product you're authorised to rebuild, build your own, then test against the original and fix gaps until every must-have on a written checklist passes. Inspired by REA (@morluto), not affiliated. MIT.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492590.1450567,
+"full": "Speedrunlab/reverse-engineer-anything-self-learning-loop",
+"homepage": "https://www.speedrunlab.ai/#reverse-engineer-anything-self-learning-loop",
+"language": null,
+"license": "MIT",
+"ok": true,
+"pushed": "2026-10-25T23:55:53Z",
+"stack": [],
+"stars": 153,
+"topics": [
+"agent-skills",
+"ai-agents",
+"claude-code",
+"claude-skills",
+"openclaw",
+"reverse-engineering",
+"self-improving-agents"
+],
+"url": "https://github.com/Speedrunlab/reverse-engineer-anything-self-learning-loop"
+},
+"starlinghq/starling": {
+"archived": false,
+"branch": "main",
+"commands": [
+"dotnet new console -o search && cd search",
+"dotnet add package Starlings.Models.E5.Extensions.AI",
+"dotnet add package Microsoft.ML.OnnxRuntime --version 1.30.0",
+"dotnet run",
+"dotnet test --solution ai-dotnet/AI.slnx",
+"python3 -I tools/check-boundary.py",
+"cd model-pipeline",
+"pip install -e '.[dev]'",
+"python3 -m pytest",
+"cd ai-dotnet/samples/LocalRag"
+],
+"description": "Local AI in .NET, with no Python sidecar and no API key: embeddings, entity extraction, image and video search and chat on ONNX Runtime (CPU/CUDA), through Microsoft.Extensions.AI.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492589.671393,
+"full": "starlinghq/starling",
+"homepage": "https://starling.rocks",
+"language": "C#",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-22T06:46:46Z",
+"stack": [
+"C#"
+],
+"stars": 232,
+"topics": [
+"ai",
+"csharp",
+"cuda",
+"dotnet",
+"embeddings",
+"gemma",
+"gliner",
+"llm"
+],
+"url": "https://github.com/starlinghq/starling"
+},
+"strelov1/freehire": {
+"archived": false,
+"branch": "main",
+"commands": [
+"make up        # build + start the whole stack in Docker:",
+"curl localhost:8080/health",
+"curl localhost:8080/api/v1/jobs",
+"git archive \"$applied_commit\" migrations | tar -x -C \"$baseline_dir\"",
+"go run ./cmd/migrate -baseline -dir \"$baseline_dir/migrations\"",
+"make migrate",
+"make help      # list all commands",
+"make sqlc      # regenerate code from SQL (via Docker, no local sqlc needed)",
+"make tidy      # go mod tidy",
+"make psql      # local psql at DATABASE_URL"
+],
+"description": "freehire — the open-source search engine for job seekers",
+"env": [
+"JWT_SECRET"
+],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795492117.5165374,
+"full": "strelov1/freehire",
+"homepage": "https://freehire.me",
+"language": "Go",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T03:36:37Z",
+"stack": [
+"Node.js",
+"Docker",
+"Docker Compose",
+"Go",
+"Make"
+],
+"stars": 3664,
+"topics": [
+"ats",
+"career",
+"careers",
+"golang",
+"hiring",
+"job-aggregator",
+"job-board",
+"job-portal"
+],
+"url": "https://github.com/strelov1/freehire"
+},
+"superhq-ai/shuru": {
+"archived": false,
+"branch": "main",
+"commands": [
+"brew tap superhq-ai/tap && brew install shuru",
+"curl -fsSL https://raw.githubusercontent.com/superhq-ai/shuru/main/install.sh | sh",
+"docker run --rm -p 8080:8080 nginxinc/nginx-unprivileged:1.31.7-alpine-slim",
+"curl http://127.0.0.1:8080/",
+"bun add @superhq/shuru",
+"npx skills add superhq-ai/shuru",
+"cp -r skills/shuru .claude/skills/shuru",
+"curl -s http://127.0.0.1:9222/json/version",
+"uv run --with browser-use --with openai examples/browser-use.py"
+],
+"description": "A local-first microVM sandbox for running AI agents safely on macOS & Linux",
+"env": [
+"API_KEY",
+"GH_TOKEN",
+"GITHUB_TOKEN",
+"OPENAI_API_KEY"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492591.4382038,
+"full": "superhq-ai/shuru",
+"homepage": "http://shuru.run/",
+"language": "Rust",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-15T16:53:19Z",
+"stack": [
+"Rust"
+],
+"stars": 902,
+"topics": [],
+"url": "https://github.com/superhq-ai/shuru"
+},
+"tsahospital-beep/wa-mcp": {
+"archived": false,
+"branch": "main",
+"commands": [
+"go build -C bridge -o ../wa-bridge ./cmd/wa-bridge",
+"cp config.example.json config.json",
+"./wa-bridge",
+"uvx --from wa-mcp-server==0.1.0 wa-mcp --help",
+"pipx install wa-mcp-server",
+"pipx inject --force wa-mcp-server 'wa-mcp-sdk[encryption,files]'",
+"claude mcp add wa-mcp-demo -- uvx wa-mcp-server --demo",
+"curl -H \"Authorization: Bearer $TOKEN\" \"http://127.0.0.1:8080/api/v1/messages?query=invoice&limit=5\""
+],
+"description": "WhatsApp MCP server for Claude, Cursor and other AI agents. Search, read and send WhatsApp messages, transcribe voice notes, read images and files. Local, encrypted, self-hosted.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492445.7710912,
+"full": "tsahospital-beep/wa-mcp",
+"homepage": "https://tsahospital-beep.github.io/wa-mcp/",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-23T20:49:06Z",
+"stack": [
+"Python"
+],
+"stars": 5,
+"topics": [
+"ai-agents",
+"ai-assistant",
+"automation",
+"claude",
+"claude-desktop",
+"cursor",
+"golang",
+"llm"
+],
+"url": "https://github.com/tsahospital-beep/wa-mcp"
+},
+"tubelabhq/youtube-research-skills": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npx skills add TubeLabHQ/youtube-research-skills",
+"claude plugin marketplace add TubeLabHQ/youtube-research-skills",
+"claude plugin install youtube-research@tubelab"
+],
+"description": "AI agent skills for YouTube research. Outlier videos, niche finding & validation, competitor research, comment mining, title formulas, thumbnail concepts, script breakdowns, monetization gaps & sponsor prospecting. Powered by TubeLab. Works with Claude Code, Cursor, Codex, ChatGPT, Grok.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492768.2961135,
+"full": "TubeLabHQ/youtube-research-skills",
+"homepage": "https://tubelab.net/youtube-mcp",
+"language": "JavaScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-21T03:52:37Z",
+"stack": [
+"Node.js"
+],
+"stars": 324,
+"topics": [
+"agent-skills",
+"ai-agents",
+"claude-code",
+"claude-skills",
+"codex",
+"codex-skill",
+"competitor-analysis",
+"content-marketing"
+],
+"url": "https://github.com/TubeLabHQ/youtube-research-skills"
+},
+"w01fb0ss/pibot": {
+"archived": false,
+"branch": "main",
+"commands": [
+"pnpm install",
+"pnpm dev        # start the desktop app in development"
+],
+"description": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492452.6396644,
+"full": "w01fb0ss/PiBot",
+"homepage": "https://pibot.space",
+"language": "TypeScript",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-23T17:08:53Z",
+"stack": [
+"Node.js"
+],
+"stars": 510,
+"topics": [
+"agent",
+"ai-agent",
+"ai-agents",
+"ai-assistant",
+"android",
+"automation",
+"chatgpt",
+"coding-agent"
+],
+"url": "https://github.com/w01fb0ss/PiBot"
+},
+"xinatian/mroffice": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npm install",
+"npm run fonts     # the open substitutes for Office's fonts",
+"npm run build",
+"npm run preview   # http://localhost:5178",
+"claude mcp add mroffice -- npx -y mroffice-mcp",
+"npm run desktop"
+],
+"description": "MR Office — the open-source editors of the AI office suite closest to Microsoft Office: documents, spreadsheets, presentations, PDF and code in the browser. Copilot in every editor edits real Word, Excel and PowerPoint files with you; an MCP server lets Claude, ChatGPT, Cursor and Codex create and edit them; embed it in your app with one line.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492769.8162022,
+"full": "XinaTian/MROffice",
+"homepage": "https://mroffice.ai",
+"language": "TypeScript",
+"license": "AGPL-3.0",
+"ok": true,
+"pushed": "2026-11-23T21:58:48Z",
+"stack": [
+"Node.js"
+],
+"stars": 2985,
+"topics": [
+"ai",
+"ai-agent",
+"claude-code",
+"codex",
+"copilot",
+"cursor",
+"document-editor",
+"docx"
+],
+"url": "https://github.com/XinaTian/MROffice"
+},
+"yjid/kensaku": {
+"archived": false,
+"branch": "master",
+"commands": [
+"curl -fsSL https://github.com/yjid/kensaku/releases/latest/download/install.sh | sh",
+"curl -fsSLO https://github.com/yjid/kensaku/releases/latest/download/install.sh",
+"bun install",
+"bun run tauri build"
+],
+"description": "Search inside documents, code, and even screenshots - instantly and locally. A free, open-source file launcher with OCR, semantic search, and MCP agent access.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492118.9862103,
+"full": "yjid/kensaku",
+"homepage": "",
+"language": "Rust",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T03:15:18Z",
+"stack": [
+"Node.js",
+"Make",
+"Rust"
+],
+"stars": 1909,
+"topics": [
+"ai-agents",
+"desktop",
+"desktop-search",
+"file-search",
+"full-text-search",
+"launcher",
+"local-first",
+"mcp"
+],
+"url": "https://github.com/yjid/kensaku"
+},
+"zeekk0/openamika": {
+"archived": false,
+"branch": "main",
+"commands": [
+".\\Start_OpenAmika.bat",
+"cd C:\\",
+"git fetch origin",
+"git show origin/main:scripts/update_openamika.ps1 > scripts\\update_once.ps1"
+],
+"description": "OpenAmika: MekaHime's AI companion Amika, open source. Live2D avatar, real-time voice, long-term memory, OpenRouter or Ollama brain.",
+"env": [
+"HERMES_API_KEY",
+"HF_TOKEN"
+],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795492448.7904356,
+"full": "zeekk0/OpenAmika",
+"homepage": "https://www.mekahime.com/openamika",
+"language": "Python",
+"license": "NOASSERTION",
+"ok": true,
+"pushed": "2026-11-21T09:23:13Z",
+"stack": [
+"Python"
+],
+"stars": 684,
+"topics": [
+"ai-companion",
+"live2d",
+"long-term-memory",
+"mekahime",
+"ollama",
+"openrouter",
+"speech-recognition",
+"text-to-speech"
+],
+"url": "https://github.com/zeekk0/OpenAmika"
+}
+}

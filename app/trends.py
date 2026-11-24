@@ -161,6 +161,28 @@ def cluster(items: list[Item]) -> list[dict]:
 TRENDS_FILE = settings.data_dir / "trends.json"
 
 
+def _enrich(kb: list[dict], topics: list[dict]) -> None:
+    """Русские заголовки/описания, репозиторий + «как собрать», картинки — для базы и для находок."""
+    from . import enrich
+    pseudo = []
+    for t in topics:
+        its = t.get("items") or [{}]
+        best = next((i for i in its if i.get("url") == t.get("url")), its[0])
+        pseudo.append({"id": t["id"], "title": t["title"], "url": t.get("url", ""), "summary": best.get("summary", ""),
+                       "source": best.get("source", ""), "extra": best.get("extra") or {}, "image": t.get("image", ""),
+                       "type": (t.get("practical") or {}).get("type"), "items": its})
+    try:
+        enrich.enrich(kb + pseudo)
+    except Exception as ex:  # noqa: BLE001 — сайт должен собраться даже без перевода
+        print(f"Обогащение не удалось: {ex}")
+        return
+    for t, p in zip(topics, pseudo):
+        for k in ("title_ru", "title_orig", "summary_ru", "repo", "repo_url", "build", "image"):
+            if p.get(k):
+                t[k] = p[k]
+        t["steps"] = __import__("app.practical", fromlist=["x"]).apply_steps({**p, **(t.get("practical") or {})}) if t.get("practical") else []
+
+
 def refresh() -> dict:
     from . import knowledge, practical
     items, status = collect_all()
@@ -173,6 +195,7 @@ def refresh() -> dict:
     topics = cluster(keep)[:60]
     kb, new = knowledge.merge([i.to_dict() for i in items])
     knowledge.enrich_with_llm(kb)
+    _enrich(kb, topics)
     knowledge.save(kb)
     data = {"updated": time.time(), "region": settings.region, "status": status, "topics": topics,
             "collected": len(items), "practical": len(keep), "kb_new": len(new), "kb_total": len(kb)}

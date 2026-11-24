@@ -69,7 +69,7 @@ def auto(minutes: int | None, publish: bool, max_minutes: int | None = None, top
     print(f"Тема: {topic['title']} (горячесть {topic['hotness']}, рекомендовано {topic['recommended_minutes']} мин)")
     job = {
         "id": time.strftime("%Y%m%d-%H%M%S-auto"), "created": time.time(), "status": "queued", "progress": 0,
-        "log": [], "topic": {k: topic[k] for k in ("id", "title", "query", "hotness", "sources", "recommended_minutes", "practical", "url") if k in topic},
+        "log": [], "topic": {k: topic[k] for k in ("id", "title", "query", "hotness", "sources", "recommended_minutes", "practical", "url", "title_ru", "repo_url") if k in topic},
         "minutes": minutes, "publish": publish, "channel": settings.telegram_channel,
         "tts_provider": settings.tts_provider, "voice": None,
     }

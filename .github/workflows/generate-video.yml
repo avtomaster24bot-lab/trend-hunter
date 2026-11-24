@@ -66,6 +66,9 @@ jobs:
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
           pip install -r requirements.txt
+      - name: Подготовить файл памяти тем
+        if: steps.check.outputs.skip != '1'
+        run: mkdir -p data && { [ -f data/posted.json ] || echo '{}' > data/posted.json; }
       - name: Память опубликованных тем
         if: steps.check.outputs.skip != '1'
         uses: actions/cache@v4

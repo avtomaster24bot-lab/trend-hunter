@@ -51,7 +51,7 @@ def create(topic: dict, minutes: int | None, publish: bool, channel: str | None 
     job = {
         "id": time.strftime("%Y%m%d-%H%M%S-") + uuid.uuid4().hex[:4],
         "created": time.time(), "status": "queued", "progress": 0, "log": [],
-        "topic": {k: topic[k] for k in ("id", "title", "query", "hotness", "sources", "recommended_minutes", "practical", "url") if k in topic},
+        "topic": {k: topic[k] for k in ("id", "title", "query", "hotness", "sources", "recommended_minutes", "practical", "url", "title_ru", "repo_url") if k in topic},
         "minutes": minutes, "publish": publish, "channel": channel or settings.telegram_channel,
         "tts_provider": tts_provider or settings.tts_provider, "voice": voice,
     }
@@ -123,6 +123,8 @@ def caption_for(job: dict) -> str:
     p = t.get("practical")
     if p:
         link = f"\n\n🔗 Источник: {escape(t.get('url', ''))}" if t.get("url") else ""
+        if t.get("repo_url") and t.get("repo_url") != t.get("url"):
+            link += f"\n💻 GitHub: {escape(t['repo_url'])}"
         return (f"🛠 <b>{title}</b>\n\nПрактичная ИИ-находка, которую можно повторить на своём ПК.\n"
                 f"Тип: {escape(p.get('type_ru', ''))} · Сложность: {escape(p.get('level', ''))} · Нужно: {escape(', '.join(p.get('needs', [])))}"
                 f"{link}\n\n#ии #агенты #автоматизация #машинадохода")

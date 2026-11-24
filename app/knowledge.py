@@ -123,7 +123,7 @@ def enrich_with_llm(entries: list[dict], limit: int = 40, log=print) -> int:
         prompt = ("Ты отбираешь ИИ-находки, которые обычный человек может применить на своём ПК, чтобы зарабатывать. "
                   "Для каждой верни JSON-массив объектов {\"n\": номер, \"useful\": true/false (false — новости про политику, "
                   "космос, корпорации, чистую науку), \"type\": \"case|agent|tool|guide|skill\", \"money\": \"высокий|средний|низкий\", "
-                  "\"summary_ru\": 2 предложения по-русски только по фактам из описания, \"steps\": [3-5 коротких шагов как повторить у себя]}. "
+                  "\"title_ru\": заголовок по-русски, \"summary_ru\": 2 предложения по-русски только по фактам из описания, \"steps\": [3-5 коротких шагов как повторить у себя]}. "
                   "Не выдумывай цифры дохода.\n\n" + listing)
         try:
             res = _json(_llm([{"role": "user", "content": prompt}], max_tokens=3000))
@@ -134,7 +134,7 @@ def enrich_with_llm(entries: list[dict], limit: int = 40, log=print) -> int:
                     e["score"] = min(e["score"], 20)
                 if r.get("type") in practical.TYPES:
                     e["type"], e["type_ru"] = r["type"], practical.TYPES[r["type"]]
-                for k in ("money", "summary_ru", "steps"):
+                for k in ("money", "title_ru", "summary_ru", "steps"):
                     if r.get(k):
                         e[k] = r[k]
                 done += 1

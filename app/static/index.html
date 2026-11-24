@@ -9,20 +9,23 @@
 </head>
 <body>
 <header class="top">
-  <div class="brand"><span class="flame">🔥</span> <b>Trend Hunter</b> <span class="muted">охотник за трендами</span></div>
+  <div class="brand"><span class="flame">🔥</span> <b>Trend Hunter</b> <span class="muted sub">охотник за трендами</span></div>
   <div class="actions">
     <span id="updated" class="muted"></span>
-    <a id="tg-link" class="btn ghost" target="_blank" rel="noopener" href="https://t.me/glush_io">📣 @glush_io</a>
-    <button id="refresh" class="btn ghost">↻ Обновить тренды</button>
+    <a id="tg-link" class="btn ghost small-m" target="_blank" rel="noopener" href="https://t.me/glush_io">📣 @glush_io</a>
+    <button id="refresh" class="btn ghost small-m">↻ Обновить тренды</button>
   </div>
 </header>
 
 <section class="hero">
-  <h1>Практичный ИИ, который можно <span class="accent">повторить у себя</span></h1>
+  <div class="hero-head"><h1>Практичный ИИ, который можно <span class="accent">повторить у себя</span></h1>
+  <button id="about-toggle" class="btn ghost small" type="button">ℹ️ О сайте</button></div>
+  <div class="about">
   <p>Ищу агентов, навыки, инструменты и реальные кейсы «собрал → заработал» на Hacker News, GitHub, Product Hunt, Хабре, vc.ru, dev.to, Medium и в новостях. Оцениваю, можно ли это запустить на своём ПК и есть ли потенциал дохода. Политику, космос и корпоративные новости отсеиваю. Всё полезное копится в «Базе знаний», а «Машина дохода» собирает из неё пошаговый план.</p>
   <p id="static-note" class="note" hidden>🌐 Версия на GitHub Pages: находки обновляются автоматически каждые 2 часа, база знаний пополняется и хранится в репозитории. Видео делаются в GitHub Actions и появляются во вкладке «Находки» справа.</p>
   <div id="keys" class="chips"></div>
   <div id="sources" class="chips small"></div>
+  </div>
 </section>
 
 <nav class="tabs">

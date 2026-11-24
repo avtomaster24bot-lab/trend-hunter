@@ -127,9 +127,10 @@ def _practical_script(topic: dict, research: dict, minutes: int, channel: str) -
     from .practical import apply_steps
     p = topic["practical"]
     target = minutes * settings.words_per_minute
-    title = topic["title"]
+    title = topic.get("title_ru") or topic["title"]
     src = ", ".join(topic.get("sources", [])[:3]) or "сеть"
-    ru_sents = []
+    ru_sents = [x for x in _SENT.split(_clean(topic.get("summary_ru", ""))) if 20 < len(x) < 350 and _is_ru(x)
+                and not x.startswith(("Зачем вам", "Чем полезно"))]
     for d in research["docs"]:
         for x in _SENT.split(_clean(d["text"])):
             x = _clean(x)
