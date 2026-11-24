@@ -1,6 +1,6 @@
 {
-"updated": 1795491501.1536455,
-"count": 272,
+"updated": 1795492691.7913058,
+"count": 281,
 "items": [
 {
 "id": "seed-larry",
@@ -56,7 +56,7 @@
 "type_ru": "кейс с доходом",
 "source": "seed",
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "summary": "",
 "extra": {},
 "image": ""
@@ -83,7 +83,7 @@
 "type_ru": "агент",
 "source": "seed",
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "steps": [
 "Источник: https://github.com/avtomaster24bot-lab/trend-hunter",
 "Разберитесь, какую работу делает агент и какие инструменты ему нужны.",
@@ -128,7 +128,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 100,
 "type": "agent",
 "type_ru": "агент",
@@ -160,7 +160,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kac689527b075",
@@ -194,7 +194,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 96,
 "type": "guide",
 "type_ru": "гайд",
@@ -224,7 +224,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k766733a92d81",
@@ -273,7 +273,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 92,
 "type": "agent",
 "type_ru": "агент",
@@ -304,7 +304,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "seed-openclaw",
@@ -327,7 +327,7 @@
 "type_ru": "агент",
 "source": "seed",
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "steps": [
 "Источник: https://github.com/openclaw/openclaw",
 "Разберитесь, какую работу делает агент и какие инструменты ему нужны.",
@@ -338,6 +338,73 @@
 "summary": "",
 "extra": {},
 "image": ""
+},
+{
+"id": "k4340c1ddffbb",
+"title": "Shipyard guide: how to read a shipyard plan line by line before you approve a launch",
+"url": "https://dev.to/sugukavi/shipyard-guide-how-to-read-a-shipyard-plan-line-by-line-before-you-approve-a-launch-1gmb",
+"source": "devto",
+"source_label": "dev.to",
+"summary": "Part 2 of a short Shipyard series. Independent notes, based on the official site, pricing page, and launch materials; not affiliated with Shipyard's makers. Part 1 covered the flow and the money design; this one is the review itself. Links to my free cheat sheet and starter pack are at the end. The plan is the contract. Run shipyard plan , Shipyard (the local CLI + MCP server at shipyardmcp.com, for Claude Code, Cursor, and Codex) lists everything that will be created, on which provider, at what cost — before anything exists. shipyard apply then executes that list in sixteen ordered, idempoten",
+"image": "",
+"published": 1795492469.0,
+"popularity": 18,
+"extra": {
+"practical": {
+"score": 92,
+"type": "guide",
+"type_ru": "гайд",
+"level": "средний",
+"needs": [
+"ПК",
+"API-ключ",
+"локальная модель"
+],
+"money": "низкий",
+"is_ai": true,
+"penalty": 0,
+"signals": [
+"agent",
+"money",
+"tool",
+"guide",
+"local"
+]
+}
+},
+"first_seen": 1795492691.1117947,
+"last_seen": 1795492691.1117947,
+"score": 92,
+"type": "guide",
+"type_ru": "гайд",
+"level": "средний",
+"needs": [
+"ПК",
+"API-ключ",
+"локальная модель"
+],
+"money": "низкий",
+"signals": [
+"agent",
+"money",
+"tool",
+"guide",
+"local"
+],
+"tags": [
+"agent",
+"money",
+"tool",
+"guide",
+"local"
+],
+"summary_ru": "Гайд из dev.to. Описание (англ.): Part 2 of a short Shipyard series. Independent notes, based on the official site, pricing page, and launch materials; not affiliated with Shipyard's makers. Part 1 covered the flow and the money design; this one is the review itself. Links to my free cheat sheet and starter pack ",
+"steps": [
+"Источник: https://dev.to/sugukavi/shipyard-guide-how-to-read-a-shipyard-plan-line-by-line-before-you-approve-a-launch-1gmb",
+"Прочитайте материал целиком и сохраните ключевые команды/промпты.",
+"Повторите шаги на своём ПК в отдельной папке.",
+"Запишите, что получилось, и добавьте в свою «машину дохода»."
+]
 },
 {
 "id": "kb64807361911",
@@ -371,7 +438,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 90,
 "type": "agent",
 "type_ru": "агент",
@@ -401,7 +468,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "seed-larryskill",
@@ -425,7 +492,7 @@
 "type_ru": "навык",
 "source": "seed",
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "steps": [
 "Источник: https://github.com/OllieWazza/LarrySkill",
 "Откройте описание навыка (SKILL.md): что он умеет и какие ключи просит.",
@@ -527,7 +594,7 @@
 "type_ru": "инструмент",
 "source": "seed",
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "summary": "",
 "extra": {},
 "image": ""
@@ -558,7 +625,7 @@
 "type_ru": "инструмент",
 "source": "seed",
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "summary": "",
 "extra": {},
 "image": ""
@@ -610,7 +677,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 83,
 "type": "agent",
 "type_ru": "агент",
@@ -640,7 +707,8 @@
 "Установите зависимости по README (обычно pip/npm/docker) и запустите пример.",
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
-]
+],
+"seen_count": 2
 },
 {
 "id": "kfed933cb6f1b",
@@ -674,7 +742,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 82,
 "type": "guide",
 "type_ru": "гайд",
@@ -703,7 +771,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k826d6bc212f4",
@@ -753,7 +821,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 80,
 "type": "agent",
 "type_ru": "агент",
@@ -785,7 +853,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "seed-postiz",
@@ -808,7 +876,7 @@
 "type_ru": "инструмент",
 "source": "seed",
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "steps": [
 "Источник: https://github.com/gitroomhq/postiz-app",
 "Откройте страницу инструмента, проверьте цену/лицензию и требования к ПК.",
@@ -852,7 +920,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 80,
 "type": "agent",
 "type_ru": "агент",
@@ -883,7 +951,8 @@
 "Поставьте агентную среду на ПК (OpenClaw / Claude Code / n8n с AI-узлами).",
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
-]
+],
+"seen_count": 2
 },
 {
 "id": "k54181fe2b072",
@@ -974,7 +1043,7 @@
 "type_ru": "гайд",
 "source": "seed",
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "steps": [
 "Источник: https://telegram.org/blog/monetization-for-channels",
 "Прочитайте материал целиком и сохраните ключевые команды/промпты.",
@@ -1020,7 +1089,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 77,
 "type": "agent",
 "type_ru": "агент",
@@ -1050,7 +1119,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k6832ad8c189b",
@@ -1098,7 +1167,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 76,
 "type": "agent",
 "type_ru": "агент",
@@ -1127,7 +1196,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k17c334b37f4b",
@@ -1175,7 +1244,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 76,
 "type": "agent",
 "type_ru": "агент",
@@ -1204,7 +1273,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k168ca4d3c9f0",
@@ -1252,7 +1321,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 76,
 "type": "agent",
 "type_ru": "агент",
@@ -1281,7 +1350,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k4835633d8e37",
@@ -1329,7 +1398,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 75,
 "type": "agent",
 "type_ru": "агент",
@@ -1359,7 +1428,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "seed-comfyui",
@@ -1384,7 +1453,7 @@
 "type_ru": "инструмент",
 "source": "seed",
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "steps": [
 "Источник: https://github.com/comfyanonymous/ComfyUI",
 "Откройте страницу инструмента, проверьте цену/лицензию и требования к ПК.",
@@ -1430,7 +1499,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 74,
 "type": "agent",
 "type_ru": "агент",
@@ -1460,7 +1529,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k04416fcbb91d",
@@ -1471,9 +1540,9 @@
 "summary": "Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own.",
 "image": "https://opengraph.githubassets.com/1/simplexai-labs/linger",
 "published": 1795456194.0,
-"popularity": 1126.850912032044,
+"popularity": 1127.0981098186257,
 "extra": {
-"stars": 4215,
+"stars": 4218,
 "language": "TypeScript",
 "topics": [
 "agent-teams",
@@ -1506,7 +1575,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 74,
 "type": "agent",
 "type_ru": "агент",
@@ -1535,7 +1604,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k9cd71a2a815c",
@@ -1548,7 +1617,7 @@
 "published": 1795373922.0,
 "popularity": 951.9996230946356,
 "extra": {
-"stars": 4995,
+"stars": 4996,
 "language": "Python",
 "topics": [
 "ai-agent",
@@ -1583,7 +1652,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 74,
 "type": "agent",
 "type_ru": "агент",
@@ -1612,7 +1681,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kfa2f32fcb32a",
@@ -1625,7 +1694,7 @@
 "published": 1795453733.0,
 "popularity": 313.13861589731243,
 "extra": {
-"stars": 509,
+"stars": 510,
 "language": "TypeScript",
 "topics": [
 "agent",
@@ -1660,7 +1729,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 74,
 "type": "agent",
 "type_ru": "агент",
@@ -1689,7 +1758,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kcbc3a9dad62c",
@@ -1700,9 +1769,9 @@
 "summary": "Paste a link, get the whole marketing machine behind it: paid ads, organic social, SEO, Reddit, founders, funnel — evidence-cited. CLI, MCP server and a local web app that uses your Claude Code or Codex plan.",
 "image": "https://opengraph.githubassets.com/1/dansugc/reverse-engineer-marketing",
 "published": 1792351614.0,
-"popularity": 178.8205503100765,
+"popularity": 178.9456342082642,
 "extra": {
-"stars": 1081,
+"stars": 1082,
 "language": "TypeScript",
 "topics": [
 "ad-library",
@@ -1737,7 +1806,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 74,
 "type": "agent",
 "type_ru": "агент",
@@ -1766,7 +1835,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kd8a1da860812",
@@ -1814,7 +1883,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 74,
 "type": "agent",
 "type_ru": "агент",
@@ -1843,7 +1912,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k05a24e574d5d",
@@ -1887,7 +1956,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 74,
 "type": "skill",
 "type_ru": "навык",
@@ -1912,7 +1981,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k7a66ed415b91",
@@ -2034,7 +2103,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 74,
 "type": "agent",
 "type_ru": "агент",
@@ -2062,7 +2131,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k9725e4d242b7",
@@ -2162,7 +2231,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 74,
 "type": "agent",
 "type_ru": "агент",
@@ -2191,7 +2260,8 @@
 "Поставьте агентную среду на ПК (OpenClaw / Claude Code / n8n с AI-узлами).",
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
-]
+],
+"seen_count": 2
 },
 {
 "id": "k73c2af33c348",
@@ -2226,7 +2296,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 73,
 "type": "guide",
 "type_ru": "гайд",
@@ -2256,7 +2326,8 @@
 "Прочитайте материал целиком и сохраните ключевые команды/промпты.",
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
-]
+],
+"seen_count": 2
 },
 {
 "id": "ka68bf3fe502d",
@@ -2303,7 +2374,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 72,
 "type": "skill",
 "type_ru": "навык",
@@ -2331,7 +2402,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k62ec004a1649",
@@ -2377,7 +2448,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 72,
 "type": "agent",
 "type_ru": "агент",
@@ -2405,7 +2476,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "ke55b2a25f80a",
@@ -2439,7 +2510,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 72,
 "type": "guide",
 "type_ru": "гайд",
@@ -2467,7 +2538,8 @@
 "Прочитайте материал целиком и сохраните ключевые команды/промпты.",
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
-]
+],
+"seen_count": 2
 },
 {
 "id": "kbd63fd9a8438",
@@ -2499,7 +2571,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795456890.3770094,
+"last_seen": 1795492691.1117947,
 "score": 71,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -2526,7 +2598,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 4
+"seen_count": 5
 },
 {
 "id": "kf66d23ee15a0",
@@ -2615,7 +2687,7 @@
 "type_ru": "инструмент",
 "source": "seed",
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "steps": [
 "Источник: https://github.com/open-webui/open-webui",
 "Откройте страницу инструмента, проверьте цену/лицензию и требования к ПК.",
@@ -2721,7 +2793,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 68,
 "type": "agent",
 "type_ru": "агент",
@@ -2749,7 +2821,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k574a92ef702c",
@@ -2785,7 +2857,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 68,
 "type": "agent",
 "type_ru": "агент",
@@ -2813,7 +2885,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "ke4cea8ae2ade",
@@ -2849,7 +2921,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 68,
 "type": "agent",
 "type_ru": "агент",
@@ -2877,7 +2949,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kd04cd1386201",
@@ -2912,7 +2984,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 68,
 "type": "agent",
 "type_ru": "агент",
@@ -2944,7 +3016,66 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
+},
+{
+"id": "k8a58cc21f2d0",
+"title": "Show HN: Inbox Envoy, an open-source email triage skill for your own AI agent",
+"url": "https://dev.to/clydecorreya/show-hn-inbox-envoy-an-open-source-email-triage-skill-for-your-own-ai-agent-1oie",
+"source": "devto",
+"source_label": "dev.to",
+"summary": "Show HN: Inbox Envoy, an open-source email triage skill for your own AI agent Why It Matters We’ve spent the last few years training LLMs to read context, but we’ve largely ignored the most chaotic context of all: the inbox. Most current implementations treat email as a read-only data source, requiring humans to curate what the model sees. This project flips that dynamic by treating the inbox as a live, mutable workspace where an agent can actively filter, organize, and even research senders before the spam hits your primary view. The \"skill\" architecture here is interesting because it decoupl",
+"image": "",
+"published": 1795492085.0,
+"popularity": 20,
+"extra": {
+"practical": {
+"score": 68,
+"type": "skill",
+"type_ru": "навык",
+"level": "продвинутый",
+"needs": [
+"ПК"
+],
+"money": "низкий",
+"is_ai": true,
+"penalty": 0,
+"signals": [
+"agent",
+"build",
+"tool"
+]
+}
+},
+"first_seen": 1795492691.1117947,
+"last_seen": 1795492691.1117947,
+"score": 68,
+"type": "skill",
+"type_ru": "навык",
+"level": "продвинутый",
+"needs": [
+"ПК"
+],
+"money": "низкий",
+"signals": [
+"agent",
+"build",
+"tool"
+],
+"tags": [
+"agent",
+"build",
+"tool"
+],
+"summary_ru": "Навык из dev.to. Описание (англ.): Show HN: Inbox Envoy, an open-source email triage skill for your own AI agent Why It Matters We’ve spent the last few years training LLMs to read context, but we’ve largely ignored the most chaotic context of all: the inbox. Most current implementations treat email as a read-only",
+"steps": [
+"Источник: https://dev.to/clydecorreya/show-hn-inbox-envoy-an-open-source-email-triage-skill-for-your-own-ai-agent-1oie",
+"Откройте описание навыка (SKILL.md): что он умеет и какие ключи просит.",
+"Установите агента (OpenClaw, Claude Code или аналог) на свой ПК.",
+"Подключите навык и проверьте его в песочнице — навыки могут хранить ключи.",
+"Встройте навык в свой конвейер (контент, продажи, аналитика)."
+],
+"seen_count": 2
 },
 {
 "id": "k0c7f0924e41e",
@@ -2980,7 +3111,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 67,
 "type": "agent",
 "type_ru": "агент",
@@ -3012,7 +3143,8 @@
 "Поставьте агентную среду на ПК (OpenClaw / Claude Code / n8n с AI-узлами).",
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
-]
+],
+"seen_count": 2
 },
 {
 "id": "kae41d3a864c7",
@@ -3049,7 +3181,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 66,
 "type": "agent",
 "type_ru": "агент",
@@ -3080,7 +3212,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k443adc3514fd",
@@ -3114,7 +3246,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 66,
 "type": "agent",
 "type_ru": "агент",
@@ -3144,7 +3276,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k39185b46ef82",
@@ -3192,7 +3324,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 66,
 "type": "agent",
 "type_ru": "агент",
@@ -3220,7 +3352,8 @@
 "Установите зависимости по README (обычно pip/npm/docker) и запустите пример.",
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
-]
+],
+"seen_count": 2
 },
 {
 "id": "keca9fe30fbd7",
@@ -3252,7 +3385,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 66,
 "type": "guide",
 "type_ru": "гайд",
@@ -3277,7 +3410,8 @@
 "Прочитайте материал целиком и сохраните ключевые команды/промпты.",
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
-]
+],
+"seen_count": 2
 },
 {
 "id": "k704f5ffd3639",
@@ -3313,7 +3447,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 65,
 "type": "agent",
 "type_ru": "агент",
@@ -3343,7 +3477,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k70012a46304a",
@@ -3418,7 +3552,7 @@
 "published": 1795456009.0,
 "popularity": 1095.5695741508157,
 "extra": {
-"stars": 2315,
+"stars": 2321,
 "language": "Python",
 "topics": [
 "ai-video-clipper",
@@ -3452,7 +3586,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 64,
 "type": "tool",
 "type_ru": "инструмент",
@@ -3480,7 +3614,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kd4877bfe3fa6",
@@ -3513,7 +3647,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 64,
 "type": "tool",
 "type_ru": "инструмент",
@@ -3540,7 +3674,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 3
+"seen_count": 4
 },
 {
 "id": "k7c91f09f40a4",
@@ -3572,7 +3706,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 64,
 "type": "guide",
 "type_ru": "гайд",
@@ -3598,7 +3732,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k679afcc84bdc",
@@ -3630,7 +3764,7 @@
 }
 },
 "first_seen": 1795456619.7540383,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 64,
 "type": "agent",
 "type_ru": "агент",
@@ -3656,7 +3790,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 2
+"seen_count": 3
 },
 {
 "id": "kdd53600f2b7c",
@@ -3717,6 +3851,69 @@
 "seen_count": 2
 },
 {
+"id": "k0b6f2491b5fd",
+"title": "How to use Yoroll Code: your first one-button timing game, designed on paper first",
+"url": "https://dev.to/sugukavi/how-to-use-yoroll-code-your-first-one-button-timing-game-designed-on-paper-first-511i",
+"source": "devto",
+"source_label": "dev.to",
+"summary": "Second in a short Yoroll series. Notes from Yoroll Code's official documentation (LinearGame). Independent write-up; not affiliated with Yoroll. Free cheat sheet and the full starter pack are linked at the end. Last time I wrote about Yoroll Agent, the branching-film side of Yoroll, and the consequence ledger that keeps its choices honest. Yoroll's other creator tool gets less attention: Yoroll Code (code.yoroll.ai), which turns a written description into a standalone HTML5 mini game — no engine, no build pipeline. The official guidance for Code is short and unusually practical. Here's the wor",
+"image": "",
+"published": 1795492557.0,
+"popularity": 19,
+"extra": {
+"practical": {
+"score": 64,
+"type": "guide",
+"type_ru": "гайд",
+"level": "средний",
+"needs": [
+"ПК"
+],
+"money": "средний",
+"is_ai": true,
+"penalty": 1,
+"signals": [
+"agent",
+"money",
+"tool",
+"guide",
+"automation"
+]
+}
+},
+"first_seen": 1795492691.1117947,
+"last_seen": 1795492691.1117947,
+"score": 64,
+"type": "guide",
+"type_ru": "гайд",
+"level": "средний",
+"needs": [
+"ПК"
+],
+"money": "средний",
+"signals": [
+"agent",
+"money",
+"tool",
+"guide",
+"automation"
+],
+"tags": [
+"agent",
+"money",
+"tool",
+"guide",
+"automation"
+],
+"summary_ru": "Гайд из dev.to. Описание (англ.): Second in a short Yoroll series. Notes from Yoroll Code's official documentation (LinearGame). Independent write-up; not affiliated with Yoroll. Free cheat sheet and the full starter pack are linked at the end. Last time I wrote about Yoroll Agent, the branching-film side of Yoro",
+"steps": [
+"Источник: https://dev.to/sugukavi/how-to-use-yoroll-code-your-first-one-button-timing-game-designed-on-paper-first-511i",
+"Прочитайте материал целиком и сохраните ключевые команды/промпты.",
+"Повторите шаги на своём ПК в отдельной папке.",
+"Запишите, что получилось, и добавьте в свою «машину дохода»."
+]
+},
+{
 "id": "k1f7e85355653",
 "title": "SouravBeraAkaSpeed/xiryn: Xiryn — the open-source personal agent. Does everything Muse, Grok Bot and Dots do, on your own computer: each agent gets its own Linux desktop in Docker, any m",
 "url": "https://github.com/SouravBeraAkaSpeed/xiryn",
@@ -3761,7 +3958,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 63,
 "type": "agent",
 "type_ru": "агент",
@@ -3789,7 +3986,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k8993515736cd",
@@ -3885,7 +4082,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 63,
 "type": "tool",
 "type_ru": "инструмент",
@@ -3912,7 +4109,8 @@
 "Откройте страницу инструмента, проверьте цену/лицензию и требования к ПК.",
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
-]
+],
+"seen_count": 2
 },
 {
 "id": "kdf63b55734d1",
@@ -4003,7 +4201,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 61,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -4032,7 +4230,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k28fba976f120",
@@ -4068,7 +4266,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 60,
 "type": "agent",
 "type_ru": "агент",
@@ -4096,7 +4294,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k3334c5e3a84e",
@@ -4144,7 +4342,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 60,
 "type": "agent",
 "type_ru": "агент",
@@ -4172,7 +4370,8 @@
 "Установите зависимости по README (обычно pip/npm/docker) и запустите пример.",
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
-]
+],
+"seen_count": 2
 },
 {
 "id": "k8b2dbe06478c",
@@ -4206,7 +4405,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 59,
 "type": "guide",
 "type_ru": "гайд",
@@ -4234,7 +4433,8 @@
 "Прочитайте материал целиком и сохраните ключевые команды/промпты.",
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
-]
+],
+"seen_count": 2
 },
 {
 "id": "k7e6f71856462",
@@ -4278,7 +4478,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 58,
 "type": "skill",
 "type_ru": "навык",
@@ -4304,7 +4504,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k4658db6ac58a",
@@ -4351,7 +4551,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 58,
 "type": "agent",
 "type_ru": "агент",
@@ -4378,7 +4578,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k0ca7764fc911",
@@ -4412,7 +4612,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 58,
 "type": "agent",
 "type_ru": "агент",
@@ -4442,7 +4642,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k714fa2fc7b56",
@@ -4475,7 +4675,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 58,
 "type": "agent",
 "type_ru": "агент",
@@ -4503,7 +4703,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k31ac00267a4b",
@@ -4537,7 +4737,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 58,
 "type": "guide",
 "type_ru": "гайд",
@@ -4566,7 +4766,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k671bc35689fe",
@@ -4612,7 +4812,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 56,
 "type": "agent",
 "type_ru": "агент",
@@ -4638,7 +4838,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kcf61b38e7cfd",
@@ -4684,7 +4884,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 56,
 "type": "skill",
 "type_ru": "навык",
@@ -4710,7 +4910,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k493c9332df1a",
@@ -4753,7 +4953,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 56,
 "type": "agent",
 "type_ru": "агент",
@@ -4779,7 +4979,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "ke460fa0cd1a7",
@@ -4825,7 +5025,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 56,
 "type": "skill",
 "type_ru": "навык",
@@ -4851,7 +5051,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k29ef0c442db7",
@@ -4897,7 +5097,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 56,
 "type": "agent",
 "type_ru": "агент",
@@ -4923,7 +5123,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kc140ea2c12d4",
@@ -4967,7 +5167,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 56,
 "type": "skill",
 "type_ru": "навык",
@@ -4992,7 +5192,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "ke9ca3323511a",
@@ -5025,7 +5225,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 56,
 "type": "guide",
 "type_ru": "гайд",
@@ -5052,7 +5252,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "ke7561d889d4a",
@@ -5203,7 +5403,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 55,
 "type": "agent",
 "type_ru": "агент",
@@ -5231,7 +5431,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "keab60e4a7097",
@@ -5267,7 +5467,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 54,
 "type": "tool",
 "type_ru": "инструмент",
@@ -5295,7 +5495,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 130
+"seen_count": 156
 },
 {
 "id": "kbbeb344a414f",
@@ -5308,7 +5508,7 @@
 "published": 1795450047.0,
 "popularity": 1390.561735361938,
 "extra": {
-"stars": 7083,
+"stars": 7097,
 "language": "JavaScript",
 "topics": [
 "agent-harness",
@@ -5341,7 +5541,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -5367,7 +5567,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k453ece08289c",
@@ -5413,7 +5613,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -5439,7 +5639,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k7a99fad4d911",
@@ -5452,7 +5652,7 @@
 "published": 1795307414.0,
 "popularity": 895.322731948305,
 "extra": {
-"stars": 5650,
+"stars": 5651,
 "language": "Python",
 "topics": [
 "ai-agents",
@@ -5484,7 +5684,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -5510,7 +5710,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kf108c01b4376",
@@ -5521,9 +5721,9 @@
 "summary": "MR Office — the open-source editors of the AI office suite closest to Microsoft Office: documents, spreadsheets, presentations, PDF and code in the browser. Copilot in every editor edits real Word, Excel and PowerPoint files with you; an MCP server lets Claude, ChatGPT, Cursor and Codex create and edit them; embed it in your app with one line.",
 "image": "https://opengraph.githubassets.com/1/XinaTian/MROffice",
 "published": 1795448635.0,
-"popularity": 811.7179944240819,
+"popularity": 814.8497794359515,
 "extra": {
-"stars": 2972,
+"stars": 2985,
 "language": "TypeScript",
 "topics": [
 "ai",
@@ -5556,7 +5756,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -5582,7 +5782,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k1b13df93a3b5",
@@ -5628,7 +5828,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -5654,7 +5854,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "ke4d45553d2da",
@@ -5700,7 +5900,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -5726,7 +5926,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k64f180f60a68",
@@ -5772,7 +5972,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -5798,7 +5998,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kc6d97fcd6237",
@@ -5809,9 +6009,9 @@
 "summary": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs.",
 "image": "https://opengraph.githubassets.com/1/INK-Q/agy-fast",
 "published": 1795449902.0,
-"popularity": 362.4873034955161,
+"popularity": 363.7795166572257,
 "extra": {
-"stars": 806,
+"stars": 810,
 "language": "TypeScript",
 "topics": [
 "ai-agent",
@@ -5844,7 +6044,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -5870,7 +6070,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k634ce9361ca8",
@@ -5917,7 +6117,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -5944,7 +6144,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k87e69f2cb31a",
@@ -5990,7 +6190,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -6016,7 +6216,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kb4f8ab8ca9bc",
@@ -6061,7 +6261,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 54,
 "type": "skill",
 "type_ru": "навык",
@@ -6086,7 +6286,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k7534f9715693",
@@ -6132,7 +6332,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -6158,7 +6358,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kb5b2b6c71216",
@@ -6169,9 +6369,9 @@
 "summary": "Open-source design agent: on-brand stills, decks, diagrams, charts and motion graphics from a chat thread, built on Deep Agents.",
 "image": "https://opengraph.githubassets.com/1/langchain-ai/design-agent",
 "published": 1795418134.0,
-"popularity": 116.4674524371229,
+"popularity": 116.61020920669296,
 "extra": {
-"stars": 708,
+"stars": 709,
 "language": "JavaScript",
 "topics": [
 "agent",
@@ -6204,7 +6404,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -6230,7 +6430,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k096ede7aa364",
@@ -6275,7 +6475,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -6301,7 +6501,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k584e3bfe59ea",
@@ -6347,7 +6547,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -6373,7 +6573,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k44dfcc4fed58",
@@ -6419,7 +6619,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -6445,7 +6645,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kb0f955ca3a15",
@@ -6491,7 +6691,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -6517,7 +6717,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kd275e2e53e11",
@@ -6549,7 +6749,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795456619.7540383,
+"last_seen": 1795492691.1117947,
 "score": 54,
 "type": "guide",
 "type_ru": "гайд",
@@ -6575,7 +6775,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 3
+"seen_count": 4
 },
 {
 "id": "kc3ce4eac1994",
@@ -6608,7 +6808,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 54,
 "type": "guide",
 "type_ru": "гайд",
@@ -6635,7 +6835,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k3338a9e451dc",
@@ -6725,7 +6925,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 54,
 "type": "tool",
 "type_ru": "инструмент",
@@ -6750,7 +6950,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kc0adf39b4e6d",
@@ -6782,7 +6982,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 54,
 "type": "guide",
 "type_ru": "гайд",
@@ -6808,7 +7008,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "ka75e6d72a3a6",
@@ -6841,7 +7041,7 @@
 }
 },
 "first_seen": 1795456494.8166344,
-"last_seen": 1795456890.3770094,
+"last_seen": 1795492691.1117947,
 "score": 54,
 "type": "guide",
 "type_ru": "гайд",
@@ -6868,7 +7068,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 2
+"seen_count": 3
 },
 {
 "id": "kc383246b502a",
@@ -6901,7 +7101,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 54,
 "type": "guide",
 "type_ru": "гайд",
@@ -6927,7 +7127,8 @@
 "Прочитайте материал целиком и сохраните ключевые команды/промпты.",
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
-]
+],
+"seen_count": 2
 },
 {
 "id": "kd90b6a7aa5be",
@@ -6960,7 +7161,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 54,
 "type": "tool",
 "type_ru": "инструмент",
@@ -6986,7 +7187,8 @@
 "Откройте страницу инструмента, проверьте цену/лицензию и требования к ПК.",
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
-]
+],
+"seen_count": 2
 },
 {
 "id": "k50cd4e10e5d9",
@@ -7080,7 +7282,7 @@
 "stars": 561
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 52,
 "type": "agent",
 "type_ru": "агент",
@@ -7110,7 +7312,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 10
+"seen_count": 12
 },
 {
 "id": "k86a86effe80f",
@@ -7147,7 +7349,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 52,
 "type": "agent",
 "type_ru": "агент",
@@ -7177,7 +7379,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "ka099573d69f7",
@@ -7210,7 +7412,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 52,
 "type": "agent",
 "type_ru": "агент",
@@ -7238,7 +7440,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k8d4d5e534d30",
@@ -7270,7 +7472,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 52,
 "type": "agent",
 "type_ru": "агент",
@@ -7296,7 +7498,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k54743721cb57",
@@ -7328,7 +7530,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 52,
 "type": "agent",
 "type_ru": "агент",
@@ -7354,7 +7556,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "ka1b72dd45d72",
@@ -7386,7 +7588,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 52,
 "type": "agent",
 "type_ru": "агент",
@@ -7412,7 +7614,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k063eb36ff898",
@@ -7443,7 +7645,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 51,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -7468,7 +7670,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kc78a103ce17d",
@@ -7501,7 +7703,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 50,
 "type": "agent",
 "type_ru": "агент",
@@ -7529,7 +7731,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kb7c892fbbad5",
@@ -7623,7 +7825,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 49,
 "type": "agent",
 "type_ru": "агент",
@@ -7650,7 +7852,8 @@
 "Поставьте агентную среду на ПК (OpenClaw / Claude Code / n8n с AI-узлами).",
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
-]
+],
+"seen_count": 2
 },
 {
 "id": "kdb945f85fe58",
@@ -7685,7 +7888,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 48,
 "type": "tool",
 "type_ru": "инструмент",
@@ -7711,7 +7914,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kee2ae5360d9f",
@@ -7748,7 +7951,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 48,
 "type": "agent",
 "type_ru": "агент",
@@ -7777,7 +7980,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k618dd8484ff5",
@@ -7788,9 +7991,9 @@
 "summary": "Render Anything Engine: tell your AI what to make. Videos, motion graphics, 3D and games as React and TypeScript, rendered on your own GPU. Rust + Bevy, macOS, Linux and Windows.",
 "image": "https://opengraph.githubassets.com/1/shinyobjectz/raea",
 "published": 1795407573.0,
-"popularity": 783.7074382524504,
+"popularity": 784.3877252715188,
 "extra": {
-"stars": 4728,
+"stars": 4733,
 "language": "TypeScript",
 "topics": [
 "3d",
@@ -7823,7 +8026,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 48,
 "type": "tool",
 "type_ru": "инструмент",
@@ -7849,7 +8052,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k0e2b719c6a0c",
@@ -7862,7 +8065,7 @@
 "published": 1795170613.0,
 "popularity": 354.87484489764165,
 "extra": {
-"stars": 2235,
+"stars": 2236,
 "language": "Python",
 "topics": [
 "agent-skills",
@@ -7893,7 +8096,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 48,
 "type": "skill",
 "type_ru": "навык",
@@ -7920,7 +8123,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k2b82300792ae",
@@ -7951,7 +8154,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 48,
 "type": "guide",
 "type_ru": "гайд",
@@ -7975,7 +8178,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k910792e5c8b9",
@@ -8066,7 +8269,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 48,
 "type": "agent",
 "type_ru": "агент",
@@ -8094,7 +8297,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k927151bc71cb",
@@ -8128,7 +8331,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 48,
 "type": "agent",
 "type_ru": "агент",
@@ -8156,7 +8359,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k656b8c35da5b",
@@ -8187,7 +8390,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 48,
 "type": "guide",
 "type_ru": "гайд",
@@ -8211,7 +8414,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "ka9ebfaab62ef",
@@ -8242,7 +8445,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 48,
 "type": "guide",
 "type_ru": "гайд",
@@ -8266,7 +8469,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 7
+"seen_count": 8
 },
 {
 "id": "k36b7250e6552",
@@ -8297,7 +8500,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 48,
 "type": "guide",
 "type_ru": "гайд",
@@ -8321,7 +8524,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k75db2d5d95f2",
@@ -8408,7 +8611,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 48,
 "type": "guide",
 "type_ru": "гайд",
@@ -8432,7 +8635,8 @@
 "Прочитайте материал целиком и сохраните ключевые команды/промпты.",
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
-]
+],
+"seen_count": 2
 },
 {
 "id": "k4d918b7c1318",
@@ -8465,7 +8669,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 48,
 "type": "agent",
 "type_ru": "агент",
@@ -8492,7 +8696,8 @@
 "Поставьте агентную среду на ПК (OpenClaw / Claude Code / n8n с AI-узлами).",
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
-]
+],
+"seen_count": 2
 },
 {
 "id": "kbe1cd9e23d6f",
@@ -8580,7 +8785,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 47,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -8607,7 +8812,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k79f84019ee2a",
@@ -8639,7 +8844,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 47,
 "type": "guide",
 "type_ru": "гайд",
@@ -8665,7 +8870,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k103c09de6e19",
@@ -8755,7 +8960,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 47,
 "type": "guide",
 "type_ru": "гайд",
@@ -8781,7 +8986,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 2
+"seen_count": 5
 },
 {
 "id": "k523814c6873c",
@@ -8815,7 +9020,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 46,
 "type": "tool",
 "type_ru": "инструмент",
@@ -8841,7 +9046,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kc691287e764a",
@@ -8876,7 +9081,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 46,
 "type": "agent",
 "type_ru": "агент",
@@ -8902,7 +9107,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k4dad4f737603",
@@ -8937,7 +9142,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 46,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -8964,7 +9169,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kfda665fc5e07",
@@ -9000,7 +9205,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 46,
 "type": "tool",
 "type_ru": "инструмент",
@@ -9027,7 +9232,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k8d3605baa8e6",
@@ -9073,7 +9278,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 46,
 "type": "skill",
 "type_ru": "навык",
@@ -9099,7 +9304,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kb157259053e8",
@@ -9184,7 +9389,7 @@
 "published": 1795276892.0,
 "popularity": 198.40048047998926,
 "extra": {
-"stars": 855,
+"stars": 857,
 "language": "JavaScript",
 "topics": [
 "ai-agent",
@@ -9216,7 +9421,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 46,
 "type": "tool",
 "type_ru": "инструмент",
@@ -9241,7 +9446,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k3f7e04de3686",
@@ -9287,7 +9492,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 46,
 "type": "tool",
 "type_ru": "инструмент",
@@ -9313,7 +9518,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kc2a61c5449b3",
@@ -9359,7 +9564,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 46,
 "type": "tool",
 "type_ru": "инструмент",
@@ -9385,7 +9590,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k8d0bb6b253b0",
@@ -9432,7 +9637,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 46,
 "type": "tool",
 "type_ru": "инструмент",
@@ -9459,7 +9664,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k0cf13ad35183",
@@ -9505,7 +9710,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 46,
 "type": "agent",
 "type_ru": "агент",
@@ -9531,7 +9736,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k7752ad3fbffe",
@@ -9577,7 +9782,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 46,
 "type": "tool",
 "type_ru": "инструмент",
@@ -9603,7 +9808,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k41191123d5c4",
@@ -9651,7 +9856,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 46,
 "type": "tool",
 "type_ru": "инструмент",
@@ -9679,7 +9884,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k5097a80ec51d",
@@ -9710,7 +9915,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 46,
 "type": "guide",
 "type_ru": "гайд",
@@ -9734,7 +9939,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 10
+"seen_count": 12
 },
 {
 "id": "keb47db9b2087",
@@ -9767,7 +9972,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 46,
 "type": "agent",
 "type_ru": "агент",
@@ -9795,7 +10000,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kde94e8091ed5",
@@ -9827,7 +10032,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795456619.7540383,
+"last_seen": 1795492691.1117947,
 "score": 46,
 "type": "agent",
 "type_ru": "агент",
@@ -9853,7 +10058,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 3
+"seen_count": 4
 },
 {
 "id": "k0648a4259b07",
@@ -9886,7 +10091,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795456619.7540383,
+"last_seen": 1795492691.1117947,
 "score": 46,
 "type": "agent",
 "type_ru": "агент",
@@ -9914,7 +10119,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 3
+"seen_count": 4
 },
 {
 "id": "k838e9eb48b49",
@@ -10122,7 +10327,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 46,
 "type": "agent",
 "type_ru": "агент",
@@ -10148,7 +10353,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k553ba57fa6c5",
@@ -10180,7 +10385,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 46,
 "type": "agent",
 "type_ru": "агент",
@@ -10206,7 +10411,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k7ba55766912f",
@@ -10369,7 +10574,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 46,
 "type": "tool",
 "type_ru": "инструмент",
@@ -10395,6 +10600,67 @@
 "Установите зависимости по README (обычно pip/npm/docker) и запустите пример.",
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
+],
+"seen_count": 2
+},
+{
+"id": "k0be60fe16b0d",
+"title": "A developer gave Spark 4B a tour of its own toolbox",
+"url": "https://dev.to/sparkllm/a-developer-gave-spark-4b-a-tour-of-its-own-toolbox-2nmi",
+"source": "devto",
+"source_label": "dev.to",
+"summary": "HanZGammeL1337 had low expectations for a 4B model. Then they put Spark-X2.6-4B GGUF inside Ariadne, their C++ agent harness, and watched it inspect the tools available on the host. The first item in the plan was to probe the live environment. The terminal lists the Ariadne binary, the mazemaker CLI and a local Podman container. The run then assembled a small showcase in /tmp/harness-showcase . Its README mapped the capabilities, run.sh listed seven demonstration steps, and run-report.md recorded their output. One detail worth zooming in on: the skill catalogue lists 378 entries, but the repor",
+"image": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjiyyxcwb476mpp0q2mnq.png",
+"published": 1795491312.0,
+"popularity": 17,
+"extra": {
+"practical": {
+"score": 46,
+"type": "skill",
+"type_ru": "навык",
+"level": "продвинутый",
+"needs": [
+"ПК",
+"локальная модель"
+],
+"money": "низкий",
+"is_ai": true,
+"penalty": 0,
+"signals": [
+"agent",
+"tool",
+"local"
+]
+}
+},
+"first_seen": 1795492691.1117947,
+"last_seen": 1795492691.1117947,
+"score": 46,
+"type": "skill",
+"type_ru": "навык",
+"level": "продвинутый",
+"needs": [
+"ПК",
+"локальная модель"
+],
+"money": "низкий",
+"signals": [
+"agent",
+"tool",
+"local"
+],
+"tags": [
+"agent",
+"tool",
+"local"
+],
+"summary_ru": "Навык из dev.to. Описание (англ.): HanZGammeL1337 had low expectations for a 4B model. Then they put Spark-X2.6-4B GGUF inside Ariadne, their C++ agent harness, and watched it inspect the tools available on the host. The first item in the plan was to probe the live environment. The terminal lists the Ariadne binar",
+"steps": [
+"Источник: https://dev.to/sparkllm/a-developer-gave-spark-4b-a-tour-of-its-own-toolbox-2nmi",
+"Откройте описание навыка (SKILL.md): что он умеет и какие ключи просит.",
+"Установите агента (OpenClaw, Claude Code или аналог) на свой ПК.",
+"Подключите навык и проверьте его в песочнице — навыки могут хранить ключи.",
+"Встройте навык в свой конвейер (контент, продажи, аналитика)."
 ]
 },
 {
@@ -10427,7 +10693,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 45,
 "type": "tool",
 "type_ru": "инструмент",
@@ -10453,7 +10719,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k17c90a7bb0e6",
@@ -10491,7 +10757,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 44,
 "type": "agent",
 "type_ru": "агент",
@@ -10522,7 +10788,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kef29ed304837",
@@ -10557,7 +10823,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 44,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -10584,7 +10850,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k2c696f5ac5b6",
@@ -10620,7 +10886,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 44,
 "type": "agent",
 "type_ru": "агент",
@@ -10648,7 +10914,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k2f80f8ae66a1",
@@ -10679,7 +10945,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 44,
 "type": "tool",
 "type_ru": "инструмент",
@@ -10703,7 +10969,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k9927a6231c53",
@@ -10734,7 +11000,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 44,
 "type": "guide",
 "type_ru": "гайд",
@@ -10758,7 +11024,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kb80bfa6fe81b",
@@ -10790,7 +11056,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 44,
 "type": "tool",
 "type_ru": "инструмент",
@@ -10815,7 +11081,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k19196aa2d829",
@@ -11085,7 +11351,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 44,
 "type": "tool",
 "type_ru": "инструмент",
@@ -11110,7 +11376,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "ka38670b78fa2",
@@ -11141,7 +11407,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795456890.3770094,
+"last_seen": 1795492691.1117947,
 "score": 44,
 "type": "tool",
 "type_ru": "инструмент",
@@ -11165,7 +11431,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 4
+"seen_count": 5
 },
 {
 "id": "k5e64ec10eeee",
@@ -11197,7 +11463,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 44,
 "type": "tool",
 "type_ru": "инструмент",
@@ -11222,7 +11488,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "ka60a2b304d2b",
@@ -11253,7 +11519,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 44,
 "type": "tool",
 "type_ru": "инструмент",
@@ -11276,7 +11542,8 @@
 "Откройте страницу инструмента, проверьте цену/лицензию и требования к ПК.",
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
-]
+],
+"seen_count": 2
 },
 {
 "id": "kc0eb2136baf4",
@@ -11364,7 +11631,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 44,
 "type": "tool",
 "type_ru": "инструмент",
@@ -11389,7 +11656,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 2
+"seen_count": 3
 },
 {
 "id": "k44b107c7f043",
@@ -11421,7 +11688,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 44,
 "type": "tool",
 "type_ru": "инструмент",
@@ -11446,7 +11713,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 2
+"seen_count": 3
 },
 {
 "id": "ke579e54a58c8",
@@ -11478,7 +11745,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 44,
 "type": "tool",
 "type_ru": "инструмент",
@@ -11503,7 +11770,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 2
+"seen_count": 3
 },
 {
 "id": "kd8cc1a3513e6",
@@ -11535,7 +11802,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 44,
 "type": "tool",
 "type_ru": "инструмент",
@@ -11560,7 +11827,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 2
+"seen_count": 3
 },
 {
 "id": "kb5e08de89bdb",
@@ -11592,7 +11859,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 44,
 "type": "tool",
 "type_ru": "инструмент",
@@ -11617,7 +11884,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 2
+"seen_count": 3
 },
 {
 "id": "kfd90115d18e1",
@@ -11649,7 +11916,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 44,
 "type": "tool",
 "type_ru": "инструмент",
@@ -11673,7 +11940,8 @@
 "Откройте страницу инструмента, проверьте цену/лицензию и требования к ПК.",
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
-]
+],
+"seen_count": 2
 },
 {
 "id": "k45805324cca9",
@@ -11852,7 +12120,7 @@
 "summary": "Claude Code Exposed 1,379 Secrets on GitHub [2026] shattered.io",
 "image": "",
 "published": 1794729600.0,
-"popularity": 4,
+"popularity": 7,
 "extra": {
 "practical": {
 "score": 44,
@@ -11873,7 +12141,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 44,
 "type": "tool",
 "type_ru": "инструмент",
@@ -11894,6 +12162,122 @@
 "summary_ru": "Инструмент из Google News. Описание (англ.): Claude Code Exposed 1,379 Secrets on GitHub [2026] shattered.io",
 "steps": [
 "Источник: https://news.google.com/rss/articles/CBMihAFBVV95cUxQVVhzY2w1OVNNV3ZkTmxGRkVodWFZSmkwT0F5aWFKb3I1MmVkWGh0bnR6YUdvTXJ4WHNDSFRzT0R0NnotdklMYXhXY21tMjRSd1M1eFlXOFR4ZFUxRTZxSUJQVUhTTzNrbXRMaWEydVp4Z0RqdWtiYmVkSWdGTFFXSjRRY0E?oc=5",
+"Откройте страницу инструмента, проверьте цену/лицензию и требования к ПК.",
+"Установите и повторите пример из документации.",
+"Решите им одну свою задачу и встройте в конвейер."
+],
+"seen_count": 2
+},
+{
+"id": "k05042800555c",
+"title": "Best AEO Tools 2026: Prices, Engines & Free Tiers Compared",
+"url": "https://dev.to/aidy029/best-aeo-tools-2026-prices-engines-free-tiers-compared-47e0",
+"source": "devto",
+"source_label": "dev.to",
+"summary": "AEO tools answer one question: do AI answers mention, recommend and cite your brand? The five tools below are the ones buyers shortlist most often in 2026. This is a condensed version of the full evidence-based comparison — prices and limits are from each vendor's public pricing page as published in November 2026. At a glance Tool Entry price Free tier / trial Engines on entry plan Prompt allowance AEOTools $0 free · Pro $19/mo Free forever; diagnostics need no account OpenAI, Claude, DeepSeek, Perplexity, Gemini (sampling) Pro: 600 hosted AI calls/mo; Free: bring your own key Otterly From $29",
+"image": "",
+"published": 1795491951.0,
+"popularity": 9,
+"extra": {
+"practical": {
+"score": 44,
+"type": "tool",
+"type_ru": "инструмент",
+"level": "средний",
+"needs": [
+"ПК",
+"API-ключ"
+],
+"money": "средний",
+"is_ai": true,
+"penalty": 0,
+"signals": [
+"money",
+"tool",
+"local"
+]
+}
+},
+"first_seen": 1795492691.1117947,
+"last_seen": 1795492691.1117947,
+"score": 44,
+"type": "tool",
+"type_ru": "инструмент",
+"level": "средний",
+"needs": [
+"ПК",
+"API-ключ"
+],
+"money": "средний",
+"signals": [
+"money",
+"tool",
+"local"
+],
+"tags": [
+"money",
+"tool",
+"local"
+],
+"summary_ru": "Инструмент из dev.to. Описание (англ.): AEO tools answer one question: do AI answers mention, recommend and cite your brand? The five tools below are the ones buyers shortlist most often in 2026. This is a condensed version of the full evidence-based comparison — prices and limits are from each vendor's public pricing ",
+"steps": [
+"Источник: https://dev.to/aidy029/best-aeo-tools-2026-prices-engines-free-tiers-compared-47e0",
+"Откройте страницу инструмента, проверьте цену/лицензию и требования к ПК.",
+"Установите и повторите пример из документации.",
+"Решите им одну свою задачу и встройте в конвейер."
+]
+},
+{
+"id": "k1fbe1b884f2b",
+"title": "Test a voice AI agent for wrong-machine answers before you add a microphone",
+"url": "https://dev.to/matintellect/test-a-voice-ai-agent-for-wrong-machine-answers-before-you-add-a-microphone-pfm",
+"source": "devto",
+"source_label": "dev.to",
+"summary": "Ask a voice AI agent how much disk space is left on your server. It says \"42 GiB free.\" That can be a perfectly accurate number from the wrong machine. If you're adding voice to an internal tool, the first test I'd pick is one you can already check without an agent: can it read from the right machine and admit when that read failed? The example uses Python 3.12 and the standard library. It starts where the agent hands a structured request to your code. A fake disk reader supplies the result, so you can test which target was selected and what the caller gets back without SSH, API keys or a micr",
+"image": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fi4ne6elcb27xayu3li66.jpg",
+"published": 1795491656.0,
+"popularity": 19,
+"extra": {
+"practical": {
+"score": 44,
+"type": "tool",
+"type_ru": "инструмент",
+"level": "средний",
+"needs": [
+"ПК",
+"API-ключ"
+],
+"money": "низкий",
+"is_ai": true,
+"penalty": 0,
+"signals": [
+"agent",
+"tool"
+]
+}
+},
+"first_seen": 1795492691.1117947,
+"last_seen": 1795492691.1117947,
+"score": 44,
+"type": "tool",
+"type_ru": "инструмент",
+"level": "средний",
+"needs": [
+"ПК",
+"API-ключ"
+],
+"money": "низкий",
+"signals": [
+"agent",
+"tool"
+],
+"tags": [
+"agent",
+"tool"
+],
+"summary_ru": "Инструмент из dev.to. Описание (англ.): Ask a voice AI agent how much disk space is left on your server. It says \"42 GiB free.\" That can be a perfectly accurate number from the wrong machine. If you're adding voice to an internal tool, the first test I'd pick is one you can already check without an agent: can it read f",
+"steps": [
+"Источник: https://dev.to/matintellect/test-a-voice-ai-agent-for-wrong-machine-answers-before-you-add-a-microphone-pfm",
 "Откройте страницу инструмента, проверьте цену/лицензию и требования к ПК.",
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
@@ -11932,7 +12316,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 42,
 "type": "agent",
 "type_ru": "агент",
@@ -11960,7 +12344,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k0d4582d00fed",
@@ -11994,7 +12378,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 42,
 "type": "skill",
 "type_ru": "навык",
@@ -12021,7 +12405,7 @@
 "Подключите навык и проверьте его в песочнице — навыки могут хранить ключи.",
 "Встройте навык в свой конвейер (контент, продажи, аналитика)."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k0b16de2e8475",
@@ -12053,7 +12437,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 42,
 "type": "guide",
 "type_ru": "гайд",
@@ -12079,7 +12463,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "ke247cfa33b5f",
@@ -12170,7 +12554,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 42,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -12197,7 +12581,64 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 2
+"seen_count": 4
+},
+{
+"id": "kfeab1b6f1fd6",
+"title": "How Generative AI is Transforming QA in 2026",
+"url": "https://dev.to/sandeep_jainforyou/how-generative-ai-is-transforming-qa-in-2026-3k83",
+"source": "devto",
+"source_label": "dev.to",
+"summary": "Software Quality Assurance (QA) is undergoing its biggest transformation since the rise of test automation. In 2026, Generative AI (GenAI) has evolved from an experimental technology into a core component of modern Quality Engineering practices. Organizations are no longer asking whether AI should be used in testing; they are focused on how to maximize its value while maintaining reliability, security, and governance. From automatically generating test cases and automation scripts to predictive defect analysis and autonomous test execution, Generative AI is reshaping every phase of the Softwar",
+"image": "",
+"published": 1795491215.0,
+"popularity": 18,
+"extra": {
+"practical": {
+"score": 42,
+"type": "guide",
+"type_ru": "гайд",
+"level": "средний",
+"needs": [
+"ПК"
+],
+"money": "средний",
+"is_ai": true,
+"penalty": 0,
+"signals": [
+"agent",
+"guide",
+"automation"
+]
+}
+},
+"first_seen": 1795492691.1117947,
+"last_seen": 1795492691.1117947,
+"score": 42,
+"type": "guide",
+"type_ru": "гайд",
+"level": "средний",
+"needs": [
+"ПК"
+],
+"money": "средний",
+"signals": [
+"agent",
+"guide",
+"automation"
+],
+"tags": [
+"agent",
+"guide",
+"automation"
+],
+"summary_ru": "Гайд из dev.to. Описание (англ.): Software Quality Assurance (QA) is undergoing its biggest transformation since the rise of test automation. In 2026, Generative AI (GenAI) has evolved from an experimental technology into a core component of modern Quality Engineering practices. Organizations are no longer asking",
+"steps": [
+"Источник: https://dev.to/sandeep_jainforyou/how-generative-ai-is-transforming-qa-in-2026-3k83",
+"Прочитайте материал целиком и сохраните ключевые команды/промпты.",
+"Повторите шаги на своём ПК в отдельной папке.",
+"Запишите, что получилось, и добавьте в свою «машину дохода»."
+]
 },
 {
 "id": "k9f6e7e2529e1",
@@ -12231,7 +12672,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 40,
 "type": "agent",
 "type_ru": "агент",
@@ -12257,7 +12698,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "ke7f91d1f1506",
@@ -12292,7 +12733,7 @@
 "stars": 148
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 40,
 "type": "agent",
 "type_ru": "агент",
@@ -12318,7 +12759,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 10
+"seen_count": 12
 },
 {
 "id": "ke75f919bd6bd",
@@ -12353,7 +12794,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 40,
 "type": "agent",
 "type_ru": "агент",
@@ -12379,7 +12820,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kc8c62815d916",
@@ -12414,7 +12855,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 40,
 "type": "agent",
 "type_ru": "агент",
@@ -12440,7 +12881,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kfccfd0660b37",
@@ -12486,7 +12927,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 40,
 "type": "agent",
 "type_ru": "агент",
@@ -12512,7 +12953,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k48cab7046956",
@@ -12544,7 +12985,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 40,
 "type": "tool",
 "type_ru": "инструмент",
@@ -12570,7 +13011,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kded331d747af",
@@ -12602,7 +13043,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 40,
 "type": "guide",
 "type_ru": "гайд",
@@ -12627,7 +13068,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kc7051c052d03",
@@ -12638,9 +13079,9 @@
 "summary": "Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 13 languages. USB or paired Wi-Fi. No cloud required.",
 "image": "https://opengraph.githubassets.com/1/ersinkoc/phonebox",
 "published": 1795456275.0,
-"popularity": 1359.3709098483935,
+"popularity": 1360.773467818846,
 "extra": {
-"stars": 5514,
+"stars": 5522,
 "language": "JavaScript",
 "topics": [
 "android",
@@ -12672,7 +13113,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 39,
 "type": "guide",
 "type_ru": "гайд",
@@ -12697,7 +13138,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k6dcc1fc57a8c",
@@ -12789,7 +13230,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -12815,7 +13256,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kb2695ee0d230",
@@ -12828,7 +13269,7 @@
 "published": 1795448846.0,
 "popularity": 2045.9579092047243,
 "extra": {
-"stars": 3213,
+"stars": 3226,
 "language": "Rust",
 "topics": [
 "agent-skills",
@@ -12860,7 +13301,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -12884,7 +13325,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k5fef01b40ba8",
@@ -12897,7 +13338,7 @@
 "published": 1795426947.0,
 "popularity": 1945.466096164187,
 "extra": {
-"stars": 9794,
+"stars": 9795,
 "language": "Kotlin",
 "topics": [
 "accessibility",
@@ -12929,7 +13370,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -12953,7 +13394,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k60b66ddaeca4",
@@ -12966,7 +13407,7 @@
 "published": 1794559419.0,
 "popularity": 1791.5023825013636,
 "extra": {
-"stars": 8909,
+"stars": 8912,
 "language": "JavaScript",
 "topics": [
 "agent-skills",
@@ -12998,7 +13439,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 38,
 "type": "skill",
 "type_ru": "навык",
@@ -13022,7 +13463,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k3d2fd9f4456a",
@@ -13035,7 +13476,7 @@
 "published": 1795396416.0,
 "popularity": 1413.556423107916,
 "extra": {
-"stars": 6414,
+"stars": 6415,
 "language": "TypeScript",
 "topics": [
 "ai-agents",
@@ -13067,7 +13508,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -13091,7 +13532,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k28ff4c07eea6",
@@ -13104,7 +13545,7 @@
 "published": 1795142208.0,
 "popularity": 1242.095573601356,
 "extra": {
-"stars": 8036,
+"stars": 8037,
 "language": "Python",
 "topics": [
 "agentic-ai",
@@ -13136,7 +13577,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -13160,7 +13601,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kd0ddfd6a69dc",
@@ -13171,9 +13612,9 @@
 "summary": "See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.",
 "image": "https://opengraph.githubassets.com/1/haydenschmitty/floorplan",
 "published": 1794848279.0,
-"popularity": 1232.9133040697443,
+"popularity": 1232.9864594916546,
 "extra": {
-"stars": 6483,
+"stars": 6485,
 "language": "JavaScript",
 "topics": [
 "ai-coding",
@@ -13205,7 +13646,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -13229,7 +13670,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k8a4698e1bac8",
@@ -13242,7 +13683,7 @@
 "published": 1795456266.0,
 "popularity": 1063.9014296692144,
 "extra": {
-"stars": 4975,
+"stars": 4978,
 "language": "Rust",
 "topics": [
 "ai-agents",
@@ -13274,7 +13715,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -13298,7 +13739,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k805c9c93d99e",
@@ -13311,7 +13752,7 @@
 "published": 1795437851.0,
 "popularity": 657.2135806384213,
 "extra": {
-"stars": 2723,
+"stars": 2721,
 "language": "Go",
 "topics": [
 "ai-agent",
@@ -13343,7 +13784,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -13367,7 +13808,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k3364ffae3d70",
@@ -13411,7 +13852,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 38,
 "type": "skill",
 "type_ru": "навык",
@@ -13434,7 +13875,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k97a5839a88b9",
@@ -13445,9 +13886,9 @@
 "summary": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
 "image": "https://opengraph.githubassets.com/1/alchaincyf/huashu-motion",
 "published": 1795414080.0,
-"popularity": 512.8088014434594,
+"popularity": 512.8775736997623,
 "extra": {
-"stars": 3104,
+"stars": 3105,
 "language": "JavaScript",
 "topics": [
 "agent-skills",
@@ -13479,7 +13920,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -13503,7 +13944,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k88f2fb889771",
@@ -13514,9 +13955,9 @@
 "summary": "AI 短剧 · 漫剧 Skill（技能包）精选：剧本、改编、分镜、Seedance / 可灵 / MiniMax 视频提示词，千问、豆包、龙虾 OpenClaw、WorkBuddy、Claude Code、Codex 等智能体可用 | Curated agent skills for AI short drama, micro drama / microdrama, vertical drama and manju (AI comic drama): screenwriting, storyboards, Seedance / Kling / MiniMax video prompts",
 "image": "https://opengraph.githubassets.com/1/UnderleveledBuilder/awesome-short-drama-skills",
 "published": 1795454206.0,
-"popularity": 434.483616340424,
+"popularity": 434.56673360421024,
 "extra": {
-"stars": 2792,
+"stars": 2793,
 "language": "HTML",
 "topics": [
 "agent-skills",
@@ -13548,7 +13989,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 38,
 "type": "skill",
 "type_ru": "навык",
@@ -13572,7 +14013,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kff6dc143bb80",
@@ -13616,7 +14057,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 38,
 "type": "skill",
 "type_ru": "навык",
@@ -13639,7 +14080,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k361fc6cefaa7",
@@ -13684,7 +14125,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -13708,7 +14149,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kacb303677d4b",
@@ -13719,9 +14160,9 @@
 "summary": "AI 跨境电商运营智能体工具箱 · 把运营 SOP 拆成 7 个可复用的 AI Agent 工作流，含 Prompt、模板与真实案例",
 "image": "https://opengraph.githubassets.com/1/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
 "published": 1792306088.0,
-"popularity": 220.2942692671428,
+"popularity": 220.72226435266475,
 "extra": {
-"stars": 1423,
+"stars": 1426,
 "language": "Python",
 "topics": [
 "ai-agents",
@@ -13753,7 +14194,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -13777,7 +14218,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k46f9097f72a7",
@@ -13788,9 +14229,9 @@
 "summary": "Timon is an Agentic Workstation who let you orchestrates all your AI agents in the same place",
 "image": "https://opengraph.githubassets.com/1/ai-timon/timon",
 "published": 1795454044.0,
-"popularity": 174.4135862705649,
+"popularity": 174.58415096067858,
 "extra": {
-"stars": 728,
+"stars": 729,
 "language": "TypeScript",
 "topics": [
 "ai-agents",
@@ -13822,7 +14263,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -13846,7 +14287,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kfe79c89bb8bf",
@@ -13891,7 +14332,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -13915,7 +14356,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k99f6ef478dc5",
@@ -13960,7 +14401,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -13984,7 +14425,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k68bba9c4f93c",
@@ -14029,7 +14470,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -14053,7 +14494,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "ke2f6263ad177",
@@ -14098,7 +14539,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -14122,7 +14563,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k82acbb7508a7",
@@ -14167,7 +14608,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -14191,7 +14632,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k05487b05b57a",
@@ -14305,7 +14746,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 38,
 "type": "skill",
 "type_ru": "навык",
@@ -14329,7 +14770,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "ka5020bbc7554",
@@ -14360,7 +14801,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 38,
 "type": "guide",
 "type_ru": "гайд",
@@ -14384,7 +14825,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k7794a049125d",
@@ -14416,7 +14857,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 38,
 "type": "guide",
 "type_ru": "гайд",
@@ -14441,7 +14882,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k7057767ec928",
@@ -14472,7 +14913,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795456619.7540383,
+"last_seen": 1795492691.1117947,
 "score": 38,
 "type": "guide",
 "type_ru": "гайд",
@@ -14496,7 +14937,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 3
+"seen_count": 4
 },
 {
 "id": "k2e0c3316cf4e",
@@ -14528,7 +14969,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 38,
 "type": "tool",
 "type_ru": "инструмент",
@@ -14554,7 +14995,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k35494f0e646a",
@@ -14585,7 +15026,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 38,
 "type": "guide",
 "type_ru": "гайд",
@@ -14609,7 +15050,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k87f41eace42c",
@@ -14640,7 +15081,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 38,
 "type": "guide",
 "type_ru": "гайд",
@@ -14664,7 +15105,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kd824a9e66072",
@@ -14697,7 +15138,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 38,
 "type": "guide",
 "type_ru": "гайд",
@@ -14724,7 +15165,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 9
+"seen_count": 10
 },
 {
 "id": "k7dce3ed9137e",
@@ -14755,7 +15196,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 38,
 "type": "guide",
 "type_ru": "гайд",
@@ -14779,7 +15220,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kbff73f48844d",
@@ -14810,7 +15251,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 38,
 "type": "guide",
 "type_ru": "гайд",
@@ -14834,7 +15275,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k14d5c0aee3e0",
@@ -15008,6 +15449,118 @@
 ]
 },
 {
+"id": "kf09463092375",
+"title": "Make Claude Code Plan Before It Codes: One Prompt That Kills the \"Confident but Wrong\" First Draft",
+"url": "https://dev.to/kuruaaa/make-claude-code-plan-before-it-codes-one-prompt-that-kills-the-confident-but-wrong-first-draft-4iao",
+"source": "devto",
+"source_label": "dev.to",
+"summary": "The most expensive AI coding failure isn't bad code. It's confidently wrong code — a full implementation of the wrong thing, delivered fast, that you now have to review, reject, and re-explain. The fix is boring and it works: make the agent plan first, and make it ask instead of assume. Here is the exact prompt I use, in full: Do not write code yet. Enter plan mode: explore [FEATURE_AREA], then give me a step-by-step plan for [GOAL] with files to change, risks, and tests to run. Flag anything ambiguous as a question instead of assuming. Wait for my approval before implementing. Why each line e",
+"image": "",
+"published": 1795492331.0,
+"popularity": 16,
+"extra": {
+"practical": {
+"score": 38,
+"type": "guide",
+"type_ru": "гайд",
+"level": "средний",
+"needs": [
+"ПК",
+"API-ключ"
+],
+"money": "низкий",
+"is_ai": true,
+"penalty": 0,
+"signals": [
+"agent",
+"guide"
+]
+}
+},
+"first_seen": 1795492691.1117947,
+"last_seen": 1795492691.1117947,
+"score": 38,
+"type": "guide",
+"type_ru": "гайд",
+"level": "средний",
+"needs": [
+"ПК",
+"API-ключ"
+],
+"money": "низкий",
+"signals": [
+"agent",
+"guide"
+],
+"tags": [
+"agent",
+"guide"
+],
+"summary_ru": "Гайд из dev.to. Описание (англ.): The most expensive AI coding failure isn't bad code. It's confidently wrong code — a full implementation of the wrong thing, delivered fast, that you now have to review, reject, and re-explain. The fix is boring and it works: make the agent plan first, and make it ask instead of ",
+"steps": [
+"Источник: https://dev.to/kuruaaa/make-claude-code-plan-before-it-codes-one-prompt-that-kills-the-confident-but-wrong-first-draft-4iao",
+"Прочитайте материал целиком и сохраните ключевые команды/промпты.",
+"Повторите шаги на своём ПК в отдельной папке.",
+"Запишите, что получилось, и добавьте в свою «машину дохода»."
+]
+},
+{
+"id": "ke26dd23a0174",
+"title": "Audit Any Repo in One Pass: The Claude Code Prompt I Run Before Touching a Codebase",
+"url": "https://dev.to/kuruaaa/audit-any-repo-in-one-pass-the-claude-code-prompt-i-run-before-touching-a-codebase-6n1",
+"source": "devto",
+"source_label": "dev.to",
+"summary": "Every codebase has a map in someone's head — and it's usually out of date. The README says one thing. The actual repo does another. There's a 2,000-line file everyone is afraid to touch, a test suite that quietly skips the payment module, and TODOs from two years ago that mention the word \"security.\" Before I change anything in a repo — mine or someone else's — I run one audit prompt in Claude Code. It changes nothing. It just reports. Here it is in full: Audit this repo and change nothing. Report: 1) How to run it - install, dev, test, build - with every command verified against the repo, 2) ",
+"image": "",
+"published": 1795492252.0,
+"popularity": 13,
+"extra": {
+"practical": {
+"score": 38,
+"type": "guide",
+"type_ru": "гайд",
+"level": "средний",
+"needs": [
+"ПК",
+"API-ключ"
+],
+"money": "низкий",
+"is_ai": true,
+"penalty": 0,
+"signals": [
+"agent",
+"guide"
+]
+}
+},
+"first_seen": 1795492691.1117947,
+"last_seen": 1795492691.1117947,
+"score": 38,
+"type": "guide",
+"type_ru": "гайд",
+"level": "средний",
+"needs": [
+"ПК",
+"API-ключ"
+],
+"money": "низкий",
+"signals": [
+"agent",
+"guide"
+],
+"tags": [
+"agent",
+"guide"
+],
+"summary_ru": "Гайд из dev.to. Описание (англ.): Every codebase has a map in someone's head — and it's usually out of date. The README says one thing. The actual repo does another. There's a 2,000-line file everyone is afraid to touch, a test suite that quietly skips the payment module, and TODOs from two years ago that mention",
+"steps": [
+"Источник: https://dev.to/kuruaaa/audit-any-repo-in-one-pass-the-claude-code-prompt-i-run-before-touching-a-codebase-6n1",
+"Прочитайте материал целиком и сохраните ключевые команды/промпты.",
+"Повторите шаги на своём ПК в отдельной папке.",
+"Запишите, что получилось, и добавьте в свою «машину дохода»."
+]
+},
+{
 "id": "k7063a7415e5e",
 "title": "Claude Code regularly sends each background agent’s transcript to its model",
 "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
@@ -15039,7 +15592,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 37,
 "type": "agent",
 "type_ru": "агент",
@@ -15065,7 +15618,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k7be1726450e9",
@@ -15101,7 +15654,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 37,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -15130,7 +15683,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k6af43f019f11",
@@ -15165,7 +15718,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 37,
 "type": "agent",
 "type_ru": "агент",
@@ -15191,7 +15744,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k13b4c0d349ed",
@@ -15225,7 +15778,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 37,
 "type": "agent",
 "type_ru": "агент",
@@ -15254,7 +15807,8 @@
 "Поставьте агентную среду на ПК (OpenClaw / Claude Code / n8n с AI-узлами).",
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
-]
+],
+"seen_count": 2
 },
 {
 "id": "k491bdbb75fb0",
@@ -15345,7 +15899,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 36,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -15370,7 +15924,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kd5d0e9a55c43",
@@ -15404,7 +15958,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 36,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -15429,7 +15983,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k6ece5c4d18f5",
@@ -15463,7 +16017,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 36,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -15488,7 +16042,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k69d80c523336",
@@ -15522,7 +16076,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 36,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -15547,7 +16101,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k2bf26eeae691",
@@ -15581,7 +16135,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 36,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -15606,7 +16160,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kae7234110dfe",
@@ -15640,7 +16194,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 36,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -15665,7 +16219,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k1c878edbadb5",
@@ -15699,7 +16253,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 36,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -15724,7 +16278,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k91ab673d4116",
@@ -15758,7 +16312,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 36,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -15783,7 +16337,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kadc94707da84",
@@ -15817,7 +16371,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 36,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -15842,7 +16396,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kc5d02108300c",
@@ -15876,7 +16430,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 36,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -15901,7 +16455,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k7c530c83994d",
@@ -15932,7 +16486,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 36,
 "type": "tool",
 "type_ru": "инструмент",
@@ -15956,7 +16510,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k6234c0c14c9e",
@@ -15987,7 +16541,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 36,
 "type": "tool",
 "type_ru": "инструмент",
@@ -16011,7 +16565,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "k0b51d04e8d9c",
@@ -16598,7 +17152,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 36,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -16622,7 +17176,8 @@
 "Соберите минимальную копию на своём ПК (OpenClaw / n8n / Python-скрипт + API модели).",
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
-]
+],
+"seen_count": 2
 },
 {
 "id": "k35dd92fd9454",
@@ -16710,7 +17265,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 36,
 "type": "tool",
 "type_ru": "инструмент",
@@ -16735,7 +17290,8 @@
 "Откройте страницу инструмента, проверьте цену/лицензию и требования к ПК.",
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
-]
+],
+"seen_count": 2
 },
 {
 "id": "kf121d2134059",
@@ -16770,7 +17326,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795491500.663054,
+"last_seen": 1795492691.1117947,
 "score": 35,
 "type": "agent",
 "type_ru": "агент",
@@ -16798,7 +17354,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 5
+"seen_count": 6
 },
 {
 "id": "kff9eec1e13f8",
