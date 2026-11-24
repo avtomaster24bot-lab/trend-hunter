@@ -106,10 +106,24 @@
 "repo": null,
 "t": 1795492435.4582129
 },
+"https://dev.to/femi_akinyemi/foxit-mcp-server-let-your-ai-agent-do-the-pdf-work-2e1g": {
+"desc": "Working with PDFs in code is mostly plumbing. You upload the file, start a job, poll until it's done,... Tagged with mcp, ai, pdf, productivity.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fv05jrsgr6bjugw1dk5am.png",
+"ok": true,
+"repo": null,
+"t": 1795492895.4014962
+},
 "https://dev.to/flexfitfury_f86c50450a09d/ai-appointment-setting-workflows-for-us-dental-medical-clinics-100-hipaa-compliant-architecture-2bhl": {
 "ok": false,
 "status": 404,
 "t": 1795492441.7815094
+},
+"https://dev.to/ganesh_raju_6a2557b4199e6/when-intelligence-becomes-abundant-what-is-left-to-lead-2n8g": {
+"desc": "A CTO and CAIO's perspective on leadership in the age of AI agents: what changes for the CTO, how to... Tagged with ai, leadership, management, agents.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F1gar9n6vk23omlj381jw.png",
+"ok": true,
+"repo": null,
+"t": 1795492895.401484
 },
 "https://dev.to/gfirik/how-to-continue-a-claude-code-task-in-codex-without-re-explaining-it-3o8l": {
 "desc": "If you use more than one AI coding agent, you have probably hit this. Claude Code stops at a usage... Tagged with ai, productivity, opensource, rust.",
@@ -411,6 +425,13 @@
 "ok": true,
 "repo": null,
 "t": 1795492443.243355
+},
+"https://dev.to/sugukavi/plango-guide-the-pre-flight-audit-to-run-before-your-coding-agent-works-overnight-335b": {
+"desc": "Plango guide: the pre-flight audit to run before your coding agent works overnight Part 2... Tagged with claudecode, cybersecurity, ai, mcp.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F80vd4ug3do2py3ww32u6.png",
+"ok": true,
+"repo": null,
+"t": 1795492895.4014888
 },
 "https://dev.to/sugukavi/shipyard-guide-how-to-read-a-shipyard-plan-line-by-line-before-you-approve-a-launch-1gmb": {
 "desc": "Part 2 of a short Shipyard series. Independent notes, based on the official site, pricing page, and... Tagged with shipyard, claudecode, mcp, ai.",

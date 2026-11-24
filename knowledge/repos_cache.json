@@ -77,6 +77,47 @@
 ],
 "url": "https://github.com/AbuZar-Ansarii/Jarvis"
 },
+"aevonix/flashalign": {
+"archived": false,
+"branch": "main",
+"commands": [
+"bash ./install.sh --auto",
+"bash ./install.sh --engine-only --backend vllm --model-path /models/qwen38-27b --yes",
+"bash ./install.sh --profiles /path/to/profiles",
+"bash ./install.sh --detect",
+"bash ./flashalign.sh status",
+"bash ./flashalign.sh doctor --probe",
+"bash ./flashalign.sh dashboard",
+"bash ./flashalign.sh profile list",
+"python3 hermes-owner-mode/manage.py --store ~/.config/owner-mode/approvals.json \\"
+],
+"description": "ReAlign models instantly, on demand. Per-request alignment for verified users and channels, or Always On. Use directly or with Hermes, OpenClaw and custom harnesses.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492901.7398975,
+"full": "Aevonix/FlashAlign",
+"homepage": "https://aevonix.com",
+"language": "Python",
+"license": "AGPL-3.0",
+"ok": true,
+"pushed": "2026-11-18T08:14:03Z",
+"stack": [
+"Python"
+],
+"stars": 180,
+"topics": [
+"abliteration",
+"hermes",
+"inference",
+"llama-cpp",
+"llm",
+"model-alignment",
+"openclaw",
+"sglang"
+],
+"url": "https://github.com/Aevonix/FlashAlign"
+},
 "agentes-chat/agentes-chat": {
 "archived": false,
 "branch": "main",
@@ -220,6 +261,44 @@
 ],
 "url": "https://github.com/alchaincyf/huashu-motion"
 },
+"alexgaoth/awesome-reverse-engineered": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npx skills add alexgaoth/awesome-reverse-engineered",
+"claude mcp add reverse-engineered -- uvx --from \"git+https://github.com/alexgaoth/awesome-reverse-engineered#subdirectory=mcp\" reverse-engineered-mcp",
+"curl -sL https://raw.githubusercontent.com/alexgaoth/awesome-reverse-engineered/main/plugin/skills/find-reverse-engineered/scripts/re_index.py -o re_index.py",
+"python3 re_index.py search tuya local          # ranked matches",
+"python3 re_index.py info make-all/tuya-local   # entry + README excerpt",
+"python3 re_index.py clone make-all/tuya-local  # shallow clone into vendor/"
+],
+"description": "Don't reverse engineer it twice. 17,000+ open-source tools built by reverse engineering closed apps, APIs, devices, protocols, file formats, games and AI tools. Search site + agent skill + MCP server, refreshed nightly.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492900.1580665,
+"full": "alexgaoth/awesome-reverse-engineered",
+"homepage": "https://awesome.alexgaoth.com",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T01:47:55Z",
+"stack": [
+"Python"
+],
+"stars": 1539,
+"topics": [
+"agent-skills",
+"ai-agents",
+"awesome",
+"awesome-list",
+"claude-code",
+"decompilation",
+"file-formats",
+"game-decompilation"
+],
+"url": "https://github.com/alexgaoth/awesome-reverse-engineered"
+},
 "alexsergivan/kwant": {
 "archived": false,
 "branch": "main",
@@ -301,6 +380,47 @@
 ],
 "url": "https://github.com/alextnetto/res"
 },
+"alibaba/qz-browser-agent": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npm ci",
+"npm run build",
+"npm install --global qz-browser-agent",
+"npm run dev            # Rebuild the Chrome package on source changes",
+"npm run dev:firefox    # Rebuild the Firefox package on source changes",
+"npm test               # Run the default test suites",
+"npm run verify         # Type-check and run the shared suites",
+"npm run verify:chrome  # Chrome package suites on dist/extension",
+"npm run verify:coverage # Shared suites, Chrome package suites, and coverage gates"
+],
+"description": "Local-first AI agent for Chrome: browser automation, web research, and data extraction with your own model.",
+"env": [],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795492902.471565,
+"full": "alibaba/qz-browser-agent",
+"homepage": "https://alibaba.github.io/qz-browser-agent/",
+"language": "HTML",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-14T14:25:00Z",
+"stack": [
+"Node.js"
+],
+"stars": 229,
+"topics": [
+"ai-agent",
+"browser-agent",
+"browser-automation",
+"chrome-extension",
+"llm",
+"mcp",
+"web-agent",
+"web-scraping"
+],
+"url": "https://github.com/alibaba/qz-browser-agent"
+},
 "arekejoker/qwen21-nsfw-pose-skill": {
 "archived": false,
 "branch": "main",
@@ -379,6 +499,43 @@
 "video-generation"
 ],
 "url": "https://github.com/avtomaster24bot-lab/trend-hunter"
+},
+"better-vault/better-vault": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npm install",
+"npm run dev",
+"npm run build",
+"npm start",
+"npm run lint && npm run typecheck && npm test && npm run i18n:check && npm run build"
+],
+"description": "Open-source NotebookLM alternative. Chat with your sources with citations, and turn them into reports, flashcards, quizzes, mind maps and slide decks, with your own OpenAI, Anthropic or Gemini key or local Ollama / LM Studio models. Local-first, no account.",
+"env": [],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795492897.2870553,
+"full": "better-vault/better-vault",
+"homepage": "https://better-vault.dev",
+"language": "TypeScript",
+"license": "NOASSERTION",
+"ok": true,
+"pushed": "2026-11-24T03:59:05Z",
+"stack": [
+"Node.js"
+],
+"stars": 121,
+"topics": [
+"ai",
+"ai-sdk",
+"anthropic",
+"byok",
+"flashcards",
+"gemini",
+"knowledge-management",
+"llm"
+],
+"url": "https://github.com/better-vault/better-vault"
 },
 "bhukyabalu12/repdix-telegram-bot": {
 "archived": false,
@@ -565,6 +722,80 @@
 ],
 "url": "https://github.com/cloveric/tarobird"
 },
+"comfyanonymous/comfyui": {
+"archived": false,
+"branch": "master",
+"commands": [
+"pip install -r requirements.txt",
+"python main.py"
+],
+"description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492899.0138514,
+"full": "Comfy-Org/ComfyUI",
+"homepage": "https://www.comfy.org/",
+"language": "Python",
+"license": "GPL-3.0",
+"ok": true,
+"pushed": "2026-11-24T03:54:48Z",
+"stack": [
+"Python"
+],
+"stars": 148316,
+"topics": [
+"ai",
+"comfy",
+"comfyui",
+"python",
+"pytorch",
+"stable-diffusion"
+],
+"url": "https://github.com/Comfy-Org/ComfyUI"
+},
+"ctoldigital/axuse": {
+"archived": false,
+"branch": "main",
+"commands": [
+"node src/cli.js doctor        # finds a browser, launches it, takes a snapshot",
+"node src/cli.js setup --browser chrome --harness codex",
+"node src/cli.js bridge verify",
+"claude mcp add --scope user axuse -- node /abs/path/axuse/src/cli.js mcp",
+"node src/cli.js print-config --harness opencode   # or agy | generic",
+"node src/cli.js print-config --harness codex       # or claude-code | opencode | agy | generic",
+"node src/cli.js plugins          # → ✓ captcha-pro@1.0.0 — providers: turnstile, recaptcha-v2, hcaptcha",
+"node src/cli.js solve turnstile --url https://demo.turnstile.workers.dev/",
+"node src/cli.js open-urls sources.md --backend extension --output report.md",
+"node --test test/diff.test.js test/browser.test.js test/mcp.test.js test/desktop.test.js test/desktop-linux.test.js test/oopif.test.js test/bridge.test.js test/plugin.test.js"
+],
+"description": "Accessibility-first browser & computer use for AI agents — one MCP server for every harness (Codex, Claude Code, OpenCode, Antigravity). Instruments the DOM/accessibility tree via CDP instead of screenshot loops: diffed snapshots, stable element refs, trusted input, typed errors. Zero dependencies",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492899.3671691,
+"full": "ctoldigital/axuse",
+"homepage": "https://ax-use.com",
+"language": "JavaScript",
+"license": "NOASSERTION",
+"ok": true,
+"pushed": "2026-11-03T19:16:53Z",
+"stack": [
+"Node.js"
+],
+"stars": 805,
+"topics": [
+"agentic-automation",
+"ai-agents",
+"browser-automation",
+"browser-use",
+"cdp",
+"chrome-devtools-protocol",
+"computer-use",
+"cua"
+],
+"url": "https://github.com/ctoldigital/axuse"
+},
 "cutetailbud/ff-ruyijs": {
 "archived": false,
 "branch": "main",
@@ -608,6 +839,85 @@
 ],
 "url": "https://github.com/cutetailbud/ff-ruyijs"
 },
+"dansugc/reverse-engineer-marketing": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npx reverse-engineer-marketing demo",
+"npx reverse-engineer-marketing linear.app",
+"export SCRAPECREATORS_API_KEY=...   # ad libraries, social stats, founders, Reddit (~25–50 credits per run)",
+"export ANTHROPIC_API_KEY=...        # the written strategy report (Claude)",
+"npx reverse-engineer-marketing calai.app",
+"npx reverse-engineer-marketing web",
+"npx reverse-engineer-marketing setup        # detects Claude Code / Codex, shows the plan, asks",
+"npx reverse-engineer-marketing setup --dry-run",
+"claude mcp add reverse-engineer-marketing -e SCRAPECREATORS_API_KEY=... -- npx -y reverse-engineer-marketing mcp",
+"Claude / your agent + the harness ──► report.md"
+],
+"description": "Paste a link, get the whole marketing machine behind it: paid ads, organic social, SEO, Reddit, founders, funnel — evidence-cited. CLI, MCP server and a local web app that uses your Claude Code or Codex plan.",
+"env": [
+"ANTHROPIC_API_KEY",
+"OPENAI_API_KEY",
+"SCRAPECREATORS_API_KEY"
+],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795492900.7074301,
+"full": "dansugc/reverse-engineer-marketing",
+"homepage": "https://dansugc.com",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-10-18T19:26:54Z",
+"stack": [
+"Node.js"
+],
+"stars": 1082,
+"topics": [
+"ad-library",
+"ai-agents",
+"claude-code",
+"codex",
+"competitor-analysis",
+"growth",
+"marketing",
+"mcp"
+],
+"url": "https://github.com/dansugc/reverse-engineer-marketing"
+},
+"datadrivenconstruction/cad2data-revit-ifc-dwg-dgn-pipeline-with-conversion-validation-qto": {
+"archived": false,
+"branch": "main",
+"commands": [
+"pip install ./ddc-tools"
+],
+"description": "DDC Converters 2.0: RVT/RFA to GLB, IFC4 and JSONL; IFC to Excel; DWG to Excel, DXF and SVG. Offline CLI and desktop apps, n8n workflows and AI-agent instructions.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492898.3943257,
+"full": "datadrivenconstruction/cad2data-Revit-IFC-DWG",
+"homepage": "https://datadrivenconstruction.io/",
+"language": "Python",
+"license": "NOASSERTION",
+"ok": true,
+"pushed": "2026-11-18T23:13:34Z",
+"stack": [
+"Python"
+],
+"stars": 561,
+"topics": [
+"ai-agents",
+"bim",
+"bimconverter",
+"cad",
+"cadconverter",
+"claude-code",
+"converter",
+"data-viewer"
+],
+"url": "https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG"
+},
 "daveebbelaar/bama": {
 "archived": false,
 "branch": "main",
@@ -645,6 +955,38 @@
 ],
 "url": "https://github.com/daveebbelaar/bama"
 },
+"davemessew/agentflux": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "Agentic AI platform for visual workflows and autonomous agents. Run it with Docker on your own computer or server.",
+"env": [],
+"envfile": "",
+"fallback": [
+"docker compose up -d"
+],
+"fetched": 1795492899.9193344,
+"full": "davemessew/AgentFlux",
+"homepage": "https://agentflux.cloud",
+"language": "TypeScript",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-10-30T03:44:30Z",
+"stack": [
+"Node.js",
+"Docker",
+"Docker Compose"
+],
+"stars": 308,
+"topics": [
+"ai-agents",
+"docker",
+"ollama",
+"self-hosted",
+"workflows"
+],
+"url": "https://github.com/davemessew/AgentFlux"
+},
 "dbx0/executioner": {
 "archived": false,
 "branch": "main",
@@ -681,6 +1023,86 @@
 "security"
 ],
 "url": "https://github.com/dbx0/executioner"
+},
+"diygod/pinky": {
+"archived": false,
+"branch": "main",
+"commands": [
+"make check          # build (CGO_ENABLED=0), vet, test",
+"make app            # Pinky.app with FFmpeg and Pinky on the phone, and a .dmg (macOS)",
+"make ffmpeg         # FFmpeg 9 for Pinky.app, in build/ffmpeg",
+"make adb            # Pinky's own adb for Pinky.app, in build/adb (needs CMake)",
+"make companion      # the APK of Pinky on the phone (Android SDK and JDK needed)",
+"make e2e            # a binary with MyGo's automation socket, for UI checks",
+"make dist           # a dry run of a release, in dist/<version>/ (docs/RELEASING.md)",
+"make companion   # optional: the APK of Pinky on the phone (Android SDK and JDK)",
+"make app         # build/pinky/darwin-<arch>/Pinky.app and pinky-<version>-<arch>.dmg",
+"claude mcp add --scope user pinky -- \"$PWD/build/pinky/darwin-arm64/Pinky.app/Contents/MacOS/Pinky\" mcp"
+],
+"description": "Let AI use your iPhone or Android phone, with you in the loop: any MCP agent from macOS, Windows or Linux, or Pinky itself, right on the phone.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492902.0397246,
+"full": "DIYgod/pinky",
+"homepage": "",
+"language": "Go",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-24T03:17:45Z",
+"stack": [
+"Go",
+"Make"
+],
+"stars": 2721,
+"topics": [
+"ai-agent",
+"android",
+"claude-code",
+"ios",
+"iphone",
+"mcp",
+"mcp-server",
+"phone-automation"
+],
+"url": "https://github.com/DIYgod/pinky"
+},
+"dunhkpcc/claude-guardian": {
+"archived": false,
+"branch": "main",
+"commands": [
+"set -eu",
+"mkdir -p \"$skill_root\"",
+"cp -R Claude-Guardian/skills/claude-guardian \"$skill_root/claude-guardian\"",
+"python3 skills/claude-guardian/scripts/guardian.py --help",
+"python3 skills/claude-guardian/scripts/interview_cli.py --target-ref laptop-a --account-ref account-a",
+"python3 -m unittest discover -s tests -v",
+"python3 -m compileall -q skills/claude-guardian/scripts",
+"python3 tools/package_skill.py --help"
+],
+"description": "Claude Guardian is an all-in-one Claude account safety and risk prevention skill.Claude防封实战 It intelligently assesses your device, account history, network environment, and payment options, then provides personalized guidance for local, VPS, or virtual machine setups. ",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492900.2430544,
+"full": "DUNHKpcc/Claude-Guardian",
+"homepage": "https://api.dpccgaming.xyz/guardian",
+"language": "Python",
+"license": "GPL-3.0",
+"ok": true,
+"pushed": "2026-11-20T10:30:13Z",
+"stack": [
+"Python"
+],
+"stars": 2236,
+"topics": [
+"agent-skills",
+"ai-tools",
+"claude-code",
+"claude-skills",
+"codex-skill"
+],
+"url": "https://github.com/DUNHKpcc/Claude-Guardian"
 },
 "el4cteo/blender-skills": {
 "archived": false,
@@ -784,6 +1206,122 @@
 ],
 "url": "https://github.com/emanuele-em/kanzo"
 },
+"ersinkoc/phonebox": {
+"archived": false,
+"branch": "main",
+"commands": [
+"irm https://raw.githubusercontent.com/ersinkoc/phonebox/main/setup.ps1 | iex",
+"curl -fsSL https://raw.githubusercontent.com/ersinkoc/phonebox/main/setup.sh | bash",
+"python tools/demo-server.py"
+],
+"description": "Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 13 languages. USB or paired Wi-Fi. No cloud required.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492901.676554,
+"full": "ersinkoc/phonebox",
+"homepage": "https://ersinkoc.github.io/phonebox/",
+"language": "JavaScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T00:38:09Z",
+"stack": [
+"Node.js"
+],
+"stars": 5522,
+"topics": [
+"android",
+"claude-code",
+"codex",
+"dashboard",
+"desk-panel",
+"dotnet",
+"home-assistant",
+"linux"
+],
+"url": "https://github.com/ersinkoc/phonebox"
+},
+"expo/exact": {
+"archived": false,
+"branch": "main",
+"commands": [
+"bun scripts/exact.mjs setup",
+"bun scripts/exact.mjs new ../hello          # or `bun link` once, then `exact new ../hello`",
+"cd ../hello",
+"bun exact.mjs contract types app.contract -o app.contract.d.ts",
+"bun exact.mjs web                           # dev server at http://127.0.0.1:8765/",
+"bun exact.mjs test web                      # runs *.test.contract",
+"bun exact.mjs mac --run                     # native macOS app",
+"bun exact.mjs ios --run                     # iOS Simulator (--device --run for a connected iPhone)",
+"bun host/web/dev.mjs                    # Web at http://127.0.0.1:8765/",
+"bun host/apple/build.mjs --run          # macOS"
+],
+"description": "Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, and test it on every one of them.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492902.860307,
+"full": "expo/exact",
+"homepage": "",
+"language": "Rust",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T03:55:07Z",
+"stack": [
+"Node.js",
+"Rust"
+],
+"stars": 4978,
+"topics": [
+"ai-agents",
+"appkit",
+"coding-agents",
+"cross-platform",
+"css",
+"ios",
+"linux",
+"macos"
+],
+"url": "https://github.com/expo/exact"
+},
+"fanqi89/dsh-craft-anything": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "Craft Anything for DeepSeek Harness: mcp__craft__* MCP bridge to the local craft-anything CLI, with a clean-room/deep mode switch in the composer, a status page, a CLI runner and a SHA256-verified installer. 把 Craft Anything 接入 DSH 的插件。",
+"env": [],
+"envfile": "",
+"fallback": [
+"npm install",
+"npm run dev   # или npm start — смотрите scripts в package.json"
+],
+"fetched": 1795492896.4189646,
+"full": "Fanqi89/dsh-craft-anything",
+"homepage": "https://github.com/storytold/craft-anything",
+"language": "JavaScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-23T05:08:52Z",
+"stack": [
+"Node.js"
+],
+"stars": 442,
+"topics": [
+"ai-tools",
+"automation",
+"cli",
+"cli-runner",
+"craft-anything",
+"deepseek-harness",
+"dsh-plugin",
+"installer"
+],
+"url": "https://github.com/Fanqi89/dsh-craft-anything"
+},
+"flamerix-ai/c3905705cc4205e5de3011fa2e74efce": {
+"fetched": 1795492900.5625057,
+"ok": false
+},
 "foxitsoftware/foxit-pdf-api-mcp-server": {
 "archived": false,
 "branch": "main",
@@ -875,6 +1413,31 @@
 "local-first"
 ],
 "url": "https://github.com/FrigadeHQ/yogurt"
+},
+"garrytan/gstack": {
+"archived": false,
+"branch": "main",
+"commands": [
+"cd ~/gstack && ./setup --host auto      # or: ./setup --host codex",
+"./setup --status                         # one row per install: host, tier, scope, version, path"
+],
+"description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+"env": [],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795492897.9331007,
+"full": "garrytan/gstack",
+"homepage": "",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T03:55:41Z",
+"stack": [
+"Node.js"
+],
+"stars": 142487,
+"topics": [],
+"url": "https://github.com/garrytan/gstack"
 },
 "gauge-sh/gauge-cli": {
 "archived": false,
@@ -980,6 +1543,40 @@
 ],
 "url": "https://github.com/gitroomhq/postiz-app"
 },
+"glincker/awesome-selfhosted-ai": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "Curated list of self-hosted open-source AI: local LLMs, chat UIs, agents, MCP servers, RAG, speech and image generation. Health-checked weekly, dead projects removed automatically.",
+"env": [],
+"envfile": ".env.example",
+"fallback": [
+"npm install",
+"npm run dev   # или npm start — смотрите scripts в package.json"
+],
+"fetched": 1795492896.3646562,
+"full": "glincker/awesome-selfhosted-ai",
+"homepage": "https://github.com/glincker/awesome-selfhosted-ai/blob/main/LIVE.md",
+"language": "JavaScript",
+"license": "CC0-1.0",
+"ok": true,
+"pushed": "2026-11-11T18:27:41Z",
+"stack": [
+"Node.js"
+],
+"stars": 135,
+"topics": [
+"ai-agents",
+"awesome",
+"awesome-list",
+"homelab",
+"llm",
+"local-ai",
+"local-llm",
+"mcp-server"
+],
+"url": "https://github.com/glincker/awesome-selfhosted-ai"
+},
 "google/adk-python": {
 "archived": false,
 "branch": "main",
@@ -1047,6 +1644,57 @@
 "stars": 25588,
 "topics": [],
 "url": "https://github.com/GoogleChrome/modern-web-guidance"
+},
+"graphify-labs/graphify": {
+"archived": false,
+"branch": "v8",
+"commands": [
+"uv tool install graphifyy   # recommended, isolated env (if 'graphify' isn't found after, run: uv tool update-shell)",
+"pipx install graphifyy      # alternative",
+"pip install graphifyy       # may need PATH setup, see Troubleshooting below",
+"uv tool install graphifyy      # install the CLI (or: pipx install graphifyy)",
+"brew install python@3.12 uv",
+"winget install astral-sh.uv",
+"curl -LsSf https://astral.sh/uv/install.sh | sh",
+"sudo apt install python3 python3-pip pipx",
+"claude mcp add --transport http graphify https://api.graphify.com/mcp"
+],
+"description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+"env": [
+"ANTHROPIC_API_KEY",
+"ANTHROPIC_BASE_URL",
+"DEEPSEEK_API_KEY",
+"GEMINI_API_KEY",
+"GOOGLE_API_KEY",
+"MOONSHOT_API_KEY",
+"OLLAMA_BASE_URL",
+"OPENAI_API_KEY"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492897.244254,
+"full": "Graphify-Labs/graphify",
+"homepage": "graphify.com",
+"language": "Python",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-23T19:14:02Z",
+"stack": [
+"Python",
+"Docker"
+],
+"stars": 152585,
+"topics": [
+"ai-agents",
+"antigravity",
+"ast",
+"claude-code",
+"code-analysis",
+"code-search",
+"codex",
+"cursor"
+],
+"url": "https://github.com/Graphify-Labs/graphify"
 },
 "hackernews/api": {
 "archived": false,
@@ -1124,6 +1772,41 @@
 "topics": [],
 "url": "https://github.com/HenadzH/airpulsar-mcp"
 },
+"heqiangdiao-wq/ai-cross-border-ecommerce-agent-toolkit": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "AI 跨境电商运营智能体工具箱 · 把运营 SOP 拆成 7 个可复用的 AI Agent 工作流，含 Prompt、模板与真实案例",
+"env": [],
+"envfile": "",
+"fallback": [
+"python -m venv .venv",
+"source .venv/bin/activate   # Windows: .venv\\Scripts\\activate",
+"pip install -e ."
+],
+"fetched": 1795492898.8989553,
+"full": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
+"homepage": "",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-10-18T06:48:08Z",
+"stack": [
+"Python"
+],
+"stars": 1426,
+"topics": [
+"ai-agents",
+"cross-border-ecommerce",
+"ecommerce",
+"llm",
+"mercado-livre",
+"prompt-engineering",
+"shopee",
+"sop"
+],
+"url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit"
+},
 "hyphatech/spindle": {
 "archived": false,
 "branch": "main",
@@ -1149,6 +1832,126 @@
 "stars": 57,
 "topics": [],
 "url": "https://github.com/hyphatech/spindle"
+},
+"iamajmeena/neonclipping": {
+"archived": false,
+"branch": "main",
+"commands": [
+"./run.ps1",
+"./run.sh",
+"python -m unittest tests.test_captions tests.test_live tests.test_reedit",
+"python tests/e2e.py static export edit creators feedback   # server must be running",
+"python tests/e2e_make.py          # real downloads + transcription (about 25 min)",
+"python tests/e2e_live.py          # needs a Twitch channel that is live",
+"python tests/e2e_site.py          # website, links, release assets",
+"python tests/make_report.py       # rebuild tests/REPORT.md"
+],
+"description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492901.665309,
+"full": "iamajmeena/neonclipping",
+"homepage": "",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-23T21:10:27Z",
+"stack": [
+"Python"
+],
+"stars": 2321,
+"topics": [
+"ai-video-clipper",
+"clipping",
+"faster-whisper",
+"ffmpeg",
+"gameplay-clipper",
+"local-llm",
+"ollama",
+"open-source-video-editor"
+],
+"url": "https://github.com/iamajmeena/neonclipping"
+},
+"ink-q/agy-fast": {
+"archived": false,
+"branch": "main",
+"commands": [
+"curl -fsSL https://raw.githubusercontent.com/INK-Q/agy-fast/main/install.sh | sh",
+"irm https://raw.githubusercontent.com/INK-Q/agy-fast/main/install.ps1 | iex",
+"node scripts/install.mjs install --project /path/to/your-repo",
+"node scripts/install.mjs install",
+"node dist/benchmark.mjs analyze --local",
+"node dist/benchmark.mjs analyze --local --recent 10",
+"node dist/benchmark.mjs analyze --local --since 2026-11-19T12:51:00+08:00 --split-usage",
+"node dist/benchmark.mjs compare --before ./run-before/transcript.jsonl --after ./run-after/transcript.jsonl",
+"npm install",
+"npm run typecheck   # Strict TypeScript check"
+],
+"description": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492899.686346,
+"full": "INK-Q/agy-fast",
+"homepage": "",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-23T16:05:02Z",
+"stack": [
+"Node.js",
+"Docker"
+],
+"stars": 810,
+"topics": [
+"ai-agent",
+"ai-coding",
+"antigravity",
+"antigravity-cli",
+"antigravity-ide",
+"antigravity-plugins",
+"coding-agent",
+"context-optimization"
+],
+"url": "https://github.com/INK-Q/agy-fast"
+},
+"integuru-ai/integuru": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "The first AI agent that builds permissionless integrations through reverse engineering platforms' internal APIs.",
+"env": [
+"OPENAI_API_KEY"
+],
+"envfile": "",
+"fallback": [
+"python -m venv .venv",
+"source .venv/bin/activate   # Windows: .venv\\Scripts\\activate",
+"pip install -e ."
+],
+"fetched": 1795492898.1060815,
+"full": "Integuru-AI/Integuru",
+"homepage": "https://integuru.ai",
+"language": "Python",
+"license": "AGPL-3.0",
+"ok": true,
+"pushed": "2026-06-24T19:23:18Z",
+"stack": [
+"Python"
+],
+"stars": 4800,
+"topics": [
+"agent",
+"agents",
+"ai-agent",
+"ai-agents",
+"api",
+"apis",
+"automation",
+"integration"
+],
+"url": "https://github.com/Integuru-AI/Integuru"
 },
 "israelbh/ticktock-automation": {
 "archived": false,
@@ -1183,6 +1986,83 @@
 "supabase"
 ],
 "url": "https://github.com/IsraelBH/ticktock-automation"
+},
+"jammaru/sakutto": {
+"archived": false,
+"branch": "main",
+"commands": [
+"pnpm install",
+"pnpm build:wllama   # once, with Docker; see docs/BUILDING.md",
+"pnpm verify:wllama",
+"pnpm build          # .output/chrome-mv3",
+"pnpm build:firefox  # .output/firefox-mv3",
+"pnpm dev            # development build",
+"pnpm lint",
+"pnpm format:check",
+"pnpm typecheck",
+"pnpm test"
+],
+"description": "A browser extension for easy on-device translation with a local LLM (PLaMo). Private, free, no server needed.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492899.8084016,
+"full": "jammaru/sakutto",
+"homepage": "https://chrome.google.com/webstore/detail/mhlbjjijfkoghmcjndgdimhdlfkhadfl",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T04:01:35Z",
+"stack": [
+"Node.js"
+],
+"stars": 285,
+"topics": [
+"browser-extension",
+"chrome-extension",
+"firefox-extension",
+"japanese",
+"llama-cpp",
+"local-llm",
+"on-device-ai",
+"plamo"
+],
+"url": "https://github.com/jammaru/sakutto"
+},
+"josssphzhou/poki": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "Poki uses your iPhone like you do. An open-source agent app that runs on your iPhone, reads the screen, and taps, types and swipes in real apps with your own model account.",
+"env": [],
+"envfile": "",
+"fallback": [
+"npm install",
+"npm run dev   # или npm start — смотрите scripts в package.json"
+],
+"fetched": 1795492897.4735153,
+"full": "JosssphZhou/poki",
+"homepage": "https://poki.bot",
+"language": "Swift",
+"license": "AGPL-3.0",
+"ok": true,
+"pushed": "2026-11-24T03:35:53Z",
+"stack": [
+"Node.js",
+"Swift"
+],
+"stars": 1892,
+"topics": [
+"ai-agents",
+"ai-assistant",
+"automation",
+"claude-code",
+"computer-use",
+"gui-agent",
+"ios",
+"ios-app"
+],
+"url": "https://github.com/JosssphZhou/poki"
 },
 "jrswab/axe": {
 "archived": false,
@@ -1236,6 +2116,41 @@
 "llm"
 ],
 "url": "https://github.com/jrswab/axe"
+},
+"juinwei7/shiyin": {
+"archived": false,
+"branch": "main",
+"commands": [
+"git tag -a vX.Y.Z -F 說明.txt",
+"git push origin vX.Y.Z",
+"gh release create v3.1.1 dist/Shiyin-3.1.1.dmg dist/shiyin-update.json --notes \"這版改了什麼\""
+],
+"description": "Free, open-source meeting notes app for Mac: records Zoom, Meet and Teams without a bot, transcribes on-device (whisper.cpp + Breeze ASR 25), identifies speakers, and writes timestamped notes with your own Claude or ChatGPT. 拾音",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492896.1532168,
+"full": "juinwei7/Shiyin",
+"homepage": "https://shiyin.weibuilds.com",
+"language": "C#",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T01:56:55Z",
+"stack": [
+"C#"
+],
+"stars": 187,
+"topics": [
+"ai-meeting-notes",
+"claude-code",
+"granola-alternative",
+"local-first",
+"macos",
+"macos-app",
+"meeting-assistant",
+"meeting-notes"
+],
+"url": "https://github.com/juinwei7/Shiyin"
 },
 "julianosig/easi.run": {
 "archived": false,
@@ -1357,6 +2272,48 @@
 ],
 "url": "https://github.com/juw12/lineup"
 },
+"kanaworksai-hue/audio-studio-mcp": {
+"archived": false,
+"branch": "main",
+"commands": [
+"uvx --python 3.11 audio-studio-mcp setup",
+"uvx --python 3.11 --torch-backend cu126 audio-studio-mcp setup",
+"claude mcp add --scope user audio-studio -- uvx --python 3.11 audio-studio-mcp",
+"claude mcp add --scope user audio-studio -- uvx --python 3.11 --torch-backend cu126 audio-studio-mcp",
+"uvx --python 3.11 audio-studio-mcp song-setup",
+"uvx --python 3.11 --torch-backend cu126 audio-studio-mcp song-setup",
+"./install.sh",
+"claude mcp add --scope user audio-studio -- /path/to/audio-studio-mcp/.venv/bin/audio-studio-mcp",
+"claude mcp add --scope user audio-studio -- \"C:\\path\\to\\audio-studio-mcp\\.venv\\Scripts\\audio-studio-mcp.exe\"",
+"uvx --python 3.11 audio-studio-mcp --web 8765"
+],
+"description": "Local AI songs with vocals, BGM and sound effects for Claude Code and any MCP client. YuE2 sings your lyrics; Stable Audio 3 makes BGM and SFX. Runs on Apple Silicon Macs and Windows NVIDIA GPUs. No cloud, no API key.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492899.2473946,
+"full": "kanaworksai-hue/audio-studio-mcp",
+"homepage": "https://kanaworksai-hue.github.io/audio-studio-mcp/",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-22T15:30:00Z",
+"stack": [
+"Python"
+],
+"stars": 704,
+"topics": [
+"apple-silicon",
+"audio-generation",
+"claude-code",
+"cuda",
+"game-audio",
+"mcp",
+"mcp-server",
+"mlx"
+],
+"url": "https://github.com/kanaworksai-hue/audio-studio-mcp"
+},
 "kenya-west/licenses": {
 "archived": false,
 "branch": "master",
@@ -1376,6 +2333,30 @@
 "stars": 1,
 "topics": [],
 "url": "https://github.com/Kenya-West/licenses"
+},
+"kgluszczyk/mac-studio-local-agent-bench": {
+"archived": false,
+"branch": "main",
+"commands": [
+"python verify_snapshot.py"
+],
+"description": "Recorded local coding and long-context measurements from one Mac Studio M5 Ultra rental",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492902.105288,
+"full": "kgluszczyk/mac-studio-local-agent-bench",
+"homepage": "",
+"language": "Python",
+"license": null,
+"ok": true,
+"pushed": "2026-11-22T13:41:31Z",
+"stack": [
+"Python"
+],
+"stars": 0,
+"topics": [],
+"url": "https://github.com/kgluszczyk/mac-studio-local-agent-bench"
 },
 "kkkkhazix/agent-autoloop": {
 "archived": false,
@@ -1562,6 +2543,48 @@
 ],
 "url": "https://github.com/lemonadesaltbagel/airlock"
 },
+"leonxlnx/earshot": {
+"archived": false,
+"branch": "main",
+"commands": [
+"pip install \"earshot @ git+https://github.com/Leonxlnx/earshot\"",
+"pip install torch --index-url https://download.pytorch.org/whl/cpu    # before the listen extra, optional",
+"pip install \"earshot[listen,mcp] @ git+https://github.com/Leonxlnx/earshot\"",
+"uv tool install \"earshot[mcp] @ git+https://github.com/Leonxlnx/earshot\"",
+"python -m venv .venv",
+"npx skills add Leonxlnx/earshot                                   # the agent skills",
+"pip install \"earshot @ git+https://github.com/Leonxlnx/earshot\"   # the tool",
+"claude mcp add earshot --scope user -e EARSHOT_THREADS=3 -- earshot mcp     # uv or pip install",
+"claude mcp add earshot --scope user -e EARSHOT_THREADS=3 -- /path/to/earshot/.venv/bin/python -m earshot mcp   # clone"
+],
+"description": "Sound effects for coding agents: ask in plain words and earshot renders the sound in code. CPU-only, no audio model, open source.",
+"env": [
+"GEMINI_API_KEY"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492898.178655,
+"full": "Leonxlnx/earshot",
+"homepage": "https://leonxlnx.github.io/earshot-site/",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-22T00:30:14Z",
+"stack": [
+"Python"
+],
+"stars": 5651,
+"topics": [
+"ai-agents",
+"audio",
+"claude-code",
+"mcp",
+"sfx",
+"sound-design",
+"sound-effects"
+],
+"url": "https://github.com/Leonxlnx/earshot"
+},
 "liguozheng-ac/lingbo-desk": {
 "archived": false,
 "branch": "main",
@@ -1604,6 +2627,31 @@
 "live2d"
 ],
 "url": "https://github.com/liguozheng-ac/Lingbo-Desk"
+},
+"lockin2026ethan-pixel/druve-agents": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "Druve agents ported from n8n templates, one folder per author",
+"env": [],
+"envfile": "",
+"fallback": [
+"npm install",
+"npm run dev   # или npm start — смотрите scripts в package.json"
+],
+"fetched": 1795492903.6224563,
+"full": "lockin2026ethan-pixel/druve-agents",
+"homepage": "",
+"language": "JavaScript",
+"license": null,
+"ok": true,
+"pushed": "2026-11-24T03:45:48Z",
+"stack": [
+"Node.js"
+],
+"stars": 0,
+"topics": [],
+"url": "https://github.com/lockin2026ethan-pixel/druve-agents"
 },
 "mdiri-ai/soduwork": {
 "archived": false,
@@ -1677,6 +2725,56 @@
 "codex"
 ],
 "url": "https://github.com/microsoft/TokenEconomizer"
+},
+"mir-ashiq/canvix": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npm install            # or: bun install",
+"cp .env.example .env   # then edit DATABASE_URL",
+"npm run db:setup       # migrations + 110 free templates, in one command",
+"npm run dev            # → http://localhost:3000",
+"npm run build",
+"npm run start",
+"npm install                     # adds @opennextjs/cloudflare + wrangler",
+"cp .dev.vars.example .dev.vars  # put your pooler DATABASE_URL in it",
+"npm run preview                 # builds & boots the real worker locally",
+"npx wrangler secret put DATABASE_URL      # paste the pooler URL when asked"
+],
+"description": "Canvix — Free & open-source graphic design tool. A community-built Canva alternative with a drag-and-drop editor, templates, shapes, text, images & one-click export. Works on desktop, tablet & mobile.",
+"env": [
+"FREESOUND_API_KEY",
+"PEXELS_API_KEY",
+"PIXABAY_API_KEY",
+"ZAI_API_KEY",
+"ZAI_BASE_URL"
+],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795492903.3140414,
+"full": "mir-ashiq/canvix",
+"homepage": "https://canvix.app",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-23T21:37:33Z",
+"stack": [
+"Node.js",
+"Docker",
+"Docker Compose"
+],
+"stars": 253,
+"topics": [
+"canva-alternative",
+"canvas",
+"design",
+"design-tool",
+"drag-and-drop",
+"editor",
+"graphic-design",
+"konva"
+],
+"url": "https://github.com/mir-ashiq/canvix"
 },
 "modelflare-ai/anymodelbot": {
 "archived": false,
@@ -1802,6 +2900,41 @@
 ],
 "url": "https://github.com/N1nEmAn/sapper-v2"
 },
+"n8n-io/n8n": {
+"archived": false,
+"branch": "master",
+"commands": [
+"curl -fsSL https://get.n8n.io | sh",
+"docker volume create n8n_data",
+"docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n"
+],
+"description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492896.3172476,
+"full": "n8n-io/n8n",
+"homepage": "https://n8n.io",
+"language": "TypeScript",
+"license": "NOASSERTION",
+"ok": true,
+"pushed": "2026-11-24T02:47:09Z",
+"stack": [
+"Node.js"
+],
+"stars": 211869,
+"topics": [
+"ai",
+"apis",
+"automation",
+"cli",
+"data-flow",
+"development",
+"integration-framework",
+"integrations"
+],
+"url": "https://github.com/n8n-io/n8n"
+},
 "n8n-io/n8n-nodes-starter": {
 "archived": false,
 "branch": "master",
@@ -1910,6 +3043,26 @@
 "llm"
 ],
 "url": "https://github.com/ollama/ollama"
+},
+"olliewazza/larryskill": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "Larry's openclaw skill",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492901.2386694,
+"full": "OllieWazza/LarrySkill",
+"homepage": "",
+"language": null,
+"license": null,
+"ok": true,
+"pushed": "2026-02-21T15:15:09Z",
+"stack": [],
+"stars": 8,
+"topics": [],
+"url": "https://github.com/OllieWazza/LarrySkill"
 },
 "omnara-ai/omnara": {
 "archived": false,
@@ -2028,6 +3181,42 @@
 ],
 "url": "https://github.com/kernel/kernel-images"
 },
+"onlyreadai/onlyread": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "Make AI browser agents read-only: a Chrome extension that refuses writes (send, post, edit, delete) before they leave the browser.",
+"env": [],
+"envfile": "",
+"fallback": [
+"python -m venv .venv",
+"source .venv/bin/activate   # Windows: .venv\\Scripts\\activate",
+"pip install -e ."
+],
+"fetched": 1795492898.4332178,
+"full": "onlyreadai/onlyread",
+"homepage": "https://onlyread.ai",
+"language": "TypeScript",
+"license": "AGPL-3.0",
+"ok": true,
+"pushed": "2026-11-23T23:52:08Z",
+"stack": [
+"Python",
+"Node.js"
+],
+"stars": 109,
+"topics": [
+"agent-security",
+"agentic-browser",
+"ai-agents",
+"ai-safety",
+"ai-security",
+"browser-agents",
+"browser-automation",
+"chatgpt"
+],
+"url": "https://github.com/onlyreadai/onlyread"
+},
 "open-net-worth-ai/open-net-worth": {
 "archived": false,
 "branch": "main",
@@ -2065,6 +3254,48 @@
 "mcp"
 ],
 "url": "https://github.com/open-net-worth-ai/open-net-worth"
+},
+"open-webui/open-webui": {
+"archived": false,
+"branch": "main",
+"commands": [
+"docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main",
+"pip install open-webui"
+],
+"description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+"env": [
+"OLLAMA_BASE_URL",
+"OPENAI_API_KEY"
+],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795492900.841679,
+"full": "open-webui/open-webui",
+"homepage": "https://openwebui.com",
+"language": "Svelte",
+"license": "NOASSERTION",
+"ok": true,
+"pushed": "2026-11-23T22:11:40Z",
+"stack": [
+"Python",
+"Node.js",
+"Docker",
+"Docker Compose",
+"Make",
+"Svelte"
+],
+"stars": 159376,
+"topics": [
+"ai",
+"llm",
+"llm-ui",
+"llm-webui",
+"llms",
+"mcp",
+"ollama",
+"ollama-webui"
+],
+"url": "https://github.com/open-webui/open-webui"
 },
 "openbin-ai/binny": {
 "archived": false,
@@ -2141,6 +3372,94 @@
 "personal"
 ],
 "url": "https://github.com/openclaw/openclaw"
+},
+"outcrawlai/scout": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npm i @outcrawl/scout",
+"export OUTCRAWL_API_KEY=your-outcrawl-key",
+"export SCOUT_BASE_URL=https://your-endpoint/v1",
+"export SCOUT_API_KEY=your-model-key",
+"export SCOUT_HANDS_MODEL=your-model-id",
+"bun install",
+"cd packages/runtime && bun test ./test"
+],
+"description": "Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository.",
+"env": [
+"OUTCRAWL_API_KEY",
+"SCOUT_API_KEY",
+"SCOUT_BASE_URL"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492897.0874362,
+"full": "outcrawlai/scout",
+"homepage": "https://outcrawl.ai",
+"language": "TypeScript",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-03T01:07:27Z",
+"stack": [
+"Node.js"
+],
+"stars": 674,
+"topics": [
+"ai-agent",
+"browser-agent",
+"browser-automation",
+"cdp",
+"llm",
+"typescript",
+"web-automation"
+],
+"url": "https://github.com/outcrawlai/scout"
+},
+"pachca/openapi": {
+"archived": false,
+"branch": "main",
+"commands": [
+"claude mcp add --scope user --transport http pachca https://mcp.pachca.com/mcp",
+"npx @pachca/cli messages create --entity-id=123 --content=\"Привет!\" --token $PACHCA_TOKEN",
+"npm install -g @pachca/cli",
+"npx skills add https://dev.pachca.com -g -a claude-code -y",
+"claude plugin marketplace add pachca/openapi --sparse .claude-plugin plugins",
+"claude plugin install pachca@pachca",
+"npm install n8n-nodes-pachca",
+"npx @pachca/generator --output ./generated --lang typescript",
+"npx @pachca/generator --output ./generated --lang typescript,python,go,kotlin,swift,csharp",
+"bun install"
+],
+"description": "Pachca API platform: MCP server and plugin for AI agents (Claude Code, Codex, VS Code, Cursor) with skills and commands, OpenAPI spec, CLI, SDKs (TypeScript, Python, Go, Kotlin, Swift, C#) and n8n node",
+"env": [
+"PACHCA_TOKEN",
+"YOUR_TOKEN"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492900.8550897,
+"full": "pachca/openapi",
+"homepage": "https://dev.pachca.com",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-22T20:21:47Z",
+"stack": [
+"Node.js",
+"Docker"
+],
+"stars": 11,
+"topics": [
+"agent-skills",
+"ai-agents",
+"claude-code",
+"cli",
+"corporate-messenger",
+"csharp",
+"go",
+"kotlin"
+],
+"url": "https://github.com/pachca/openapi"
 },
 "patch-gg/pixelfx": {
 "archived": false,
@@ -2260,6 +3579,32 @@
 ],
 "url": "https://github.com/phone-harness/mcp"
 },
+"pig-dot-dev/muscle-mem": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "A cache for AI agents to learn and replay complex behaviors.",
+"env": [],
+"envfile": "",
+"fallback": [
+"python -m venv .venv",
+"source .venv/bin/activate   # Windows: .venv\\Scripts\\activate",
+"pip install -e ."
+],
+"fetched": 1795492899.8692167,
+"full": "pig-dot-dev/muscle-mem",
+"homepage": "",
+"language": "Python",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2025-06-15T00:23:35Z",
+"stack": [
+"Python"
+],
+"stars": 765,
+"topics": [],
+"url": "https://github.com/pig-dot-dev/muscle-mem"
+},
 "pipelex/pipelex": {
 "archived": false,
 "branch": "main",
@@ -2341,6 +3686,47 @@
 ],
 "url": "https://github.com/plandex-ai/plandex"
 },
+"qybaihe/bla": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npx bla-agents harden .            # writes a partial mirror to .bla-hardened/ — nothing ships yet",
+"npx bla-agents harden . --apply    # ship it: replace the build output with the hardened files",
+"npx bla-agents harden . --restore  # undo: put the original build output back",
+"npx bla-agents setup",
+"export REA_WABT_BIN_DIRECTORY=$HOME/opt/wabt-1.0.42/bin   # optional",
+"npm run build && npm run redteam:rea",
+"npx bla-agents benchmark",
+"npm run build && npm test && node dist/cli.js benchmark",
+"node scripts/verify-website.mjs"
+],
+"description": "🛡️ BLA (bla-agents / Blind LLM Agents) — Open-source Blue Defense MCP server & CLI protecting JS/TS, Electron ASAR, WASM, Python, Native Binaries, SQLite, GGUF/Safetensors & Android DEX against AI reverse-engineering agents (REA).",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492898.977314,
+"full": "qybaihe/bla",
+"homepage": "https://bla.tools",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-23T16:31:06Z",
+"stack": [
+"Node.js"
+],
+"stars": 6604,
+"topics": [
+"adversarial-ai",
+"ai-security",
+"android-security",
+"binary-protection",
+"claude-code",
+"codex",
+"cursor",
+"electron-security"
+],
+"url": "https://github.com/qybaihe/bla"
+},
 "reason-machines/reason-network": {
 "archived": false,
 "branch": "main",
@@ -2379,6 +3765,51 @@
 ],
 "url": "https://github.com/reason-machines/reason-network"
 },
+"replit/amuse": {
+"archived": false,
+"branch": "main",
+"commands": [
+"cp .env.example .env    # then set OPENAI_API_KEY",
+"docker compose up -d --build",
+"pnpm install --frozen-lockfile",
+"pnpm setup:browser      # downloads Chromium for the agent's live browser",
+"cp .env.example .env    # set OPENAI_API_KEY and DATABASE_URL",
+"pnpm build",
+"pnpm start",
+"pnpm dev                # API on :3000 and the web app with hot reload on http://localhost:5173",
+"pnpm typecheck",
+"pnpm test               # server unit tests; no database, network or API key needed"
+],
+"description": "Self-hosted personal AI agent: research, a live browser, reminders and small apps, with approvals before actions. Runs on your own computer with an OpenAI key.",
+"env": [
+"OPENAI_API_KEY"
+],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795492905.872429,
+"full": "replit/amuse",
+"homepage": "",
+"language": "TypeScript",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-23T21:23:33Z",
+"stack": [
+"Node.js",
+"Docker",
+"Docker Compose"
+],
+"stars": 152,
+"topics": [
+"ai-agent",
+"browser-automation",
+"openai",
+"personal-assistant",
+"postgresql",
+"self-hosted",
+"typescript"
+],
+"url": "https://github.com/replit/amuse"
+},
 "rociiu/talorys": {
 "archived": false,
 "branch": "main",
@@ -2415,6 +3846,152 @@
 "typescript"
 ],
 "url": "https://github.com/rociiu/talorys"
+},
+"rodri-oliveira-dev/agentic-engineering-skills": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npx skills add rodri-oliveira-dev/agentic-engineering-skills --list",
+"npx skills add rodri-oliveira-dev/agentic-engineering-skills --skill code-review",
+"npx skills add rodri-oliveira-dev/agentic-engineering-skills --all",
+"python -m venv .venv"
+],
+"description": "Open-source engineering skills for AI coding agents. Reusable workflows for architecture, code review, testing, security, and automation. Supports Codex, GitHub Copilot, and Claude Code.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492903.322419,
+"full": "rodri-oliveira-dev/agentic-engineering-skills",
+"homepage": "https://rodri-oliveira-dev.github.io/",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-23T17:04:18Z",
+"stack": [
+"Python"
+],
+"stars": 1,
+"topics": [
+"agent-skills",
+"agentic-engineering",
+"ai-agents",
+"claude-code",
+"code-review",
+"codex",
+"developer-tools",
+"github-copilot"
+],
+"url": "https://github.com/rodri-oliveira-dev/agentic-engineering-skills"
+},
+"salespeak-ai/inbox-envoy": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "Inbox Envoy: an open skill that lets your personal AI agent protect your inbox, organize mail, and research unfamiliar offers before they reach you. Public beta.",
+"env": [],
+"envfile": "",
+"fallback": [
+"python -m venv .venv",
+"source .venv/bin/activate   # Windows: .venv\\Scripts\\activate",
+"pip install -e ."
+],
+"fetched": 1795492904.0165255,
+"full": "salespeak-ai/inbox-envoy",
+"homepage": "",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-22T06:47:34Z",
+"stack": [
+"Python"
+],
+"stars": 5,
+"topics": [
+"a2a",
+"agent-skill",
+"ai-agent",
+"claude-skill",
+"email",
+"inbox",
+"personal-agent",
+"salespeak"
+],
+"url": "https://github.com/salespeak-ai/inbox-envoy"
+},
+"shawn1905/zero-proxy-mcp-suite": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npm install && npm run build",
+"npm start",
+"docker build -t zero-proxy-mcp-suite .",
+"docker run -i --rm -e APIFY_TOKEN=YOUR_APIFY_TOKEN zero-proxy-mcp-suite"
+],
+"description": "Zero-proxy Remote MCP Servers (Streamable HTTP) for Google News, ESPN Sports, 5-Board Remote Jobs, Polymarket/Kalshi & Substack + free n8n automation templates.",
+"env": [
+"APIFY_TOKEN"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492898.979574,
+"full": "shawn1905/zero-proxy-mcp-suite",
+"homepage": "https://apify.com/shawn1905",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T00:43:29Z",
+"stack": [
+"Node.js",
+"Docker"
+],
+"stars": 0,
+"topics": [
+"apify",
+"claude",
+"cursor",
+"espn",
+"google-news",
+"mcp",
+"mcp-server",
+"model-context-protocol"
+],
+"url": "https://github.com/shawn1905/zero-proxy-mcp-suite"
+},
+"shinyobjectz/raea": {
+"archived": false,
+"branch": "main",
+"commands": [
+"curl -fsSL https://raea.io/install | sh",
+"irm https://raea.io/install.ps1 | iex",
+"cargo build --release -p raea-cli --no-default-features"
+],
+"description": "Render Anything Engine: tell your AI what to make. Videos, motion graphics, 3D and games as React and TypeScript, rendered on your own GPU. Rust + Bevy, macOS, Linux and Windows.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492902.7418246,
+"full": "shinyobjectz/raea",
+"homepage": "https://raea.io",
+"language": "TypeScript",
+"license": "NOASSERTION",
+"ok": true,
+"pushed": "2026-11-24T02:23:58Z",
+"stack": [
+"Rust",
+"Node.js"
+],
+"stars": 4734,
+"topics": [
+"3d",
+"agent-skills",
+"ai-agents",
+"ai-video",
+"bevy",
+"claude-code",
+"game-engine",
+"gpu"
+],
+"url": "https://github.com/shinyobjectz/raea"
 },
 "simplexai-labs/linger": {
 "archived": false,
@@ -2534,6 +4111,41 @@
 "llm"
 ],
 "url": "https://github.com/Skyvern-AI/skyvern"
+},
+"smhanov/laconic": {
+"archived": false,
+"branch": "main",
+"commands": [
+"go get github.com/smhanov/laconic",
+"cd examples/basic",
+"go run .",
+"go run ./examples/research/ -model mistral -prompt question.txt",
+"go run ./examples/research/ -provider ollama -model llama3 -endpoint https://ollama.example.com -prompt question.txt",
+"go run ./examples/research/ \\",
+"go run ./examples/research/ -model mistral -prompt question.txt -debug",
+"go run ./examples/research/ -model mistral -prompt ticker.txt -var TICKER=AAPL",
+"go test ./..."
+],
+"description": "An agentic research orchestrator for Go that is optimized to use free search & low-cost limited context window llms.",
+"env": [
+"OPENAI_API_KEY",
+"YOUR_API_KEY"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492897.161128,
+"full": "smhanov/laconic",
+"homepage": "",
+"language": "Go",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-07-06T23:29:14Z",
+"stack": [
+"Go"
+],
+"stars": 262,
+"topics": [],
+"url": "https://github.com/smhanov/laconic"
 },
 "souravberaakaspeed/xiryn": {
 "archived": false,
@@ -2661,6 +4273,64 @@
 ],
 "url": "https://github.com/starlinghq/starling"
 },
+"statera-library/02_vol_08_amr_operations_deployment_and_mlops": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492896.2397454,
+"full": "Statera-Library/02_Vol_08_AMR_Operations_Deployment_and_MLOps",
+"homepage": "",
+"language": null,
+"license": null,
+"ok": true,
+"pushed": "2026-11-24T01:02:18Z",
+"stack": [],
+"stars": 0,
+"topics": [],
+"url": "https://github.com/Statera-Library/02_Vol_08_AMR_Operations_Deployment_and_MLOps"
+},
+"stochasticresult/cto-agent-team": {
+"archived": false,
+"branch": "main",
+"commands": [
+"python examples/end_to_end_demo/run_demo.py --verify",
+"python scripts/model_route.py assets/routing.example.json --now 2030-01-02T00:00:00Z",
+"python \"$skillTarget/scripts/team_state.py\" init --state-dir \"$teamStateDir\"",
+"python \"$skillTarget/scripts/team_state.py\" validate --state-dir \"$teamStateDir\"",
+"python \"$skillTarget/scripts/team_state.py\" register --state-dir \"$teamStateDir\" --role PM01 --thread-id \"<THREAD_ID_FROM_TOOL>\" --host-id \"<HOST_ID_FROM_TOOL>\" --status created",
+"python \"$skillTarget/scripts/team_state.py\" validate --state-dir \"$teamStateDir\" --require-ready"
+],
+"description": "A CTO, product manager, and engineer team skill for coding agents on Codex, Google Antigravity, and Claude Code, with task routing, shared handoffs, resource leases, and completion follow-up.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492897.2569664,
+"full": "StochasticResult/cto-agent-team",
+"homepage": "",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-23T17:58:45Z",
+"stack": [
+"Python"
+],
+"stars": 86,
+"topics": [
+"agent-skills",
+"agent-team",
+"antigravity",
+"claude-code",
+"codex",
+"multi-agent",
+"task-orchestration",
+"workflow-automation"
+],
+"url": "https://github.com/StochasticResult/cto-agent-team"
+},
 "strelov1/freehire": {
 "archived": false,
 "branch": "main",
@@ -2746,6 +4416,43 @@
 "topics": [],
 "url": "https://github.com/superhq-ai/shuru"
 },
+"tiger-ai-lab/websitebench": {
+"archived": false,
+"branch": "main",
+"commands": [
+"uv tool install harbor==0.25.0",
+"export OPENAI_API_KEY='<key>'",
+"pip install websitebench"
+],
+"description": "Can AI agents rebuild websites through browser exploration?",
+"env": [
+"OPENAI_API_KEY"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492901.0438888,
+"full": "TIGER-AI-Lab/WebsiteBench",
+"homepage": "https://website-bench.com/",
+"language": "Python",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-17T08:54:35Z",
+"stack": [
+"Python"
+],
+"stars": 694,
+"topics": [
+"agent-evaluation",
+"ai",
+"ai-agents",
+"benchmark",
+"benchmarking",
+"browser-automation",
+"browser-use",
+"full-stack"
+],
+"url": "https://github.com/TIGER-AI-Lab/WebsiteBench"
+},
 "tsahospital-beep/wa-mcp": {
 "archived": false,
 "branch": "main",
@@ -2786,6 +4493,48 @@
 ],
 "url": "https://github.com/tsahospital-beep/wa-mcp"
 },
+"tthanh2k6/turbo-browser-mcp": {
+"archived": false,
+"branch": "main",
+"commands": [
+"claude mcp add turbo-browser -- npx -y turbo-browser-mcp",
+"npx -y turbo-browser-mcp --doctor",
+"npx playwright-core install chromium",
+"npm install",
+"node src/index.mjs --doctor",
+"mkdir -p ~/.claude/skills/turbo-browser",
+"npx -y turbo-browser-mcp --print-skill > ~/.claude/skills/turbo-browser/SKILL.md",
+"npm test               # tests in test/*.test.mjs",
+"npm run doctor         # Node, Playwright, Chromium and CDP check",
+"npm run benchmark      # per-tool token and timing benchmark"
+],
+"description": "Playwright MCP server built to cut agent turns and tokens: one-call form filling, delta snapshots, batched steps, and a submit guard on by default",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492900.6296313,
+"full": "Tthanh2k6/turbo-browser-mcp",
+"homepage": "https://www.npmjs.com/package/turbo-browser-mcp",
+"language": "JavaScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-21T15:12:08Z",
+"stack": [
+"Node.js"
+],
+"stars": 148,
+"topics": [
+"ai-agents",
+"browser-automation",
+"cdp",
+"claude-code",
+"mcp",
+"mcp-server",
+"model-context-protocol",
+"playwright"
+],
+"url": "https://github.com/Tthanh2k6/turbo-browser-mcp"
+},
 "tubelabhq/youtube-research-skills": {
 "archived": false,
 "branch": "main",
@@ -2821,6 +4570,88 @@
 ],
 "url": "https://github.com/TubeLabHQ/youtube-research-skills"
 },
+"underleveledbuilder/awesome-short-drama-skills": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npx skills add eternityspring/shuohao-skills",
+"npx skills add zenstory-ai/drama-skills",
+"npx skills add lixiaoxiao9888-create/manju-laoli-skill",
+"npx skills add zhanghao123vip/ai-manju-skills",
+"npx skills add A-cat-with-carrots/OnlyShot",
+"npx skills add SwotAtmk/infinite-creation",
+"npx skills add zhaihao118/Micro-Drama-Skills",
+"npx skills add suihe1/short-drama-production",
+"npx skills add Tencent/workrally",
+"npx skills add 62656456/ai-film-skills"
+],
+"description": "AI 短剧 · 漫剧 Skill（技能包）精选：剧本、改编、分镜、Seedance / 可灵 / MiniMax 视频提示词，千问、豆包、龙虾 OpenClaw、WorkBuddy、Claude Code、Codex 等智能体可用 | Curated agent skills for AI short drama, micro drama / microdrama, vertical drama and manju (AI comic drama): screenwriting, storyboards, Seedance / Kling / MiniMax video prompts",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492902.4975364,
+"full": "UnderleveledBuilder/awesome-short-drama-skills",
+"homepage": "https://shortdramaskills.com",
+"language": "HTML",
+"license": "CC0-1.0",
+"ok": true,
+"pushed": "2026-11-23T17:16:46Z",
+"stack": [],
+"stars": 2794,
+"topics": [
+"agent-skills",
+"ai-drama",
+"ai-short-drama",
+"awesome",
+"awesome-list",
+"claude-code",
+"claude-skills",
+"codex"
+],
+"url": "https://github.com/UnderleveledBuilder/awesome-short-drama-skills"
+},
+"underleveledbuilder/awesome-social-media-skills": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npx skills add JimLiu/baoyu-skills",
+"npx skills add imraywang/wewrite",
+"npx skills add Jakeschincariol/instagram-agent-skill",
+"npx skills add Jakeschincariol/youtube-agent-skill",
+"npx skills add sergebulaev/linkedin-skills",
+"npx skills add mcncarl/yichen-skills",
+"npx skills add charlie947/social-media-skills",
+"npx skills add Jakeschincariol/linkedin-agent-skill",
+"npx skills add Xiangyu-CAS/xiaohongshu-ops-skill",
+"npx skills add tsingyuai/growth-lab"
+],
+"description": "自媒体运营 Skill（技能包）精选：小红书、抖音、公众号、视频号、B 站、X、YouTube、TikTok、LinkedIn 的选题、写稿、配图、发布和数据，千问、豆包、龙虾 OpenClaw、WorkBuddy、Claude Code、Codex 等智能体可用 | Curated agent skills for social media: Xiaohongshu (RedNote), Douyin, WeChat, X, YouTube, TikTok and LinkedIn",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492898.2209773,
+"full": "UnderleveledBuilder/awesome-social-media-skills",
+"homepage": "",
+"language": "Python",
+"license": "CC0-1.0",
+"ok": true,
+"pushed": "2026-11-23T17:18:56Z",
+"stack": [
+"Python"
+],
+"stars": 331,
+"topics": [
+"agent-skills",
+"awesome",
+"awesome-list",
+"claude-code",
+"claude-skills",
+"codex",
+"content-creator",
+"douyin"
+],
+"url": "https://github.com/UnderleveledBuilder/awesome-social-media-skills"
+},
 "w01fb0ss/pibot": {
 "archived": false,
 "branch": "main",
@@ -2854,6 +4685,85 @@
 "coding-agent"
 ],
 "url": "https://github.com/w01fb0ss/PiBot"
+},
+"wangzan101/mika": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492896.2789052,
+"full": "wangzan101/Mika",
+"homepage": "https://mikaphone.com",
+"language": "Kotlin",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-23T09:42:27Z",
+"stack": [
+"Kotlin"
+],
+"stars": 9795,
+"topics": [
+"accessibility",
+"ai-agent",
+"android",
+"automation",
+"jetpack-compose",
+"kotlin",
+"llm",
+"mobile-agent"
+],
+"url": "https://github.com/wangzan101/Mika"
+},
+"webmachinelearning/webmcp": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "🤖 WebMCP",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492903.017046,
+"full": "webmachinelearning/webmcp",
+"homepage": "https://webmachinelearning.github.io/webmcp/",
+"language": "Bikeshed",
+"license": "NOASSERTION",
+"ok": true,
+"pushed": "2026-11-24T03:11:47Z",
+"stack": [
+"Make",
+"Bikeshed"
+],
+"stars": 5018,
+"topics": [],
+"url": "https://github.com/webmachinelearning/webmcp"
+},
+"withcoral/coral": {
+"archived": false,
+"branch": "main",
+"commands": [
+"claude mcp add --scope user --transport http coral <your-mcp-url>   # Claude Code"
+],
+"description": "Execution rails for agents. Equip your AI to work with sensitive enterprise systems. Give agents precise permissions and custom tools that work faster with fewer tokens.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492901.5587237,
+"full": "withcoral/coral",
+"homepage": "https://withcoral.com",
+"language": "Rust",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-24T02:26:52Z",
+"stack": [
+"Rust",
+"Make"
+],
+"stars": 5030,
+"topics": [],
+"url": "https://github.com/withcoral/coral"
 },
 "xinatian/mroffice": {
 "archived": false,
@@ -2969,5 +4879,47 @@
 "text-to-speech"
 ],
 "url": "https://github.com/zeekk0/OpenAmika"
+},
+"zseven-w/dsh-game-studio": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npm install",
+"npm run setup          # Codex (registers plugin + verifies all 15 tools via codex app-server)",
+"npm run setup:claude   # Claude Code",
+"npm run setup:agy      # Antigravity",
+"npm run setup:all      # All hosts at once",
+"npm ci",
+"npm run build   # lib/index.js, lib/client.js and the bundled three.js runtime",
+"npm test        # node --test; playtest tests are skipped when no Chrome or Edge is found"
+],
+"description": "Describe a small game in one sentence, play it in the DeepSeek Harness sidebar, swap in AI art, and publish to GitHub Pages or Cloudflare in one click.",
+"env": [
+"OPENAI_API_KEY"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795492902.582024,
+"full": "ZSeven-W/dsh-game-studio",
+"homepage": "https://finiking.github.io/dsh-games/wall/",
+"language": "JavaScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-21T16:01:32Z",
+"stack": [
+"Node.js"
+],
+"stars": 857,
+"topics": [
+"ai-agent",
+"ai-game-generator",
+"deepseek-harness",
+"dsh",
+"dsh-plugin",
+"game",
+"gamedev",
+"github-pages"
+],
+"url": "https://github.com/ZSeven-W/dsh-game-studio"
 }
 }
