@@ -228,6 +228,37 @@
 ],
 "url": "https://github.com/aindeev/agent-chrome-relay"
 },
+"akshaypatel-ai/ai-automations": {
+"archived": false,
+"branch": "main",
+"commands": [
+"./setup.sh"
+],
+"description": "Automate any tool like Basecamp, Jira, Clickup etc using any runtime like Github action, Gitlab CI, server etc.., with any AI like Claude Code, Codex, Gemini CLI or any API or any LLM ",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795541524.2771308,
+"full": "akshaypatel-ai/ai-automations",
+"homepage": "https://www.akshaypatel.in",
+"language": "Shell",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-09-17T11:50:06Z",
+"stack": [],
+"stars": 0,
+"topics": [
+"ai",
+"ai-agents",
+"automation",
+"basecamp",
+"claude",
+"devops",
+"github-actions",
+"jira"
+],
+"url": "https://github.com/akshaypatel-ai/ai-automations"
+},
 "alchaincyf/huashu-motion": {
 "archived": false,
 "branch": "main",
@@ -1628,6 +1659,47 @@
 ],
 "url": "https://github.com/gauge-sh/gauge-cli"
 },
+"gaurshalendra2412/axi-runtime": {
+"archived": false,
+"branch": "main",
+"commands": [
+"cd python",
+"python3 quickstart_replay.py",
+"export GEMINI_API_KEY=your_key",
+"python3 live_check.py",
+"mkdir -p /tmp/axi_out",
+"python3 -m axi.experiments.state_size_scaling /tmp/axi_out"
+],
+"description": "AXI, by Rajnish Choubey: a host-side layer between an LLM and the state it edits. In tests: state exact on 4,000 of 4,000 steps (Gemini) and 80,000 of 80,000 (7B open model); 99% fewer prompt tokens per step than a kept chat (Gemini run); 256 sessions on one L4. Reference tests and saved results.",
+"env": [
+"GEMINI_API_KEY"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795541524.3003476,
+"full": "gaurshalendra2412/axi-runtime",
+"homepage": "https://doi.org/10.5281/zenodo.23958737",
+"language": "Python",
+"license": null,
+"ok": true,
+"pushed": "2026-11-24T17:01:33Z",
+"stack": [
+"Python",
+"Rust"
+],
+"stars": 1,
+"topics": [
+"agent-drift",
+"agent-reliability",
+"ai-agents",
+"ai-cost",
+"axi-framework",
+"axi-runtime",
+"benchmark",
+"context-engineering"
+],
+"url": "https://github.com/gaurshalendra2412/axi-runtime"
+},
 "gfirik/pas-agent": {
 "archived": false,
 "branch": "main",
@@ -2871,6 +2943,42 @@
 "topics": [],
 "url": "https://github.com/lockin2026ethan-pixel/druve-agents"
 },
+"m-mustufa/ai-api-cost-mcp": {
+"archived": false,
+"branch": "main",
+"commands": [
+"claude mcp add ai-api-cost -- npx -y ai-api-cost-mcp",
+"npm install",
+"npm test        # starts the server over stdio with a real MCP client and checks every tool",
+"npm run sync    # inside the website repo only: re-copy the calculator module"
+],
+"description": "MCP server to estimate and compare OpenAI, Claude and Gemini API costs, gross margin and break-even price for SaaS features.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795541524.747711,
+"full": "m-mustufa/ai-api-cost-mcp",
+"homepage": "https://aisaaswithmustafa.com/tools/ai-api-cost-calculator.html",
+"language": "JavaScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T00:59:29Z",
+"stack": [
+"Node.js"
+],
+"stars": 0,
+"topics": [
+"ai-cost",
+"anthropic",
+"gemini",
+"llm",
+"mcp",
+"mcp-server",
+"model-context-protocol",
+"openai"
+],
+"url": "https://github.com/m-mustufa/ai-api-cost-mcp"
+},
 "mdiri-ai/soduwork": {
 "archived": false,
 "branch": "main",
@@ -3304,6 +3412,47 @@
 ],
 "url": "https://github.com/nimblegate/nimblegate"
 },
+"nousresearch/hermes-agent": {
+"archived": false,
+"branch": "main",
+"commands": [
+"curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash",
+"source ~/.bashrc    # reload shell (or: source ~/.zshrc)",
+"winget install --id GitHub.cli",
+"gh auth login",
+"uv = \"$env:LOCALAPPDATA\\hermes\\bin\\uv.exe\"",
+"gh attestation verify $zip --repo astral-sh/uv"
+],
+"description": "The agent that grows with you",
+"env": [],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795541524.5274038,
+"full": "NousResearch/hermes-agent",
+"homepage": "https://hermes-agent.nousresearch.com",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T17:27:38Z",
+"stack": [
+"Python",
+"Node.js",
+"Docker",
+"Docker Compose"
+],
+"stars": 265841,
+"topics": [
+"ai",
+"ai-agent",
+"ai-agents",
+"anthropic",
+"chatgpt",
+"claude",
+"claude-code",
+"codex"
+],
+"url": "https://github.com/NousResearch/hermes-agent"
+},
 "ollama/ollama": {
 "archived": false,
 "branch": "main",
@@ -3598,6 +3747,33 @@
 "ollama-webui"
 ],
 "url": "https://github.com/open-webui/open-webui"
+},
+"openai/openai-cookbook": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "Examples and guides for using the OpenAI API",
+"env": [
+"OPENAI_API_KEY"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795541524.3810194,
+"full": "openai/openai-cookbook",
+"homepage": "https://cookbook.openai.com",
+"language": "Jupyter Notebook",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T13:35:05Z",
+"stack": [],
+"stars": 77463,
+"topics": [
+"chatgpt",
+"gpt-4",
+"openai",
+"openai-api"
+],
+"url": "https://github.com/openai/openai-cookbook"
 },
 "openbin-ai/binny": {
 "archived": false,
@@ -4542,6 +4718,46 @@
 "topics": [],
 "url": "https://github.com/smhanov/laconic"
 },
+"sonawanemayur/agentscan": {
+"archived": false,
+"branch": "dev",
+"commands": [
+"curl -LsSf https://astral.sh/uv/install.sh | sh",
+"uv sync",
+"uv run agentscan scan examples/vulnerable",
+"uv run agentscan scan",
+"uv tool install agentscan-si      # or: pipx install agentscan-si / pip install agentscan-si",
+"uv tool install git+https://github.com/SonawaneMayur/agentscan",
+"pip install agentscan-si",
+"uv sync --group demo",
+"uv run --group demo jupyter nbconvert --to notebook --execute --inplace notebooks/agentscan-demo.ipynb",
+"git config core.hooksPath .githooks"
+],
+"description": "",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795541524.4350216,
+"full": "SonawaneMayur/agentscan",
+"homepage": "",
+"language": "Jupyter Notebook",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T17:13:26Z",
+"stack": [
+"Python"
+],
+"stars": 1,
+"topics": [
+"ai-security",
+"llm-security",
+"mcp",
+"python",
+"security-scanner",
+"ssat"
+],
+"url": "https://github.com/SonawaneMayur/agentscan"
+},
 "souravberaakaspeed/xiryn": {
 "archived": false,
 "branch": "main",
@@ -4836,6 +5052,38 @@
 "stars": 0,
 "topics": [],
 "url": "https://github.com/tariqosmani/smai-leadgen"
+},
+"temporal-community/temporal-ai-mcp-gateway": {
+"archived": false,
+"branch": "main",
+"commands": [
+"uv run durable-mcp-gateway call-tool run_script examples/notion_find_1pagers_mentioning_ai.py",
+"uv run durable-mcp-gateway server   # Temporal and the Web UI",
+"uv run durable-mcp-gateway worker   # the Worker alone; Ctrl-C stops just this",
+"uv run durable-mcp-gateway call-tool list_upstream_tools           # the typed stub",
+"uv run durable-mcp-gateway call-tool list_upstream_tools_as_json   # the raw JSON catalog",
+"uv run durable-mcp-gateway call-tool run_script path/to/script.py  # run a script in the sandbox",
+"uv run durable-mcp-gateway call-tool run_script -c 'import asyncio; asyncio.run(notion_notion_get_users(page_size=1))'",
+"uv run python scripts/run_workflow.py 'xs = [i * i for i in range(5)]; print(f\"squares: {xs}\"); sum(xs)'",
+"uv run durable-mcp-gateway worker   # recovery: prints \"durable-mcp-gateway worker ready: ...\""
+],
+"description": "",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795541524.2954829,
+"full": "temporal-community/temporal-ai-mcp-gateway",
+"homepage": "",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-05T19:25:10Z",
+"stack": [
+"Python"
+],
+"stars": 5,
+"topics": [],
+"url": "https://github.com/temporal-community/temporal-ai-mcp-gateway"
 },
 "tiger-ai-lab/websitebench": {
 "archived": false,
