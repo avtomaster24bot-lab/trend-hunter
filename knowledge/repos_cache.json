@@ -421,6 +421,30 @@
 ],
 "url": "https://github.com/alibaba/qz-browser-agent"
 },
+"apache/httpcomponents-core": {
+"archived": false,
+"branch": "master",
+"commands": [],
+"description": "Mirror of Apache HttpCore",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795532487.7541373,
+"full": "apache/httpcomponents-core",
+"homepage": "",
+"language": "Java",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-23T11:39:02Z",
+"stack": [
+"Java"
+],
+"stars": 367,
+"topics": [
+"httpcomponents"
+],
+"url": "https://github.com/apache/httpcomponents-core"
+},
 "arekejoker/qwen21-nsfw-pose-skill": {
 "archived": false,
 "branch": "main",
@@ -452,6 +476,52 @@
 "qwen-image"
 ],
 "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill"
+},
+"arvo-ai/aurora": {
+"archived": false,
+"branch": "main",
+"commands": [
+"make init                # Generate secure secrets",
+"make prod-prebuilt       # Pull prebuilt images and start",
+"docker logs vault-init 2>&1 | grep \"Root Token:\"",
+"make down && make prod-prebuilt",
+"make prod-prebuilt VERSION=v1.2.3",
+"make prod-local",
+"helm repo add aurora https://raw.githubusercontent.com/Arvo-AI/aurora/gh-pages",
+"helm repo update",
+"helm show values aurora/aurora-oss > my-values.yaml",
+"helm install aurora-oss aurora/aurora-oss -n aurora --create-namespace -f my-values.yaml"
+],
+"description": "Aurora — Open source AI-powered agentic incident management & root cause analysis for SREs. LangGraph agents investigate across AWS, Azure, GCP, Kubernetes. Integrates with PagerDuty, Datadog, Grafana, Slack and More. Apache 2.0.",
+"env": [
+"VAULT_TOKEN"
+],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795532488.9132345,
+"full": "Arvo-AI/aurora",
+"homepage": "https://www.aurorasre.ai",
+"language": "Python",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-24T01:53:32Z",
+"stack": [
+"Docker Compose",
+"Make",
+"Python"
+],
+"stars": 466,
+"topics": [
+"ai-agents",
+"aiops",
+"automation",
+"aws",
+"azure",
+"datadog",
+"devops",
+"gcp"
+],
+"url": "https://github.com/Arvo-AI/aurora"
 },
 "avtomaster24bot-lab/trend-hunter": {
 "archived": false,
@@ -753,6 +823,44 @@
 "stable-diffusion"
 ],
 "url": "https://github.com/Comfy-Org/ComfyUI"
+},
+"coneshare/coneshare": {
+"archived": false,
+"branch": "main",
+"commands": [
+"cp .env.template .env",
+"make build",
+"make up",
+"make migrate"
+],
+"description": "Self-Hosted Virtual Data Room (VDR) & Document Tracking. Open-Source DocSend alternative with Built-in MCP Server.",
+"env": [],
+"envfile": ".env.template",
+"fallback": [],
+"fetched": 1795532488.8513253,
+"full": "coneshare/coneshare",
+"homepage": "https://www.coneshare.com",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T13:37:07Z",
+"stack": [
+"Docker Compose",
+"Make",
+"Python"
+],
+"stars": 49,
+"topics": [
+"chatgpt",
+"claude",
+"dataroom",
+"docsend-alternative",
+"document-tracking",
+"dropbox",
+"gdrive",
+"gemini"
+],
+"url": "https://github.com/coneshare/coneshare"
 },
 "ctoldigital/axuse": {
 "archived": false,
@@ -1318,6 +1426,52 @@
 ],
 "url": "https://github.com/Fanqi89/dsh-craft-anything"
 },
+"firecrawl/firecrawl": {
+"archived": false,
+"branch": "main",
+"commands": [
+"cargo install firecrawl-local",
+"npx -y firecrawl-cli@latest scrape https://firecrawl.dev",
+"curl -X POST 'https://api.firecrawl.dev/v2/search' \\",
+"curl -X POST 'https://api.firecrawl.dev/v2/scrape' \\",
+"curl -X POST 'https://api.firecrawl.dev/v2/scrape/SCRAPE_ID/interact' \\",
+"curl -X POST 'https://api.firecrawl.dev/v2/agent' \\",
+"curl -X POST 'https://api.firecrawl.dev/v2/crawl' \\",
+"npx -y firecrawl-cli@latest init --all --browser",
+"curl -s https://firecrawl.dev/agent-onboarding/SKILL.md",
+"pip install firecrawl"
+],
+"description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+"env": [
+"FIRECRAWL_API_KEY",
+"YOUR_API_KEY"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795532488.2643058,
+"full": "firecrawl/firecrawl",
+"homepage": "https://firecrawl.dev",
+"language": "TypeScript",
+"license": "AGPL-3.0",
+"ok": true,
+"pushed": "2026-11-24T14:59:38Z",
+"stack": [
+"Docker Compose",
+"Node.js"
+],
+"stars": 208544,
+"topics": [
+"ai",
+"ai-agents",
+"ai-crawler",
+"ai-scraping",
+"ai-search",
+"crawler",
+"data-extraction",
+"html-to-markdown"
+],
+"url": "https://github.com/firecrawl/firecrawl"
+},
 "flamerix-ai/c3905705cc4205e5de3011fa2e74efce": {
 "fetched": 1795492900.5625057,
 "ok": false
@@ -1508,6 +1662,35 @@
 "developer-tools"
 ],
 "url": "https://github.com/gfirik/pas-agent"
+},
+"ggml-org/llama.cpp": {
+"archived": false,
+"branch": "master",
+"commands": [
+"curl -LsSf https://llama.app/install.sh | sh",
+"irm https://llama.app/install.ps1 | iex"
+],
+"description": "LLM inference in C/C++",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795532488.3616474,
+"full": "ggml-org/llama.cpp",
+"homepage": "https://llama.app",
+"language": "C++",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T14:38:35Z",
+"stack": [
+"Python",
+"Make",
+"C++"
+],
+"stars": 136109,
+"topics": [
+"ggml"
+],
+"url": "https://github.com/ggml-org/llama.cpp"
 },
 "gitroomhq/postiz-app": {
 "archived": false,
@@ -1872,6 +2055,41 @@
 "open-source-video-editor"
 ],
 "url": "https://github.com/iamajmeena/neonclipping"
+},
+"iflytek/astron-agent": {
+"archived": false,
+"branch": "main",
+"commands": [
+"cd astron-agent/docker/astronAgent",
+"docker compose up -d --build"
+],
+"description": "Enterprise-grade, commercial-friendly agentic workflow platform for building next-generation SuperAgents.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795532487.7527575,
+"full": "iflytek/astron-agent",
+"homepage": "http://astron.ai/",
+"language": "Python",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-24T12:45:42Z",
+"stack": [
+"Make",
+"Python"
+],
+"stars": 8924,
+"topics": [
+"agent",
+"agentic-ai",
+"agentic-workflow",
+"ai",
+"enterprise",
+"enterprise-automation",
+"iflytek-astron",
+"llm"
+],
+"url": "https://github.com/iflytek/astron-agent"
 },
 "ink-q/agy-fast": {
 "archived": false,
@@ -2726,6 +2944,50 @@
 ],
 "url": "https://github.com/microsoft/TokenEconomizer"
 },
+"milind-soni/openmausbot": {
+"archived": false,
+"branch": "main",
+"commands": [
+"pnpm install",
+"pnpm dev:server    # harness server → 127.0.0.1:8799",
+"pnpm dev           # app → http://127.0.0.1:5199",
+"pnpm dev:desktop   # Electron shell; keep the two commands above running",
+"pnpm package:mac      # macOS: DMG + ZIP; requires Swift/Xcode tools",
+"pnpm package:win      # Windows: installer + ZIP",
+"pnpm package:linux    # Linux x64: .deb + .rpm + AppImage + verified CUA runtime",
+"npm install -g openmausbot",
+"pnpm typecheck     # app + server",
+"pnpm test          # unit, driver, API, and desktop capability tests"
+],
+"description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+"env": [],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795532488.2992835,
+"full": "milind-soni/OpenMausBot",
+"homepage": "https://www.mausbot.com/",
+"language": "TypeScript",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-24T14:52:28Z",
+"stack": [
+"Node.js",
+"Docker",
+"Docker Compose"
+],
+"stars": 27409,
+"topics": [
+"ai-agents",
+"claude-code",
+"codex",
+"computer-use",
+"docker",
+"electron",
+"grok",
+"grok-bot"
+],
+"url": "https://github.com/milind-soni/OpenMausBot"
+},
 "mir-ashiq/canvix": {
 "archived": false,
 "branch": "main",
@@ -3001,6 +3263,46 @@
 "flint"
 ],
 "url": "https://github.com/nace-ai/kapitsa"
+},
+"nimblegate/nimblegate": {
+"archived": false,
+"branch": "main",
+"commands": [
+"curl -O https://raw.githubusercontent.com/nimblegate/nimblegate/main/compose.yaml",
+"docker compose up -d",
+"docker logs nimblegate | grep nbg-setup     # one-time setup token",
+"git remote set-url origin ssh://git@<gateway-host>:2222/~/my-app.git",
+"git push"
+],
+"description": "Self-hosted git push gateway for AI agents: checks every push on the server, blocks unsafe ones, forwards safe ones, records every decision. Source-available, free for non-commercial use.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795532488.0180326,
+"full": "nimblegate/nimblegate",
+"homepage": "https://nimblegate.com",
+"language": "Go",
+"license": "NOASSERTION",
+"ok": true,
+"pushed": "2026-11-19T12:29:40Z",
+"stack": [
+"Docker",
+"Docker Compose",
+"Go",
+"Make"
+],
+"stars": 3,
+"topics": [
+"ai-agents",
+"ai-safety",
+"code-review",
+"devops",
+"gateway",
+"git",
+"git-server",
+"golang"
+],
+"url": "https://github.com/nimblegate/nimblegate"
 },
 "ollama/ollama": {
 "archived": false,
@@ -3810,6 +4112,39 @@
 ],
 "url": "https://github.com/replit/amuse"
 },
+"richarvey/omnimem": {
+"archived": false,
+"branch": "main",
+"commands": [
+"claude mcp add --transport http --scope user omnimem http://127.0.0.1:8765/mcp"
+],
+"description": "Self-hosted semantic memory for AI agents, served over MCP. Persistent sessions, experience scoring, a graveyard for dead ends and skills compiled from what worked, plus knowledge from the RSS feeds you read. One Rust binary on SQLite: a tray app for macOS, Windows and Linux, or a server.",
+"env": [],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795532488.4745114,
+"full": "richarvey/OmniMem",
+"homepage": "https://omnimem.org",
+"language": "Rust",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T00:08:30Z",
+"stack": [
+"Rust"
+],
+"stars": 104,
+"topics": [
+"ai-agents",
+"ai-memory",
+"claude",
+"claude-code",
+"codex",
+"docker",
+"embeddings",
+"knowledge-base"
+],
+"url": "https://github.com/richarvey/OmniMem"
+},
 "rociiu/talorys": {
 "archived": false,
 "branch": "main",
@@ -3883,6 +4218,36 @@
 ],
 "url": "https://github.com/rodri-oliveira-dev/agentic-engineering-skills"
 },
+"s17anushka/tripwire": {
+"archived": false,
+"branch": "main",
+"commands": [
+"python -m venv .venv && source .venv/bin/activate    # Windows: .venv\\Scripts\\activate",
+"pip install -r requirements.txt",
+"uvicorn app.main:app --reload",
+"python examples/demo_agent.py"
+],
+"description": "",
+"env": [
+"ANTHROPIC_API_KEY",
+"TYPESAFE_API_KEY"
+],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795532487.7328875,
+"full": "s17anushka/tripwire",
+"homepage": "",
+"language": "Python",
+"license": null,
+"ok": true,
+"pushed": "2026-11-24T13:15:10Z",
+"stack": [
+"Python"
+],
+"stars": 0,
+"topics": [],
+"url": "https://github.com/s17anushka/tripwire"
+},
 "salespeak-ai/inbox-envoy": {
 "archived": false,
 "branch": "main",
@@ -3917,6 +4282,36 @@
 "salespeak"
 ],
 "url": "https://github.com/salespeak-ai/inbox-envoy"
+},
+"sanmen87/cce-verified-continuity": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npm ci --ignore-scripts --no-audit --no-fund",
+"npm run demo:continuity",
+"npm run typecheck",
+"npm test",
+"npm run build",
+"npm run smoke:pi",
+"node dist/packages/core/src/cli.js status ."
+],
+"description": "Code Context Engine: verified continuity for local LLMs and replaceable coding agents",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795532488.3257816,
+"full": "Sanmen87/cce-verified-continuity",
+"homepage": "",
+"language": "TypeScript",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-22T20:17:18Z",
+"stack": [
+"Node.js"
+],
+"stars": 0,
+"topics": [],
+"url": "https://github.com/Sanmen87/cce-verified-continuity"
 },
 "shawn1905/zero-proxy-mcp-suite": {
 "archived": false,
@@ -4416,6 +4811,32 @@
 "topics": [],
 "url": "https://github.com/superhq-ai/shuru"
 },
+"tariqosmani/smai-leadgen": {
+"archived": false,
+"branch": "master",
+"commands": [
+"cp .env.example .env",
+"python scripts/check_client.py   # → \"clients/<slug>/ OK\"",
+"python scripts/normalize.py      # → \"all checks passed\""
+],
+"description": "My internal outbound system at Smart AI Workspace: Claude Code agent skills for prospecting, outreach, reply triage and pipeline reporting.",
+"env": [],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795532487.7150414,
+"full": "tariqosmani/smai-leadgen",
+"homepage": "https://www.smartaiworkspace.tech",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-10-02T10:12:20Z",
+"stack": [
+"Node.js"
+],
+"stars": 0,
+"topics": [],
+"url": "https://github.com/tariqosmani/smai-leadgen"
+},
 "tiger-ai-lab/websitebench": {
 "archived": false,
 "branch": "main",
@@ -4569,6 +4990,35 @@
 "content-marketing"
 ],
 "url": "https://github.com/TubeLabHQ/youtube-research-skills"
+},
+"tvd2100/sagaai-platform": {
+"archived": false,
+"branch": "main",
+"commands": [
+"pip install -r requirements.lock",
+"pip install -e .",
+"pip install pip-tools",
+"python -m sagaai run --agent dev_agent --task \"Проверь README на опечатки\" --json",
+"export SAGAAI_GIGACHAT_CA_BUNDLE=/path/to/corporate_ca.pem",
+"streamlit run app.py"
+],
+"description": "SagaAI Platform",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795532489.0352492,
+"full": "TVD2100/sagaai-platform",
+"homepage": "",
+"language": "Python",
+"license": "NOASSERTION",
+"ok": true,
+"pushed": "2026-11-22T20:24:55Z",
+"stack": [
+"Python"
+],
+"stars": 3,
+"topics": [],
+"url": "https://github.com/TVD2100/sagaai-platform"
 },
 "underleveledbuilder/awesome-short-drama-skills": {
 "archived": false,
@@ -4764,6 +5214,44 @@
 "stars": 5030,
 "topics": [],
 "url": "https://github.com/withcoral/coral"
+},
+"wonderpick/apify-b2b-ecom-automation-kit": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npm install",
+"docker build -t apify-b2b-ecom-mcp .",
+"docker run -i --rm -e APIFY_TOKEN=\"apify_api_your_token\" apify-b2b-ecom-mcp"
+],
+"description": "Zero-proxy 128MB Apify Actors for Shopify price/stock monitoring, SaaS SOC 2/AI subprocessor TPRM, and B2B lead enrichment — with ready-to-import n8n workflows & MCP config.",
+"env": [
+"APIFY_TOKEN"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795532487.6851225,
+"full": "wonderpick/apify-b2b-ecom-automation-kit",
+"homepage": "",
+"language": "JavaScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T14:50:07Z",
+"stack": [
+"Node.js",
+"Docker"
+],
+"stars": 0,
+"topics": [
+"apify",
+"app-store-scraper",
+"ats-jobs",
+"automation",
+"b2b",
+"b2b-lead-generation",
+"clay",
+"cold-email"
+],
+"url": "https://github.com/wonderpick/apify-b2b-ecom-automation-kit"
 },
 "xinatian/mroffice": {
 "archived": false,
