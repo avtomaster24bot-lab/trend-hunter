@@ -179,6 +179,50 @@
 ],
 "url": "https://github.com/agentes-chat/agentes-chat"
 },
+"ahmed-manai/docs-rag-mcp": {
+"archived": false,
+"branch": "main",
+"commands": [
+"ollama pull nomic-embed-text",
+"claude mcp add docs-rag -e DOCSRAG_ALLOWED_PATHS=/path/to/your/notes -- dnx DocsRagMcp --yes",
+"dotnet build -c Release",
+"dotnet build",
+"dotnet test",
+"dotnet run samples/smoke.cs -- \"How much can I spend on a hotel in Paris?\"",
+"dotnet run samples/eval/eval.cs -- samples/eval/handbook.json .",
+"git clone https://github.com/modelcontextprotocol/csharp-sdk /tmp/csharp-sdk",
+"git -C /tmp/csharp-sdk checkout 64cfd66b147553d8cf953f9e2a374aae96014968",
+"dotnet run samples/eval/eval.cs -- samples/eval/mcp-csharp-sdk-docs.json /tmp/csharp-sdk --details"
+],
+"description": "MCP server in .NET that lets Claude, GitHub Copilot and Cursor search your own documents with RAG (Ollama, OpenAI or Azure OpenAI embeddings, SQLite)",
+"env": [
+"DOCSRAG_API_KEY"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795606129.18824,
+"full": "Ahmed-Manai/docs-rag-mcp",
+"homepage": "",
+"language": "C#",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-25T10:58:12Z",
+"stack": [
+"C#"
+],
+"stars": 0,
+"topics": [
+"ai-agents",
+"azure-openai",
+"claude",
+"csharp",
+"dotnet",
+"embeddings",
+"github-copilot",
+"mcp"
+],
+"url": "https://github.com/Ahmed-Manai/docs-rag-mcp"
+},
 "ai-timon/timon": {
 "archived": false,
 "branch": "main",
@@ -1010,6 +1054,41 @@
 ],
 "url": "https://github.com/chowyu12/aiclaw"
 },
+"cloudmail-hq/cloudmail": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npx wrangler vectorize create cloudmail-semantic --dimensions=1024 --metric=cosine"
+],
+"description": "Agent-first mailbox on your own Cloudflare account. The Google Workspace alternative: multi-domain mail, AI agent, MCP, CLI, SDKs.",
+"env": [
+"AUTH_SECRET",
+"SETUP_TOKEN"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795606128.5286942,
+"full": "cloudmail-hq/cloudmail",
+"homepage": "https://trycloudmail.com",
+"language": "TypeScript",
+"license": "NOASSERTION",
+"ok": true,
+"pushed": "2026-11-25T11:12:12Z",
+"stack": [
+"Node.js"
+],
+"stars": 0,
+"topics": [
+"ai-agents",
+"cli",
+"cloudflare-workers",
+"email",
+"email-client",
+"mcp",
+"self-hosted"
+],
+"url": "https://github.com/cloudmail-hq/cloudmail"
+},
 "cloveric/tarobird": {
 "archived": false,
 "branch": "main",
@@ -1636,6 +1715,59 @@
 "linux"
 ],
 "url": "https://github.com/ersinkoc/phonebox"
+},
+"esantus/agents-in-the-wild-kdd2026": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "KDD 2026 Tutorial: Agents in the Wild — Where Research Meets Deployment (August 9–13, Jeju Island, Korea)",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795606129.0774562,
+"full": "esantus/agents-in-the-wild-kdd2026",
+"homepage": "",
+"language": "HTML",
+"license": null,
+"ok": true,
+"pushed": "2026-08-14T03:58:06Z",
+"stack": [],
+"stars": 4,
+"topics": [],
+"url": "https://github.com/esantus/agents-in-the-wild-kdd2026"
+},
+"eventually-consistent-code-org/cairn2": {
+"archived": false,
+"branch": "main",
+"commands": [
+"node setup/cairn-setup.mjs grok      # Grok Build — reads .mcp.json + AGENTS.md directly",
+"node setup/cairn-setup.mjs copilot   # Copilot CLI — mcp-config.json, instructions, /cairn-* prompts",
+"node setup/cairn-setup.mjs codex     # Codex — config.toml merged, ~/.codex/prompts/cairn-* installed",
+"node setup/cairn-setup.mjs gemini    # Gemini CLI — settings.json + GEMINI.md + /cairn:* TOML commands",
+"node setup/cairn-setup.mjs cursor    # Cursor — .cursor/mcp.json + AGENTS.md + hooks port",
+"node setup/cairn-setup.mjs opencode  # OpenCode — opencode.json + /cairn-* commands",
+"node setup/cairn-setup.mjs zed       # Zed — .zed/settings.json context server + AGENTS.md",
+"cd server",
+"npm ci",
+"npm test          # unit + contract (no network)"
+],
+"description": "Cairn 2.0 — converged work management",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795606128.6234326,
+"full": "eventually-consistent-code-org/cairn2",
+"homepage": "",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-18T01:48:39Z",
+"stack": [
+"Node.js"
+],
+"stars": 2,
+"topics": [],
+"url": "https://github.com/eventually-consistent-code-org/cairn2"
 },
 "expo/exact": {
 "archived": false,
@@ -3594,6 +3726,49 @@
 ],
 "url": "https://github.com/morganlinton/BeautifulRust"
 },
+"munitkala/selfsemester": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npm install",
+"npm run tauri build -- --bundles nsis",
+"sudo apt install build-essential libwebkit2gtk-4.1-dev libgtk-3-dev libsoup-3.0-dev \\",
+"npm run tauri build -- --bundles deb,rpm,appimage",
+"npm run tauri dev          # run the app with hot reload",
+"npm run check              # type-check the interface",
+"cd src-tauri",
+"cargo test                 # unit tests, including a simulated course from intake to transcript",
+"cargo test --lib -- --ignored make_demo",
+"cd .."
+],
+"description": "Desktop app for Windows and Linux that turns any subject into a full, scheduled, graded course, built and marked by Claude Code or any AI you choose",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795606129.232504,
+"full": "munitkala/selfsemester",
+"homepage": "",
+"language": "Rust",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-25T03:42:47Z",
+"stack": [
+"Node.js",
+"Rust"
+],
+"stars": 113,
+"topics": [
+"ai",
+"ai-education",
+"ai-tutor",
+"claude",
+"claude-code",
+"curriculum",
+"desktop-app",
+"edtech"
+],
+"url": "https://github.com/munitkala/selfsemester"
+},
 "n1neman/sapper-v2": {
 "archived": false,
 "branch": "master",
@@ -3775,6 +3950,31 @@
 "golang"
 ],
 "url": "https://github.com/nimblegate/nimblegate"
+},
+"nohosa001-pixel/x402-cleanweb-agent": {
+"archived": false,
+"branch": "main",
+"commands": [
+"curl -X POST \"https://x402-cleanweb-agent-7qxtp3324q-du.a.run.app/api/v1/clean-web\" \\",
+"python -m pytest tests/ -v"
+],
+"description": "Cloud-Native Thin Client SDK, Remote MCP Gateway & Multi-Chain x402 USDC Micropayment Suite for Autonomous AI Agents",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795606128.553231,
+"full": "nohosa001-pixel/x402-cleanweb-agent",
+"homepage": "",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-22T23:50:13Z",
+"stack": [
+"Python"
+],
+"stars": 0,
+"topics": [],
+"url": "https://github.com/nohosa001-pixel/x402-cleanweb-agent"
 },
 "nousresearch/hermes-agent": {
 "archived": false,
@@ -4172,6 +4372,34 @@
 "ollama-webui"
 ],
 "url": "https://github.com/open-webui/open-webui"
+},
+"openai/codex": {
+"archived": false,
+"branch": "main",
+"commands": [
+"curl -fsSL https://chatgpt.com/codex/install.sh | sh",
+"curl -fsSL https://chatgpt.com/codex/install.sh | CODEX_INSTALLER_USE_RELEASES_OPENAI_COM=false sh",
+"npm install -g @openai/codex",
+"brew install --cask codex"
+],
+"description": "Lightweight coding agent that runs in your terminal",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795606128.4165154,
+"full": "openai/codex",
+"homepage": "",
+"language": "Rust",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-25T10:30:45Z",
+"stack": [
+"Node.js",
+"Rust"
+],
+"stars": 136396,
+"topics": [],
+"url": "https://github.com/openai/codex"
 },
 "openai/openai-cookbook": {
 "archived": false,
@@ -4625,6 +4853,45 @@
 "git"
 ],
 "url": "https://github.com/plandex-ai/plandex"
+},
+"princejain756/ctxvitals": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npx ctxvitals              # full audit: discovery + live MCP probing",
+"npx ctxvitals --no-probe   # static only, no servers launched",
+"npx ctxvitals --json       # machine-readable output",
+"npx ctxvitals --html report.html   # shareable HTML report card",
+"npx ctxvitals --badge      # README badge markdown with your grade",
+"cp -r ctxvitals/skills/ctxvitals ~/.claude/skills/",
+"npx ctxvitals"
+],
+"description": "A Lighthouse for your AI agent stack: measures the real token cost of MCP servers, skills, and rules; flags security issues and duplicates; grades your setup A-F.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795606128.5508676,
+"full": "princejain756/ctxvitals",
+"homepage": "https://www.npmjs.com/package/agentvitals",
+"language": "JavaScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-10-26T12:10:30Z",
+"stack": [
+"Node.js"
+],
+"stars": 3,
+"topics": [
+"agentic",
+"ai-agents",
+"claude-code",
+"claude-skills",
+"context-window",
+"cursor",
+"llm",
+"mcp"
+],
+"url": "https://github.com/princejain756/ctxvitals"
 },
 "psyseal/psyseal-scan": {
 "archived": false,
@@ -6215,6 +6482,41 @@
 "docx"
 ],
 "url": "https://github.com/XinaTian/MROffice"
+},
+"yandex-cloud/k8s-csi-s3": {
+"archived": false,
+"branch": "master",
+"commands": [
+"cd deploy/kubernetes",
+"kubectl create -f provisioner.yaml",
+"kubectl create -f driver.yaml",
+"kubectl create -f csi-s3.yaml",
+"make build",
+"helm repo add yandex-s3 https://yandex-cloud.github.io/k8s-csi-s3/charts",
+"helm install csi-s3 yandex-s3/csi-s3",
+"wget https://raw.githubusercontent.com/yandex-cloud/k8s-csi-s3/v0.35.5/deploy/kubernetes/attacher.yaml",
+"kubectl delete -f attacher.yaml",
+"wget -O old-provisioner.yaml https://raw.githubusercontent.com/yandex-cloud/k8s-csi-s3/v0.40.6/deploy/kubernetes/provisioner.yaml"
+],
+"description": "GeeseFS-based CSI for mounting S3 buckets as PersistentVolumes",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795606128.5585065,
+"full": "yandex-cloud/k8s-csi-s3",
+"homepage": "",
+"language": "Go",
+"license": "NOASSERTION",
+"ok": true,
+"pushed": "2026-05-05T12:23:53Z",
+"stack": [
+"Docker",
+"Go",
+"Make"
+],
+"stars": 897,
+"topics": [],
+"url": "https://github.com/yandex-cloud/k8s-csi-s3"
 },
 "yjid/kensaku": {
 "archived": false,
