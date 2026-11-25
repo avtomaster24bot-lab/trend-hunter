@@ -1,4 +1,39 @@
 {
+"16bitsega/scraplibra-mcp": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "ScrapLibra MCP Gateway & TOON Benchmark — Automated 20-folder Obsidian Second Brain & NotebookLM compendiums. Official bot: @telelibra_ai_bot",
+"env": [],
+"envfile": "",
+"fallback": [
+"python -m venv .venv",
+"source .venv/bin/activate   # Windows: .venv\\Scripts\\activate",
+"pip install -e ."
+],
+"fetched": 1795626475.6806092,
+"full": "16bitSega/scraplibra-mcp",
+"homepage": "https://scraplibra.com/",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-25T13:26:16Z",
+"stack": [
+"Python"
+],
+"stars": 0,
+"topics": [
+"bookmark-manager",
+"knowledge-graph",
+"markdown",
+"mcp",
+"model-context-protocol",
+"notebooklm",
+"obsidian",
+"pkm"
+],
+"url": "https://github.com/16bitSega/scraplibra-mcp"
+},
 "21stware/bowel": {
 "archived": false,
 "branch": "main",
@@ -1124,6 +1159,35 @@
 ],
 "url": "https://github.com/cloveric/tarobird"
 },
+"codepeel/mcp-server": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npx -y github:codepeel/mcp-server init          # Interactive editor setup",
+"npx -y github:codepeel/mcp-server init-config   # Generate .codepeel.yml",
+"npx -y github:codepeel/mcp-server credits       # Check your balance",
+"git diff | npx -y github:codepeel/mcp-server review  # Review from stdin"
+],
+"description": "CodePeel MCP Server - AI code review tools for Claude, Kiro, Cline, and MCP-compatible agents",
+"env": [
+"CODEPEEL_TOKEN"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795626476.212047,
+"full": "codepeel/mcp-server",
+"homepage": "https://codepeel.com/docs/mcp",
+"language": "TypeScript",
+"license": null,
+"ok": true,
+"pushed": "2026-11-25T16:15:40Z",
+"stack": [
+"Node.js"
+],
+"stars": 0,
+"topics": [],
+"url": "https://github.com/codepeel/mcp-server"
+},
 "comfyanonymous/comfyui": {
 "archived": false,
 "branch": "master",
@@ -1845,6 +1909,42 @@
 "installer"
 ],
 "url": "https://github.com/Fanqi89/dsh-craft-anything"
+},
+"fidemcheck/mvf-spec": {
+"archived": false,
+"branch": "main",
+"commands": [
+"pip install cryptography",
+"python verify_mvf.py shop.example",
+"python verify_mvf.py shop.example --trust https://issuer.example=https://issuer.example/.well-known/mvf-keys.json",
+"python verify_mvf.py shop.example --strict-revocation"
+],
+"description": "Merchant Verification File (MVF): an open format for online shops to prove to AI agents which company runs them. Spec, reference checker, live example.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795626475.723725,
+"full": "fidemcheck/mvf-spec",
+"homepage": "https://fidemcheck.com/standard.html",
+"language": "Python",
+"license": "NOASSERTION",
+"ok": true,
+"pushed": "2026-11-25T14:30:35Z",
+"stack": [
+"Python"
+],
+"stars": 0,
+"topics": [
+"agentic-commerce",
+"ai-agents",
+"ecommerce",
+"ed25519",
+"mcp",
+"merchant-verification",
+"trust",
+"well-known"
+],
+"url": "https://github.com/fidemcheck/mvf-spec"
 },
 "firecrawl/firecrawl": {
 "archived": false,
@@ -3375,6 +3475,35 @@
 "live2d"
 ],
 "url": "https://github.com/liguozheng-ac/Lingbo-Desk"
+},
+"lijiumixin/unhidea-research-mcp": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "Remote Streamable HTTP & OAuth MCP server for Wall Street equity research (14 tools: cross-bank packs, sourced rating/target history, evidence retrieval, point-in-time replay).",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795626475.7557878,
+"full": "lijiumixin/unhidea-research-mcp",
+"homepage": "https://unhidea.com/en/mcp",
+"language": null,
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-25T16:41:28Z",
+"stack": [],
+"stars": 0,
+"topics": [
+"ai-agents",
+"equity-research",
+"finance",
+"mcp",
+"mcp-server",
+"model-context-protocol",
+"streamable-http",
+"wall-street"
+],
+"url": "https://github.com/lijiumixin/unhidea-research-mcp"
 },
 "lockin2026ethan-pixel/druve-agents": {
 "archived": false,
