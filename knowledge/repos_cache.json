@@ -595,6 +595,36 @@
 ],
 "url": "https://github.com/alicexixi85/geo-seo-mcp-pro"
 },
+"anthropics/claude-plugins-official": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+"env": [],
+"envfile": "",
+"fallback": [
+"python -m venv .venv",
+"source .venv/bin/activate   # Windows: .venv\\Scripts\\activate",
+"pip install -e ."
+],
+"fetched": 1795643465.6774368,
+"full": "anthropics/claude-plugins-official",
+"homepage": "https://code.claude.com/docs/en/plugins",
+"language": "Python",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-25T21:44:47Z",
+"stack": [
+"Python"
+],
+"stars": 48216,
+"topics": [
+"claude-code",
+"mcp",
+"skills"
+],
+"url": "https://github.com/anthropics/claude-plugins-official"
+},
 "apache/httpcomponents-core": {
 "archived": false,
 "branch": "master",
@@ -618,6 +648,45 @@
 "httpcomponents"
 ],
 "url": "https://github.com/apache/httpcomponents-core"
+},
+"aranaragan/kvalah": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npm ci",
+"npm test               # unit + end-to-end tests with a mock model server",
+"npm run desktop        # run the Electron app",
+"npm start              # or: backend only, open the printed URL in a browser",
+"npm run dist:linux     # AppImage + deb",
+"npm run dist:win       # NSIS installer + portable zip (on Linux/macOS needs wine for NSIS)",
+"npm run dist:mac       # dmg + zip, x64 + arm64 (macOS only)"
+],
+"description": "Reliable local coding agent for open models (7–32B) on a single home GPU — Ollama, LM Studio, llama.cpp, vLLM",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795643465.7932055,
+"full": "AranAragan/kvalah",
+"homepage": "https://github.com/AranAragan/kvalah/releases",
+"language": "JavaScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T21:47:39Z",
+"stack": [
+"Node.js"
+],
+"stars": 0,
+"topics": [
+"ai-agent",
+"coding-agent",
+"electron",
+"llama-cpp",
+"llm",
+"local-llm",
+"ollama",
+"open-source-models"
+],
+"url": "https://github.com/AranAragan/kvalah"
 },
 "arekejoker/qwen21-nsfw-pose-skill": {
 "archived": false,
@@ -900,6 +969,35 @@
 "data-broker"
 ],
 "url": "https://github.com/bhukyabalu12/repdix-telegram-bot"
+},
+"bohdanukr7777/gatrends-mcp": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "Free public MCP server for GAtrends: live trend signals for games and tech. No key, no sign-in",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795643466.4364002,
+"full": "BOHDANukr7777/gatrends-mcp",
+"homepage": "https://gatrends.com/connect#free-mcp",
+"language": null,
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-25T20:09:48Z",
+"stack": [],
+"stars": 0,
+"topics": [
+"ai",
+"analytics",
+"claude",
+"claude-ai",
+"gaming",
+"gaming-tools",
+"mcp",
+"mcp-server"
+],
+"url": "https://github.com/BOHDANukr7777/gatrends-mcp"
 },
 "caprichooms/capricore": {
 "archived": false,
@@ -1527,6 +1625,41 @@
 "security"
 ],
 "url": "https://github.com/dbx0/executioner"
+},
+"developerz-ai/db-mcp-gateway": {
+"archived": false,
+"branch": "main",
+"commands": [
+"docker pull ghcr.io/developerz-ai/db-mcp-gateway:2.6.2",
+"claude mcp add --transport http db-gateway --scope project https://db.internal.acme.com/mcp"
+],
+"description": "Self-hosted MCP gateway: AI agents get audited, SSO-gated, read-only access to PostgreSQL, YugabyteDB, MongoDB and Redis/Dragonfly without ever holding a DB credential. AI-maintained by developerz.ai.",
+"env": [],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795643465.842896,
+"full": "developerz-ai/db-mcp-gateway",
+"homepage": "https://developerz-ai.github.io/db-mcp-gateway/",
+"language": "Rust",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-25T20:23:23Z",
+"stack": [
+"Docker",
+"Rust"
+],
+"stars": 5,
+"topics": [
+"ai-agents",
+"ai-maintained",
+"audit-log",
+"claude-code",
+"database",
+"dragonfly",
+"mcp",
+"model-context-protocol"
+],
+"url": "https://github.com/developerz-ai/db-mcp-gateway"
 },
 "diygod/pinky": {
 "archived": false,
@@ -2474,6 +2607,26 @@
 "cursor"
 ],
 "url": "https://github.com/Graphify-Labs/graphify"
+},
+"gyyguguy/b2b-lead-datasets-and-n8n-workflows": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "Free 50-row B2B lead sample CSVs and ready-to-import n8n workflows powered by Spotless Studios Apify actors",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795643466.4150815,
+"full": "GYYGUGUY/b2b-lead-datasets-and-n8n-workflows",
+"homepage": "",
+"language": "HTML",
+"license": null,
+"ok": true,
+"pushed": "2026-11-25T20:22:44Z",
+"stack": [],
+"stars": 0,
+"topics": [],
+"url": "https://github.com/GYYGUGUY/b2b-lead-datasets-and-n8n-workflows"
 },
 "hackernews/api": {
 "archived": false,
@@ -3599,6 +3752,38 @@
 "codex"
 ],
 "url": "https://github.com/mdiri-ai/SoduWork"
+},
+"microsoft/playwright-mcp": {
+"archived": false,
+"branch": "main",
+"commands": [
+"claude mcp add playwright npx @playwright/mcp@latest",
+"npx @playwright/mcp@latest --config path/to/config.json",
+"npx @playwright/mcp@latest --port 8931",
+"docker run -d -i --rm --init --pull=always \\",
+"docker build -t mcr.microsoft.com/playwright/mcp ."
+],
+"description": "Playwright MCP server",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795643465.7514946,
+"full": "microsoft/playwright-mcp",
+"homepage": "https://www.npmjs.com/package/@playwright/mcp",
+"language": "TypeScript",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-18T18:50:37Z",
+"stack": [
+"Node.js",
+"Docker"
+],
+"stars": 40143,
+"topics": [
+"mcp",
+"playwright"
+],
+"url": "https://github.com/microsoft/playwright-mcp"
 },
 "microsoft/tokeneconomizer": {
 "archived": false,
@@ -6393,6 +6578,77 @@
 "douyin"
 ],
 "url": "https://github.com/UnderleveledBuilder/awesome-social-media-skills"
+},
+"upstash/context7": {
+"archived": false,
+"branch": "master",
+"commands": [
+"npx ctx7 setup"
+],
+"description": "Context7 Platform -- Up-to-date docs for AI agents",
+"env": [
+"YOUR_API_KEY"
+],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795643465.6732354,
+"full": "upstash/context7",
+"homepage": "https://context7.com",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-25T20:33:42Z",
+"stack": [
+"Node.js"
+],
+"stars": 65461,
+"topics": [
+"llm",
+"mcp",
+"mcp-server",
+"vibe-coding"
+],
+"url": "https://github.com/upstash/context7"
+},
+"vladimir-pirotskiy/mcp-commerce-evals": {
+"archived": false,
+"branch": "main",
+"commands": [
+"cargo run --release -p reference-store          # listens on 127.0.0.1:8787",
+"curl http://127.0.0.1:8787/health               # {\"status\":\"ok\"}",
+"claude mcp add --transport http shop http://127.0.0.1:8787/mcp",
+"cargo run --release -p mcp-commerce-evals -- --url http://127.0.0.1:8787/mcp",
+"cargo fmt --all --check",
+"cargo clippy --locked --workspace --all-targets -- -D warnings   # includes clippy::pedantic",
+"cargo test --locked --workspace",
+"cargo deny --offline check licenses bans sources"
+],
+"description": "Measure how well AI shopping assistants find the right product through MCP. A reference store in Rust (axum, rmcp) over a synthetic bike-parts catalog, and an eval CLI for any MCP store: hit@k, MRR, latency, assistant runs.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795643465.785917,
+"full": "Vladimir-Pirotskiy/mcp-commerce-evals",
+"homepage": "",
+"language": "Rust",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-22T14:52:56Z",
+"stack": [
+"Rust"
+],
+"stars": 0,
+"topics": [
+"agentic-commerce",
+"ai-agents",
+"axum",
+"ecommerce",
+"evals",
+"llm-evals",
+"mcp",
+"model-context-protocol"
+],
+"url": "https://github.com/Vladimir-Pirotskiy/mcp-commerce-evals"
 },
 "w01fb0ss/pibot": {
 "archived": false,

@@ -212,6 +212,13 @@
 "repo": null,
 "t": 1795532487.068274
 },
+"https://dev.to/arjunghose10/pay-per-call-company-kyb-tech-stack-enrichment-for-ai-agents-via-mcp-014account-zero-b9k": {
+"desc": "When building B2B lead enrichment, wholesale onboarding, or automated KYB pipelines in Claude,... Tagged with ai, mcp, automation, api.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fvkksrktycp6xbwumgdr5.png",
+"ok": true,
+"repo": null,
+"t": 1795643464.8075242
+},
 "https://dev.to/atalaya_ai/ask-your-ai-assistant-whether-ai-crawlers-can-read-a-site-a-free-remote-mcp-server-no-install-17in": {
 "desc": "Connect Claude Code, Cursor or VS Code to a free remote MCP server that checks robots.txt for 20 AI crawlers, training vs search, app shells and the platform setting to fix. Tagged with mcp, seo, ai, webdev.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fg6w97incn3llfqm55fn0.png",
@@ -225,6 +232,13 @@
 "ok": true,
 "repo": null,
 "t": 1795541523.7477176
+},
+"https://dev.to/bondarchuk_bohdan_7777/gatrends-is-now-in-the-claude-connectors-directory-ask-claude-what-is-spiking-right-now-free-no-2f0c": {
+"desc": "I built GAtrends, a trend radar for games and big tech, and its free MCP server is now listed in the... Tagged with mcp, claude, ai, showdev.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjtah4a4tpai9pxmvxyix.png",
+"ok": true,
+"repo": "BOHDANukr7777/gatrends-mcp",
+"t": 1795643464.9445646
 },
 "https://dev.to/byte8io/connecting-a-magento-store-to-ai-agents-with-mcp-eleven-read-only-tools-and-the-guardrails-around-aok": {
 "desc": "In June we wrote about building an MCP server for a Magento catalog: the architecture, why it talks... Tagged with magentyo, mcp, ia, agentic.",
@@ -295,6 +309,13 @@
 "ok": true,
 "repo": null,
 "t": 1795541523.7998424
+},
+"https://dev.to/developerzai/what-actually-lands-in-your-audit-trail-when-an-ai-agent-queries-a-database-1n2l": {
+"desc": "The problem with agent database access Most teams adopting AI agents for operational work... Tagged with ai, database, mcp, security.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F987yymwyvu3tulh2i7cn.png",
+"ok": true,
+"repo": "developerz-ai/db-mcp-gateway",
+"t": 1795643464.8075192
 },
 "https://dev.to/devsignal/signal-142-claude-codes-leaky-approval-files-claude-ship-gpt-62-pricing-and-more-3j0d": {
 "desc": "This week's most important item is a defect, not a launch: Claude Code's \"Yes, and don't ask again\"... Tagged with ai, devtools, programming, aiagents.",
@@ -377,6 +398,13 @@
 "ok": false,
 "status": 404,
 "t": 1795492441.7815094
+},
+"https://dev.to/fmf_tools/15-pay-per-call-tools-for-problems-ai-agents-keep-posting-about-kd7": {
+"desc": "15 pay-per-call tools for problems AI agents keep posting about AI agents keep posting the... Tagged with ai, agents, api, mcp.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F45cx7t8mjd1z6rcahnm7.png",
+"ok": true,
+"repo": null,
+"t": 1795643464.9445684
 },
 "https://dev.to/ganesh_raju_6a2557b4199e6/when-intelligence-becomes-abundant-what-is-left-to-lead-2n8g": {
 "desc": "A CTO and CAIO's perspective on leadership in the age of AI agents: what changes for the CTO, how to... Tagged with ai, leadership, management, agents.",
@@ -503,6 +531,13 @@
 "ok": true,
 "repo": null,
 "t": 1795492442.9738278
+},
+"https://dev.to/jay_pixbloom/how-to-pick-an-ai-image-generator-for-your-side-project-a-one-evening-test-plan-2ma7": {
+"desc": "Most developers reach for an AI image generator for the same reason: the project needs visuals and... Tagged with ai, sideprojects, design, productivity.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Feen7cp935txik7uzjohu.png",
+"ok": true,
+"repo": null,
+"t": 1795643464.9445596
 },
 "https://dev.to/joelfaure/how-i-built-an-ai-first-inbox-for-five-dm-apps-on-mcp-without-storing-your-messages-5eol": {
 "desc": "I make Juncts, an AI-first inbox that centralizes your LinkedIn, X, Instagram, WhatsApp and Telegram... Tagged with mcp, ai, productivity, chrome.",
@@ -658,6 +693,13 @@
 "repo": "webmachinelearning/webmcp",
 "t": 1795492436.834781
 },
+"https://dev.to/m1nnnnn/how-i-built-a-zero-llm-cost-b2b-domain-tech-stack-enricher-for-mcp-agents-with-ssrf-protection-1ech": {
+"desc": "If you are building B2B lead generation workflows or connecting external tools to AI agents via Model... Tagged with mcp, ai, python, webscraping.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fu1te79txstlkl33rb1ug.png",
+"ok": true,
+"repo": null,
+"t": 1795643464.8075364
+},
 "https://dev.to/maninaai/how-to-test-your-ios-app-on-a-real-iphone-with-an-ai-agent-4fdf": {
 "desc": "Let an AI agent on your computer walk through your iOS app on a real iPhone, the way a user would. A $7 ESP32 board, one CLI, no jailbreak, and nothing added to your app. Tagged with ios, testing, ai, mcp.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Foat6j4bve0ppiyht4x6h.png",
@@ -692,6 +734,13 @@
 "ok": true,
 "repo": null,
 "t": 1795606126.7881267
+},
+"https://dev.to/mech_app_ai/versines-mcp-money-transfer-how-payment-primitives-become-agent-tools-3l0k": {
+"desc": "How Versine wraps payment rails into MCP tool boundaries, exposing the plumbing for safe, auditable financial transactions triggered by LLM agents. Tagged with agents, ai, llm, mcp.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fimages.unsplash.com%2Fphoto-1515879218367-8466d910aaa4%3Fauto%3Dformat%26fit%3Dcrop%26w%3D1600%26q%3D80",
+"ok": true,
+"repo": null,
+"t": 1795643464.8075452
 },
 "https://dev.to/meme_ours_354aecad5cd2718/connect-claude-code-cursor-to-on-chain-btc-eth-247-gold-xau-perps-in-1-command-via-remote-3a9c": {
 "desc": "Autonomous AI trading agents face two fatal bottlenecks in DeFi today: Key Security Risk: Handing... Tagged with mcp, ai, web3, programming.",
@@ -812,6 +861,34 @@
 "repo": null,
 "t": 1795626474.9892173
 },
+"https://dev.to/pirotskiy/i-measured-how-well-an-ai-assistant-shops-through-mcp-here-is-what-broke-1hp": {
+"desc": "An assistant that shops for a buyer can fail in two ways: it finds the wrong part, or it finds the... Tagged with mcp, rust, ai, testing.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F29wycdl7udap7ofvgiyi.png",
+"ok": true,
+"repo": "Vladimir-Pirotskiy/mcp-commerce-evals",
+"t": 1795643464.8075223
+},
+"https://dev.to/pluginstackai/how-to-install-claude-code-plugins-marketplaces-scopes-fixes-1d8o": {
+"desc": "Install Claude Code plugins from the official marketplace or any GitHub repo: /plugin commands, install scopes, updates, safety checks and fixes for common errors. Tagged with mcp, ai, claude, tutorial.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8cf8jxyuy8r439xeqrl5.png",
+"ok": true,
+"repo": "anthropics/claude-plugins-official",
+"t": 1795643464.8075485
+},
+"https://dev.to/pluginstackai/how-to-set-up-context7-mcp-claude-code-cursor-vs-code-codex-ii0": {
+"desc": "Set up Context7 MCP for up-to-date library docs: the ctx7 setup command, the remote URL with an API key or OAuth, running it locally, and fixes for common errors. Tagged with mcp, ai, tutorial.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdhlj3z11b69mgsz74et1.png",
+"ok": true,
+"repo": "upstash/context7",
+"t": 1795643464.8074994
+},
+"https://dev.to/pluginstackai/how-to-set-up-the-playwright-mcp-server-claude-code-cursor-vs-code-codex-5aan": {
+"desc": "Install Microsoft's Playwright MCP server in Claude Code, Cursor, VS Code or Codex: the standard npx config, Node.js 20, headless and isolated modes, Docker, and fixes for common startup errors. Tagged with mcp, ai, playwright, tutorial.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fstmtygmy1s6jtrw6qa5o.png",
+"ok": true,
+"repo": "microsoft/playwright-mcp",
+"t": 1795643464.8075023
+},
 "https://dev.to/pneumetron/firecrawl-unifies-web-scraping-and-structured-data-for-ai-agents-60i": {
 "desc": "Firecrawl offers a local binary and cloud API for AI agents to scrape, crawl, and access 550+ data providers. Covers 96% of the web with LLM-ready output. Tagged with pneumetron, aiagents, webscraping, developertools.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmrgquefhb1tc4w4spe1e.png",
@@ -895,6 +972,13 @@
 "ok": true,
 "repo": null,
 "t": 1795492442.1035564
+},
+"https://dev.to/reventadata/how-to-pull-uk-property-listings-from-onthemarket-with-python-4m3a": {
+"desc": "Pull public OnTheMarket property listings from Python: buy or rent, a location slug and a row cap, then price, address, bedrooms and agent as JSON rows. Tagged with python, webscraping, tutorial, automation.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fpv7085qov2a847uelxh5.jpg",
+"ok": true,
+"repo": null,
+"t": 1795643464.8075514
 },
 "https://dev.to/richard_minsoogo/amr-operations-deployment-and-mlops-ch01-deployment-strategy-en-16k0": {
 "desc": "STATERA Library · Series 02 · Volume 08 · Chapter 01 · EN Source:... Tagged with ai, robotics, mlops, automation.",
@@ -986,6 +1070,13 @@
 "ok": true,
 "repo": null,
 "t": 1795626474.9892585
+},
+"https://dev.to/scriptmasterlabs01/we-put-our-two-stores-on-video-dual-market-the-neurospark-adhd-planner-1i36": {
+"desc": "We put our two stores on video Script Master Labs sells the same catalog through two... Tagged with x402, aiagents, etsy, buildinpublic.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxxeuti6i56h5q5rgldhw.png",
+"ok": true,
+"repo": null,
+"t": 1795643464.8075304
 },
 "https://dev.to/sebbasstian/cach-su-dung-glm-54-trong-claude-code-va-cursor-32go": {
 "desc": "Thiết lập GLM-5.4 cho Claude Code và Cursor Thiết lập GLM-5.4 cho Claude Code chỉ gồm ba... Tagged with ai, api, claude, llm.",
@@ -1119,6 +1210,13 @@
 "ok": true,
 "repo": null,
 "t": 1795492443.1868658
+},
+"https://dev.to/spotless_studios/automated-saas-ma-deal-sourcing-filtering-flippa-verified-revenue-profit-multiples-with-n8n-2jbd": {
+"desc": "Micro-PE funds, solo acquirers, and search-fund operators spend hours every week refreshing... Tagged with saas, automation, n8n, typescript.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fko1sne89lkpf84kmdvda.png",
+"ok": true,
+"repo": "GYYGUGUY/b2b-lead-datasets-and-n8n-workflows",
+"t": 1795643464.8075423
 },
 "https://dev.to/stackscale/extract-payslip-data-to-google-sheets-with-make-and-openai-24kk": {
 "desc": "Every month a payslip lands in your inbox as a PDF, and someone types the numbers into a sheet by... Tagged with automation, nocode, ai, tutorial.",
@@ -1681,6 +1779,34 @@
 "repo": null,
 "t": 1795626474.989261
 },
+"https://habr.com/ru/articles/1112394/": {
+"desc": "amoCRM, SPIN AI, Codex, ChatGPT, «Буквица», Handy, Google Документы и Google Таблицы упоминаются как инструменты, использованные в проекте. Это не рекламный материал и не рекомендация выбирать именно...",
+"image": "https://habr.com/share/publication/1112394/697583e94fedbb467283418704452135/",
+"ok": true,
+"repo": null,
+"t": 1795643464.8074863
+},
+"https://habr.com/ru/articles/1112394/?utm_campaign=1112394&utm_source=habrahabr&utm_medium=rss": {
+"desc": "amoCRM, SPIN AI, Codex, ChatGPT, «Буквица», Handy, Google Документы и Google Таблицы упоминаются как инструменты, использованные в проекте. Это не рекламный материал и не рекомендация выбирать именно...",
+"image": "https://habr.com/share/publication/1112394/697583e94fedbb467283418704452135/",
+"ok": true,
+"repo": null,
+"t": 1795643464.944553
+},
+"https://habr.com/ru/articles/1112452/": {
+"desc": "Пару недель назад я вспомнил про свой старый игровой ноутбук ASUS ROG с RTX 2070 и решил повозиться с локальными нейронками. Почистил его, обновил ОС, установил Ollama и запустил Qwen 3.5:9B. В...",
+"image": "https://habr.com/share/publication/1112452/5c78d0e5e1eb119a05020d86ef51f4a2/",
+"ok": true,
+"repo": "AranAragan/kvalah",
+"t": 1795643464.8074932
+},
+"https://habr.com/ru/articles/1112452/?utm_campaign=1112452&utm_source=habrahabr&utm_medium=rss": {
+"desc": "Пару недель назад я вспомнил про свой старый игровой ноутбук ASUS ROG с RTX 2070 и решил повозиться с локальными нейронками. Почистил его, обновил ОС, установил Ollama и запустил Qwen 3.5:9B. В...",
+"image": "https://habr.com/share/publication/1112452/5c78d0e5e1eb119a05020d86ef51f4a2/",
+"ok": true,
+"repo": "AranAragan/kvalah",
+"t": 1795643464.8075337
+},
 "https://habr.com/ru/articles/928038/": {
 "desc": "До 2022 года я думал, что автоматизация — это удел только крупных компаний. Но в 2022 году я открыл для себя n8n , и всё изменилось. Теперь я автоматизирую рутинную работу, отчёты и даже целые...",
 "image": "https://habrastorage.org/getpro/habr/upload_files/0fb/7ba/438/0fb7ba43805b11c432cc8689ab16e2db.png",
@@ -1985,6 +2111,11 @@
 "status": 403,
 "t": 1795492441.1409304
 },
+"https://medium.com/@EricJimmy/how-to-make-100k-a-year-pinning-on-pinterest-my-27-day-plan-to-your-first-10-000-455dd4b5ed30?source=rss------side_hustle-5": {
+"ok": false,
+"status": 403,
+"t": 1795643464.9445724
+},
 "https://medium.com/@JustSnehal/9-weirdly-practical-n8n-workflows-that-saved-our-team-14-hours-a-week-94077f39e64a?source=rss------n8n-5": {
 "ok": false,
 "status": 403,
@@ -2024,6 +2155,11 @@
 "ok": false,
 "status": 403,
 "t": 1795492437.6585047
+},
+"https://medium.com/@deepakwriting/how-to-make-money-with-ai-in-2026-9-realistic-ways-to-build-an-online-income-0c5a14865dfc?source=rss------side_hustle-5": {
+"ok": false,
+"status": 403,
+"t": 1795643464.8075275
 },
 "https://medium.com/@dimitrioskazantzis99/building-a-presales-skills-library-a87869afa1b7?source=rss------automation-5": {
 "ok": false,
@@ -2089,6 +2225,11 @@
 "ok": false,
 "status": 403,
 "t": 1795492441.0031233
+},
+"https://medium.com/@mr.f00l210/from-200-to-30-a-month-building-an-open-source-hybrid-ai-stack-after-haiku-5-5-d46d0aacdf69?source=rss------local_llm-5": {
+"ok": false,
+"status": 403,
+"t": 1795643464.8075395
 },
 "https://medium.com/@muhammad.elborgy/how-many-shirts-do-you-need-to-sell-to-make-500-a-month-on-merch-by-amazon-d77626ff9031?source=rss------side_hustle-5": {
 "ok": false,
@@ -2198,6 +2339,11 @@
 "ok": true,
 "repo": "HackerNews/API",
 "t": 1795492588.019702
+},
+"https://news.ycombinator.com/item?id=26855726": {
+"ok": false,
+"status": 419,
+"t": 1795643464.944576
 },
 "https://news.ycombinator.com/item?id=50422628": {
 "desc": "",

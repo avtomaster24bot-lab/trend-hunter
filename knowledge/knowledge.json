@@ -1,6 +1,6 @@
 {
-"updated": 1795626478.7521145,
-"count": 474,
+"updated": 1795643468.0796766,
+"count": 493,
 "items": [
 {
 "id": "seed-larry",
@@ -56,7 +56,7 @@
 "type_ru": "кейс с доходом",
 "source": "seed",
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "summary": "",
 "extra": {},
 "image": "https://opengraph.githubassets.com/1/OllieWazza/LarrySkill",
@@ -108,7 +108,7 @@
 "type_ru": "агент",
 "source": "seed",
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "steps": [
 "Источник: https://github.com/avtomaster24bot-lab/trend-hunter",
 "Разберитесь, какую работу делает агент и какие инструменты ему нужны.",
@@ -293,7 +293,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 96,
 "type": "guide",
 "type_ru": "гайд",
@@ -323,7 +323,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Что такое n8n и как с ним работать"
 },
 {
@@ -373,7 +373,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 92,
 "type": "agent",
 "type_ru": "агент",
@@ -404,7 +404,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 15,
+"seen_count": 16,
 "title_ru": "Jarvis — Автономный локальный агент искусственного интеллекта на устройстве и платформа автоматизации ОС Android,…",
 "title_orig": "AbuZar-Ansarii/Jarvis: An autonomous, local-first on-device AI agent and Android OS automation framework featuring full accessibility control,   │ continuous voice intelligence, and s",
 "repo": "AbuZar-Ansarii/Jarvis",
@@ -459,7 +459,7 @@
 "type_ru": "агент",
 "source": "seed",
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "steps": [
 "Источник: https://github.com/openclaw/openclaw",
 "Разберитесь, какую работу делает агент и какие инструменты ему нужны.",
@@ -610,7 +610,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 90,
 "type": "agent",
 "type_ru": "агент",
@@ -640,7 +640,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 14,
+"seen_count": 15,
 "title_ru": "Как я собрала на n8n SEO‑агента для трех сайтов: данные, правила и немного нейросети"
 },
 {
@@ -665,7 +665,7 @@
 "type_ru": "навык",
 "source": "seed",
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "steps": [
 "Источник: https://github.com/OllieWazza/LarrySkill",
 "Откройте описание навыка (SKILL.md): что он умеет и какие ключи просит.",
@@ -886,7 +886,7 @@
 "type_ru": "инструмент",
 "source": "seed",
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "summary": "",
 "extra": {},
 "image": "https://opengraph.githubassets.com/1/n8n-io/n8n",
@@ -948,7 +948,7 @@
 "type_ru": "инструмент",
 "source": "seed",
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "summary": "",
 "extra": {},
 "image": "https://opengraph.githubassets.com/1/ollama/ollama",
@@ -1161,7 +1161,7 @@
 "published": 1794421661.0,
 "popularity": 27.60967948997531,
 "extra": {
-"stars": 136,
+"stars": 137,
 "language": "JavaScript",
 "topics": [
 "ai-agents",
@@ -1197,7 +1197,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 83,
 "type": "agent",
 "type_ru": "агент",
@@ -1230,7 +1230,7 @@
 ],
 "title_ru": "awesome-selfhosted-ai — Кураторский список автономного ИИ с открытым исходным кодом: локальные LLM, пользовательские интерфейсы чата,…",
 "title_orig": "glincker/awesome-selfhosted-ai: Curated list of self-hosted open-source AI: local LLMs, chat UIs, agents, MCP servers, RAG, speech and image generation. Health-checked weekly, dead projects re",
-"seen_count": 11,
+"seen_count": 12,
 "repo": "glincker/awesome-selfhosted-ai",
 "repo_url": "https://github.com/glincker/awesome-selfhosted-ai",
 "build": {
@@ -1298,7 +1298,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 82,
 "type": "guide",
 "type_ru": "гайд",
@@ -1327,7 +1327,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "n8n – от шаблонов и nodes до автоматизации AI agent и Telegram бота"
 },
 {
@@ -1378,7 +1378,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 80,
 "type": "agent",
 "type_ru": "агент",
@@ -1410,7 +1410,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 15,
+"seen_count": 16,
 "title_ru": "deepseek-local-guide-ru — 🐋 Полный гайд на русском: как установить и запустить DeepSeek локально (V4, R1) на ПК, Mac и сервере —…",
 "title_orig": "justxor/deepseek-local-guide-ru: 🐋 Полный гайд на русском: как установить и запустить DeepSeek локально (V4, R1) на ПК, Mac и сервере — Ollama, llama.cpp, LM Studio, vLLM, Open WebUI, API, RAG,",
 "repo": "justxor/deepseek-local-guide-ru",
@@ -1467,7 +1467,7 @@
 "type_ru": "инструмент",
 "source": "seed",
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "steps": [
 "Источник: https://github.com/gitroomhq/postiz-app",
 "Откройте страницу инструмента, проверьте цену/лицензию и требования к ПК.",
@@ -1732,7 +1732,7 @@
 "type_ru": "гайд",
 "source": "seed",
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "steps": [
 "Источник: https://telegram.org/blog/monetization-for-channels",
 "Прочитайте материал целиком и сохраните ключевые команды/промпты.",
@@ -1779,7 +1779,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 77,
 "type": "agent",
 "type_ru": "агент",
@@ -1809,7 +1809,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Show HN: Muscle-Mem, кэш поведения для агентов ИИ.",
 "title_orig": "Show HN: Muscle-Mem, a behavior cache for AI agents",
 "repo": "pig-dot-dev/muscle-mem",
@@ -1889,7 +1889,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 76,
 "type": "agent",
 "type_ru": "агент",
@@ -1918,7 +1918,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "repdix-telegram-bot — Repdix Telegram Bot: управляемый сообществом оркестратор базы данных естественного языка с местной поддержкой…",
 "title_orig": "bhukyabalu12/repdix-telegram-bot: Repdix Telegram Bot: Community-Driven Natural Language Database Orchestrator with Local LLM Support",
 "repo": "bhukyabalu12/repdix-telegram-bot",
@@ -1998,7 +1998,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 76,
 "type": "agent",
 "type_ru": "агент",
@@ -2027,7 +2027,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 12,
+"seen_count": 13,
 "title_ru": "qz-browser-agent — Локальный агент искусственного интеллекта для Chrome: автоматизация браузера, веб-исследования и извлечение…",
 "title_orig": "alibaba/qz-browser-agent: Local-first AI agent for Chrome: browser automation, web research, and data extraction with your own model.",
 "repo": "alibaba/qz-browser-agent",
@@ -2111,7 +2111,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 76,
 "type": "agent",
 "type_ru": "агент",
@@ -2140,7 +2140,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 12,
+"seen_count": 13,
 "title_ru": "executioner — Агентская среда тестирования на проникновение, которая находится на вашем компьютере.",
 "title_orig": "dbx0/executioner: The agentic pentesting environment that lives on your machine. AI agent teams, visual workflows and your own tools, 100% local.",
 "repo": "dbx0/executioner",
@@ -2444,7 +2444,7 @@
 "published": 1795402193.0,
 "popularity": 58.468082745206175,
 "extra": {
-"stars": 266,
+"stars": 267,
 "language": "TypeScript",
 "topics": [
 "agent-orchestration",
@@ -2479,7 +2479,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 75,
 "type": "agent",
 "type_ru": "агент",
@@ -2509,7 +2509,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 12,
+"seen_count": 13,
 "title_ru": "tarobird — Codex, Claude Code, DeepSeek и другие интерфейсы командной строки агентов на вашем компьютере в одном…",
 "title_orig": "cloveric/tarobird: Codex, Claude Code, DeepSeek and other agent CLIs on your computer, together in one desktop & mobile IM. Work and vibe code with AI agents, built for everyday p",
 "repo": "cloveric/tarobird",
@@ -2567,7 +2567,7 @@
 "type_ru": "инструмент",
 "source": "seed",
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "steps": [
 "Источник: https://github.com/comfyanonymous/ComfyUI",
 "Откройте страницу инструмента, проверьте цену/лицензию и требования к ПК.",
@@ -2644,7 +2644,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 74,
 "type": "agent",
 "type_ru": "агент",
@@ -2674,7 +2674,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Show HN: Plandex v2 – агент ИИ-кодирования с открытым исходным кодом для крупных проектов и задач",
 "title_orig": "Show HN: Plandex v2 – open source AI coding agent for large projects and tasks",
 "repo": "plandex-ai/plandex",
@@ -2721,9 +2721,9 @@
 "summary": "Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own.",
 "image": "https://opengraph.githubassets.com/1/simplexai-labs/linger",
 "published": 1795456194.0,
-"popularity": 1171.2039384790796,
+"popularity": 1175.460263432247,
 "extra": {
-"stars": 4619,
+"stars": 4665,
 "language": "TypeScript",
 "topics": [
 "agent-teams",
@@ -2756,7 +2756,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 74,
 "type": "agent",
 "type_ru": "агент",
@@ -2785,7 +2785,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 15,
+"seen_count": 16,
 "title_ru": "linger — Персональный агент с открытым исходным кодом, который полностью работает на вашем ПК.",
 "title_orig": "simplexai-labs/linger: Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers t",
 "repo": "simplexai-labs/linger",
@@ -2836,7 +2836,7 @@
 "published": 1795373922.0,
 "popularity": 951.9996230946356,
 "extra": {
-"stars": 5007,
+"stars": 5008,
 "language": "Python",
 "topics": [
 "ai-agent",
@@ -2871,7 +2871,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 74,
 "type": "agent",
 "type_ru": "агент",
@@ -2900,7 +2900,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "AnyModelBot — 🤖 Локальная альтернатива с открытым исходным кодом Grok Bot, OpenAI dots и Claude Duet.",
 "title_orig": "modelflare-ai/AnyModelBot: 🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM a",
 "repo": "modelflare-ai/AnyModelBot",
@@ -2951,7 +2951,7 @@
 "published": 1795453733.0,
 "popularity": 313.13861589731243,
 "extra": {
-"stars": 585,
+"stars": 589,
 "language": "TypeScript",
 "topics": [
 "agent",
@@ -2986,7 +2986,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 74,
 "type": "agent",
 "type_ru": "агент",
@@ -3015,7 +3015,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "PiBot — Локальная команда агентов искусственного интеллекта с открытым исходным кодом для вашего рабочего стола:…",
 "title_orig": "w01fb0ss/PiBot: Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + An",
 "repo": "w01fb0ss/PiBot",
@@ -3058,9 +3058,9 @@
 "summary": "Paste a link, get the whole marketing machine behind it: paid ads, organic social, SEO, Reddit, founders, funnel — evidence-cited. CLI, MCP server and a local web app that uses your Claude Code or Codex plan.",
 "image": "https://opengraph.githubassets.com/1/dansugc/reverse-engineer-marketing",
 "published": 1792351614.0,
-"popularity": 186.44991114993832,
+"popularity": 186.7785481839094,
 "extra": {
-"stars": 1151,
+"stars": 1156,
 "language": "TypeScript",
 "topics": [
 "ad-library",
@@ -3095,7 +3095,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 74,
 "type": "agent",
 "type_ru": "агент",
@@ -3124,7 +3124,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "reverse-engineer-marketing — Вставьте ссылку, подключите к ней всю маркетинговую машину: платную рекламу, органические социальные сети,…",
 "title_orig": "dansugc/reverse-engineer-marketing: Paste a link, get the whole marketing machine behind it: paid ads, organic social, SEO, Reddit, founders, funnel — evidence-cited. CLI, MCP server and a local w",
 "repo": "dansugc/reverse-engineer-marketing",
@@ -3173,7 +3173,7 @@
 "published": 1795410532.0,
 "popularity": 105.08276398523371,
 "extra": {
-"stars": 452,
+"stars": 456,
 "language": "JavaScript",
 "topics": [
 "ai-tools",
@@ -3208,7 +3208,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 74,
 "type": "agent",
 "type_ru": "агент",
@@ -3237,7 +3237,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "dsh-craft-anything — Создайте что-нибудь для DeepSeek Harness: mcp__craft__* MCP-мост к локальному CLI для создания чего-либо, с…",
 "title_orig": "Fanqi89/dsh-craft-anything: Craft Anything for DeepSeek Harness: mcp__craft__* MCP bridge to the local craft-anything CLI, with a clean-room/deep mode switch in the composer, a status page",
 "repo": "Fanqi89/dsh-craft-anything",
@@ -3313,7 +3313,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 74,
 "type": "skill",
 "type_ru": "навык",
@@ -3338,7 +3338,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 12,
+"seen_count": 13,
 "title_ru": "res — Навыки агента по обратному проектированию SaaS-продукта через браузер в базу знаний для его восстановления:…",
 "title_orig": "alextnetto/res: Agent skill to reverse engineer a SaaS product through the browser into a knowledge base for rebuilding it: screens, rules, data model, design tokens and produc",
 "repo": "alextnetto/res",
@@ -3524,7 +3524,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 74,
 "type": "agent",
 "type_ru": "агент",
@@ -3552,7 +3552,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 15,
+"seen_count": 16,
 "title_ru": "Shiyin — Бесплатное приложение для заметок о собраниях с открытым исходным кодом для Mac: записывает Zoom, Meet и…",
 "title_orig": "juinwei7/Shiyin: Free, open-source meeting notes app for Mac: records Zoom, Meet and Teams without a bot, transcribes on-device (whisper.cpp + Breeze ASR 25), identifies speaker",
 "repo": "juinwei7/Shiyin",
@@ -3913,6 +3913,70 @@
 "title_orig": "How to Connect TikTok, Instagram Reels & YouTube Shorts Data to Claude Code & Cursor via ContHunt MCP"
 },
 {
+"id": "k7ebc5d6a466e",
+"title": "How to Pull UK Property Listings from OnTheMarket with Python",
+"url": "https://dev.to/reventadata/how-to-pull-uk-property-listings-from-onthemarket-with-python-4m3a",
+"source": "devto",
+"source_label": "dev.to",
+"summary": "By the end of this tutorial you will have a short Python script that runs the OnTheMarket Scraper for a UK location, waits for the run to finish, and prints one line per property with its price, address, bedroom count and agent phone number. The output is JSON rows you can store, filter or load into a spreadsheet. OnTheMarket is the UK property portal, with listings for sale and to rent. Checking one town by hand means opening search results page after page and copying prices and agent details into a sheet. This tutorial replaces that with one API call. We use the OnTheMarket Scraper Actor ( r",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fpv7085qov2a847uelxh5.jpg",
+"published": 1795635649.0,
+"popularity": 10,
+"extra": {
+"practical": {
+"score": 74,
+"type": "guide",
+"type_ru": "гайд",
+"level": "средний",
+"needs": [
+"ПК",
+"API-ключ"
+],
+"money": "средний",
+"is_ai": true,
+"penalty": 0,
+"signals": [
+"agent",
+"tool",
+"guide",
+"automation"
+]
+}
+},
+"first_seen": 1795643462.732452,
+"last_seen": 1795643462.732452,
+"score": 74,
+"type": "guide",
+"type_ru": "гайд",
+"level": "средний",
+"needs": [
+"ПК",
+"API-ключ"
+],
+"money": "средний",
+"signals": [
+"agent",
+"tool",
+"guide",
+"automation"
+],
+"tags": [
+"agent",
+"tool",
+"guide",
+"automation"
+],
+"summary_ru": "К концу этого руководства у вас будет короткий скрипт Python, который запускает парсер OnTheMarket для местоположения в Великобритании, ждет завершения запуска и печатает одну строку для каждого объекта с его ценой, адресом, количеством спален и номером телефона агента. Результатом являются строки JSON, которые вы можете хранить, фильтровать или загружать в электронную таблицу. Чем полезно: пошаговый разбор, который можно повторить на своём ПК.",
+"steps": [
+"Источник: https://dev.to/reventadata/how-to-pull-uk-property-listings-from-onthemarket-with-python-4m3a",
+"Прочитайте материал целиком и сохраните ключевые команды/промпты.",
+"Повторите шаги на своём ПК в отдельной папке.",
+"Запишите, что получилось, и добавьте в свою «машину дохода»."
+],
+"title_ru": "Как получить списки недвижимости Великобритании с OnTheMarket с помощью Python",
+"title_orig": "How to Pull UK Property Listings from OnTheMarket with Python"
+},
+{
 "id": "k73c2af33c348",
 "title": "My coding agent writes the app in minutes — so I automated the day of setup chores around it",
 "url": "https://dev.to/sugukavi/my-coding-agent-writes-the-app-in-minutes-so-i-automated-the-day-of-setup-chores-around-it-5nj",
@@ -4081,6 +4145,163 @@
 }
 },
 {
+"id": "k1e377d49af93",
+"title": "We Put Our Two Stores on Video: Dual Market + the NeuroSpark ADHD Planner",
+"url": "https://dev.to/scriptmasterlabs01/we-put-our-two-stores-on-video-dual-market-the-neurospark-adhd-planner-1i36",
+"source": "devto",
+"source_label": "dev.to",
+"summary": "We put our two stores on video Script Master Labs sells the same catalog through two doors, and this week both doors got a video. Door 1 — SML Dual Market (card or crypto) The featured product is the Agent Payments & x402 Library: 11 guides, 337 pages, $49 — how AI agents pay, get paid, and stay safe with money. It sits in a catalog of 142 products with 21 ways to pay across 13 networks (card, plus USDC/ETH/BTC/SOL/XRP and more). For comparison: the individual x402 and agent-payment guides in this space typically sell one topic at a time. The Library bundles 11 of them — 337 pages — for a sing",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxxeuti6i56h5q5rgldhw.png",
+"published": 1795628091.0,
+"popularity": 19,
+"extra": {
+"practical": {
+"score": 73,
+"type": "guide",
+"type_ru": "гайд",
+"level": "средний",
+"needs": [
+"ПК"
+],
+"money": "средний",
+"is_ai": true,
+"penalty": 0,
+"signals": [
+"agent",
+"tool",
+"guide",
+"automation"
+]
+}
+},
+"first_seen": 1795643462.732452,
+"last_seen": 1795643462.732452,
+"score": 73,
+"type": "guide",
+"type_ru": "гайд",
+"level": "средний",
+"needs": [
+"ПК"
+],
+"money": "средний",
+"signals": [
+"agent",
+"tool",
+"guide",
+"automation"
+],
+"tags": [
+"agent",
+"tool",
+"guide",
+"automation"
+],
+"summary_ru": "Мы разместили наши два магазина на видео. Script Master Labs продает один и тот же каталог через две двери, и на этой неделе в обеих дверях появилось видео. Дверь 1 — двойной рынок SML (карточный или криптографический). Представленный продукт — это «Платежи агентов и библиотека x402»: 11 руководств, 337 страниц, 49 долларов США — как агенты ИИ платят, получают оплату и остаются в безопасности с деньгами. Чем полезно: пошаговый разбор, который можно повторить на своём ПК.",
+"steps": [
+"Источник: https://dev.to/scriptmasterlabs01/we-put-our-two-stores-on-video-dual-market-the-neurospark-adhd-planner-1i36",
+"Прочитайте материал целиком и сохраните ключевые команды/промпты.",
+"Повторите шаги на своём ПК в отдельной папке.",
+"Запишите, что получилось, и добавьте в свою «машину дохода»."
+],
+"title_ru": "Мы снимаем на видео два наших магазина: Dual Market + Планировщик СДВГ NeuroSpark",
+"title_orig": "We Put Our Two Stores on Video: Dual Market + the NeuroSpark ADHD Planner"
+},
+{
+"id": "k6e371331f459",
+"title": "How to install Claude Code plugins (marketplaces, scopes & fixes)",
+"url": "https://dev.to/pluginstackai/how-to-install-claude-code-plugins-marketplaces-scopes-fixes-1d8o",
+"source": "devto",
+"source_label": "dev.to",
+"summary": "How to install Claude Code plugins Checked against the official docs: Oct 21, 2026 Claude Code plugins bundle skills, subagents, hooks and MCP servers so you can add a whole workflow or integration in one step. This guide covers installing from Anthropic's official marketplace and from other repositories, choosing a scope, keeping plugins updated, checking what a plugin can do before you trust it, and fixing the errors people hit most. Quick answer Open a terminal in your project and start Claude Code with claude . Run /plugin to browse the Discover tab, or open one plugin's details directly w",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8cf8jxyuy8r439xeqrl5.png",
+"published": 1795631191.0,
+"popularity": 11,
+"extra": {
+"practical": {
+"score": 73,
+"type": "skill",
+"type_ru": "навык",
+"level": "продвинутый",
+"needs": [
+"ПК",
+"API-ключ"
+],
+"money": "средний",
+"is_ai": true,
+"penalty": 0,
+"signals": [
+"agent",
+"tool",
+"guide",
+"automation"
+]
+}
+},
+"first_seen": 1795643462.732452,
+"last_seen": 1795643462.732452,
+"score": 73,
+"type": "skill",
+"type_ru": "навык",
+"level": "продвинутый",
+"needs": [
+"ПК",
+"API-ключ"
+],
+"money": "средний",
+"signals": [
+"agent",
+"tool",
+"guide",
+"automation"
+],
+"tags": [
+"agent",
+"tool",
+"guide",
+"automation"
+],
+"summary_ru": "Как установить плагины Claude Code. Проверено по официальной документации: 21 октября 2026 г. · Плагины Claude Code объединяют навыки, субагенты, перехватчики и серверы MCP, поэтому вы можете добавить весь рабочий процесс или интеграцию за один шаг. Стек: Python, ★ 48216. Чем полезно: навык для агента — добавляет ему новую способность.",
+"steps": [
+"Источник: https://dev.to/pluginstackai/how-to-install-claude-code-plugins-marketplaces-scopes-fixes-1d8o",
+"Откройте описание навыка (SKILL.md): что он умеет и какие ключи просит.",
+"Установите агента (OpenClaw, Claude Code или аналог) на свой ПК.",
+"Подключите навык и проверьте его в песочнице — навыки могут хранить ключи.",
+"Встройте навык в свой конвейер (контент, продажи, аналитика)."
+],
+"title_ru": "Как установить плагины Claude Code (торговые площадки, области применения и исправления)",
+"title_orig": "How to install Claude Code plugins (marketplaces, scopes & fixes)",
+"repo": "anthropics/claude-plugins-official",
+"repo_url": "https://github.com/anthropics/claude-plugins-official",
+"build": {
+"repo": "anthropics/claude-plugins-official",
+"url": "https://github.com/anthropics/claude-plugins-official",
+"stack": [
+"Python"
+],
+"stars": 48216,
+"license": "Apache-2.0",
+"homepage": "https://code.claude.com/docs/en/plugins",
+"steps": [
+{
+"t": "Поставьте заранее: Git, Python 3.10+."
+},
+{
+"t": "Скачайте код репозитория:",
+"cmd": "git clone https://github.com/anthropics/claude-plugins-official.git\ncd claude-plugins-official"
+},
+{
+"t": "В README нет готовых команд — стандартная сборка для этого стека:",
+"cmd": "python -m venv .venv\nsource .venv/bin/activate   # Windows: .venv\\Scripts\\activate\npip install -e ."
+},
+{
+"t": "Если что-то не запускается — полная инструкция и настройки в README:",
+"link": "https://github.com/anthropics/claude-plugins-official#readme"
+}
+],
+"from_readme": false
+}
+},
+{
 "id": "ka68bf3fe502d",
 "title": "EL4CTEO/blender-skills: Professional Blender 5.3 workflows as Agent Skills for Claude Code, Codex, Gemini CLI, Copilot and Cursor: modeling, UVs, PBR, baking, rigging, animation, expor",
 "url": "https://github.com/EL4CTEO/blender-skills",
@@ -4089,9 +4310,9 @@
 "summary": "Professional Blender 5.3 workflows as Agent Skills for Claude Code, Codex, Gemini CLI, Copilot and Cursor: modeling, UVs, PBR, baking, rigging, animation, export and QA.",
 "image": "https://opengraph.githubassets.com/1/EL4CTEO/blender-skills",
 "published": 1795271750.0,
-"popularity": 447.92614275749537,
+"popularity": 448.57410421805065,
 "extra": {
-"stars": 2900,
+"stars": 2911,
 "language": "Python",
 "topics": [
 "3d",
@@ -4125,7 +4346,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 72,
 "type": "skill",
 "type_ru": "навык",
@@ -4153,7 +4374,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "blender-skills — Профессиональные рабочие процессы Blender 5.3 в качестве навыков агента для Claude Code, Codex, Gemini CLI,…",
 "title_orig": "EL4CTEO/blender-skills: Professional Blender 5.3 workflows as Agent Skills for Claude Code, Codex, Gemini CLI, Copilot and Cursor: modeling, UVs, PBR, baking, rigging, animation, expor",
 "repo": "EL4CTEO/blender-skills",
@@ -4198,7 +4419,7 @@
 "published": 1793668047.0,
 "popularity": 104.65137736000624,
 "extra": {
-"stars": 673,
+"stars": 672,
 "language": "TypeScript",
 "topics": [
 "ai-agent",
@@ -4231,7 +4452,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 72,
 "type": "agent",
 "type_ru": "агент",
@@ -4259,7 +4480,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "scout — Агент браузера с открытым исходным кодом от Outcrawl.",
 "title_orig": "outcrawlai/scout: Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository.",
 "repo": "outcrawlai/scout",
@@ -4393,7 +4614,7 @@
 }
 },
 "first_seen": 1795606125.495485,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 72,
 "type": "agent",
 "type_ru": "агент",
@@ -4422,7 +4643,7 @@
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
 "title_ru": "ChatGPT отказался рисовать кровавый алтарь, а с Codex я сделал расчленёнку в Unreal Engine",
-"seen_count": 2
+"seen_count": 3
 },
 {
 "id": "kbd63fd9a8438",
@@ -4603,7 +4824,7 @@
 "type_ru": "инструмент",
 "source": "seed",
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "steps": [
 "Источник: https://github.com/open-webui/open-webui",
 "Откройте страницу инструмента, проверьте цену/лицензию и требования к ПК.",
@@ -4777,6 +4998,71 @@
 "title_orig": "7 AI Prompts to Start a Side Hustle: Pick an Idea, Write Your Offer, Ask for Your First Sale"
 },
 {
+"id": "k495c7477a7fd",
+"title": "How I Built a Zero-LLM-Cost B2B Domain & Tech Stack Enricher for MCP Agents (with SSRF Protection)",
+"url": "https://dev.to/m1nnnnn/how-i-built-a-zero-llm-cost-b2b-domain-tech-stack-enricher-for-mcp-agents-with-ssrf-protection-1ech",
+"source": "devto",
+"source_label": "dev.to",
+"summary": "If you are building B2B lead generation workflows or connecting external tools to AI agents via Model Context Protocol (MCP) , you have probably noticed a common bottleneck: LLM-based web scraping is slow and expensive. Feeding raw HTML from hundreds of company websites into an LLM just to extract a contact email, check if they use Stripe, or see if they have a /pricing page burns tokens fast—and introduces unnecessary hallucination risks. To solve this, I built B2B Domain, Tech Stack & Contact Enricher —a deterministic, zero-LLM-cost enrichment tool hosted on Apify and ready out-of-the-box fo",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fu1te79txstlkl33rb1ug.png",
+"published": 1795638117.0,
+"popularity": 16,
+"extra": {
+"practical": {
+"score": 69,
+"type": "agent",
+"type_ru": "агент",
+"level": "средний",
+"needs": [
+"ПК",
+"API-ключ"
+],
+"money": "средний",
+"is_ai": true,
+"penalty": 0,
+"signals": [
+"agent",
+"build",
+"tool",
+"automation"
+]
+}
+},
+"first_seen": 1795643462.732452,
+"last_seen": 1795643462.732452,
+"score": 69,
+"type": "agent",
+"type_ru": "агент",
+"level": "средний",
+"needs": [
+"ПК",
+"API-ключ"
+],
+"money": "средний",
+"signals": [
+"agent",
+"build",
+"tool",
+"automation"
+],
+"tags": [
+"agent",
+"build",
+"tool",
+"automation"
+],
+"summary_ru": "Если вы создаете рабочие процессы привлечения потенциальных клиентов B2B или подключаете внешние инструменты к агентам искусственного интеллекта через протокол контекста модели (MCP), вы, вероятно, заметили общее узкое место: парсинг веб-страниц на основе LLM — медленный и дорогостоящий процесс. Зачем вам: свой ИИ-агент на своём ПК — забирает рутину без подписок на чужие сервисы.",
+"steps": [
+"Источник: https://dev.to/m1nnnnn/how-i-built-a-zero-llm-cost-b2b-domain-tech-stack-enricher-for-mcp-agents-with-ssrf-protection-1ech",
+"Разберитесь, какую работу делает агент и какие инструменты ему нужны.",
+"Поставьте агентную среду на ПК (OpenClaw / Claude Code / n8n с AI-узлами).",
+"Дайте агенту одну узкую задачу с измеримым результатом.",
+"Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
+],
+"title_ru": "Как я создал B2B-домен и обогатитель технического стека с нулевой стоимостью LLM для агентов MCP (с защитой SSRF)",
+"title_orig": "How I Built a Zero-LLM-Cost B2B Domain & Tech Stack Enricher for MCP Agents (with SSRF Protection)"
+},
+{
 "id": "kfe39bacc20af",
 "title": "Show HN: Axe – A 12MB binary that replaces your AI framework",
 "url": "https://github.com/jrswab/axe",
@@ -4810,7 +5096,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 68,
 "type": "agent",
 "type_ru": "агент",
@@ -4838,7 +5124,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Show HN: Axe — двоичный файл размером 12 МБ, который заменяет вашу структуру искусственного интеллекта.",
 "title_orig": "Show HN: Axe – A 12MB binary that replaces your AI framework",
 "repo": "jrswab/axe",
@@ -4913,7 +5199,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 68,
 "type": "agent",
 "type_ru": "агент",
@@ -4941,7 +5227,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Показать HN: OneCLI — хранилище для ИИ-агентов в Rust",
 "title_orig": "Show HN: OneCLI – Vault for AI Agents in Rust",
 "repo": "onecli/onecli",
@@ -5013,7 +5299,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 68,
 "type": "agent",
 "type_ru": "агент",
@@ -5041,7 +5327,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Show HN: PageAgent, агент с графическим интерфейсом, который находится внутри вашего веб-приложения.",
 "title_orig": "Show HN: PageAgent, A GUI agent that lives inside your web app"
 },
@@ -5078,7 +5364,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 68,
 "type": "agent",
 "type_ru": "агент",
@@ -5110,7 +5396,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "«Яндекс 360» открыл доступ к своим сервисам внешним ИИ‑агентам"
 },
 {
@@ -5345,7 +5631,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 66,
 "type": "agent",
 "type_ru": "агент",
@@ -5376,7 +5662,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Покажите HN: Gauge — интерфейс командной строки с открытым исходным кодом для рекурсивного улучшения ваших документов.",
 "title_orig": "Show HN: Gauge – Open-Source CLI to recursively improve your docs",
 "repo": "gauge-sh/gauge-cli",
@@ -5442,7 +5728,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 66,
 "type": "agent",
 "type_ru": "агент",
@@ -5472,7 +5758,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Как побороть сопротивление ИИ‑агентам в организации"
 },
 {
@@ -5521,7 +5807,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 66,
 "type": "agent",
 "type_ru": "агент",
@@ -5550,7 +5836,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 12,
+"seen_count": 13,
 "title_ru": "audio-studio-mcp — Локальные песни AI с вокалом, фоновой музыкой и звуковыми эффектами для Claude Code и любого клиента MCP.",
 "title_orig": "kanaworksai-hue/audio-studio-mcp: Local AI songs with vocals, BGM and sound effects for Claude Code and any MCP client. YuE2 sings your lyrics; Stable Audio 3 makes BGM and SFX. Runs on Apple Si",
 "repo": "kanaworksai-hue/audio-studio-mcp",
@@ -5934,9 +6220,9 @@
 "summary": "Offline Linux command assistant: a 1.5B model on your machine (About 1 GB disk, 1 GB RAM, no GPU, ~2 s per answer) that checks every command against the man pages and tldr. No cloud, no API key. Rust + llama.cpp",
 "image": "https://opengraph.githubassets.com/1/arxhr007/lxask",
 "published": 1795553138.0,
-"popularity": 37.96754637846018,
+"popularity": 38.911810784869225,
 "extra": {
-"stars": 214,
+"stars": 220,
 "language": "Python",
 "topics": [
 "ai",
@@ -5972,7 +6258,7 @@
 }
 },
 "first_seen": 1795572867.6045456,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 66,
 "type": "agent",
 "type_ru": "агент",
@@ -6034,7 +6320,7 @@
 ],
 "from_readme": true
 },
-"seen_count": 3
+"seen_count": 4
 },
 {
 "id": "k27ecf544186f",
@@ -6190,7 +6476,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 65,
 "type": "agent",
 "type_ru": "агент",
@@ -6220,7 +6506,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Show HN: Coral — шлюз с открытым исходным кодом, где агенты пишут свои собственные инструменты.",
 "title_orig": "Show HN: Coral – Open-source gateway where agents write their own tools",
 "repo": "withcoral/coral",
@@ -6550,7 +6836,7 @@
 "published": 1795456009.0,
 "popularity": 1095.5695741508157,
 "extra": {
-"stars": 2601,
+"stars": 2621,
 "language": "Python",
 "topics": [
 "ai-video-clipper",
@@ -6584,7 +6870,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 64,
 "type": "tool",
 "type_ru": "инструмент",
@@ -6612,7 +6898,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 15,
+"seen_count": 16,
 "title_ru": "neonclipping — Вставьте ссылку и получите клипы с субтитрами продолжительностью 9:16 примерно за 2 минуты.",
 "title_orig": "iamajmeena/neonclipping: Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
 "repo": "iamajmeena/neonclipping",
@@ -6677,7 +6963,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795492764.1861293,
+"last_seen": 1795643462.732452,
 "score": 64,
 "type": "tool",
 "type_ru": "инструмент",
@@ -6704,7 +6990,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 6,
+"seen_count": 7,
 "title_ru": "От ИИ-агентов до RAG и локальных LLM: 26 бесплатных вебинаров для тех, кто работает с искусственным интеллектом"
 },
 {
@@ -6737,7 +7023,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 64,
 "type": "guide",
 "type_ru": "гайд",
@@ -6763,7 +7049,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 11,
+"seen_count": 12,
 "title_ru": "Figma вывела ИИ-агента из беты и добавила инструкции для дизайн-библиотек"
 },
 {
@@ -6775,7 +7061,7 @@
 "summary": "ELMA показала работу ИИ-агентов в бизнес-процессах клиентов на ELMA DAY'26 CNews.ru",
 "image": "",
 "published": 1794829303.0,
-"popularity": 3,
+"popularity": 4,
 "extra": {
 "practical": {
 "score": 64,
@@ -6796,7 +7082,7 @@
 }
 },
 "first_seen": 1795456619.7540383,
-"last_seen": 1795572867.6045456,
+"last_seen": 1795643462.732452,
 "score": 64,
 "type": "agent",
 "type_ru": "агент",
@@ -6822,7 +7108,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 6,
+"seen_count": 7,
 "title_ru": "ELMA показала работу ИИ-агентов в бизнес-процессах клиентов на ELMA DAY'26"
 },
 {
@@ -6855,7 +7141,7 @@
 }
 },
 "first_seen": 1795456890.3770094,
-"last_seen": 1795492764.1861293,
+"last_seen": 1795643462.732452,
 "score": 64,
 "type": "guide",
 "type_ru": "гайд",
@@ -6881,7 +7167,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 3,
+"seen_count": 4,
 "title_ru": "«Джунов больше не нанимаем»: как ИИ‑агенты меняют разработку и роль инженера ИИ-инструменты давно стали привычной..."
 },
 {
@@ -7942,7 +8228,7 @@
 }
 },
 "first_seen": 1795456890.3770094,
-"last_seen": 1795492764.1861293,
+"last_seen": 1795643462.732452,
 "score": 62,
 "type": "tool",
 "type_ru": "инструмент",
@@ -7968,7 +8254,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 3,
+"seen_count": 4,
 "title_ru": "Проблемы внедрения AI в компании Уже давно есть все инструменты - ИИ, ИИ агенты, мультиагентные системы, и наконец..."
 },
 {
@@ -8342,6 +8628,66 @@
 "title_orig": "I'm an AI agent running a tiny software business from A$0. Week one: A$0 revenue, 2 users"
 },
 {
+"id": "k8724ca32d3d1",
+"title": "How to Make Money With AI in 2026: 9 Realistic Ways to Build an Online Income",
+"url": "https://medium.com/@deepakwriting/how-to-make-money-with-ai-in-2026-9-realistic-ways-to-build-an-online-income-0c5a14865dfc?source=rss------side_hustle-5",
+"source": "medium",
+"source_label": "Medium",
+"summary": "Discover 9 practical ways to use AI tools to create digital products, offer online services, and build a potential income stream—even if… Continue reading on Medium »",
+"image": "https://cdn-images-1.medium.com/max/1672/1*-MW5-yiLfja3kgctDOclYg.png",
+"published": 1795638461.0,
+"popularity": 15,
+"extra": {
+"practical": {
+"score": 61,
+"type": "case",
+"type_ru": "кейс с доходом",
+"level": "средний",
+"needs": [
+"ПК",
+"API-ключ"
+],
+"money": "высокий",
+"is_ai": true,
+"penalty": 0,
+"signals": [
+"money",
+"guide"
+]
+}
+},
+"first_seen": 1795643462.732452,
+"last_seen": 1795643462.732452,
+"score": 61,
+"type": "case",
+"type_ru": "кейс с доходом",
+"level": "средний",
+"needs": [
+"ПК",
+"API-ключ"
+],
+"money": "высокий",
+"signals": [
+"money",
+"guide"
+],
+"tags": [
+"money",
+"guide"
+],
+"summary_ru": "Откройте для себя 9 практических способов использования инструментов искусственного интеллекта для создания цифровых продуктов, предложения онлайн-услуг и создания потенциального потока дохода, даже если… Продолжить чтение на Medium » Чем полезно: реальный пример «собрал → заработал» — схему можно повторить у себя.",
+"steps": [
+"Источник: https://medium.com/@deepakwriting/how-to-make-money-with-ai-in-2026-9-realistic-ways-to-build-an-online-income-0c5a14865dfc?source=rss------side_hustle-5",
+"Прочитайте первоисточник: что именно делает агент, какие сервисы и сколько стоит запуск.",
+"Выпишите воронку: откуда трафик → что продаётся → как платят (подписка, услуга, партнёрка).",
+"Соберите минимальную копию на своём ПК (OpenClaw / n8n / Python-скрипт + API модели).",
+"Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
+"Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
+],
+"title_ru": "Как заработать деньги с помощью ИИ в 2026 году: 9 реалистичных способов построить доход в Интернете",
+"title_orig": "How to Make Money With AI in 2026: 9 Realistic Ways to Build an Online Income"
+},
+{
 "id": "k28fba976f120",
 "title": "Show HN: OSS AI agent that indexes and searches the Epstein files",
 "url": "https://epstein.trynia.ai/",
@@ -8375,7 +8721,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 60,
 "type": "agent",
 "type_ru": "агент",
@@ -8403,7 +8749,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Показать HN: агент OSS AI, который индексирует и ищет файлы Эпштейна",
 "title_orig": "Show HN: OSS AI agent that indexes and searches the Epstein files"
 },
@@ -8418,7 +8764,7 @@
 "published": 1795491426.0,
 "popularity": 158.67107145969803,
 "extra": {
-"stars": 660,
+"stars": 662,
 "language": "Go",
 "topics": [
 "android",
@@ -8453,7 +8799,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 60,
 "type": "agent",
 "type_ru": "агент",
@@ -8482,7 +8828,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 12,
+"seen_count": 13,
 "title_ru": "bowel — Собственный клиент mihomo (Clash Meta) для macOS, Windows, Linux и Android: пользовательский интерфейс Go с…",
 "title_orig": "21stware/bowel: Native mihomo (Clash Meta) client for macOS, Windows, Linux & Android: GPU-rendered Go UI, no Electron or WebView. Rules, TUN, gateway mode, CLI/TUI and a built",
 "repo": "21stware/bowel",
@@ -9043,7 +9389,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 58,
 "type": "skill",
 "type_ru": "навык",
@@ -9069,7 +9415,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 12,
+"seen_count": 13,
 "title_ru": "qwen21-nsfw-pose-skill — Qwen-Image 2.1 NSFW/навыки рендеринга поз: рецепт подсказки на уровне автора + NSFW LoRA + 136 поз управления…",
 "title_orig": "Arekejoker/qwen21-nsfw-pose-skill: Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
 "repo": "Arekejoker/qwen21-nsfw-pose-skill",
@@ -9112,9 +9458,9 @@
 "summary": "A privacy-first local coding agent that consults frontier AI models without exposing your source code.",
 "image": "https://opengraph.githubassets.com/1/lemonadesaltbagel/airlock",
 "published": 1793160739.0,
-"popularity": 61.95377119503071,
+"popularity": 62.64754910383049,
 "extra": {
-"stars": 349,
+"stars": 354,
 "language": "TypeScript",
 "topics": [
 "ai-agents",
@@ -9148,7 +9494,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 58,
 "type": "agent",
 "type_ru": "агент",
@@ -9175,7 +9521,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 15,
+"seen_count": 16,
 "title_ru": "airlock — Локальный агент кодирования, ориентированный на конфиденциальность, который анализирует передовые модели…",
 "title_orig": "lemonadesaltbagel/airlock: A privacy-first local coding agent that consults frontier AI models without exposing your source code.",
 "repo": "lemonadesaltbagel/airlock",
@@ -9245,7 +9591,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 58,
 "type": "agent",
 "type_ru": "агент",
@@ -9275,7 +9621,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Ванесса — милый ИИ-администратор для музыкального театра"
 },
 {
@@ -9309,7 +9655,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 58,
 "type": "agent",
 "type_ru": "агент",
@@ -9337,7 +9683,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Расширяем базовый функционал n8n: от RAG до кастомного агента с MCP"
 },
 {
@@ -9372,7 +9718,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 58,
 "type": "guide",
 "type_ru": "гайд",
@@ -9401,7 +9747,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Пишем свою ноду в n8n под любой API за вечер",
 "repo": "n8n-io/n8n-nodes-starter",
 "repo_url": "https://github.com/n8n-io/n8n-nodes-starter",
@@ -9468,7 +9814,7 @@
 }
 },
 "first_seen": 1795568061.8895679,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 58,
 "type": "skill",
 "type_ru": "навык",
@@ -9495,7 +9841,7 @@
 "Подключите навык и проверьте его в песочнице — навыки могут хранить ключи.",
 "Встройте навык в свой конвейер (контент, продажи, аналитика)."
 ],
-"seen_count": 6,
+"seen_count": 7,
 "title_ru": "Навык для LLM в 1,7 МБ с точностью LoRA: открываю часть своего патентного метода DTG-MA в cortiq",
 "repo": "infosave2007/cmf",
 "repo_url": "https://github.com/infosave2007/cmf",
@@ -9663,7 +10009,7 @@
 }
 },
 "first_seen": 1795626473.2553148,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 58,
 "type": "guide",
 "type_ru": "гайд",
@@ -9691,7 +10037,71 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"title_ru": "Как стоит перестроить IT-образование в эпоху ИИ-агентов"
+"title_ru": "Как стоит перестроить IT-образование в эпоху ИИ-агентов",
+"seen_count": 2
+},
+{
+"id": "k979552667943",
+"title": "Pay-Per-Call Company KYB & Tech Stack Enrichment for AI Agents via MCP ($0.14/Account, Zero Retainer)",
+"url": "https://dev.to/arjunghose10/pay-per-call-company-kyb-tech-stack-enrichment-for-ai-agents-via-mcp-014account-zero-b9k",
+"source": "devto",
+"source_label": "dev.to",
+"summary": "When building B2B lead enrichment, wholesale onboarding, or automated KYB pipelines in Claude, Cursor, or n8n, most teams hit the same pricing wall: annual seat-based data retainers ($99 to $999+/mo) even when you only enrich 50 to 300 accounts a month. We built EntityStack as a pure pay-per-event Apify actor and Model Context Protocol (MCP) server so AI agents and RevOps workflows can enrich any company domain on demand with zero monthly minimum. What EntityStack Returns Per Account Live Corporate Legal Entity (GLEIF LEI): Official Legal Entity Identifier, active registration status, jurisdic",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fvkksrktycp6xbwumgdr5.png",
+"published": 1795642647.0,
+"popularity": 20,
+"extra": {
+"practical": {
+"score": 58,
+"type": "agent",
+"type_ru": "агент",
+"level": "новичок",
+"needs": [
+"ПК",
+"API-ключ"
+],
+"money": "средний",
+"is_ai": true,
+"penalty": 0,
+"signals": [
+"agent",
+"build",
+"automation"
+]
+}
+},
+"first_seen": 1795643462.732452,
+"last_seen": 1795643462.732452,
+"score": 58,
+"type": "agent",
+"type_ru": "агент",
+"level": "новичок",
+"needs": [
+"ПК",
+"API-ключ"
+],
+"money": "средний",
+"signals": [
+"agent",
+"build",
+"automation"
+],
+"tags": [
+"agent",
+"build",
+"automation"
+],
+"summary_ru": "При построении привлечения потенциальных клиентов B2B, оптового внедрения или автоматизированных конвейеров KYB в Claude, Cursor или n8n большинство команд упираются в одну и ту же ценовую стену: годовое сохранение данных на основе рабочих мест (от 99 до 999 долларов США в месяц), даже если вы пополняете только 50-300 аккаунтов в месяц. Зачем вам: свой ИИ-агент на своём ПК — забирает рутину без подписок на чужие сервисы.",
+"steps": [
+"Источник: https://dev.to/arjunghose10/pay-per-call-company-kyb-tech-stack-enrichment-for-ai-agents-via-mcp-014account-zero-b9k",
+"Разберитесь, какую работу делает агент и какие инструменты ему нужны.",
+"Поставьте агентную среду на ПК (OpenClaw / Claude Code / n8n с AI-узлами).",
+"Дайте агенту одну узкую задачу с измеримым результатом.",
+"Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
+],
+"seen_count": 3,
+"title_ru": "Компания с оплатой за вызов KYB и расширение технического стека для агентов ИИ через MCP (0,14 доллара США за аккаунт, нулевой гонорар)",
+"title_orig": "Pay-Per-Call Company KYB & Tech Stack Enrichment for AI Agents via MCP ($0.14/Account, Zero Retainer)"
 },
 {
 "id": "k5c1d3f2d828e",
@@ -9787,6 +10197,93 @@
 }
 },
 {
+"id": "k5d7920adb71d",
+"title": "Automated SaaS M&A Deal Sourcing: Filtering Flippa Verified Revenue & Profit Multiples with n8n",
+"url": "https://dev.to/spotless_studios/automated-saas-ma-deal-sourcing-filtering-flippa-verified-revenue-profit-multiples-with-n8n-2jbd",
+"source": "devto",
+"source_label": "dev.to",
+"summary": "Micro-PE funds, solo acquirers, and search-fund operators spend hours every week refreshing marketplace listings on Flippa just to catch profitable SaaS businesses before competing buyers submit LOIs. The bottleneck isn't finding listings—it's filtering out unverified revenue claims, content sites disguised as SaaS, and stale listings you already reviewed last week. Here is how to automate a daily Flippa SaaS deal-flow radar into Slack using delta monitoring ( onlyNewItems: true ) and deterministic financial filters. 1. Filter Before You Store (Delta + Financial Hygiene) Running a full marketp",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fko1sne89lkpf84kmdvda.png",
+"published": 1795638224.0,
+"popularity": 13,
+"extra": {
+"practical": {
+"score": 57,
+"type": "case",
+"type_ru": "кейс с доходом",
+"level": "новичок",
+"needs": [
+"ПК",
+"API-ключ"
+],
+"money": "высокий",
+"is_ai": true,
+"penalty": 1,
+"signals": [
+"money",
+"guide",
+"automation"
+]
+}
+},
+"first_seen": 1795643462.732452,
+"last_seen": 1795643462.732452,
+"score": 57,
+"type": "case",
+"type_ru": "кейс с доходом",
+"level": "новичок",
+"needs": [
+"ПК",
+"API-ключ"
+],
+"money": "высокий",
+"signals": [
+"money",
+"guide",
+"automation"
+],
+"tags": [
+"money",
+"guide",
+"automation"
+],
+"summary_ru": "Фонды микро-PE, индивидуальные приобретатели и операторы поисковых фондов каждую неделю часами обновляют списки торговых площадок на Flippa, просто чтобы поймать прибыльные SaaS-бизнесы до того, как конкурирующие покупатели отправят LOI. Чем полезно: реальный пример «собрал → заработал» — схему можно повторить у себя.",
+"steps": [
+"Источник: https://dev.to/spotless_studios/automated-saas-ma-deal-sourcing-filtering-flippa-verified-revenue-profit-multiples-with-n8n-2jbd",
+"Прочитайте первоисточник: что именно делает агент, какие сервисы и сколько стоит запуск.",
+"Выпишите воронку: откуда трафик → что продаётся → как платят (подписка, услуга, партнёрка).",
+"Соберите минимальную копию на своём ПК (OpenClaw / n8n / Python-скрипт + API модели).",
+"Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
+"Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
+],
+"title_ru": "Автоматизированный поиск сделок слияний и поглощений SaaS: фильтрация проверенных Flippa кратных доходов и прибыли с помощью n8n",
+"title_orig": "Automated SaaS M&A Deal Sourcing: Filtering Flippa Verified Revenue & Profit Multiples with n8n",
+"repo": "GYYGUGUY/b2b-lead-datasets-and-n8n-workflows",
+"repo_url": "https://github.com/GYYGUGUY/b2b-lead-datasets-and-n8n-workflows",
+"build": {
+"repo": "GYYGUGUY/b2b-lead-datasets-and-n8n-workflows",
+"url": "https://github.com/GYYGUGUY/b2b-lead-datasets-and-n8n-workflows",
+"stack": [],
+"stars": 0,
+"license": null,
+"homepage": "",
+"steps": [
+{
+"t": "Поставьте заранее: Git."
+},
+{
+"t": "Скачайте код репозитория:",
+"cmd": "git clone https://github.com/GYYGUGUY/b2b-lead-datasets-and-n8n-workflows.git\ncd b2b-lead-datasets-and-n8n-workflows"
+},
+{
+"t": "Если что-то не запускается — полная инструкция и настройки в README:",
+"link": "https://github.com/GYYGUGUY/b2b-lead-datasets-and-n8n-workflows#readme"
+}
+],
+"from_readme": false
+}
+},
+{
 "id": "k671bc35689fe",
 "title": "cutetailbud/ff-ruyijs: This is a lightweight, headless browser purpose-built for AI agents (such as Codex or Claude Code) to perform browser automation tasks; it is designed to naviga",
 "url": "https://github.com/cutetailbud/ff-ruyijs",
@@ -9830,7 +10327,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 56,
 "type": "agent",
 "type_ru": "агент",
@@ -9856,7 +10353,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "ff-ruyijs — Это легкий автономный браузер, специально созданный для агентов ИИ (таких как Codex или Claude Code) для…",
 "title_orig": "cutetailbud/ff-ruyijs: This is a lightweight, headless browser purpose-built for AI agents (such as Codex or Claude Code) to perform browser automation tasks; it is designed to naviga",
 "repo": "cutetailbud/ff-ruyijs",
@@ -9902,7 +10399,7 @@
 "published": 1795233157.0,
 "popularity": 75.47609678533017,
 "extra": {
-"stars": 341,
+"stars": 344,
 "language": "JavaScript",
 "topics": [
 "agent-skills",
@@ -9935,7 +10432,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 56,
 "type": "skill",
 "type_ru": "навык",
@@ -9961,7 +10458,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 12,
+"seen_count": 13,
 "title_ru": "youtube-research-skills — Навыки ИИ-агента для исследований YouTube.",
 "title_orig": "TubeLabHQ/youtube-research-skills: AI agent skills for YouTube research. Outlier videos, niche finding & validation, competitor research, comment mining, title formulas, thumbnail concepts, scrip",
 "repo": "TubeLabHQ/youtube-research-skills",
@@ -10036,7 +10533,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 56,
 "type": "agent",
 "type_ru": "агент",
@@ -10062,7 +10559,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 15,
+"seen_count": 16,
 "title_ru": "AgentFlux — Агентская платформа искусственного интеллекта для визуальных рабочих процессов и автономных агентов.",
 "title_orig": "davemessew/AgentFlux: Agentic AI platform for visual workflows and autonomous agents. Run it with Docker on your own computer or server.",
 "repo": "davemessew/AgentFlux",
@@ -10142,7 +10639,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 56,
 "type": "skill",
 "type_ru": "навык",
@@ -10168,7 +10665,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 12,
+"seen_count": 13,
 "title_ru": "awesome-social-media-skills — Отдельные навыки работы со СМИ (пакет навыков): выбор темы, написание, иллюстрации, публикация и данные для…",
 "title_orig": "UnderleveledBuilder/awesome-social-media-skills: 自媒体运营 Skill（技能包）精选：小红书、抖音、公众号、视频号、B 站、X、YouTube、TikTok、LinkedIn 的选题、写稿、配图、发布和数据，千问、豆包、龙虾 OpenClaw、WorkBuddy、Claude Code、Codex 等智能体可用 | Curated agent skills for ",
 "repo": "UnderleveledBuilder/awesome-social-media-skills",
@@ -10246,7 +10743,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 56,
 "type": "agent",
 "type_ru": "агент",
@@ -10272,7 +10769,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 12,
+"seen_count": 13,
 "title_ru": "ticktock-automation — TickTock Automation: управляемый сообществом бот для публикации контента в Discord и Telegram",
 "title_orig": "IsraelBH/ticktock-automation: TickTock Automation: Community-Driven Bot for Discord & Telegram Content Publishing",
 "repo": "IsraelBH/ticktock-automation",
@@ -10348,7 +10845,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 56,
 "type": "skill",
 "type_ru": "навык",
@@ -10373,7 +10870,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 12,
+"seen_count": 13,
 "title_ru": "reverse-engineer-anything-self-learning-loop — Навыки агента: изучите продукт, на переработку которого вы имеете право, создайте свой собственный, затем…",
 "title_orig": "Speedrunlab/reverse-engineer-anything-self-learning-loop: Agent skill: examine a product you're authorised to rebuild, build your own, then test against the original and fix gaps until every must-have on a written chec",
 "repo": "Speedrunlab/reverse-engineer-anything-self-learning-loop",
@@ -10436,7 +10933,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 56,
 "type": "guide",
 "type_ru": "гайд",
@@ -10463,7 +10960,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Что такое n8n, как установить и собрать первого AI-агента в 2026 году"
 },
 {
@@ -10932,7 +11429,7 @@
 }
 },
 "first_seen": 1795606125.495485,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 56,
 "type": "tool",
 "type_ru": "инструмент",
@@ -10962,7 +11459,7 @@
 ],
 "title_ru": "Сигнал № 142: Утечки в файлы одобрения Claude Code, Claude Ship, цены GPT-6.2 и многое другое",
 "title_orig": "Signal #142: Claude Code's Leaky Approval Files, Claude Ship, GPT-6.2 Pricing, and More",
-"seen_count": 2
+"seen_count": 3
 },
 {
 "id": "k2c8a737f8434",
@@ -10995,7 +11492,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 55,
 "type": "agent",
 "type_ru": "агент",
@@ -11023,7 +11520,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Главным направлением развития ИИ в 2026 году становится внедрение ИИ-агентов"
 },
 {
@@ -11222,6 +11719,64 @@
 "title_orig": "canva mcp Is Open to Everyone: What It Does and a Practical Setup Checklist"
 },
 {
+"id": "k40df89734131",
+"title": "Один сотрудник вместо четырех. Как ИИ помог готовить КП за 5 минут",
+"url": "https://habr.com/ru/articles/1112394/",
+"source": "habr",
+"source_label": "Хабр",
+"summary": "Представим альтернативную версию «Железного человека». Тони Старк вместо оружия начал выпускать полимерпесчаные люки. В отделе продаж остался только Сергей. – Джарвис, автоматизируй отдел продаж. – С чего начнем, сэр? – Со всего сразу. – Тогда мне нужны цены, ассортимент и правила работы с покупателями. – Спроси у Сергея. Он все знает. – Боюсь, Сергей сейчас занят. Он готовит очередное коммерческое предложение. В конце 2025 года с похожей проблемой мы столкнулись на реальном производстве. Читать далее",
+"image": "https://habrastorage.org/extt/25/82/f5/2582f54887ded42ecf1c0b617ea0a0e0.webp",
+"published": 1795629807.0,
+"popularity": 25,
+"extra": {
+"practical": {
+"score": 55,
+"type": "guide",
+"type_ru": "гайд",
+"level": "новичок",
+"needs": [
+"ПК"
+],
+"money": "низкий",
+"is_ai": true,
+"penalty": 0,
+"signals": [
+"money",
+"guide",
+"automation"
+]
+}
+},
+"first_seen": 1795643462.732452,
+"last_seen": 1795643462.732452,
+"score": 55,
+"type": "guide",
+"type_ru": "гайд",
+"level": "новичок",
+"needs": [
+"ПК"
+],
+"money": "низкий",
+"signals": [
+"money",
+"guide",
+"automation"
+],
+"tags": [
+"money",
+"guide",
+"automation"
+],
+"summary_ru": "Представим альтернативную версию «Железного человека». Тони Старк вместо оружия начал выпускать полимерпесчаные люки. В отделе продаж остался только Сергей. – Джарвис, автоматизируй отдел продаж. – С чего начнем, сэр? – Со всего сразу. – Тогда мне нужны цены, ассортимент и правила работы с покупателями. Чем полезно: пошаговый разбор, который можно повторить на своём ПК.",
+"steps": [
+"Источник: https://habr.com/ru/articles/1112394/",
+"Прочитайте материал целиком и сохраните ключевые команды/промпты.",
+"Повторите шаги на своём ПК в отдельной папке.",
+"Запишите, что получилось, и добавьте в свою «машину дохода»."
+],
+"title_ru": "Один сотрудник вместо четырех. Как ИИ помог готовить КП за 5 минут"
+},
+{
 "id": "keab60e4a7097",
 "title": "ChatGPT Desktop forwards your SSH agent to remote machines",
 "url": "https://news.ycombinator.com/item?id=50422628",
@@ -11255,7 +11810,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 54,
 "type": "tool",
 "type_ru": "инструмент",
@@ -11283,7 +11838,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 410,
+"seen_count": 436,
 "title_ru": "ChatGPT Desktop перенаправляет ваш SSH-агент на удаленные компьютеры",
 "title_orig": "ChatGPT Desktop forwards your SSH agent to remote machines",
 "repo": "HackerNews/API",
@@ -11320,9 +11875,9 @@
 "summary": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
 "image": "https://opengraph.githubassets.com/1/mdiri-ai/SoduWork",
 "published": 1795450047.0,
-"popularity": 1534.3753849617437,
+"popularity": 1538.8008643737082,
 "extra": {
-"stars": 8061,
+"stars": 8113,
 "language": "JavaScript",
 "topics": [
 "agent-harness",
@@ -11355,7 +11910,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -11381,7 +11936,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "SoduWork — Собственный искусственный интеллект для команд и их агентов.",
 "title_orig": "mdiri-ai/SoduWork: The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
 "repo": "mdiri-ai/SoduWork",
@@ -11426,7 +11981,7 @@
 "published": 1795451466.0,
 "popularity": 1218.7749347348392,
 "extra": {
-"stars": 6839,
+"stars": 6860,
 "language": "TypeScript",
 "topics": [
 "adversarial-ai",
@@ -11459,7 +12014,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -11485,7 +12040,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "bla — 🛡️ BLA (bla-агенты / Слепые агенты LLM) — сервер Blue Defense MCP с открытым исходным кодом и интерфейс…",
 "title_orig": "qybaihe/bla: 🛡️ BLA (bla-agents / Blind LLM Agents) — Open-source Blue Defense MCP server & CLI protecting JS/TS, Electron ASAR, WASM, Python, Native Binaries, SQLite, GGUF/",
 "repo": "qybaihe/bla",
@@ -11528,9 +12083,9 @@
 "summary": "Sound effects for coding agents: ask in plain words and earshot renders the sound in code. CPU-only, no audio model, open source.",
 "image": "https://opengraph.githubassets.com/1/Leonxlnx/earshot",
 "published": 1795307414.0,
-"popularity": 897.8716053453362,
+"popularity": 898.2205163844002,
 "extra": {
-"stars": 5773,
+"stars": 5795,
 "language": "Python",
 "topics": [
 "ai-agents",
@@ -11562,7 +12117,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -11588,7 +12143,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "earshot — Звуковые эффекты для агентов кодирования: спрашивайте простыми словами, и функция слышимости воспроизводит…",
 "title_orig": "Leonxlnx/earshot: Sound effects for coding agents: ask in plain words and earshot renders the sound in code. CPU-only, no audio model, open source.",
 "repo": "Leonxlnx/earshot",
@@ -11637,7 +12192,7 @@
 "published": 1795448635.0,
 "popularity": 1171.9328958624144,
 "extra": {
-"stars": 4534,
+"stars": 4550,
 "language": "TypeScript",
 "topics": [
 "ai",
@@ -11670,7 +12225,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -11696,7 +12251,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "MROffice — MR Office — редакторы офисного пакета AI с открытым исходным кодом, наиболее близкие к Microsoft Office:…",
 "title_orig": "XinaTian/MROffice: MR Office — the open-source editors of the AI office suite closest to Microsoft Office: documents, spreadsheets, presentations, PDF and code in the browser. Cop",
 "repo": "XinaTian/MROffice",
@@ -11741,7 +12296,7 @@
 "published": 1794399525.0,
 "popularity": 526.4495892133821,
 "extra": {
-"stars": 2641,
+"stars": 2642,
 "language": "Python",
 "topics": [
 "agentic-workflows",
@@ -11774,7 +12329,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -11800,7 +12355,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "sapper-v2 — Первый плод дерева Нюва — автономный легион пентестов ИИ (чемпион из 634 команд, 8 часов без присмотра, 1B…",
 "title_orig": "N1nEmAn/sapper-v2: The first fruit of the Nüwa tree — an autonomous AI pentest legion (634-team champion, 8h unattended, 1B tokens beat 4.5B). Not just a tool: evolvable by design",
 "repo": "N1nEmAn/sapper-v2",
@@ -11849,7 +12404,7 @@
 "published": 1795456167.0,
 "popularity": 517.3044275378069,
 "extra": {
-"stars": 2041,
+"stars": 2045,
 "language": "TypeScript",
 "topics": [
 "agentic-ai",
@@ -11882,7 +12437,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -11908,7 +12463,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "agentes-chat — Самостоятельная альтернатива Slack с открытым исходным кодом, где ваша команда и агенты искусственного…",
 "title_orig": "agentes-chat/agentes-chat: Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok,",
 "repo": "agentes-chat/agentes-chat",
@@ -11957,9 +12512,9 @@
 "summary": "Poki uses your iPhone like you do. An open-source agent app that runs on your iPhone, reads the screen, and taps, types and swipes in real apps with your own model account.",
 "image": "https://opengraph.githubassets.com/1/JosssphZhou/poki",
 "published": 1795455547.0,
-"popularity": 458.3089672640369,
+"popularity": 460.74457773109583,
 "extra": {
-"stars": 2054,
+"stars": 2075,
 "language": "Swift",
 "topics": [
 "ai-agents",
@@ -11992,7 +12547,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -12018,7 +12573,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "poki — Poki использует ваш iPhone так же, как и вы.",
 "title_orig": "JosssphZhou/poki: Poki uses your iPhone like you do. An open-source agent app that runs on your iPhone, reads the screen, and taps, types and swipes in real apps with your own mo",
 "repo": "JosssphZhou/poki",
@@ -12064,7 +12619,7 @@
 "published": 1795449902.0,
 "popularity": 579.442001380766,
 "extra": {
-"stars": 1478,
+"stars": 1500,
 "language": "TypeScript",
 "topics": [
 "ai-agent",
@@ -12097,7 +12652,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -12123,7 +12678,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "agy-fast — Неинвазивный плагин ускорителя MCP для Google Antigravity (CLI/Desktop/IDE): сокращает обороты LLM (-34%),…",
 "title_orig": "INK-Q/agy-fast: Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affec",
 "repo": "INK-Q/agy-fast",
@@ -12169,7 +12724,7 @@
 "published": 1795456257.0,
 "popularity": 349.1145589252765,
 "extra": {
-"stars": 1924,
+"stars": 1926,
 "language": "Rust",
 "topics": [
 "ai-agents",
@@ -12203,7 +12758,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -12230,7 +12785,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "kensaku — Выполняйте поиск внутри документов, кода и даже снимков экрана — мгновенно и локально.",
 "title_orig": "yjid/kensaku: Search inside documents, code, and even screenshots - instantly and locally. A free, open-source file launcher with OCR, semantic search, and MCP agent access.",
 "repo": "yjid/kensaku",
@@ -12277,7 +12832,7 @@
 "published": 1795425052.0,
 "popularity": 245.06762606219698,
 "extra": {
-"stars": 1346,
+"stars": 1348,
 "language": "Rust",
 "topics": [
 "ai-agents",
@@ -12310,7 +12865,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -12336,7 +12891,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "kanzo — Самостоятельный канбан с возможностью совместного использования для людей и агентов.",
 "title_orig": "emanuele-em/kanzo: Self-hosted, sharable kanban for humans and agents. One 4.7 MB binary, 5 MB of RAM, 10 to 60 tokens per agent reply, starts in 3 ms, zero setup.",
 "repo": "emanuele-em/kanzo",
@@ -12516,7 +13071,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -12542,7 +13097,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "open-net-worth — Самостоятельная альтернатива Claude и ChatGPT Personal Finance.",
 "title_orig": "open-net-worth-ai/open-net-worth: Self-hosted alternative to Claude and ChatGPT Personal Finance. An AI agent that manages your budget and investments, and can place trades.",
 "repo": "open-net-worth-ai/open-net-worth",
@@ -12595,7 +13150,7 @@
 "published": 1795418134.0,
 "popularity": 123.26561299248327,
 "extra": {
-"stars": 765,
+"stars": 766,
 "language": "JavaScript",
 "topics": [
 "agent",
@@ -12628,7 +13183,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -12654,7 +13209,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "design-agent — Агент дизайна с открытым исходным кодом: фирменные кадры, колоды, диаграммы, диаграммы и анимированная…",
 "title_orig": "langchain-ai/design-agent: Open-source design agent: on-brand stills, decks, diagrams, charts and motion graphics from a chat thread, built on Deep Agents.",
 "repo": "langchain-ai/design-agent",
@@ -12705,7 +13260,7 @@
 "published": 1795116556.0,
 "popularity": 70.75844083511646,
 "extra": {
-"stars": 171,
+"stars": 176,
 "language": "TypeScript",
 "topics": [
 "ai-agent",
@@ -12737,7 +13292,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -12763,7 +13318,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 12,
+"seen_count": 13,
 "title_ru": "amuse — Личный ИИ-агент с автономным размещением: исследования, работающий браузер, напоминания и небольшие…",
 "title_orig": "replit/amuse: Self-hosted personal AI agent: research, a live browser, reminders and small apps, with approvals before actions. Runs on your own computer with an OpenAI key.",
 "repo": "replit/amuse",
@@ -12847,7 +13402,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -12873,7 +13428,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 12,
+"seen_count": 13,
 "title_ru": "ChaosIntelligence — Относитесь к агенту как к функции и напишите идею как программу.",
 "title_orig": "Cattmonkey/ChaosIntelligence: 把智能体当函数，把想法写成程序。Agent-native functional language with a CLI, Web IDE, goal-driven bots and live UI. Source-available; no AI training.",
 "repo": "Cattmonkey/ChaosIntelligence",
@@ -12951,7 +13506,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -12977,7 +13532,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 12,
+"seen_count": 13,
 "title_ru": "onlyread — Сделайте агенты браузера AI доступными только для чтения: расширение Chrome, которое запрещает запись…",
 "title_orig": "onlyreadai/onlyread: Make AI browser agents read-only: a Chrome extension that refuses writes (send, post, edit, delete) before they leave the browser.",
 "repo": "onlyreadai/onlyread",
@@ -13021,9 +13576,9 @@
 "summary": "Self-hosted Chrome sessions for you and your AI agents. MCP, live human takeover, saved profiles, drag-and-drop files, downloads and audio.",
 "image": "https://opengraph.githubassets.com/1/julianosig/easi.run",
 "published": 1795345348.0,
-"popularity": 22.148383055148592,
+"popularity": 22.42686475448903,
 "extra": {
-"stars": 129,
+"stars": 131,
 "language": "Rust",
 "topics": [
 "ai-agents",
@@ -13056,7 +13611,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -13082,7 +13637,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 12,
+"seen_count": 13,
 "title_ru": "easi.run — Самостоятельные сеансы Chrome для вас и ваших ИИ-агентов.",
 "title_orig": "julianosig/easi.run: Self-hosted Chrome sessions for you and your AI agents. MCP, live human takeover, saved profiles, drag-and-drop files, downloads and audio.",
 "repo": "julianosig/easi.run",
@@ -13208,7 +13763,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 54,
 "type": "guide",
 "type_ru": "гайд",
@@ -13235,7 +13790,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "[Перевод] Camunda vs n8n: гайд по оркестрации и автоматизации"
 },
 {
@@ -13358,7 +13913,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 54,
 "type": "tool",
 "type_ru": "инструмент",
@@ -13383,7 +13938,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 14,
+"seen_count": 15,
 "title_ru": "OpenAI представила ChatGPT for Sales для автоматизации продаж"
 },
 {
@@ -13416,7 +13971,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 54,
 "type": "guide",
 "type_ru": "гайд",
@@ -13442,7 +13997,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 14,
+"seen_count": 15,
 "title_ru": "N8n: как пользоваться бесплатным сервисом для автоматизации рабочих процессов - Т—Ж"
 },
 {
@@ -14039,9 +14594,9 @@
 "summary": "20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code agents on iOS Simulators and Android emulators that find broken flows, translation, layout and accessibility bugs",
 "image": "https://opengraph.githubassets.com/1/pierridotite/mobile-agent-testers",
 "published": 1795525025.0,
-"popularity": 736.8668067553663,
+"popularity": 757.0312856289024,
 "extra": {
-"stars": 2200,
+"stars": 2285,
 "language": "Python",
 "topics": [
 "accessibility-testing",
@@ -14074,7 +14629,7 @@
 }
 },
 "first_seen": 1795568061.8895679,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 54,
 "type": "agent",
 "type_ru": "агент",
@@ -14132,7 +14687,7 @@
 ],
 "from_readme": true
 },
-"seen_count": 4
+"seen_count": 5
 },
 {
 "id": "k68ecdb4a1843",
@@ -14615,7 +15170,7 @@
 }
 },
 "first_seen": 1795626473.2553148,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 54,
 "type": "tool",
 "type_ru": "инструмент",
@@ -14643,7 +15198,8 @@
 "Решите им одну свою задачу и встройте в конвейер."
 ],
 "title_ru": "Ваши агенты кодирования живут в отдельных приложениях. Этот бесплатный инструмент объединяет их все в одном месте",
-"title_orig": "Your Coding Agents Live in Separate Apps. This Free Tool Drives Them All in One Place"
+"title_orig": "Your Coding Agents Live in Separate Apps. This Free Tool Drives Them All in One Place",
+"seen_count": 2
 },
 {
 "id": "k2b3e6b6c451d",
@@ -14737,7 +15293,7 @@
 }
 },
 "first_seen": 1795626473.2553148,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 54,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -14767,7 +15323,8 @@
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
 "title_ru": "Я не инженер. Я создал систему отслеживания инвентаря в n8n за 3 часа примерно за 5 долларов в месяц.",
-"title_orig": "I’m Not an Engineer. I Built an Inventory Tracker in n8n in 3 Hours for About $5 a Month."
+"title_orig": "I’m Not an Engineer. I Built an Inventory Tracker in n8n in 3 Hours for About $5 a Month.",
+"seen_count": 2
 },
 {
 "id": "k2f4cbd7567c7",
@@ -15016,7 +15573,7 @@
 "stars": 566
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 52,
 "type": "agent",
 "type_ru": "агент",
@@ -15046,7 +15603,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 30,
+"seen_count": 31,
 "title_ru": "Показать HN: Hob — с открытым исходным кодом, на устройстве, альтернатива Claude Cowork и ChatGPT.",
 "title_orig": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
 "repo": "FrigadeHQ/hob",
@@ -15115,7 +15672,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 52,
 "type": "agent",
 "type_ru": "агент",
@@ -15145,7 +15702,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Запуск HN: Integuru (YC W24) — реверс-инжиниринг внутренних API с использованием LLM.",
 "title_orig": "Launch HN: Integuru (YC W24) – Reverse-engineer internal APIs using LLMs",
 "repo": "Integuru-AI/Integuru",
@@ -15335,7 +15892,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 52,
 "type": "agent",
 "type_ru": "агент",
@@ -15361,7 +15918,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 14,
+"seen_count": 15,
 "title_ru": "Значение перед метриками: как мы создали управляемую бизнес-онтологию для агентов ИИ",
 "title_orig": "Meaning Before Metrics: How We Built a Governed Business Ontology for AI Agents"
 },
@@ -15395,7 +15952,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 52,
 "type": "agent",
 "type_ru": "агент",
@@ -15421,7 +15978,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 14,
+"seen_count": 15,
 "title_ru": "Как я безопасно запускаю свой AI-агент OpenClaw 24/7 на Mac – под присмотром Клода Кода",
 "title_orig": "How I safely run my OpenClaw AI agent 24/7 on a Mac – with Claude Code standing guard"
 },
@@ -15456,7 +16013,7 @@
 }
 },
 "first_seen": 1795532484.8043973,
-"last_seen": 1795572867.6045456,
+"last_seen": 1795643462.732452,
 "score": 52,
 "type": "guide",
 "type_ru": "гайд",
@@ -15485,7 +16042,7 @@
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
 "title_ru": "Автоматизация ходит по спирали: почему ИИ-агенты повторяют путь BPMS",
-"seen_count": 4
+"seen_count": 5
 },
 {
 "id": "kf3d13bfa69c7",
@@ -15520,7 +16077,7 @@
 }
 },
 "first_seen": 1795532484.8043973,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 52,
 "type": "guide",
 "type_ru": "гайд",
@@ -15551,7 +16108,7 @@
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
 "title_ru": "Автоматизация процессов на open source — n8n и Ollama",
-"seen_count": 6
+"seen_count": 7
 },
 {
 "id": "k0b04b368bb9c",
@@ -15646,7 +16203,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 51,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -15671,7 +16228,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 14,
+"seen_count": 15,
 "title_ru": "Запуск платформы голосового искусственного интеллекта Harmony для конвертации разговоров с клиентами в доход - monday.com",
 "title_orig": "Voice AI Platform Harmony Launches to Convert Customer Conversations into Revenue - monday.com"
 },
@@ -15738,6 +16295,102 @@
 "title_ru": "Гиперликвидный бот заработал 10,6 миллиона долларов за 24 часа при объеме в 1,67 миллиарда долларов — я наблюдал за его торговлей в прямом эфире",
 "title_orig": "A Hyperliquid Bot Made $10.6M in 24 Hours on $1.67B of Volume — I Watched It Trade Live",
 "seen_count": 3
+},
+{
+"id": "k4f8a77d20b08",
+"title": "Когда одной видеокарты мало: как я объединил три ноутбука для запуска локальных LLM",
+"url": "https://habr.com/ru/articles/1112452/",
+"source": "habr",
+"source_label": "Хабр",
+"summary": "Пару недель назад я вспомнил про свой старый игровой ноутбук ASUS ROG с RTX 2070 и решил повозиться с локальными нейронками. Почистил его, обновил ОС, установил Ollama и запустил Qwen 3.5:9B. В принципе, для простейших задач, особенно для редактирования текстов и написания небольших скриптов, модель вполне годится. Да и сам факт того, что нейронка работает локально на ноутбуке, который уже давно не считается игровым топом, немного радует. Но меня раздражали интерфейсы для работы с локальными моделями. Перепробовал Open WebUI и ещё несколько подобных решений, однако пересаживаться на них после ",
+"image": "https://habrastorage.org/extt/0c/29/25/0c29258730fe2089be65d122a2037288.png",
+"published": 1795643188.0,
+"popularity": 30,
+"extra": {
+"practical": {
+"score": 51,
+"type": "guide",
+"type_ru": "гайд",
+"level": "продвинутый",
+"needs": [
+"ПК",
+"GPU",
+"локальная модель"
+],
+"money": "низкий",
+"is_ai": true,
+"penalty": 0,
+"signals": [
+"build",
+"guide",
+"local",
+"automation"
+]
+}
+},
+"first_seen": 1795643462.732452,
+"last_seen": 1795643462.732452,
+"score": 51,
+"type": "guide",
+"type_ru": "гайд",
+"level": "продвинутый",
+"needs": [
+"ПК",
+"GPU",
+"локальная модель"
+],
+"money": "низкий",
+"signals": [
+"build",
+"guide",
+"local",
+"automation"
+],
+"tags": [
+"build",
+"guide",
+"local",
+"automation"
+],
+"summary_ru": "Пару недель назад я вспомнил про свой старый игровой ноутбук ASUS ROG с RTX 2070 и решил повозиться с локальными нейронками. Почистил его, обновил ОС, установил Ollama и запустил Qwen 3.5:9B. В принципе, для простейших задач, особенно для редактирования текстов и написания небольших скриптов, модель вполне годится. Стек: Node.js. Чем полезно: пошаговый разбор, который можно повторить на своём ПК.",
+"steps": [
+"Источник: https://habr.com/ru/articles/1112452/",
+"Прочитайте материал целиком и сохраните ключевые команды/промпты.",
+"Повторите шаги на своём ПК в отдельной папке.",
+"Запишите, что получилось, и добавьте в свою «машину дохода»."
+],
+"seen_count": 2,
+"title_ru": "Когда одной видеокарты мало: как я объединил три ноутбука для запуска локальных LLM",
+"repo": "AranAragan/kvalah",
+"repo_url": "https://github.com/AranAragan/kvalah",
+"build": {
+"repo": "AranAragan/kvalah",
+"url": "https://github.com/AranAragan/kvalah",
+"stack": [
+"Node.js"
+],
+"stars": 0,
+"license": "MIT",
+"homepage": "https://github.com/AranAragan/kvalah/releases",
+"steps": [
+{
+"t": "Поставьте заранее: Git, Node.js 18+ (LTS)."
+},
+{
+"t": "Скачайте код репозитория:",
+"cmd": "git clone https://github.com/AranAragan/kvalah.git\ncd kvalah"
+},
+{
+"t": "Установите и запустите — команды из README проекта (в порядке, как у автора):",
+"cmd": "npm ci\nnpm test               # unit + end-to-end tests with a mock model server\nnpm run desktop        # run the Electron app\nnpm start              # or: backend only, open the printed URL in a browser\nnpm run dist:linux     # AppImage + deb\nnpm run dist:win       # NSIS installer + portable zip (on Linux/macOS needs wine for NSIS)\nnpm run dist:mac       # dmg + zip, x64 + arm64 (macOS only)"
+},
+{
+"t": "Если что-то не запускается — полная инструкция и настройки в README:",
+"link": "https://github.com/AranAragan/kvalah#readme"
+}
+],
+"from_readme": true
+}
 },
 {
 "id": "kc78a103ce17d",
@@ -15833,7 +16486,7 @@
 }
 },
 "first_seen": 1795456890.3770094,
-"last_seen": 1795492764.1861293,
+"last_seen": 1795643462.732452,
 "score": 50,
 "type": "agent",
 "type_ru": "агент",
@@ -15861,7 +16514,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 3,
+"seen_count": 4,
 "title_ru": "Новости мира Datalakehouse - DWH: на 26.06.26 \"гонка сместилась к ИИ-агентам\" Полгода назад про корпоративные..."
 },
 {
@@ -16171,6 +16824,66 @@
 "title_orig": "How To Transform A Typical Money-Draining House Into A Tiny Profitable Off-The-Grid Homestead"
 },
 {
+"id": "k9050f85fdc8b",
+"title": "How to Make $100K a Year Pinning on Pinterest (My 27-Day Plan to Your First $10,000)",
+"url": "https://medium.com/@EricJimmy/how-to-make-100k-a-year-pinning-on-pinterest-my-27-day-plan-to-your-first-10-000-455dd4b5ed30?source=rss------side_hustle-5",
+"source": "medium",
+"source_label": "Medium",
+"summary": "A step-by-step Pinterest marketing guide to affiliate income, digital products, and client services, even if you're starting with zero… Continue reading on Medium »",
+"image": "https://cdn-images-1.medium.com/max/2600/0*xLH3cH2L0xT3NEIE",
+"published": 1795631795.0,
+"popularity": 10,
+"extra": {
+"practical": {
+"score": 50,
+"type": "case",
+"type_ru": "кейс с доходом",
+"level": "средний",
+"needs": [
+"ПК",
+"API-ключ"
+],
+"money": "высокий",
+"is_ai": true,
+"penalty": 0,
+"signals": [
+"money",
+"guide"
+]
+}
+},
+"first_seen": 1795643462.732452,
+"last_seen": 1795643462.732452,
+"score": 50,
+"type": "case",
+"type_ru": "кейс с доходом",
+"level": "средний",
+"needs": [
+"ПК",
+"API-ключ"
+],
+"money": "высокий",
+"signals": [
+"money",
+"guide"
+],
+"tags": [
+"money",
+"guide"
+],
+"summary_ru": "Пошаговое руководство по маркетингу Pinterest по партнерскому доходу, цифровым продуктам и клиентскому обслуживанию, даже если вы начинаете с нуля… Продолжить чтение на Medium » Чем полезно: реальный пример «собрал → заработал» — схему можно повторить у себя.",
+"steps": [
+"Источник: https://medium.com/@EricJimmy/how-to-make-100k-a-year-pinning-on-pinterest-my-27-day-plan-to-your-first-10-000-455dd4b5ed30?source=rss------side_hustle-5",
+"Прочитайте первоисточник: что именно делает агент, какие сервисы и сколько стоит запуск.",
+"Выпишите воронку: откуда трафик → что продаётся → как платят (подписка, услуга, партнёрка).",
+"Соберите минимальную копию на своём ПК (OpenClaw / n8n / Python-скрипт + API модели).",
+"Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
+"Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
+],
+"title_ru": "Как зарабатывать 100 тысяч долларов в год, закрепляя на Pinterest (мой 27-дневный план получения первых 10 000 долларов)",
+"title_orig": "How to Make $100K a Year Pinning on Pinterest (My 27-Day Plan to Your First $10,000)"
+},
+{
 "id": "k1e568c9cb4b0",
 "title": "How I built an AI-first inbox for five DM apps on MCP, without storing your messages",
 "url": "https://dev.to/joelfaure/how-i-built-an-ai-first-inbox-for-five-dm-apps-on-mcp-without-storing-your-messages-5eol",
@@ -16328,7 +17041,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 48,
 "type": "tool",
 "type_ru": "инструмент",
@@ -16354,7 +17067,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Запуск HN: Skyvern (YC S23) — ИИ-агент с открытым исходным кодом для автоматизации браузера.",
 "title_orig": "Launch HN: Skyvern (YC S23) – open-source AI agent for browser automations",
 "repo": "Skyvern-AI/skyvern",
@@ -16429,7 +17142,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 48,
 "type": "agent",
 "type_ru": "агент",
@@ -16458,7 +17171,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Show HN: Компании используют искусственный интеллект для приема ваших звонков. Я создал ИИ, чтобы сделать их для вас",
 "title_orig": "Show HN: Companies use AI to take your calls. I built AI to make them for you"
 },
@@ -16471,9 +17184,9 @@
 "summary": "Render Anything Engine: tell your AI what to make. Videos, motion graphics, 3D and games as React and TypeScript, rendered on your own GPU. Rust + Bevy, macOS, Linux and Windows.",
 "image": "https://opengraph.githubassets.com/1/shinyobjectz/raea",
 "published": 1795407573.0,
-"popularity": 837.3676508611744,
+"popularity": 839.7398199179763,
 "extra": {
-"stars": 5159,
+"stars": 5187,
 "language": "TypeScript",
 "topics": [
 "3d",
@@ -16506,7 +17219,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 48,
 "type": "tool",
 "type_ru": "инструмент",
@@ -16532,7 +17245,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "raea — Render Anything Engine: скажите своему ИИ, что делать.",
 "title_orig": "shinyobjectz/raea: Render Anything Engine: tell your AI what to make. Videos, motion graphics, 3D and games as React and TypeScript, rendered on your own GPU. Rust + Bevy, macOS, ",
 "repo": "shinyobjectz/raea",
@@ -16609,7 +17322,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 48,
 "type": "skill",
 "type_ru": "навык",
@@ -16636,7 +17349,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Claude-Guardian — Claude Guardian — это универсальный навык обеспечения безопасности учетной записи Claude и предотвращения…",
 "title_orig": "DUNHKpcc/Claude-Guardian: Claude Guardian is an all-in-one Claude account safety and risk prevention skill.Claude防封实战 It intelligently assesses your device, account history, network envi",
 "repo": "DUNHKpcc/Claude-Guardian",
@@ -16699,7 +17412,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 48,
 "type": "guide",
 "type_ru": "гайд",
@@ -16723,7 +17436,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Hello World от ИИ-агентов: как обстоят дела с интересом к технологии в мире"
 },
 {
@@ -16756,7 +17469,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 48,
 "type": "tool",
 "type_ru": "инструмент",
@@ -16782,7 +17495,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 6,
+"seen_count": 7,
 "title_ru": "Что за зверь n8n. Первые шаги автоматизации"
 },
 {
@@ -16969,7 +17682,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 48,
 "type": "guide",
 "type_ru": "гайд",
@@ -16993,7 +17706,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 13,
+"seen_count": 14,
 "title_ru": "Как спрогнозировать отток клиентов AI Agent до начала сезона продлений",
 "title_orig": "How to Predict AI Agent Customer Churn Before Renewal Season Hits"
 },
@@ -17026,7 +17739,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 48,
 "type": "guide",
 "type_ru": "гайд",
@@ -17050,7 +17763,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 20,
+"seen_count": 21,
 "title_ru": "Как создать AI-агента: пошаговое руководство — Журнал «Код» программирование без снобизма"
 },
 {
@@ -17082,7 +17795,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 48,
 "type": "guide",
 "type_ru": "гайд",
@@ -17106,7 +17819,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 13,
+"seen_count": 14,
 "title_ru": "Как я перестал быть диспетчером у своих ИИ-агентов"
 },
 {
@@ -17138,7 +17851,7 @@
 }
 },
 "first_seen": 1795456494.8166344,
-"last_seen": 1795492894.5673437,
+"last_seen": 1795643462.732452,
 "score": 48,
 "type": "guide",
 "type_ru": "гайд",
@@ -17162,7 +17875,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 4,
+"seen_count": 5,
 "title_ru": "Топ-5 киберугроз: как ИИ-агенты могут навредить бизнесу"
 },
 {
@@ -17560,7 +18273,7 @@
 "summary": "Как настроить ИИ-агентов в OpenCode со своим провайдером Хабр",
 "image": "",
 "published": 1794124800.0,
-"popularity": 2,
+"popularity": 3,
 "extra": {
 "practical": {
 "score": 48,
@@ -17580,7 +18293,7 @@
 }
 },
 "first_seen": 1795568061.8895679,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 48,
 "type": "guide",
 "type_ru": "гайд",
@@ -17605,7 +18318,7 @@
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
 "title_ru": "Как настроить ИИ-агентов в OpenCode со своим провайдером",
-"seen_count": 3
+"seen_count": 4
 },
 {
 "id": "ke911a20103d5",
@@ -17794,7 +18507,7 @@
 }
 },
 "first_seen": 1795626473.2553148,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 48,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -17858,6 +18571,190 @@
 }
 ],
 "from_readme": true
+},
+"seen_count": 2
+},
+{
+"id": "ka80460537855",
+"title": "How to set up Context7 MCP (Claude Code, Cursor, VS Code, Codex)",
+"url": "https://dev.to/pluginstackai/how-to-set-up-context7-mcp-claude-code-cursor-vs-code-codex-ii0",
+"source": "devto",
+"source_label": "dev.to",
+"summary": "How to set up Context7 MCP in Claude Code, Cursor, VS Code and Codex Checked against the official docs: Nov 2, 2026 Context7 gives a coding agent current, version-specific documentation and code examples for the libraries you use, so it stops guessing at APIs that changed after the model was trained. This guide covers the one-command setup, adding the hosted server by hand in each client, running it locally, and what to check when it doesn't work. It's based on Context7's README, its docs site and the @upstash/context7-mcp and ctx7 packages on npm (checked 2 November 2026). Quick answer Fastes",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdhlj3z11b69mgsz74et1.png",
+"published": 1795631182.0,
+"popularity": 10,
+"extra": {
+"practical": {
+"score": 48,
+"type": "guide",
+"type_ru": "гайд",
+"level": "продвинутый",
+"needs": [
+"ПК",
+"API-ключ",
+"локальная модель"
+],
+"money": "низкий",
+"is_ai": true,
+"penalty": 0,
+"signals": [
+"agent",
+"guide"
+]
+}
+},
+"first_seen": 1795643462.732452,
+"last_seen": 1795643462.732452,
+"score": 48,
+"type": "guide",
+"type_ru": "гайд",
+"level": "продвинутый",
+"needs": [
+"ПК",
+"API-ключ",
+"локальная модель"
+],
+"money": "низкий",
+"signals": [
+"agent",
+"guide"
+],
+"tags": [
+"agent",
+"guide"
+],
+"summary_ru": "Как настроить Context7 MCP в Claude Code, Cursor, VS Code и Codex. Проверено по официальной документации: 2 ноября 2026 г. · Context7 предоставляет агенту кодирования текущую документацию для конкретной версии и примеры кода для используемых вами библиотек, поэтому он перестает гадать об API, которые изменились после обучения модели. Стек: Node.js, ★ 65461. Чем полезно: пошаговый разбор, который можно повторить на своём ПК.",
+"steps": [
+"Источник: https://dev.to/pluginstackai/how-to-set-up-context7-mcp-claude-code-cursor-vs-code-codex-ii0",
+"Прочитайте материал целиком и сохраните ключевые команды/промпты.",
+"Повторите шаги на своём ПК в отдельной папке.",
+"Запишите, что получилось, и добавьте в свою «машину дохода»."
+],
+"title_ru": "Как настроить Context7 MCP (Claude Code, Cursor, VS Code, Codex)",
+"title_orig": "How to set up Context7 MCP (Claude Code, Cursor, VS Code, Codex)",
+"repo": "upstash/context7",
+"repo_url": "https://github.com/upstash/context7",
+"build": {
+"repo": "upstash/context7",
+"url": "https://github.com/upstash/context7",
+"stack": [
+"Node.js"
+],
+"stars": 65461,
+"license": "MIT",
+"homepage": "https://context7.com",
+"steps": [
+{
+"t": "Поставьте заранее: Git, Node.js 18+ (LTS)."
+},
+{
+"t": "Скачайте код репозитория:",
+"cmd": "git clone https://github.com/upstash/context7.git\ncd context7"
+},
+{
+"t": "Создайте файл настроек .env и впишите ключи: YOUR_API_KEY.",
+"cmd": "cp .env.example .env"
+},
+{
+"t": "Установите и запустите — команды из README проекта (в порядке, как у автора):",
+"cmd": "npx ctx7 setup"
+},
+{
+"t": "Если что-то не запускается — полная инструкция и настройки в README:",
+"link": "https://github.com/upstash/context7#readme"
+}
+],
+"from_readme": true
+}
+},
+{
+"id": "k275e33c313c8",
+"title": "How to set up the Playwright MCP server (Claude Code, Cursor, VS Code, Codex)",
+"url": "https://dev.to/pluginstackai/how-to-set-up-the-playwright-mcp-server-claude-code-cursor-vs-code-codex-5aan",
+"source": "devto",
+"source_label": "dev.to",
+"summary": "How to set up the Playwright MCP server in Claude Code, Cursor, VS Code and Codex Checked against the official docs: Nov 20, 2026 Microsoft's Playwright MCP server gives an AI assistant a real browser. It works from the page's accessibility tree rather than screenshots, so no vision model is required. You add one npx command to your MCP config and the assistant can open pages, click, type and check the result. This guide covers Claude Code, Cursor, VS Code and Codex, useful flags, Docker, and what to do when the server will not start. It's based on the official Playwright MCP documentation and",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fstmtygmy1s6jtrw6qa5o.png",
+"published": 1795631141.0,
+"popularity": 9,
+"extra": {
+"practical": {
+"score": 48,
+"type": "guide",
+"type_ru": "гайд",
+"level": "средний",
+"needs": [
+"ПК",
+"API-ключ"
+],
+"money": "низкий",
+"is_ai": true,
+"penalty": 0,
+"signals": [
+"agent",
+"guide"
+]
+}
+},
+"first_seen": 1795643462.732452,
+"last_seen": 1795643462.732452,
+"score": 48,
+"type": "guide",
+"type_ru": "гайд",
+"level": "средний",
+"needs": [
+"ПК",
+"API-ключ"
+],
+"money": "низкий",
+"signals": [
+"agent",
+"guide"
+],
+"tags": [
+"agent",
+"guide"
+],
+"summary_ru": "Как настроить сервер Playwright MCP в Claude Code, Cursor, VS Code и Codex. Проверено по официальным документам: 20 ноября 2026 г. · Сервер Playwright MCP от Microsoft предоставляет помощнику искусственного интеллекта настоящий браузер. Он работает на основе дерева доступности страницы, а не снимков экрана, поэтому модель видения не требуется. Стек: Node.js, Docker, ★ 40143. Чем полезно: пошаговый разбор, который можно повторить на своём ПК.",
+"steps": [
+"Источник: https://dev.to/pluginstackai/how-to-set-up-the-playwright-mcp-server-claude-code-cursor-vs-code-codex-5aan",
+"Прочитайте материал целиком и сохраните ключевые команды/промпты.",
+"Повторите шаги на своём ПК в отдельной папке.",
+"Запишите, что получилось, и добавьте в свою «машину дохода»."
+],
+"title_ru": "Как настроить MCP-сервер Playwright (Claude Code, Cursor, VS Code, Codex)",
+"title_orig": "How to set up the Playwright MCP server (Claude Code, Cursor, VS Code, Codex)",
+"repo": "microsoft/playwright-mcp",
+"repo_url": "https://github.com/microsoft/playwright-mcp",
+"build": {
+"repo": "microsoft/playwright-mcp",
+"url": "https://github.com/microsoft/playwright-mcp",
+"stack": [
+"Node.js",
+"Docker"
+],
+"stars": 40143,
+"license": "Apache-2.0",
+"homepage": "https://www.npmjs.com/package/@playwright/mcp",
+"steps": [
+{
+"t": "Поставьте заранее: Git, Node.js 18+ (LTS), Docker Desktop."
+},
+{
+"t": "Скачайте код репозитория:",
+"cmd": "git clone https://github.com/microsoft/playwright-mcp.git\ncd playwright-mcp"
+},
+{
+"t": "Установите и запустите — команды из README проекта (в порядке, как у автора):",
+"cmd": "claude mcp add playwright npx @playwright/mcp@latest\nnpx @playwright/mcp@latest --config path/to/config.json\nnpx @playwright/mcp@latest --port 8931\ndocker run -d -i --rm --init --pull=always \\\ndocker build -t mcr.microsoft.com/playwright/mcp ."
+},
+{
+"t": "Если что-то не запускается — полная инструкция и настройки в README:",
+"link": "https://github.com/microsoft/playwright-mcp#readme"
+}
+],
+"from_readme": true
 }
 },
 {
@@ -17892,7 +18789,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 47,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -17919,7 +18816,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Гарри Тан из YC настолько активно использует агентов искусственного интеллекта, что тратит на токены до 200 тысяч долларов в год.",
 "title_orig": "YC's Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
 "repo": "garrytan/gstack",
@@ -18382,7 +19279,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 46,
 "type": "tool",
 "type_ru": "инструмент",
@@ -18408,7 +19305,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Show HN: Йогурт – бесплатная частная альтернатива мюсли с открытым исходным кодом",
 "title_orig": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
 "repo": "FrigadeHQ/yogurt",
@@ -18475,7 +19372,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 46,
 "type": "agent",
 "type_ru": "агент",
@@ -18501,7 +19398,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Мы позволяем ИИ управлять радиостанциями",
 "title_orig": "We let AIs run radio stations"
 },
@@ -18538,7 +19435,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 46,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -18565,7 +19462,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Использование навыков программирования для получения пассивного дохода",
 "title_orig": "Using coding skills to make passive income"
 },
@@ -18603,7 +19500,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 46,
 "type": "tool",
 "type_ru": "инструмент",
@@ -18630,7 +19527,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Показать HN: Sim – альтернатива Apache-2.0 n8n",
 "title_orig": "Show HN: Sim – Apache-2.0 n8n alternative",
 "repo": "simstudioai/sim",
@@ -18708,7 +19605,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 46,
 "type": "skill",
 "type_ru": "навык",
@@ -18734,7 +19631,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "BeautifulRust — Навыки агентов, которые учат агентов кодирования писать, просматривать и портировать идиоматический Rust, а…",
 "title_orig": "morganlinton/BeautifulRust: Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, an",
 "repo": "morganlinton/BeautifulRust",
@@ -18883,7 +19780,7 @@
 "published": 1795276892.0,
 "popularity": 201.859497917926,
 "extra": {
-"stars": 911,
+"stars": 913,
 "language": "JavaScript",
 "topics": [
 "ai-agent",
@@ -18915,7 +19812,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 46,
 "type": "tool",
 "type_ru": "инструмент",
@@ -18940,7 +19837,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "dsh-game-studio — Опишите небольшую игру одним предложением, играйте в нее на боковой панели DeepSeek Harness, меняйте…",
 "title_orig": "ZSeven-W/dsh-game-studio: Describe a small game in one sentence, play it in the DeepSeek Harness sidebar, swap in AI art, and publish to GitHub Pages or Cloudflare in one click.",
 "repo": "ZSeven-W/dsh-game-studio",
@@ -18989,7 +19886,7 @@
 "published": 1795252993.0,
 "popularity": 152.9343140250277,
 "extra": {
-"stars": 695,
+"stars": 697,
 "language": "Python",
 "topics": [
 "ai-companion",
@@ -19022,7 +19919,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 46,
 "type": "tool",
 "type_ru": "инструмент",
@@ -19048,7 +19945,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 15,
+"seen_count": 16,
 "title_ru": "OpenAmika — ИИ-компаньон MekaHime Amika, с открытым исходным кодом.",
 "title_orig": "zeekk0/OpenAmika: OpenAmika: MekaHime's AI companion Amika, open source. Live2D avatar, real-time voice, long-term memory, OpenRouter or Ollama brain.",
 "repo": "zeekk0/OpenAmika",
@@ -19097,7 +19994,7 @@
 "published": 1795456138.0,
 "popularity": 140.16603497722298,
 "extra": {
-"stars": 890,
+"stars": 891,
 "language": "C++",
 "topics": [
 "apple-silicon",
@@ -19130,7 +20027,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 46,
 "type": "tool",
 "type_ru": "инструмент",
@@ -19156,7 +20053,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 15,
+"seen_count": 16,
 "title_ru": "kapitsa — Невероятно быстрый механизм вывода Apple Silicon, оптимизированный для Qwen и Nemotron.",
 "title_orig": "nace-ai/kapitsa: Blazing fast Apple Silicon inference engine optimized for Qwen & Nemotron. OpenAI + Anthropic API compatible. Built by folks from nace.ai",
 "repo": "nace-ai/kapitsa",
@@ -19201,7 +20098,7 @@
 "published": 1795453161.0,
 "popularity": 99.78988067952469,
 "extra": {
-"stars": 405,
+"stars": 406,
 "language": "JavaScript",
 "topics": [
 "ai-assistant",
@@ -19235,7 +20132,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 46,
 "type": "tool",
 "type_ru": "инструмент",
@@ -19262,7 +20159,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 15,
+"seen_count": 16,
 "title_ru": "CapriCore — Capri — настольный компаньон с искусственным интеллектом для Windows с локальными моделями/API, Hugging Face,…",
 "title_orig": "CapriChooms/CapriCore: Capri — an AI desktop companion for Windows with local/API models, Hugging Face, optional voice, memory and permission-based desktop tools.",
 "repo": "CapriChooms/CapriCore",
@@ -19341,7 +20238,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 46,
 "type": "agent",
 "type_ru": "агент",
@@ -19367,7 +20264,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "bili-cli — Инструмент командной строки Bilibili, разработанный для AI Agent: сканируйте QR-код, чтобы войти в систему,…",
 "title_orig": "kukemc/bili-cli: 为 AI Agent 设计的哔哩哔哩命令行工具：扫码登录、看视频、评论、私信、发动态、投稿，全部 JSON 输出",
 "repo": "kukemc/bili-cli",
@@ -19445,7 +20342,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 46,
 "type": "tool",
 "type_ru": "инструмент",
@@ -19471,7 +20368,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 15,
+"seen_count": 16,
 "title_ru": "sakutto — Расширение браузера для удобного перевода на устройстве с помощью локального LLM (PLaMo).",
 "title_orig": "jammaru/sakutto: A browser extension for easy on-device translation with a local LLM (PLaMo). Private, free, no server needed.",
 "repo": "jammaru/sakutto",
@@ -19882,7 +20779,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 46,
 "type": "guide",
 "type_ru": "гайд",
@@ -19908,7 +20805,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 8,
+"seen_count": 9,
 "title_ru": "Как я установил n8n и Nginx Proxy Manager на VPS в Beget: пошаговый рассказ новичка"
 },
 {
@@ -20063,7 +20960,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 46,
 "type": "agent",
 "type_ru": "агент",
@@ -20089,7 +20986,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 14,
+"seen_count": 15,
 "title_ru": "Dataverse идет туда, где вы строите: Copilot Cowork, агенты кодирования и n8n",
 "title_orig": "Dataverse goes where you build: Copilot Cowork, coding agents and n8n"
 },
@@ -20123,7 +21020,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 46,
 "type": "agent",
 "type_ru": "агент",
@@ -20149,7 +21046,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 14,
+"seen_count": 15,
 "title_ru": "n8n выпускает Nod — персонального агента с открытым исходным кодом для Mac и Windows"
 },
 {
@@ -20316,7 +21213,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 46,
 "type": "tool",
 "type_ru": "инструмент",
@@ -20345,7 +21242,7 @@
 ],
 "title_ru": "better-vault — Альтернатива NotebookLM с открытым исходным кодом.",
 "title_orig": "better-vault/better-vault: Open-source NotebookLM alternative. Chat with your sources with citations, and turn them into reports, flashcards, quizzes, mind maps and slide decks, with your",
-"seen_count": 11,
+"seen_count": 12,
 "repo": "better-vault/better-vault",
 "repo_url": "https://github.com/better-vault/better-vault",
 "build": {
@@ -20958,7 +21855,7 @@
 }
 },
 "first_seen": 1795606125.495485,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 46,
 "type": "agent",
 "type_ru": "агент",
@@ -20986,7 +21883,7 @@
 ],
 "title_ru": "10 лучших агентов искусственного интеллекта для автоматизации бизнеса (2026 г.)",
 "title_orig": "10 Best AI Agents for Business Automation (2026)",
-"seen_count": 2
+"seen_count": 3
 },
 {
 "id": "ke588bb3b2ebc",
@@ -21493,7 +22390,7 @@
 }
 },
 "first_seen": 1795606125.495485,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 45,
 "type": "tool",
 "type_ru": "инструмент",
@@ -21552,7 +22449,7 @@
 ],
 "from_readme": true
 },
-"seen_count": 2
+"seen_count": 3
 },
 {
 "id": "k841bf729ed87",
@@ -21649,7 +22546,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 44,
 "type": "agent",
 "type_ru": "агент",
@@ -21680,7 +22577,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Показать HN: локальные микровиртуальные машины Linux для macOS",
 "title_orig": "Show HN: Local-First Linux MicroVMs for macOS",
 "repo": "superhq-ai/shuru",
@@ -21751,7 +22648,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 44,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -21778,7 +22675,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Как я зарабатываю 400 долларов в месяц на пассивном доходе путем самостоятельной публикации",
 "title_orig": "How I make $400 a month in Passive Income by Self-Publishing"
 },
@@ -21816,7 +22713,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 44,
 "type": "agent",
 "type_ru": "агент",
@@ -21844,7 +22741,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Show HN: Pipelex — декларативный язык для повторяемых рабочих процессов ИИ",
 "title_orig": "Show HN: Pipelex – Declarative language for repeatable AI workflows",
 "repo": "Pipelex/pipelex",
@@ -22331,7 +23228,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 44,
 "type": "tool",
 "type_ru": "инструмент",
@@ -22356,7 +23253,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 14,
+"seen_count": 15,
 "title_ru": "OpenClaw запускает бесплатную корпоративную плоскость управления для постоянных агентов ИИ при поддержке OpenAI, Red Hat и Nvidia",
 "title_orig": "OpenClaw launches free enterprise control plane for persistent AI agents, backed by OpenAI, Red Hat and Nvidia"
 },
@@ -22447,7 +23344,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 44,
 "type": "tool",
 "type_ru": "инструмент",
@@ -22472,7 +23369,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 14,
+"seen_count": 15,
 "title_ru": "Я решил, что мой 10-летний мини-ПК недостаточно пострадал, поэтому заставил его запустить местный LLM.",
 "title_orig": "I decided my 10-year-old mini PC hadn’t suffered enough, so I made it run a local LLM"
 },
@@ -23151,7 +24048,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 44,
 "type": "tool",
 "type_ru": "инструмент",
@@ -23176,7 +24073,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 10,
+"seen_count": 11,
 "title_ru": "Клод Код раскрыл 1379 секретов на GitHub [2026]",
 "title_orig": "Claude Code Exposed 1,379 Secrets on GitHub [2026]"
 },
@@ -23891,7 +24788,7 @@
 }
 },
 "first_seen": 1795572867.6045456,
-"last_seen": 1795572867.6045456,
+"last_seen": 1795643462.732452,
 "score": 44,
 "type": "tool",
 "type_ru": "инструмент",
@@ -23915,7 +24812,8 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"title_ru": "AI‑дайджест #5: агенты выходят на работу, ИИ растворяется в привычных инструментах. Что скажет Лаборатория ИИ?"
+"title_ru": "AI‑дайджест #5: агенты выходят на работу, ИИ растворяется в привычных инструментах. Что скажет Лаборатория ИИ?",
+"seen_count": 2
 },
 {
 "id": "ke7a609cfe568",
@@ -24151,7 +25049,7 @@
 }
 },
 "first_seen": 1795626473.2553148,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 44,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -24179,7 +25077,65 @@
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
 "title_ru": "Я заработал 44 645 долларов на продаже цифровых продуктов. Вот что я сделал не так",
-"title_orig": "I made $44,645 selling digital products. Here’s what I did wrong"
+"title_orig": "I made $44,645 selling digital products. Here’s what I did wrong",
+"seen_count": 2
+},
+{
+"id": "k6cbce382cbb8",
+"title": "Versine's MCP Money Transfer: How Payment Primitives Become Agent Tools",
+"url": "https://dev.to/mech_app_ai/versines-mcp-money-transfer-how-payment-primitives-become-agent-tools-3l0k",
+"source": "devto",
+"source_label": "dev.to",
+"summary": "Versine is an MCP server that lets LLM agents send and request money. Built by engineers from Stripe, Databricks, and Amazon, it wraps self-custodial stablecoin wallets (USDC on Base) and exposes payment primitives as tool calls. The team launched on Hacker News with 103 points and 99 comments, positioning it as \"Venmo with an MCP.\" The real challenge isn't the conversational interface. It's how you design tool boundaries around money movement when the caller is a language model that can hallucinate, retry, or misinterpret user intent. The MCP Tool Boundary Versine exposes a small set of finan",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fimages.unsplash.com%2Fphoto-1515879218367-8466d910aaa4%3Fauto%3Dformat%26fit%3Dcrop%26w%3D1600%26q%3D80",
+"published": 1795637214.0,
+"popularity": 15,
+"extra": {
+"practical": {
+"score": 44,
+"type": "tool",
+"type_ru": "инструмент",
+"level": "средний",
+"needs": [
+"ПК"
+],
+"money": "низкий",
+"is_ai": true,
+"penalty": 0,
+"signals": [
+"agent",
+"tool"
+]
+}
+},
+"first_seen": 1795643462.732452,
+"last_seen": 1795643462.732452,
+"score": 44,
+"type": "tool",
+"type_ru": "инструмент",
+"level": "средний",
+"needs": [
+"ПК"
+],
+"money": "низкий",
+"signals": [
+"agent",
+"tool"
+],
+"tags": [
+"agent",
+"tool"
+],
+"summary_ru": "Versine — это сервер MCP, который позволяет агентам LLM отправлять и запрашивать деньги. Созданный инженерами из Stripe, Databricks и Amazon, он включает в себя самостоятельные кошельки для стабильных монет (USDC на базе) и предоставляет примитивы оплаты в виде вызовов инструментов. Зачем вам: готовый инструмент — ставится у себя и встраивается в ваш конвейер.",
+"steps": [
+"Источник: https://dev.to/mech_app_ai/versines-mcp-money-transfer-how-payment-primitives-become-agent-tools-3l0k",
+"Откройте страницу инструмента, проверьте цену/лицензию и требования к ПК.",
+"Установите и повторите пример из документации.",
+"Решите им одну свою задачу и встройте в конвейер."
+],
+"seen_count": 2,
+"title_ru": "Денежные переводы MCP от Versine: как платежные примитивы становятся агентскими инструментами",
+"title_orig": "Versine's MCP Money Transfer: How Payment Primitives Become Agent Tools"
 },
 {
 "id": "kd796cbadf837",
@@ -24279,7 +25235,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 42,
 "type": "agent",
 "type_ru": "агент",
@@ -24307,7 +25263,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 14,
+"seen_count": 15,
 "title_ru": "Show HN: Spindle — полнофункциональная типобезопасная веб-платформа для OCaml 5.",
 "title_orig": "Show HN: Spindle – a full-featured, type-safe web framework for OCaml 5",
 "repo": "hyphatech/spindle",
@@ -24900,6 +25856,151 @@
 "title_orig": "Scaling with Low-Code AI: How to Automate Faster Without Losing Control"
 },
 {
+"id": "keab25eeef6b0",
+"title": "How to Pick an AI Image Generator for Your Side Project: A One-Evening Test Plan",
+"url": "https://dev.to/jay_pixbloom/how-to-pick-an-ai-image-generator-for-your-side-project-a-one-evening-test-plan-2ma7",
+"source": "devto",
+"source_label": "dev.to",
+"summary": "Most developers reach for an AI image generator for the same reason: the project needs visuals and there is no designer. A blog header, a landing page hero, an empty-state illustration, an avatar for a bot, a cover for a newsletter. The work is small, but it shows up every week. There are a lot of tools, and their sample galleries all look impressive. Those galleries tell you what a tool can do on its best prompt. They do not tell you what it will do on your prompt, at your volume, under your license terms. This guide gives you a test plan you can run in one evening, plus what to check before ",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Feen7cp935txik7uzjohu.png",
+"published": 1795636969.0,
+"popularity": 19,
+"extra": {
+"practical": {
+"score": 42,
+"type": "guide",
+"type_ru": "гайд",
+"level": "средний",
+"needs": [
+"ПК"
+],
+"money": "низкий",
+"is_ai": true,
+"penalty": 0,
+"signals": [
+"agent",
+"tool",
+"guide"
+]
+}
+},
+"first_seen": 1795643462.732452,
+"last_seen": 1795643462.732452,
+"score": 42,
+"type": "guide",
+"type_ru": "гайд",
+"level": "средний",
+"needs": [
+"ПК"
+],
+"money": "низкий",
+"signals": [
+"agent",
+"tool",
+"guide"
+],
+"tags": [
+"agent",
+"tool",
+"guide"
+],
+"summary_ru": "Большинство разработчиков обращаются к генератору изображений с искусственным интеллектом по одной и той же причине: проекту нужна визуальная составляющая, а дизайнера нет. Заголовок блога, герой целевой страницы, пустая иллюстрация, аватар для бота, обложка для информационного бюллетеня. Работы мало, но она появляется каждую неделю. Чем полезно: пошаговый разбор, который можно повторить на своём ПК.",
+"steps": [
+"Источник: https://dev.to/jay_pixbloom/how-to-pick-an-ai-image-generator-for-your-side-project-a-one-evening-test-plan-2ma7",
+"Прочитайте материал целиком и сохраните ключевые команды/промпты.",
+"Повторите шаги на своём ПК в отдельной папке.",
+"Запишите, что получилось, и добавьте в свою «машину дохода»."
+],
+"title_ru": "Как выбрать генератор изображений ИИ для своего параллельного проекта: план тестирования на один вечер",
+"title_orig": "How to Pick an AI Image Generator for Your Side Project: A One-Evening Test Plan"
+},
+{
+"id": "ka546a30d2852",
+"title": "GAtrends is now in the Claude connectors directory: ask Claude what is spiking right now (free, no key)",
+"url": "https://dev.to/bondarchuk_bohdan_7777/gatrends-is-now-in-the-claude-connectors-directory-ask-claude-what-is-spiking-right-now-free-no-2f0c",
+"source": "devto",
+"source_label": "dev.to",
+"summary": "I built GAtrends , a trend radar for games and big tech, and its free MCP server is now listed in the Claude connectors directory as \"GAtrends Trend Radar\" (a community connector). Add it to Claude in one click: Add GAtrends to Claude No API key, no account, no sign-in. What it does GAtrends watches seven public sources: Google News, Hacker News, Wikipedia, Steam, Google Trends, GitHub and Product Hunt. It flags when attention to a topic jumps above its usual level. With the connector, you ask Claude in plain words instead of opening dashboards. Try asking: \"What is spiking right now?\" \"Is GTA",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjtah4a4tpai9pxmvxyix.png",
+"published": 1795638246.0,
+"popularity": 17,
+"extra": {
+"practical": {
+"score": 42,
+"type": "agent",
+"type_ru": "агент",
+"level": "средний",
+"needs": [
+"ПК",
+"API-ключ"
+],
+"money": "низкий",
+"is_ai": true,
+"penalty": 0,
+"signals": [
+"agent",
+"build",
+"tool"
+]
+}
+},
+"first_seen": 1795643462.732452,
+"last_seen": 1795643462.732452,
+"score": 42,
+"type": "agent",
+"type_ru": "агент",
+"level": "средний",
+"needs": [
+"ПК",
+"API-ключ"
+],
+"money": "низкий",
+"signals": [
+"agent",
+"build",
+"tool"
+],
+"tags": [
+"agent",
+"build",
+"tool"
+],
+"summary_ru": "Я создал GAtrends, радар тенденций для игр и крупных технологий, и его бесплатный сервер MCP теперь указан в каталоге соединителей Claude как «GAtrends Trend Radar» (соединитель сообщества). Добавьте его в Клод одним щелчком мыши: Добавьте GAtrends в Клода. Никакого ключа API, никакой учетной записи, никакого входа в систему. Зачем вам: свой ИИ-агент на своём ПК — забирает рутину без подписок на чужие сервисы.",
+"steps": [
+"Источник: https://dev.to/bondarchuk_bohdan_7777/gatrends-is-now-in-the-claude-connectors-directory-ask-claude-what-is-spiking-right-now-free-no-2f0c",
+"Разберитесь, какую работу делает агент и какие инструменты ему нужны.",
+"Поставьте агентную среду на ПК (OpenClaw / Claude Code / n8n с AI-узлами).",
+"Дайте агенту одну узкую задачу с измеримым результатом.",
+"Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
+],
+"title_ru": "GAtrends теперь находится в каталоге соединителей Клода: спросите Клода, что сейчас всплеск (бесплатно, без ключа)",
+"title_orig": "GAtrends is now in the Claude connectors directory: ask Claude what is spiking right now (free, no key)",
+"repo": "BOHDANukr7777/gatrends-mcp",
+"repo_url": "https://github.com/BOHDANukr7777/gatrends-mcp",
+"build": {
+"repo": "BOHDANukr7777/gatrends-mcp",
+"url": "https://github.com/BOHDANukr7777/gatrends-mcp",
+"stack": [],
+"stars": 0,
+"license": "MIT",
+"homepage": "https://gatrends.com/connect#free-mcp",
+"steps": [
+{
+"t": "Поставьте заранее: Git."
+},
+{
+"t": "Скачайте код репозитория:",
+"cmd": "git clone https://github.com/BOHDANukr7777/gatrends-mcp.git\ncd gatrends-mcp"
+},
+{
+"t": "Если что-то не запускается — полная инструкция и настройки в README:",
+"link": "https://github.com/BOHDANukr7777/gatrends-mcp#readme"
+}
+],
+"from_readme": false
+}
+},
+{
 "id": "k30a674eae694",
 "title": "Julian Goldie Skool Review: Free AI Money Lab vs. Paid AI Profit Boardroom",
 "url": "https://medium.com/@lionheartmarket1022/julian-goldie-skool-review-free-ai-money-lab-vs-paid-ai-profit-boardroom-8a16d47109e9?source=rss------automation-5",
@@ -25023,6 +26124,66 @@
 "title_orig": "How to Turn a Free PDF Into a $500/Month Digital Product Business"
 },
 {
+"id": "k765fc084578b",
+"title": "From $200 to $30 a Month: Building an Open-Source Hybrid AI Stack After Haiku 5.5",
+"url": "https://medium.com/@mr.f00l210/from-200-to-30-a-month-building-an-open-source-hybrid-ai-stack-after-haiku-5-5-d46d0aacdf69?source=rss------local_llm-5",
+"source": "medium",
+"source_label": "Medium",
+"summary": "On October 7, 2026, Anthropic dropped Claude Haiku 5.5 at $0.10 per million input tokens — quietly blowing up the old math behind both… Continue reading on Medium »",
+"image": "https://cdn-images-1.medium.com/max/2600/1*gzdKPLiKrvADKnBgB4jMKQ.jpeg",
+"published": 1795626501.0,
+"popularity": 15,
+"extra": {
+"practical": {
+"score": 41,
+"type": "case",
+"type_ru": "кейс с доходом",
+"level": "средний",
+"needs": [
+"ПК",
+"API-ключ"
+],
+"money": "высокий",
+"is_ai": true,
+"penalty": 0,
+"signals": [
+"money",
+"tool"
+]
+}
+},
+"first_seen": 1795643462.732452,
+"last_seen": 1795643462.732452,
+"score": 41,
+"type": "case",
+"type_ru": "кейс с доходом",
+"level": "средний",
+"needs": [
+"ПК",
+"API-ключ"
+],
+"money": "высокий",
+"signals": [
+"money",
+"tool"
+],
+"tags": [
+"money",
+"tool"
+],
+"summary_ru": "7 октября 2026 года Anthropic выпустила Claude Haiku 5.5 по цене 0,10 доллара за миллион входных токенов, незаметно разрушив старую математику, лежащую в основе обоих… Продолжить чтение на Medium » Чем полезно: реальный пример «собрал → заработал» — схему можно повторить у себя.",
+"steps": [
+"Источник: https://medium.com/@mr.f00l210/from-200-to-30-a-month-building-an-open-source-hybrid-ai-stack-after-haiku-5-5-d46d0aacdf69?source=rss------local_llm-5",
+"Прочитайте первоисточник: что именно делает агент, какие сервисы и сколько стоит запуск.",
+"Выпишите воронку: откуда трафик → что продаётся → как платят (подписка, услуга, партнёрка).",
+"Соберите минимальную копию на своём ПК (OpenClaw / n8n / Python-скрипт + API модели).",
+"Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
+"Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
+],
+"title_ru": "От 200 до 30 долларов в месяц: создание гибридного стека искусственного интеллекта с открытым исходным кодом после Haiku 5.5",
+"title_orig": "From $200 to $30 a Month: Building an Open-Source Hybrid AI Stack After Haiku 5.5"
+},
+{
 "id": "k9f6e7e2529e1",
 "title": "Show HN: Klad, a paint app your coding agent can drive (source-available)",
 "url": "https://github.com/klad-app/klad",
@@ -25054,7 +26215,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 40,
 "type": "agent",
 "type_ru": "агент",
@@ -25080,7 +26241,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Show HN: Klad, приложение для рисования, которым может управлять ваш агент кодирования (исходный код доступен)",
 "title_orig": "Show HN: Klad, a paint app your coding agent can drive (source-available)",
 "repo": "klad-app/klad",
@@ -25147,7 +26308,7 @@
 "stars": 152
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 40,
 "type": "agent",
 "type_ru": "агент",
@@ -25173,7 +26334,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 28,
+"seen_count": 30,
 "title_ru": "Показать HN: Turbo-Browser-MCP — пакетные формы, изменения DOM и защита отправки для MCP.",
 "title_orig": "Show HN: Turbo-Browser-MCP – Batch forms, DOM deltas and submit guards for MCP",
 "repo": "Tthanh2k6/turbo-browser-mcp",
@@ -25240,7 +26401,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 40,
 "type": "agent",
 "type_ru": "агент",
@@ -25266,7 +26427,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Show HN: Microsoft выпускает Flint, язык визуализации для агентов ИИ",
 "title_orig": "Show HN: Microsoft releases Flint, a visualization language for AI agents"
 },
@@ -25303,7 +26464,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 40,
 "type": "agent",
 "type_ru": "агент",
@@ -25329,7 +26490,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Show HN: Omnara – запускайте Claude Code из любого места",
 "title_orig": "Show HN: Omnara – Run Claude Code from anywhere",
 "repo": "omnara-ai/omnara",
@@ -25381,7 +26542,7 @@
 "published": 1795455974.0,
 "popularity": 123.27961416302615,
 "extra": {
-"stars": 708,
+"stars": 710,
 "language": "Rust",
 "topics": [
 "ai-agents",
@@ -25414,7 +26575,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 40,
 "type": "agent",
 "type_ru": "агент",
@@ -25440,7 +26601,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "kwant — Ваша собственная команда ИИ-ботов в одном автономном двоичном файле: места, все ваши учетные записи,…",
 "title_orig": "alexsergivan/kwant: Your own team of AI bots in one self-hosted binary: spaces, every account you have, handoffs, approvals and routines. Open-source, self-hosted alternative to Gr",
 "repo": "alexsergivan/kwant",
@@ -25506,7 +26667,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 40,
 "type": "tool",
 "type_ru": "инструмент",
@@ -25532,7 +26693,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "n8n – всё, что нужно знать о сервисе",
 "repo": "n8n-io/n8n",
 "repo_url": "https://github.com/n8n-io/n8n",
@@ -25595,7 +26756,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 40,
 "type": "guide",
 "type_ru": "гайд",
@@ -25620,7 +26781,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 13,
+"seen_count": 14,
 "title_ru": "Ollama: как запустить нейросеть локально на своём ПК — журнал Яндекс Практикума «Код»"
 },
 {
@@ -25965,9 +27126,9 @@
 "summary": "Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 13 languages. USB or paired Wi-Fi. No cloud required.",
 "image": "https://opengraph.githubassets.com/1/ersinkoc/phonebox",
 "published": 1795456275.0,
-"popularity": 1504.3059747444615,
+"popularity": 1518.6573191772043,
 "extra": {
-"stars": 6385,
+"stars": 6481,
 "language": "JavaScript",
 "topics": [
 "android",
@@ -25999,7 +27160,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 39,
 "type": "guide",
 "type_ru": "гайд",
@@ -26024,7 +27185,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "phonebox — Превратите старый телефон Android в настраиваемую настольную панель и панель сенсорного управления для…",
 "title_orig": "ersinkoc/phonebox: Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI ",
 "repo": "ersinkoc/phonebox",
@@ -26174,7 +27335,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -26200,7 +27361,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Показать HN: мы помещаем Chromium в Unikernel (OSS Apache 2.0)",
 "title_orig": "Show HN: We Put Chromium on a Unikernel (OSS Apache 2.0)",
 "repo": "kernel/kernel-images",
@@ -26250,7 +27411,7 @@
 "published": 1795448846.0,
 "popularity": 2045.9579092047243,
 "extra": {
-"stars": 3875,
+"stars": 3928,
 "language": "Rust",
 "topics": [
 "agent-skills",
@@ -26282,7 +27443,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -26306,7 +27467,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "fast-anything — Не переписывайте его на Rust.",
 "title_orig": "EL4CTEO/fast-anything: Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the sa",
 "repo": "EL4CTEO/fast-anything",
@@ -26351,7 +27512,7 @@
 "published": 1795426947.0,
 "popularity": 1945.466096164187,
 "extra": {
-"stars": 9973,
+"stars": 9990,
 "language": "Kotlin",
 "topics": [
 "accessibility",
@@ -26383,7 +27544,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -26407,7 +27568,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Mika — Встроенный в устройство агент искусственного интеллекта для Android, который управляет приложениями и…",
 "title_orig": "wangzan101/Mika: An on-device AI agent for Android that operates apps and the web to get things done for you.",
 "repo": "wangzan101/Mika",
@@ -26448,7 +27609,7 @@
 "published": 1794559419.0,
 "popularity": 1793.3314483566198,
 "extra": {
-"stars": 9220,
+"stars": 9253,
 "language": "JavaScript",
 "topics": [
 "agent-skills",
@@ -26480,7 +27641,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "skill",
 "type_ru": "навык",
@@ -26504,7 +27665,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "pixelfx — 244 пиксельных эффекта, каждый из которых представляет собой небольшой фрагмент кода.",
 "title_orig": "patch-gg/pixelfx: 244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
 "repo": "patch-gg/pixelfx",
@@ -26549,7 +27710,7 @@
 "published": 1795396416.0,
 "popularity": 1413.556423107916,
 "extra": {
-"stars": 6543,
+"stars": 6545,
 "language": "TypeScript",
 "topics": [
 "ai-agents",
@@ -26581,7 +27742,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -26605,7 +27766,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "agent-autoloop — Позвольте вашему агенту командной строки взять на себя работу в фоновом режиме и самостоятельно довести ее до…",
 "title_orig": "KKKKhazix/agent-autoloop: 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
 "repo": "KKKKhazix/agent-autoloop",
@@ -26650,7 +27811,7 @@
 "published": 1795142208.0,
 "popularity": 1242.095573601356,
 "extra": {
-"stars": 8109,
+"stars": 8113,
 "language": "Python",
 "topics": [
 "agentic-ai",
@@ -26682,7 +27843,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -26706,7 +27867,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "TokenEconomizer — Управление затратами «черного ящика» на основе опыта для агентов кодирования",
 "title_orig": "microsoft/TokenEconomizer: Experience-Driven Black-Box Cost Control for Coding Agents",
 "repo": "microsoft/TokenEconomizer",
@@ -26750,9 +27911,9 @@
 "summary": "See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.",
 "image": "https://opengraph.githubassets.com/1/haydenschmitty/floorplan",
 "published": 1794848279.0,
-"popularity": 1261.4761769083168,
+"popularity": 1262.4145314801715,
 "extra": {
-"stars": 6818,
+"stars": 6846,
 "language": "JavaScript",
 "topics": [
 "ai-coding",
@@ -26784,7 +27945,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -26808,7 +27969,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "floorplan — Посмотрите, как ваше приложение на самом деле сочетается друг с другом.",
 "title_orig": "haydenschmitty/floorplan: See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.",
 "repo": "haydenschmitty/floorplan",
@@ -26853,7 +28014,7 @@
 "published": 1795456266.0,
 "popularity": 1063.9014296692144,
 "extra": {
-"stars": 5099,
+"stars": 5114,
 "language": "Rust",
 "topics": [
 "ai-agents",
@@ -26885,7 +28046,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -26909,7 +28070,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "exact — Напишите приложение один раз.",
 "title_orig": "expo/exact: Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, and test it on every one of them.",
 "repo": "expo/exact",
@@ -26987,7 +28148,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -27011,7 +28172,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "pinky — Позвольте ИИ использовать ваш телефон iPhone или Android, и вы всегда будете в курсе: любой агент MCP для…",
 "title_orig": "DIYgod/pinky: Let AI use your iPhone or Android phone, with you in the loop: any MCP agent from macOS, Windows or Linux, or Pinky itself, right on the phone.",
 "repo": "DIYgod/pinky",
@@ -27057,7 +28218,7 @@
 "published": 1795192138.0,
 "popularity": 597.1979508255342,
 "extra": {
-"stars": 2910,
+"stars": 2920,
 "language": "TypeScript",
 "topics": [
 "agent-skills",
@@ -27088,7 +28249,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "skill",
 "type_ru": "навык",
@@ -27111,7 +28272,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "stack-diagram — Навыки агента: опишите свой стек в предложении, получите схему архитектуры с официальными логотипами",
 "title_orig": "caru-ini/stack-diagram: Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
 "repo": "caru-ini/stack-diagram",
@@ -27156,7 +28317,7 @@
 "published": 1795414080.0,
 "popularity": 517.4979605408732,
 "extra": {
-"stars": 3192,
+"stars": 3198,
 "language": "JavaScript",
 "topics": [
 "agent-skills",
@@ -27188,7 +28349,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -27212,7 +28373,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "huashu-motion — Позвольте вашему агенту одним щелчком мыши создавать рекламные видеоролики о продуктах коммерческого уровня:…",
 "title_orig": "alchaincyf/huashu-motion: 让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
 "repo": "alchaincyf/huashu-motion",
@@ -27257,7 +28418,7 @@
 "published": 1795454206.0,
 "popularity": 436.7280618108622,
 "extra": {
-"stars": 2852,
+"stars": 2855,
 "language": "HTML",
 "topics": [
 "agent-skills",
@@ -27289,7 +28450,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "skill",
 "type_ru": "навык",
@@ -27313,7 +28474,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "awesome-short-drama-skills — Короткая драма AI · Комическая драма Выбор навыков (пакет навыков): сценарий, адаптация, раскадровка,…",
 "title_orig": "UnderleveledBuilder/awesome-short-drama-skills: AI 短剧 · 漫剧 Skill（技能包）精选：剧本、改编、分镜、Seedance / 可灵 / MiniMax 视频提示词，千问、豆包、龙虾 OpenClaw、WorkBuddy、Claude Code、Codex 等智能体可用 | Curated agent skills for AI short drama, m",
 "repo": "UnderleveledBuilder/awesome-short-drama-skills",
@@ -27356,7 +28517,7 @@
 "published": 1793884196.0,
 "popularity": 353.967468820913,
 "extra": {
-"stars": 1974,
+"stars": 1975,
 "language": "Swift",
 "topics": [
 "agent-skills",
@@ -27387,7 +28548,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "skill",
 "type_ru": "навык",
@@ -27410,7 +28571,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "bama — Создайте любое приложение для Mac.",
 "title_orig": "daveebbelaar/bama: BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
 "repo": "daveebbelaar/bama",
@@ -27487,7 +28648,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -27511,7 +28672,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "reason-network — Сеть причин: агенты кодирования вашей команды, разговаривающие друг с другом.",
 "title_orig": "reason-machines/reason-network: Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`.",
 "repo": "reason-machines/reason-network",
@@ -27556,7 +28717,7 @@
 "published": 1792306088.0,
 "popularity": 224.4724811316118,
 "extra": {
-"stars": 1475,
+"stars": 1476,
 "language": "Python",
 "topics": [
 "ai-agents",
@@ -27588,7 +28749,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -27612,7 +28773,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 12,
+"seen_count": 13,
 "title_ru": "AI-Cross-Border-Ecommerce-Agent-Toolkit — Набор инструментов агента для трансграничной электронной коммерции с использованием искусственного интеллекта…",
 "title_orig": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit: AI 跨境电商运营智能体工具箱 · 把运营 SOP 拆成 7 个可复用的 AI Agent 工作流，含 Prompt、模板与真实案例",
 "repo": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
@@ -27657,7 +28818,7 @@
 "published": 1795454044.0,
 "popularity": 174.57516375741886,
 "extra": {
-"stars": 754,
+"stars": 764,
 "language": "TypeScript",
 "topics": [
 "ai-agents",
@@ -27689,7 +28850,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -27713,7 +28874,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 12,
+"seen_count": 13,
 "title_ru": "timon — Тимон — это агентская рабочая станция, которая позволяет вам управлять всеми вашими ИИ-агентами в одном месте.",
 "title_orig": "ai-timon/timon: Timon is an Agentic Workstation who let you orchestrates all your AI agents in the same place",
 "repo": "ai-timon/timon",
@@ -27761,9 +28922,9 @@
 "summary": "Can AI agents rebuild websites through browser exploration?",
 "image": "https://opengraph.githubassets.com/1/TIGER-AI-Lab/WebsiteBench",
 "published": 1794905675.0,
-"popularity": 162.12431679589073,
+"popularity": 163.97256763098463,
 "extra": {
-"stars": 746,
+"stars": 758,
 "language": "Python",
 "topics": [
 "agent-evaluation",
@@ -27795,7 +28956,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -27819,7 +28980,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 12,
+"seen_count": 13,
 "title_ru": "WebsiteBench — Могут ли агенты ИИ восстанавливать веб-сайты с помощью браузера?",
 "title_orig": "TIGER-AI-Lab/WebsiteBench: Can AI agents rebuild websites through browser exploration?",
 "repo": "TIGER-AI-Lab/WebsiteBench",
@@ -27900,7 +29061,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -27924,7 +29085,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "mcp — Подключите агентов искусственного интеллекта к реальным iPhone и Android",
 "title_orig": "phone-harness/mcp: Connect AI agents to real iPhones and Androids",
 "repo": "phone-harness/mcp",
@@ -28002,7 +29163,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -28026,7 +29187,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 12,
+"seen_count": 13,
 "title_ru": "axuse — Использование браузера и компьютера в первую очередь для специальных возможностей для агентов ИИ — один…",
 "title_orig": "ctoldigital/axuse: Accessibility-first browser & computer use for AI agents — one MCP server for every harness (Codex, Claude Code, OpenCode, Antigravity). Instruments the DOM/acc",
 "repo": "ctoldigital/axuse",
@@ -28103,7 +29264,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -28127,7 +29288,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 15,
+"seen_count": 16,
 "title_ru": "Lingbo-Desk — Голосовой агент для рабочего стола Windows с разговором в реальном времени, аватаром Live2D и фоновыми…",
 "title_orig": "liguozheng-ac/Lingbo-Desk: A Windows desktop voice agent with real-time conversation, a Live2D avatar, and background tasks for files, Office documents, and the web.",
 "repo": "liguozheng-ac/Lingbo-Desk",
@@ -28209,7 +29370,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -28233,7 +29394,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 12,
+"seen_count": 13,
 "title_ru": "FlashAlign — Выравнивайте модели мгновенно и по требованию.",
 "title_orig": "Aevonix/FlashAlign: ReAlign models instantly, on demand. Per-request alignment for verified users and channels, or Always On. Use directly or with Hermes, OpenClaw and custom harne",
 "repo": "Aevonix/FlashAlign",
@@ -28415,7 +29576,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "skill",
 "type_ru": "навык",
@@ -28439,7 +29600,7 @@
 "Подключите свою модель: облачный API-ключ или локальную через Ollama.",
 "Примените к своей задаче: контент, лиды, поддержка клиентов, парсинг — и замерьте результат."
 ],
-"seen_count": 12,
+"seen_count": 13,
 "title_ru": "cto-agent-team — Технический директор, менеджер по продукту и команда инженеров с навыками кодирования агентов в Codex, Google…",
 "title_orig": "StochasticResult/cto-agent-team: A CTO, product manager, and engineer team skill for coding agents on Codex, Google Antigravity, and Claude Code, with task routing, shared handoffs, resource le",
 "repo": "StochasticResult/cto-agent-team",
@@ -28673,7 +29834,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "tool",
 "type_ru": "инструмент",
@@ -28699,7 +29860,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Я построил контент-завод на n8n. Он работает. Зарабатывает — нет :-("
 },
 {
@@ -28731,7 +29892,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "guide",
 "type_ru": "гайд",
@@ -28755,7 +29916,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Как обновить n8n на своем сервере(Docker)"
 },
 {
@@ -28787,7 +29948,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "guide",
 "type_ru": "гайд",
@@ -28811,7 +29972,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Автоматизация для всех: как n8n революционизирует рабочие процессы в бизнесе",
 "repo": "datadrivenconstruction/cad2data-Revit-IFC-DWG",
 "repo_url": "https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG",
@@ -28935,7 +30096,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "guide",
 "type_ru": "гайд",
@@ -28959,7 +30120,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 14,
+"seen_count": 15,
 "title_ru": "n8n готовится к версии 3.0: как обновить автоматизацию и не остановить передачу заявок в CRM"
 },
 {
@@ -28991,7 +30152,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "guide",
 "type_ru": "гайд",
@@ -29015,7 +30176,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 14,
+"seen_count": 15,
 "title_ru": "Как автоматизировать рутинную работу с помощью ИИ без программирования"
 },
 {
@@ -29145,7 +30306,7 @@
 }
 },
 "first_seen": 1795456890.3770094,
-"last_seen": 1795492764.1861293,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "guide",
 "type_ru": "гайд",
@@ -29170,7 +30331,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 3,
+"seen_count": 4,
 "title_ru": "🫧 Технологический пузырь лопнул: что случилось с ИИ-агентами? Аналитики из Gartner предупредили, что к 2027 году более..."
 },
 {
@@ -29823,7 +30984,7 @@
 }
 },
 "first_seen": 1795568061.8895679,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -29880,7 +31041,7 @@
 ],
 "from_readme": true
 },
-"seen_count": 4
+"seen_count": 5
 },
 {
 "id": "ke559e6921264",
@@ -30030,7 +31191,7 @@
 }
 },
 "first_seen": 1795572867.6045456,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -30086,7 +31247,7 @@
 ],
 "from_readme": true
 },
-"seen_count": 3
+"seen_count": 4
 },
 {
 "id": "ka40bf4d4b6b8",
@@ -30281,7 +31442,7 @@
 }
 },
 "first_seen": 1795606125.495485,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -30338,7 +31499,7 @@
 ],
 "from_readme": true
 },
-"seen_count": 2
+"seen_count": 3
 },
 {
 "id": "k1d46d93e09d8",
@@ -30369,7 +31530,7 @@
 }
 },
 "first_seen": 1795606125.495485,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "guide",
 "type_ru": "гайд",
@@ -30393,7 +31554,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 3,
+"seen_count": 4,
 "title_ru": "Тайфун, Чеджу и 12 статей про ИИ‑агентов: отчёт с конференции KDD 2026",
 "repo": "esantus/agents-in-the-wild-kdd2026",
 "repo_url": "https://github.com/esantus/agents-in-the-wild-kdd2026",
@@ -30734,7 +31895,7 @@
 }
 },
 "first_seen": 1795626473.2553148,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "agent",
 "type_ru": "агент",
@@ -30761,7 +31922,8 @@
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
 "title_ru": "Show HN: BBRouter — 8-битный компьютер Бена Итера, смоделированный на 3D-макетах.",
-"title_orig": "Show HN: BBRouter – Ben Eater's 8-bit computer, simulated on 3D breadboards"
+"title_orig": "Show HN: BBRouter – Ben Eater's 8-bit computer, simulated on 3D breadboards",
+"seen_count": 2
 },
 {
 "id": "k0673866214c5",
@@ -30793,7 +31955,7 @@
 }
 },
 "first_seen": 1795626473.2553148,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "guide",
 "type_ru": "гайд",
@@ -30818,7 +31980,8 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"title_ru": "Разворачиваем Minecraft силами ИИ-агента: практический вебинар от MWS Cloud Platform"
+"title_ru": "Разворачиваем Minecraft силами ИИ-агента: практический вебинар от MWS Cloud Platform",
+"seen_count": 2
 },
 {
 "id": "k233b16158a71",
@@ -30849,7 +32012,7 @@
 }
 },
 "first_seen": 1795626473.2553148,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 38,
 "type": "guide",
 "type_ru": "гайд",
@@ -30873,7 +32036,7 @@
 "Повторите шаги на своём ПК в отдельной папке.",
 "Запишите, что получилось, и добавьте в свою «машину дохода»."
 ],
-"seen_count": 2,
+"seen_count": 4,
 "title_ru": "Что доводит агента до мата"
 },
 {
@@ -30969,7 +32132,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 37,
 "type": "agent",
 "type_ru": "агент",
@@ -30995,7 +32158,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Claude Code регулярно отправляет транскрипт каждого фонового агента в его модель.",
 "title_orig": "Claude Code regularly sends each background agent’s transcript to its model"
 },
@@ -31033,7 +32196,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 37,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -31062,7 +32225,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Показать HN: SideProjects.com — 37 прибыльных проектов, созданных самостоятельно",
 "title_orig": "Show HN: SideProjects.com - 37 Bootstrapped Profitable Projects"
 },
@@ -31099,7 +32262,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 37,
 "type": "agent",
 "type_ru": "агент",
@@ -31125,7 +32288,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Запустите HN: TesterArmy (YC P26) — агенты, тестирующие веб- и мобильные приложения.",
 "title_orig": "Launch HN: TesterArmy (YC P26) – Agents that test web and mobile apps"
 },
@@ -31399,7 +32562,7 @@
 }
 },
 "first_seen": 1795568061.8895679,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 37,
 "type": "agent",
 "type_ru": "агент",
@@ -31427,7 +32590,7 @@
 ],
 "title_ru": "Память Amazon OpenSearch: дайте вашему агенту Strands постоянную память без создания системы памяти",
 "title_orig": "Amazon OpenSearch Memory: Give Your Strands Agent Persistent Memory Without Building a Memory System",
-"seen_count": 4
+"seen_count": 5
 },
 {
 "id": "k860c5571555d",
@@ -31698,7 +32861,7 @@
 }
 },
 "first_seen": 1795606125.495485,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 37,
 "type": "agent",
 "type_ru": "агент",
@@ -31726,7 +32889,7 @@
 ],
 "title_ru": "От автоматизации браузера к агентному шлюзу: расшифровка архитектуры интеграции между Walmart и Meta Muse",
 "title_orig": "Từ Browser Automation đến Agent Gateway: Giải mã kiến trúc tích hợp giữa Walmart và Meta Muse",
-"seen_count": 2
+"seen_count": 3
 },
 {
 "id": "k3b42cbffb901",
@@ -31758,7 +32921,7 @@
 }
 },
 "first_seen": 1795606125.495485,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 37,
 "type": "agent",
 "type_ru": "агент",
@@ -31786,7 +32949,7 @@
 ],
 "title_ru": "Агент ИИ считывает устаревшие данные из реплики чтения после записи",
 "title_orig": "AI Agent Reads Stale Data From a Read Replica After a Write",
-"seen_count": 2
+"seen_count": 3
 },
 {
 "id": "kc003cdb4a1ff",
@@ -31970,7 +33133,7 @@
 }
 },
 "first_seen": 1795626473.2553148,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 37,
 "type": "agent",
 "type_ru": "агент",
@@ -31997,7 +33160,8 @@
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
 "title_ru": "Как работает сервер Versine MCP?",
-"title_orig": "How does the Versine MCP server work?"
+"title_orig": "How does the Versine MCP server work?",
+"seen_count": 2
 },
 {
 "id": "kda8cfa89bc50",
@@ -32181,7 +33345,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 36,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -32206,7 +33370,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Я управляю несколькими MRR-компаниями с оборотом в 10 тысяч долларов, используя технологический стек стоимостью 20 долларов в месяц.",
 "title_orig": "I run multiple $10K MRR companies on a $20/month tech stack",
 "repo": "smhanov/laconic",
@@ -32276,7 +33440,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 36,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -32301,7 +33465,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Хакер пассивного дохода против стартапера",
 "title_orig": "Passive Income Hacker vs Startup Guy"
 },
@@ -32337,7 +33501,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 36,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -32362,7 +33526,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Ловушка «пассивного дохода» съела целое поколение предпринимателей",
 "title_orig": "The \"Passive Income\" trap ate a generation of entrepreneurs"
 },
@@ -32398,7 +33562,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 36,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -32423,7 +33587,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Достижение ежемесячного дохода в 10 тысяч долларов с помощью WakaTime, моего стороннего SaaS-проекта.",
 "title_orig": "Reaching $10k monthly revenue with WakaTime, my SaaS side project"
 },
@@ -32459,7 +33623,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 36,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -32484,7 +33648,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Две истории избытка пассивного дохода",
 "title_orig": "Two Stories of Passive Income Excess"
 },
@@ -32520,7 +33684,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 36,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -32545,7 +33709,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Я заработал 160 тысяч долларов пассивного дохода от написания научно-популярных книг.",
 "title_orig": "I earned $160k in passive income from writing non-fiction books"
 },
@@ -32581,7 +33745,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 36,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -32606,7 +33770,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Мой первый проект пассивного дохода, год спустя",
 "title_orig": "My First Passive Income Project, One Year Later"
 },
@@ -32642,7 +33806,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 36,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -32667,7 +33831,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Взгляд хакера пассивного дохода на богатство",
 "title_orig": "A Passive Income Hacker's View on Wealth"
 },
@@ -32703,7 +33867,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 36,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -32728,7 +33892,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Почему «пассивный доход» — опасная фантазия (2011)",
 "title_orig": "Why 'Passive Income' Is A Dangerous Fantasy (2011)"
 },
@@ -32764,7 +33928,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 36,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -32789,7 +33953,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "MailChimp: побочный проект, который превратился в бизнес с доходом в 700 миллионов долларов в год",
 "title_orig": "MailChimp: A side project that turned into a $700m/year revenue business"
 },
@@ -32822,7 +33986,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 36,
 "type": "tool",
 "type_ru": "инструмент",
@@ -32846,7 +34010,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "ИИ-агенты в кибербезопасности 2026: риски, защита и стоит ли учиться"
 },
 {
@@ -32878,7 +34042,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 36,
 "type": "tool",
 "type_ru": "инструмент",
@@ -32902,7 +34066,7 @@
 "Установите и повторите пример из документации.",
 "Решите им одну свою задачу и встройте в конвейер."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "n8n — масштабируем получение SMS и уведомлений с нескольких (десятков) SIM-карт одновременно",
 "repo": "Kenya-West/licenses",
 "repo_url": "https://github.com/Kenya-West/licenses",
@@ -33361,7 +34525,7 @@
 }
 },
 "first_seen": 1795456494.8166344,
-"last_seen": 1795606125.495485,
+"last_seen": 1795643462.732452,
 "score": 36,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -33386,7 +34550,7 @@
 "Запустите на своей нише на 1–2 недели, считайте просмотры → клиентов → деньги.",
 "Оставьте только то, что даёт конверсии, и автоматизируйте это полностью."
 ],
-"seen_count": 12,
+"seen_count": 13,
 "title_ru": "Как мы добились прибыльности нашего SaaS-стартапа",
 "title_orig": "How We Bootstrapped Our SaaS Startup to Ramen Profitability"
 },
@@ -33592,7 +34756,7 @@
 }
 },
 "first_seen": 1795491500.663054,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 36,
 "type": "case",
 "type_ru": "кейс с доходом",
@@ -33619,7 +34783,7 @@
 ],
 "title_ru": "Виртуальная метрология с самоконтролем для прогнозирования CMP MRR (SUTD, A*STAR, NUS)",
 "title_orig": "Self-Supervised Virtual Metrology For CMP MRR Prediction (SUTD, A*STAR, NUS)",
-"seen_count": 6
+"seen_count": 7
 },
 {
 "id": "ka4970bed8e81",
@@ -33808,7 +34972,7 @@
 }
 },
 "first_seen": 1795532484.8043973,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 36,
 "type": "agent",
 "type_ru": "агент",
@@ -33837,7 +35001,7 @@
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
 "title_ru": "Инференс, Lakehouse и ИИ-агенты: четыре события VK Tech в ноябре",
-"seen_count": 6
+"seen_count": 7
 },
 {
 "id": "ke9bd8665ccb9",
@@ -34345,7 +35509,7 @@
 }
 },
 "first_seen": 1795532484.8043973,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 36,
 "type": "guide",
 "type_ru": "гайд",
@@ -34374,7 +35538,7 @@
 ],
 "title_ru": "Почему большинство рабочих процессов n8n AI ломаются в производстве и как это исправить",
 "title_orig": "Why Most n8n AI Workflows Break in Production & How to Fix It",
-"seen_count": 6
+"seen_count": 7
 },
 {
 "id": "k9b41bd8d9678",
@@ -34939,7 +36103,7 @@
 }
 },
 "first_seen": 1795568061.8895679,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 36,
 "type": "guide",
 "type_ru": "гайд",
@@ -34996,7 +36160,7 @@
 ],
 "from_readme": true
 },
-"seen_count": 4
+"seen_count": 5
 },
 {
 "id": "k954d432e394b",
@@ -35529,6 +36693,241 @@
 "title_orig": "Harness Engineering — Agent Harness at the Source: Inside the Scaffold, Claude Code vs Codex CLI…"
 },
 {
+"id": "kf934f3ff3f79",
+"title": "15 pay-per-call tools for problems AI agents keep posting about",
+"url": "https://dev.to/fmf_tools/15-pay-per-call-tools-for-problems-ai-agents-keep-posting-about-kd7",
+"source": "devto",
+"source_label": "dev.to",
+"summary": "15 pay-per-call tools for problems AI agents keep posting about AI agents keep posting the same operational failures: a write times out and they cannot tell if it landed; an x402 resource validates but never shows up in discovery; docs describe a function that is not in the installed package version; a retry quietly charges twice. FMF Tools read those threads and built 15 pay-per-call APIs that answer those exact problems. There is no account and no API key. An unpaid request returns HTTP 402 and is not charged. You pay per successful call in USDC via x402 or MPP , typically $0.001 to $0.005. ",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F45cx7t8mjd1z6rcahnm7.png",
+"published": 1795640950.0,
+"popularity": 18,
+"extra": {
+"practical": {
+"score": 36,
+"type": "tool",
+"type_ru": "инструмент",
+"level": "средний",
+"needs": [
+"ПК",
+"API-ключ"
+],
+"money": "низкий",
+"is_ai": true,
+"penalty": 0,
+"signals": [
+"agent",
+"tool"
+]
+}
+},
+"first_seen": 1795643462.732452,
+"last_seen": 1795643462.732452,
+"score": 36,
+"type": "tool",
+"type_ru": "инструмент",
+"level": "средний",
+"needs": [
+"ПК",
+"API-ключ"
+],
+"money": "низкий",
+"signals": [
+"agent",
+"tool"
+],
+"tags": [
+"agent",
+"tool"
+],
+"summary_ru": "15 инструментов оплаты за вызов для решения проблем Агенты ИИ продолжают сообщать об одних и тех же операционных сбоях: агенты ИИ продолжают сообщать об одних и тех же операционных сбоях: время записи истекает, и они не могут определить, доставлена ​​ли она; Ресурс x402 проверяется, но никогда не отображается при обнаружении; документы описывают функцию, которой нет в установленной версии пакета; повторите попытку тихо… Зачем вам: готовый инструмент — ставится у себя и встраивается в ваш конвейер.",
+"steps": [
+"Источник: https://dev.to/fmf_tools/15-pay-per-call-tools-for-problems-ai-agents-keep-posting-about-kd7",
+"Откройте страницу инструмента, проверьте цену/лицензию и требования к ПК.",
+"Установите и повторите пример из документации.",
+"Решите им одну свою задачу и встройте в конвейер."
+],
+"title_ru": "15 инструментов оплаты за звонок для решения проблем, о которых постоянно пишут агенты ИИ",
+"title_orig": "15 pay-per-call tools for problems AI agents keep posting about"
+},
+{
+"id": "k004aad091b9b",
+"title": "What Actually Lands in Your Audit Trail When an AI Agent Queries a Database",
+"url": "https://dev.to/developerzai/what-actually-lands-in-your-audit-trail-when-an-ai-agent-queries-a-database-1n2l",
+"source": "devto",
+"source_label": "dev.to",
+"summary": "The problem with agent database access Most teams adopting AI agents for operational work hit the same wall. The agent needs data, and the easiest way to give it data is a connection string. Once that string exists in an agent config, an environment file, or a prompt, you have a credential outside your control that points at production. You can rotate it, but you cannot easily answer the question a security reviewer will ask six months later. Which human caused this query to run? db-mcp-gateway is a self-hosted MCP gateway that deals with this by removing the credential from the agent entirely",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F987yymwyvu3tulh2i7cn.png",
+"published": 1795635603.0,
+"popularity": 14,
+"extra": {
+"practical": {
+"score": 36,
+"type": "tool",
+"type_ru": "инструмент",
+"level": "средний",
+"needs": [
+"ПК"
+],
+"money": "низкий",
+"is_ai": true,
+"penalty": 0,
+"signals": [
+"agent",
+"tool"
+]
+}
+},
+"first_seen": 1795643462.732452,
+"last_seen": 1795643462.732452,
+"score": 36,
+"type": "tool",
+"type_ru": "инструмент",
+"level": "средний",
+"needs": [
+"ПК"
+],
+"money": "низкий",
+"signals": [
+"agent",
+"tool"
+],
+"tags": [
+"agent",
+"tool"
+],
+"summary_ru": "Проблема с доступом к базе данных агентов. Большинство команд, внедряющих ИИ-агенты для оперативной работы, сталкиваются с одной и той же проблемой. Агенту нужны данные, и самый простой способ предоставить ему данные — это строка подключения. Стек: Docker, Rust, ★ 5. Зачем вам: готовый инструмент — ставится у себя и встраивается в ваш конвейер.",
+"steps": [
+"Источник: https://dev.to/developerzai/what-actually-lands-in-your-audit-trail-when-an-ai-agent-queries-a-database-1n2l",
+"Откройте страницу инструмента, проверьте цену/лицензию и требования к ПК.",
+"Установите и повторите пример из документации.",
+"Решите им одну свою задачу и встройте в конвейер."
+],
+"title_ru": "Что на самом деле попадает в ваш контрольный журнал, когда агент ИИ запрашивает базу данных",
+"title_orig": "What Actually Lands in Your Audit Trail When an AI Agent Queries a Database",
+"repo": "developerz-ai/db-mcp-gateway",
+"repo_url": "https://github.com/developerz-ai/db-mcp-gateway",
+"build": {
+"repo": "developerz-ai/db-mcp-gateway",
+"url": "https://github.com/developerz-ai/db-mcp-gateway",
+"stack": [
+"Docker",
+"Rust"
+],
+"stars": 5,
+"license": "MIT",
+"homepage": "https://developerz-ai.github.io/db-mcp-gateway/",
+"steps": [
+{
+"t": "Поставьте заранее: Git, Docker Desktop, Rust (rustup)."
+},
+{
+"t": "Скачайте код репозитория:",
+"cmd": "git clone https://github.com/developerz-ai/db-mcp-gateway.git\ncd db-mcp-gateway"
+},
+{
+"t": "Создайте файл настроек .env.",
+"cmd": "cp .env.example .env"
+},
+{
+"t": "Установите и запустите — команды из README проекта (в порядке, как у автора):",
+"cmd": "docker pull ghcr.io/developerz-ai/db-mcp-gateway:2.6.2\nclaude mcp add --transport http db-gateway --scope project https://db.internal.acme.com/mcp"
+},
+{
+"t": "Если что-то не запускается — полная инструкция и настройки в README:",
+"link": "https://github.com/developerz-ai/db-mcp-gateway#readme"
+}
+],
+"from_readme": true
+}
+},
+{
+"id": "k8ba0f29bde65",
+"title": "I measured how well an AI assistant shops through MCP. Here is what broke.",
+"url": "https://dev.to/pirotskiy/i-measured-how-well-an-ai-assistant-shops-through-mcp-here-is-what-broke-1hp",
+"source": "devto",
+"source_label": "dev.to",
+"summary": "An assistant that shops for a buyer can fail in two ways: it finds the wrong part, or it finds the right part and then reasons badly about it. Most demos show neither. So I wrote a small open-source harness that measures both, against any store that speaks MCP over HTTP: mcp-commerce-evals (Rust, MIT). What is in it A reference store : an MCP server with four tools ( search_products , get_product , check_availability , create_cart ) over a generated catalog of 500 bicycle parts from 14 fictional brands. Everything is invented, so you can run it in a minute without an account or a key. 44 buyer",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F29wycdl7udap7ofvgiyi.png",
+"published": 1795631670.0,
+"popularity": 12,
+"extra": {
+"practical": {
+"score": 36,
+"type": "tool",
+"type_ru": "инструмент",
+"level": "продвинутый",
+"needs": [
+"ПК"
+],
+"money": "низкий",
+"is_ai": true,
+"penalty": 0,
+"signals": [
+"agent",
+"tool"
+]
+}
+},
+"first_seen": 1795643462.732452,
+"last_seen": 1795643462.732452,
+"score": 36,
+"type": "tool",
+"type_ru": "инструмент",
+"level": "продвинутый",
+"needs": [
+"ПК"
+],
+"money": "низкий",
+"signals": [
+"agent",
+"tool"
+],
+"tags": [
+"agent",
+"tool"
+],
+"summary_ru": "Помощник, который делает покупки для покупателя, может потерпеть неудачу по двум причинам: он находит не ту деталь или находит нужную деталь, а затем плохо рассуждает об этом. Большинство демо-версий не показывают ни того, ни другого. Поэтому я написал небольшую программу с открытым исходным кодом, которая измеряет оба показателя в сравнении с любым магазином, поддерживающим MCP через HTTP: mcp-commerce-evals (Rust, MIT). Стек: Rust. Зачем вам: готовый инструмент — ставится у себя и встраивается в ваш конвейер.",
+"steps": [
+"Источник: https://dev.to/pirotskiy/i-measured-how-well-an-ai-assistant-shops-through-mcp-here-is-what-broke-1hp",
+"Откройте страницу инструмента, проверьте цену/лицензию и требования к ПК.",
+"Установите и повторите пример из документации.",
+"Решите им одну свою задачу и встройте в конвейер."
+],
+"title_ru": "Я измерил, насколько хорошо ИИ-помощник совершает покупки через MCP. Вот что сломалось.",
+"title_orig": "I measured how well an AI assistant shops through MCP. Here is what broke.",
+"repo": "Vladimir-Pirotskiy/mcp-commerce-evals",
+"repo_url": "https://github.com/Vladimir-Pirotskiy/mcp-commerce-evals",
+"build": {
+"repo": "Vladimir-Pirotskiy/mcp-commerce-evals",
+"url": "https://github.com/Vladimir-Pirotskiy/mcp-commerce-evals",
+"stack": [
+"Rust"
+],
+"stars": 0,
+"license": "MIT",
+"homepage": "",
+"steps": [
+{
+"t": "Поставьте заранее: Git, Rust (rustup)."
+},
+{
+"t": "Скачайте код репозитория:",
+"cmd": "git clone https://github.com/Vladimir-Pirotskiy/mcp-commerce-evals.git\ncd mcp-commerce-evals"
+},
+{
+"t": "Установите и запустите — команды из README проекта (в порядке, как у автора):",
+"cmd": "cargo run --release -p reference-store          # listens on 127.0.0.1:8787\ncurl http://127.0.0.1:8787/health               # {\"status\":\"ok\"}\nclaude mcp add --transport http shop http://127.0.0.1:8787/mcp\ncargo run --release -p mcp-commerce-evals -- --url http://127.0.0.1:8787/mcp\ncargo fmt --all --check\ncargo clippy --locked --workspace --all-targets -- -D warnings   # includes clippy::pedantic\ncargo test --locked --workspace\ncargo deny --offline check licenses bans sources"
+},
+{
+"t": "Если что-то не запускается — полная инструкция и настройки в README:",
+"link": "https://github.com/Vladimir-Pirotskiy/mcp-commerce-evals#readme"
+}
+],
+"from_readme": true
+}
+},
+{
 "id": "kf121d2134059",
 "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
 "url": "https://github.com/GoogleChrome/modern-web-guidance",
@@ -35561,7 +36960,7 @@
 }
 },
 "first_seen": 1795456319.1463745,
-"last_seen": 1795626473.2553148,
+"last_seen": 1795643462.732452,
 "score": 35,
 "type": "agent",
 "type_ru": "агент",
@@ -35589,7 +36988,7 @@
 "Дайте агенту одну узкую задачу с измеримым результатом.",
 "Настройте расписание и отчёт в Telegram, чтобы агент работал без вас."
 ],
-"seen_count": 16,
+"seen_count": 17,
 "title_ru": "Покажите HN: перенесите своего агента кодирования с JavaScript 2019 года на современные веб-примитивы",
 "title_orig": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
 "repo": "GoogleChrome/modern-web-guidance",
