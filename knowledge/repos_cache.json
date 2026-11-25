@@ -452,6 +452,44 @@
 ],
 "url": "https://github.com/alibaba/qz-browser-agent"
 },
+"alicexixi85/geo-seo-mcp-pro": {
+"archived": false,
+"branch": "main",
+"commands": [
+"docker build -t geo-seo-readiness-lite .",
+"docker run -i --rm geo-seo-readiness-lite",
+"python3 server.py --check https://example.com",
+"python3 server.py --check https://your-site.com",
+"python3 server.py --check https://replay.usethelever.com/mds/en/trial"
+],
+"description": "Open-source GEO & SEO readiness probe for AI crawler access, llms.txt, structured data, sitemaps, and performance.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795568064.3357265,
+"full": "alicexixi85/geo-seo-mcp-pro",
+"homepage": "https://usethelever.com/tools/",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T16:55:17Z",
+"stack": [
+"Python",
+"Docker"
+],
+"stars": 1,
+"topics": [
+"ai-search",
+"chatgpt",
+"claude",
+"geo",
+"llms-txt",
+"mcp",
+"mcp-server",
+"seo"
+],
+"url": "https://github.com/alicexixi85/geo-seo-mcp-pro"
+},
 "apache/httpcomponents-core": {
 "archived": false,
 "branch": "master",
@@ -600,6 +638,53 @@
 "video-generation"
 ],
 "url": "https://github.com/avtomaster24bot-lab/trend-hunter"
+},
+"balanov/uncut": {
+"archived": false,
+"branch": "main",
+"commands": [
+"go install github.com/Balanov/uncut/cmd/uncut@latest",
+"go build -trimpath -ldflags=\"-s -w\" -o bin/uncut ./cmd/uncut",
+"export UNCUT_API_KEY=\"your-api-key\"",
+"export UNCUT_MODEL=\"your-model-id\"",
+"export UNCUT_BASE_URL=\"https://openrouter.ai/api/v1\"",
+"ollama pull qwen3:8b",
+"export UNCUT_BASE_URL=\"http://localhost:11434/v1\"",
+"export UNCUT_MODEL=\"qwen3:8b\"",
+"curl -fSLo uncut \"https://github.com/Balanov/uncut/releases/download/v${VERSION}/uncut-linux-${ARCH}\"",
+"mkdir -p \"$HOME/.local/bin\""
+],
+"description": "The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout, no silent cuts.",
+"env": [
+"OPENAI_API_KEY",
+"OPENAI_BASE_URL",
+"UNCUT_API_KEY",
+"UNCUT_BASE_URL"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795568064.9236107,
+"full": "Balanov/uncut",
+"homepage": "https://balanov.pro/uncut/",
+"language": "Go",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-15T01:00:32Z",
+"stack": [
+"Go"
+],
+"stars": 105,
+"topics": [
+"agent",
+"agent-harness",
+"agent-skills",
+"ai",
+"cli",
+"coding-agent",
+"go",
+"headless"
+],
+"url": "https://github.com/Balanov/uncut"
 },
 "better-vault/better-vault": {
 "archived": false,
@@ -787,6 +872,78 @@
 "multi-agent"
 ],
 "url": "https://github.com/Cattmonkey/ChaosIntelligence"
+},
+"chelslava/mia-padezh": {
+"archived": false,
+"branch": "main",
+"commands": [
+"dotnet run --project tools/MIA.Padezh.RulesGen"
+],
+"description": "Склонение русских ФИО по падежам для .NET — детерминированное, zero-dependency, AOT-friendly (преемник Petrovich)",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795568064.3182418,
+"full": "chelslava/MIA-Padezh",
+"homepage": "",
+"language": "C#",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T15:54:11Z",
+"stack": [
+"C#"
+],
+"stars": 3,
+"topics": [
+"csharp",
+"declension",
+"dotnet",
+"fio",
+"morphology",
+"names",
+"nuget",
+"petrovich"
+],
+"url": "https://github.com/chelslava/MIA-Padezh"
+},
+"chowyu12/aiclaw": {
+"archived": false,
+"branch": "master",
+"commands": [
+"curl -fsSL https://raw.githubusercontent.com/chowyu12/aiclaw/master/scripts/install-mac.sh | bash",
+"make dev       # build and launch the app",
+"make check     # full pre-merge check: format, vet, tests, types, both smoke suites",
+"make scenarios # pre-release scenarios against a real model: chat / files / commands / approvals / vision / images / TTS / STT / search / concurrency",
+"make help      # everything else"
+],
+"description": "A local-first Agent control plane for tools, skills, plans, and multi-channel automation.",
+"env": [
+"AICLAW_BASE_URL"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795568064.8538299,
+"full": "chowyu12/aiclaw",
+"homepage": "",
+"language": "Go",
+"license": "NOASSERTION",
+"ok": true,
+"pushed": "2026-11-24T10:58:50Z",
+"stack": [
+"Node.js",
+"Go",
+"Make"
+],
+"stars": 4,
+"topics": [
+"agent",
+"ai",
+"ai-agents",
+"golang",
+"openclaw",
+"skills"
+],
+"url": "https://github.com/chowyu12/aiclaw"
 },
 "cloveric/tarobird": {
 "archived": false,
@@ -1205,6 +1362,41 @@
 "phone-automation"
 ],
 "url": "https://github.com/DIYgod/pinky"
+},
+"docker/mcp-gateway": {
+"archived": false,
+"branch": "main",
+"commands": [
+"mkdir -p \"$HOME/.docker/cli-plugins/\"",
+"make docker-mcp",
+"docker mcp --help",
+"export DOCKER_MCP_IN_CONTAINER=1",
+"docker mcp feature enable profiles",
+"docker mcp profile create --name dev-tools \\",
+"docker mcp profile list",
+"docker mcp profile show <profile-id>",
+"docker mcp profile remove <profile-id>",
+"docker mcp profile export <profile-id> output.yaml"
+],
+"description": "docker mcp CLI plugin / MCP Gateway",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795568064.9043028,
+"full": "docker/mcp-gateway",
+"homepage": "",
+"language": "Go",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-19T17:01:41Z",
+"stack": [
+"Docker",
+"Go",
+"Make"
+],
+"stars": 1648,
+"topics": [],
+"url": "https://github.com/docker/mcp-gateway"
 },
 "dunhkpcc/claude-guardian": {
 "archived": false,
@@ -1900,6 +2092,41 @@
 "topics": [],
 "url": "https://github.com/GoogleChrome/modern-web-guidance"
 },
+"graphicle-ai/graphicle": {
+"archived": false,
+"branch": "main",
+"commands": [
+"brew install graphicle-ai/tap/graphicle",
+"cd your-repo"
+],
+"description": "Code graph and memory for your coding agents, in one Rust program. For Claude Code, Codex, Cursor and any MCP client.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795568064.344307,
+"full": "Graphicle-AI/graphicle",
+"homepage": "https://www.karlex.ai/graphicle",
+"language": "Rust",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-21T13:40:24Z",
+"stack": [
+"Docker",
+"Rust"
+],
+"stars": 624,
+"topics": [
+"agent-memory",
+"ai-agents",
+"claude-code",
+"code-analysis",
+"code-graph",
+"code-intelligence",
+"code-search",
+"codex"
+],
+"url": "https://github.com/Graphicle-AI/graphicle"
+},
 "graphify-labs/graphify": {
 "archived": false,
 "branch": "v8",
@@ -2162,6 +2389,40 @@
 "llm"
 ],
 "url": "https://github.com/iflytek/astron-agent"
+},
+"infosave2007/cmf": {
+"archived": false,
+"branch": "master",
+"commands": [
+"cargo install cortiq-cli --locked",
+"curl http://localhost:8080/v1/chat/completions -H \"Content-Type: application/json\" \\",
+"hf download gradium/phonon-40m-multilingual --local-dir phonon-source",
+"hf download infosave/phonon-40m-multilingual-cmf \\",
+"cargo build --release --workspace",
+"cargo build --release -p cortiq-cli --no-default-features  # CPU-only CLI",
+"cargo test --workspace",
+"cargo install cortiq-cli --features cuda",
+"hf download infosave/Qwen3.8-27B-cmf qwen38-27b-q4tp.cmf qwen38-27b-q4tp.dflash.cmf --local-dir .",
+"hf download infosave/LFM3-1.7B-cmf lfm3-1.7b-q8_2f.cmf --local-dir ."
+],
+"description": "One backbone, many specialists. CMF is a self-describing, memory-mappable single-file format and a dependency-free runtime for quantized LLMs — zero-copy execution on CPU or GPU (Vulkan · Metal · DX12) that overlays task-specialized skills onto one shared model, with no per-model duplication.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795568065.030202,
+"full": "infosave2007/cmf",
+"homepage": "",
+"language": "Rust",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-24T17:15:33Z",
+"stack": [
+"Rust",
+"Make"
+],
+"stars": 69,
+"topics": [],
+"url": "https://github.com/infosave2007/cmf"
 },
 "ink-q/agy-fast": {
 "archived": false,
@@ -3146,6 +3407,44 @@
 ],
 "url": "https://github.com/mir-ashiq/canvix"
 },
+"modelcontextprotocol/typescript-sdk": {
+"archived": false,
+"branch": "main",
+"commands": [
+"pnpm docs:api      # Generate the API reference markdown (output: docs/api/)",
+"pnpm docs:dev      # Start the VitePress dev server for the V2 site",
+"pnpm docs:build    # Build the V2 site (output: docs/.vitepress/dist/)",
+"pnpm docs:multi    # Build the combined V1 + V2 site (output: tmp/docs-combined/)",
+"npm install @modelcontextprotocol/server",
+"bun add @modelcontextprotocol/server",
+"deno add npm:@modelcontextprotocol/server",
+"npm install @modelcontextprotocol/client",
+"bun add @modelcontextprotocol/client",
+"deno add npm:@modelcontextprotocol/client"
+],
+"description": "The official TypeScript SDK for Model Context Protocol servers and clients",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795568064.8607943,
+"full": "modelcontextprotocol/typescript-sdk",
+"homepage": "https://ts.sdk.modelcontextprotocol.io/v2",
+"language": "TypeScript",
+"license": "NOASSERTION",
+"ok": true,
+"pushed": "2026-11-19T18:36:52Z",
+"stack": [
+"Node.js"
+],
+"stars": 13818,
+"topics": [
+"mcp",
+"mcp-client",
+"mcp-server",
+"typescript"
+],
+"url": "https://github.com/modelcontextprotocol/typescript-sdk"
+},
 "modelflare-ai/anymodelbot": {
 "archived": false,
 "branch": "master",
@@ -3706,6 +4005,33 @@
 ],
 "url": "https://github.com/open-net-worth-ai/open-net-worth"
 },
+"open-telemetry/semantic-conventions-genai": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "",
+"env": [],
+"envfile": "",
+"fallback": [
+"python -m venv .venv",
+"source .venv/bin/activate   # Windows: .venv\\Scripts\\activate",
+"pip install -e ."
+],
+"fetched": 1795568064.2022858,
+"full": "open-telemetry/semantic-conventions-genai",
+"homepage": "https://opentelemetry.io",
+"language": "Python",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-24T23:35:41Z",
+"stack": [
+"Make",
+"Python"
+],
+"stars": 562,
+"topics": [],
+"url": "https://github.com/open-telemetry/semantic-conventions-genai"
+},
 "open-webui/open-webui": {
 "archived": false,
 "branch": "main",
@@ -4057,6 +4383,43 @@
 ],
 "url": "https://github.com/phone-harness/mcp"
 },
+"pierridotite/mobile-agent-testers": {
+"archived": false,
+"branch": "main",
+"commands": [
+"gh repo create my-testers --public --template pierridotite/mobile-agent-testers --clone",
+"cd my-testers && ./setup.sh           # key pair + secrets + Claude token (Windows: .\\setup.ps1)",
+"gh workflow run agent-testers.yml     # demo: 2 Android + 2 iOS testers, ~20 min",
+"bash scripts/collect.sh <run id>      # decrypts reports, groups duplicates: runs/<id>/SUMMARY.md",
+"gh workflow run agent-testers.yml -f source_repo=you/app -f app_id=com.you.app \\"
+],
+"description": "20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code agents on iOS Simulators and Android emulators that find broken flows, translation, layout and accessibility bugs",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795568065.355074,
+"full": "pierridotite/mobile-agent-testers",
+"homepage": "",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T12:57:05Z",
+"stack": [
+"Python"
+],
+"stars": 1849,
+"topics": [
+"accessibility-testing",
+"ai-agents",
+"ai-testing",
+"android",
+"android-emulator",
+"claude",
+"claude-code",
+"e2e-testing"
+],
+"url": "https://github.com/pierridotite/mobile-agent-testers"
+},
 "pig-dot-dev/muscle-mem": {
 "archived": false,
 "branch": "main",
@@ -4163,6 +4526,40 @@
 "git"
 ],
 "url": "https://github.com/plandex-ai/plandex"
+},
+"psyseal/psyseal-scan": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npx psyseal-scan --lang en"
+],
+"description": "Free offline scan of your AI agent: what loads on every message, heartbeat costs, plaintext API keys and planted or bloated memory. CLI, agent skill and MCP server. Runs locally, sends nothing. MIT-0.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795568064.3063712,
+"full": "psyseal/psyseal-scan",
+"homepage": "https://psyseal.com",
+"language": "JavaScript",
+"license": "MIT-0",
+"ok": true,
+"pushed": "2026-11-24T22:33:59Z",
+"stack": [
+"Node.js",
+"Docker"
+],
+"stars": 0,
+"topics": [
+"agent-skills",
+"ai-agents",
+"ai-security",
+"claude-code",
+"cli",
+"hermes-agent",
+"llm-security",
+"mcp"
+],
+"url": "https://github.com/psyseal/psyseal-scan"
 },
 "qybaihe/bla": {
 "archived": false,
@@ -5027,6 +5424,48 @@
 "topics": [],
 "url": "https://github.com/superhq-ai/shuru"
 },
+"ta0p1/resolvelab": {
+"archived": false,
+"branch": "main",
+"commands": [
+"python -m pip install -e \".[dev]\"",
+"python examples/casedesk_quickstart.py",
+"python scripts/verify_casedesk_v2.py                                  # full, ~20 min",
+"python scripts/verify_casedesk_v2.py --dagger-every 20 --replay-every 10   # CI sample, ~4 min",
+"python scripts/verify_dialect_transfer.py                             # v0.5 study, full, ~25 min",
+"python -m pip install -e \".[dev]\" -r requirements-training.txt   # CUDA PyTorch first",
+"python scripts/run_casedesk_v2.py dev --v03-adapters <v0.3 .local dir>",
+"python scripts/lock_casedesk_v2.py",
+"python scripts/run_casedesk_v2.py test --three-demo --v03-adapters <v0.3 .local dir>",
+"python scripts/analyze_casedesk_v2.py test --output .local/v04/analysis-test"
+],
+"description": "Fault-injected tool environments with side-effect grading for evaluating and post-training LLM agents",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795568064.9847324,
+"full": "Ta0p1/ResolveLab",
+"homepage": "",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-09T20:52:30Z",
+"stack": [
+"Python"
+],
+"stars": 104,
+"topics": [
+"agent-evaluation",
+"ai-agents",
+"dagger",
+"fastapi",
+"fault-injection",
+"llm-agents",
+"ollama",
+"post-training"
+],
+"url": "https://github.com/Ta0p1/ResolveLab"
+},
 "tariqosmani/smai-leadgen": {
 "archived": false,
 "branch": "master",
@@ -5501,6 +5940,35 @@
 ],
 "url": "https://github.com/wonderpick/apify-b2b-ecom-automation-kit"
 },
+"worklore/worklore-mcp": {
+"archived": false,
+"branch": "main",
+"commands": [
+"curl -sO https://raw.githubusercontent.com/SidneyBissoli/mcp-br-commons/main/packages/mcp-surface/exemplos/verify.mjs",
+"node verify.mjs io.github.worklore/worklore 0.7.0",
+"python3 - <<'PY'",
+"PY",
+"claude mcp add --transport http worklore https://worklore.dev/mcp",
+"npx -y smithery mcp add worklore/worklore"
+],
+"description": "worklore MCP connector — remote MCP server exposing worklore stories + skill-xray capability disclosure to any agent",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795568064.3233538,
+"full": "worklore/worklore-mcp",
+"homepage": "",
+"language": "TypeScript",
+"license": null,
+"ok": true,
+"pushed": "2026-11-24T20:20:52Z",
+"stack": [
+"Node.js"
+],
+"stars": 0,
+"topics": [],
+"url": "https://github.com/worklore/worklore-mcp"
+},
 "xinatian/mroffice": {
 "archived": false,
 "branch": "main",
@@ -5576,6 +6044,33 @@
 "mcp"
 ],
 "url": "https://github.com/yjid/kensaku"
+},
+"yosolita1978/mcp-prompt-injection-sandbox": {
+"archived": false,
+"branch": "main",
+"commands": [
+"uv run server.py                  # terminal 1: MCP server on :8000",
+"mkdir -p gateway-data",
+"docker run --rm --name agentgateway --user \"$(id -u):$(id -g)\" --env-file .env \\"
+],
+"description": "",
+"env": [
+"ANTHROPIC_API_KEY",
+"SESSION_KEY"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795568065.4231768,
+"full": "Yosolita1978/mcp-prompt-injection-sandbox",
+"homepage": "",
+"language": "Shell",
+"license": null,
+"ok": true,
+"pushed": "2026-11-24T22:56:02Z",
+"stack": [],
+"stars": 0,
+"topics": [],
+"url": "https://github.com/Yosolita1978/mcp-prompt-injection-sandbox"
 },
 "zeekk0/openamika": {
 "archived": false,
