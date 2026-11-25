@@ -118,6 +118,32 @@
 ],
 "url": "https://github.com/Aevonix/FlashAlign"
 },
+"agent402-dev/agent402-toolkit": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npm install",
+"npm test",
+"npm run typecheck"
+],
+"description": "Open-source x402 toolkit for Solana AI agents: payments, token checks, and Agent402 Bond.",
+"env": [],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795572869.2749028,
+"full": "agent402-dev/agent402-toolkit",
+"homepage": "",
+"language": "TypeScript",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-25T02:08:35Z",
+"stack": [
+"Node.js"
+],
+"stars": 0,
+"topics": [],
+"url": "https://github.com/agent402-dev/agent402-toolkit"
+},
 "agentes-chat/agentes-chat": {
 "archived": false,
 "branch": "main",
@@ -591,6 +617,45 @@
 "gcp"
 ],
 "url": "https://github.com/Arvo-AI/aurora"
+},
+"arxhr007/lxask": {
+"archived": false,
+"branch": "main",
+"commands": [
+"curl -fsSLO https://github.com/arxhr007/lxask/releases/latest/download/install.sh",
+"sh install.sh                                   # about 1.1 GB, once; no root needed",
+"mkdir -p ~/.local/share/lxask",
+"mv lxask-round4-Q4_K_M.gguf ~/.local/share/lxask/model.gguf",
+"mv restrict-round4.gguf     ~/.local/share/lxask/restrict.gguf",
+"mv precision-round4.gguf    ~/.local/share/lxask/precision.gguf",
+"mv embed.gguf docs.sqlite   ~/.local/share/lxask/"
+],
+"description": "Offline Linux command assistant: a 1.5B model on your machine (About 1 GB disk, 1 GB RAM, no GPU, ~2 s per answer) that checks every command against the man pages and tldr. No cloud, no API key. Rust + llama.cpp",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795572869.1875424,
+"full": "arxhr007/lxask",
+"homepage": "https://arxhr007.github.io/lxask/",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T20:45:38Z",
+"stack": [
+"Python"
+],
+"stars": 203,
+"topics": [
+"ai",
+"cli",
+"linux",
+"llm",
+"llm-agent",
+"local-llm",
+"lora",
+"reinforcement-learning"
+],
+"url": "https://github.com/arxhr007/lxask"
 },
 "avtomaster24bot-lab/trend-hunter": {
 "archived": false,
@@ -3891,6 +3956,40 @@
 ],
 "url": "https://github.com/onecli/onecli"
 },
+"onehumanbeing/esp32-iphone-agent": {
+"archived": false,
+"branch": "main",
+"commands": [
+"cp ios/Config/Local.xcconfig.example ios/Config/Local.xcconfig   # set DEVELOPMENT_TEAM and IA_BUNDLE_ID",
+"claude mcp add esp32agent -- npx -y esp32agent mcp"
+],
+"description": "Manina AI: let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795572869.334574,
+"full": "onehumanbeing/esp32-iphone-agent",
+"homepage": "https://manina.ai?ref=github",
+"language": "Swift",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T18:34:30Z",
+"stack": [
+"Swift"
+],
+"stars": 5320,
+"topics": [
+"ai-agent",
+"airplay",
+"claude-code",
+"computer-use",
+"esp32",
+"esp32-s3",
+"ios",
+"ios-automation"
+],
+"url": "https://github.com/onehumanbeing/esp32-iphone-agent"
+},
 "onkernel/kernel-images": {
 "archived": false,
 "branch": "main",
@@ -5155,6 +5254,40 @@
 ],
 "url": "https://github.com/SonawaneMayur/agentscan"
 },
+"sonicloudtech/mouse-mcp": {
+"archived": false,
+"branch": "main",
+"commands": [
+"cd mcp/acceptance",
+"node run-matrix.mjs"
+],
+"description": "Hardware mouse MCP server for AI agents on Windows x64. USB HID control and voice dictation; requires compatible uMouse hardware and firmware. 面向 AI 智能体的硬件鼠标 MCP：USB HID 控制与语音听写，需要兼容的 uMouse 设备与固件。",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795572869.6038995,
+"full": "SonicloudTech/mouse-mcp",
+"homepage": "https://sinicloud.com/",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-10-31T08:57:37Z",
+"stack": [
+"Node.js"
+],
+"stars": 565,
+"topics": [
+"ai-agents",
+"computer-use",
+"desktop-automation",
+"hardware",
+"hid",
+"mcp",
+"mcp-server",
+"model-context-protocol"
+],
+"url": "https://github.com/SonicloudTech/mouse-mcp"
+},
 "souravberaakaspeed/xiryn": {
 "archived": false,
 "branch": "main",
@@ -5424,6 +5557,40 @@
 "topics": [],
 "url": "https://github.com/superhq-ai/shuru"
 },
+"swapripper/swap-ripper": {
+"archived": false,
+"branch": "main",
+"commands": [
+"claude mcp add --transport http swap-ripper https://swap-ripper.szydlow45.workers.dev/mcp",
+"curl -s -X POST https://swap-ripper.szydlow45.workers.dev/api/x402 -H 'content-type: application/json' -d '{\"payment_required\": <the 402 body>}'"
+],
+"description": "MCP server for AI agents: pay x402 (HTTP 402) invoices from any chain, cross-chain swaps on 25+ chains, gas refuel. No API key, non-custodial. NEAR Intents.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795572869.2257915,
+"full": "swapripper/swap-ripper",
+"homepage": "https://swap-ripper.szydlow45.workers.dev",
+"language": "JavaScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-25T02:13:33Z",
+"stack": [
+"Node.js"
+],
+"stars": 0,
+"topics": [
+"agent-payments",
+"ai-agents",
+"cross-chain",
+"crypto",
+"http-402",
+"mcp",
+"mcp-server",
+"near-protocol"
+],
+"url": "https://github.com/swapripper/swap-ripper"
+},
 "ta0p1/resolvelab": {
 "archived": false,
 "branch": "main",
@@ -5523,6 +5690,48 @@
 "stars": 5,
 "topics": [],
 "url": "https://github.com/temporal-community/temporal-ai-mcp-gateway"
+},
+"threatdefence/agentic-attack-detections": {
+"archived": false,
+"branch": "main",
+"commands": [
+"mkdir -p out",
+"pip install -r tools/requirements.txt",
+"python3 tools/validate.py                              # Sigma, KQL, ES|QL, TOML, Splunk, Suricata SIDs, YARA, Zeek, osquery, feeds",
+"python3 -m unittest discover -s tests/feeds            # indicator confidence, expiry and SID policy",
+"python3 tests/sigma/run_tests.py                       # Sigma rules against test events",
+"python3 tests/kql/run_tests.py                         # hunts and analytics against sample rows; needs the Kusto emulator",
+"python3 tools/convert.py                               # regenerate generated/",
+"python3 tools/build_waf.py                             # regenerate waf/",
+"python3 tests/waf/run_tests.py                         # offline checks of the WAF rules on every platform",
+"python3 tools/build_release.py                         # build the release downloads into dist/"
+],
+"description": "Detection rules and IOCs for AI agent attack frameworks: ARTEX, Cairn, PentAGI, HexStrike, CyberStrikeAI, Strix, Hermes Agent, Agent Zero, RedAmon, Xalgorix, Pentest Swarm AI. KQL hunts for Microsoft Sentinel and Defender XDR, Sigma, Suricata, Zeek, YARA, Splunk, Elastic, STIX 2.1.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795572869.2486174,
+"full": "ThreatDefence/agentic-attack-detections",
+"homepage": "https://threatdefence.com/article/artex-agentic-attack-framework-detection-hunting",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-25T02:06:09Z",
+"stack": [
+"Python"
+],
+"stars": 631,
+"topics": [
+"agentic-ai",
+"ai-security",
+"blue-team",
+"defender-xdr",
+"detection-engineering",
+"ioc",
+"kql",
+"llm-security"
+],
+"url": "https://github.com/ThreatDefence/agentic-attack-detections"
 },
 "tiger-ai-lab/websitebench": {
 "archived": false,

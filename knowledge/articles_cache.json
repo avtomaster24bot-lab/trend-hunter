@@ -50,6 +50,11 @@
 "repo": null,
 "t": 1795492442.1035676
 },
+"https://briefs.aiadvances.org/your-ai-agent-is-an-insider-too-9aae9abf9d81?source=rss------ai_agents-5": {
+"ok": false,
+"status": 403,
+"t": 1795572868.5660188
+},
 "https://dev.to/10xgraph/ai-agents-in-fall-2026-what-changed-and-how-to-build-for-it-with-10xgraph-2f1b": {
 "desc": "Cheaper models, a stateless MCP spec, MCP CVEs, approvals everywhere and EU transparency rules: what... Tagged with ai, agents, mcp, python.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fr5icd9507hwtq8y9yxb0.png",
@@ -70,6 +75,13 @@
 "ok": true,
 "repo": null,
 "t": 1795568063.3606596
+},
+"https://dev.to/agent402dev/see-what-your-ai-agent-would-pay-for-in-one-minute-with-no-wallet-4e0k": {
+"desc": "Most x402 tutorials start with \"create a wallet and fund it\". That is a lot to ask before you know... Tagged with mcp, ai, solana, x402.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxxwxp23q77752wbflux2.png",
+"ok": true,
+"repo": "agent402-dev/agent402-toolkit",
+"t": 1795572868.546763
 },
 "https://dev.to/agentsearchhq/mcp-web-search-server-add-live-web-search-to-any-mcp-client-no-api-key-339c": {
 "desc": "Set up an MCP web search server in one line with npx. Works in Claude Code, Cursor, VS Code and your own MCP client. No API key needed. Tagged with mcp, ai, webdev, tutorial.",
@@ -190,6 +202,13 @@
 "repo": null,
 "t": 1795541523.7998424
 },
+"https://dev.to/doykim0903/whose-agent-is-it-the-principal-agent-problem-inside-llm-agents-and-how-to-engineer-around-it-4gca": {
+"desc": "A recent post, \"LLM agents work for their parent companies, not for you\" by Michael Harley, starts... Tagged with ai, llm, tutorial, opensource.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fteppchumnaemr2900b1u.png",
+"ok": true,
+"repo": null,
+"t": 1795572868.5467553
+},
 "https://dev.to/druveai/i-hand-ported-dozens-of-n8n-ai-templates-into-standalone-agents-here-is-what-broke-c04": {
 "desc": "Over the last ten days I have been porting n8n AI templates into single-file JavaScript agents, one... Tagged with n8n, ai, javascript, automation.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsm3o8is1gmt0nyiss1sc.png",
@@ -204,6 +223,13 @@
 "repo": null,
 "t": 1795532486.6224945
 },
+"https://dev.to/eduardo_aghernandez_5/how-to-automate-everafter-master-wedding-command-center-google-sheets-suite-pro-commercial-suite-63n": {
+"desc": "A complete guide to automating EverAfter Master Wedding Command Center & Google Sheets Suite: Pro Commercial Suite 2026 with an offline-first tool suite and zero recurring fees. Tagged with productivity, tools, automation, tech.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fiili.io%2Fofk9PS4.gif",
+"ok": true,
+"repo": null,
+"t": 1795572868.5467584
+},
 "https://dev.to/elliot_brenya/foxits-mcp-server-lets-claude-vs-code-and-cursor-work-with-your-pdfs-dfd": {
 "desc": "Sponsored post: I'm being paid to share this guide. If you've built anything that handles PDFs, you... Tagged with ai, mcp, tooling, productivity.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ft5ijqn87d91xgxxhi7xz.png",
@@ -217,6 +243,13 @@
 "ok": true,
 "repo": null,
 "t": 1795492435.4582129
+},
+"https://dev.to/eric_johnson/your-agent-got-an-http-402-but-its-money-is-on-the-wrong-chain-heres-the-fix-3j26": {
+"desc": "x402 is quickly becoming the way AI agents pay for APIs. The server answers with 402 Payment Required... Tagged with ai, mcp, x402, crypto.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Flqmyyg5aspy5sl8ejo56.png",
+"ok": true,
+"repo": "swapripper/swap-ripper",
+"t": 1795572868.5805585
 },
 "https://dev.to/femi_akinyemi/foxit-mcp-server-let-your-ai-agent-do-the-pdf-work-2e1g": {
 "desc": "Working with PDFs in code is mostly plumbing. You upload the file, start a job, poll until it's done,... Tagged with mcp, ai, pdf, productivity.",
@@ -258,6 +291,13 @@
 "repo": null,
 "t": 1795532486.6190257
 },
+"https://dev.to/goldct/a-hyperliquid-bot-made-106m-in-24-hours-on-167b-of-volume-i-watched-it-trade-live-40o9": {
+"desc": "At 01:25 UTC this morning I pulled the API of HyperRadar — the Hyperliquid smart-money tracker I run.... Tagged with crypto, datascience, sideprojects.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fvodstvet80ro6k0danon.png",
+"ok": true,
+"repo": null,
+"t": 1795572868.5467496
+},
 "https://dev.to/greatworkco/how-to-fix-mcp-error-32000-connection-closed-1all": {
 "desc": "The MCP server process exited and the client lost its pipe. The real crash is in the server's stderr: a startup error or an uncaught exception. Tagged with mcp, typescript, ai, debugging.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fbgjyl4vhmpxmgklw7zgf.png",
@@ -271,6 +311,13 @@
 "ok": true,
 "repo": null,
 "t": 1795492444.1512434
+},
+"https://dev.to/harry_jees/i-completed-openai-academys-get-started-with-codex-43m": {
+"desc": "I've recently completed Get Started with Codex through OpenAI Academy. As AI-assisted and agentic... Tagged with agents, ai, learning, openai.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fpfqjd4mrbec3qoduj8i7.jpg",
+"ok": true,
+"repo": null,
+"t": 1795572868.5467365
 },
 "https://dev.to/hassann/how-to-use-glm-54-in-claude-code-and-cursor-6jo": {
 "desc": "A GLM-5.4 Claude Code setup takes three moves: subscribe to Z.ai's GLM Coding Plan, point... Tagged with ai, claude, coding, llm.",
@@ -446,6 +493,13 @@
 "ok": true,
 "repo": "webmachinelearning/webmcp",
 "t": 1795492436.834781
+},
+"https://dev.to/maninaai/how-to-test-your-ios-app-on-a-real-iphone-with-an-ai-agent-4fdf": {
+"desc": "Let an AI agent on your computer walk through your iOS app on a real iPhone, the way a user would. A $7 ESP32 board, one CLI, no jailbreak, and nothing added to your app. Tagged with ios, testing, ai, mcp.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Foat6j4bve0ppiyht4x6h.png",
+"ok": true,
+"repo": "onehumanbeing/esp32-iphone-agent",
+"t": 1795572868.5467467
 },
 "https://dev.to/martinschaer/how-to-build-a-company-brain-where-to-start-and-what-it-costs-351c": {
 "desc": "To build a company brain, start with one workflow where missing context hurts, such as product and... Tagged with ai, agents.",
@@ -636,6 +690,13 @@
 "repo": null,
 "t": 1795532487.0682683
 },
+"https://dev.to/scriptmasterlabs01/how-do-google-workspace-mcp-servers-work-5chk": {
+"desc": "How do Google Workspace MCP servers work? ScriptMasterLabs - measured November 24, 2026.... Tagged with ai, api, automation, webdev.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fhc2sa04aeket49p4997o.png",
+"ok": true,
+"repo": null,
+"t": 1795572868.5467608
+},
 "https://dev.to/scriptmasterlabs01/how-does-mesh-mcp-work-bff": {
 "desc": "How does Mesh MCP work? ScriptMasterLabs - measured November 24, 2026. Primary source:... Tagged with x402, mcp, aiagents, payments.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F3v1ac9xezh48bpvrvqre.png",
@@ -656,6 +717,13 @@
 "ok": true,
 "repo": null,
 "t": 1795492438.0054958
+},
+"https://dev.to/sebbasstian/tan-cong-qua-ai-agent-khuyen-nghi-cua-canada-va-nhung-dieu-nhom-cua-ban-can-biet-3lgh": {
+"desc": "TL;DR: Các cuộc tấn công mạng bằng AI agent không còn là dự đoán. Trung tâm An ninh mạng Canada cho... Tagged with agents, ai, cybersecurity, security.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Ffile-assets.sharkly.ai%2Fblog-next%2F2026%2F11%2Fheader-110.png",
+"ok": true,
+"repo": "ThreatDefence/agentic-attack-detections",
+"t": 1795572868.5467417
 },
 "https://dev.to/selfhostcalc/stackcost-weekly-n8n-hosting-price-check-nov-23-2026-1a37": {
 "desc": "My weekly check of what it really costs to run n8n on the hosts people ask about most. I re-checked... Tagged with n8n, selfhosted, devops, automation.",
@@ -762,6 +830,13 @@
 "repo": null,
 "t": 1795492443.1868658
 },
+"https://dev.to/stackscale/extract-payslip-data-to-google-sheets-with-make-and-openai-24kk": {
+"desc": "Every month a payslip lands in your inbox as a PDF, and someone types the numbers into a sheet by... Tagged with automation, nocode, ai, tutorial.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftrc4oa8qxv24ajl5rir1.png",
+"ok": true,
+"repo": null,
+"t": 1795572868.5467653
+},
 "https://dev.to/sugukavi/dont-build-your-first-toone-routine-from-scratch-steal-one-from-explore-and-rebuild-it-2mj8": {
 "desc": "Toone, notes from its official site, pricing page, Explore library, and launch posts. Independent... Tagged with ai, automation, macos, productivity.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fpo6okt30e8ex7kdszic6.png",
@@ -859,6 +934,13 @@
 "ok": true,
 "repo": null,
 "t": 1795532486.6190445
+},
+"https://dev.to/truecostb2b/n8n-vs-make-vs-zapier-in-2026-the-real-math-of-executions-credits-tasks-and-self-hosting-53on": {
+"desc": "Affiliate &amp; Methodology Disclosure: Some vendor links in our interactive calculators (such as... Tagged with n8n, automation, saas, devops.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F24g5vxe3fytn5vjlk2pe.png",
+"ok": true,
+"repo": null,
+"t": 1795572868.5467522
 },
 "https://dev.to/tsahospitalbeep/how-i-built-a-whatsapp-mcp-server-that-paces-itself-like-a-person-5dgd": {
 "desc": "A WhatsApp reply can have several outcomes before anyone receives it. I can decide to leave it as a... Tagged with mcp, whatsapp, opensource, ai.",
