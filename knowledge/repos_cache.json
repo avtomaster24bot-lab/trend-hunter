@@ -214,6 +214,38 @@
 ],
 "url": "https://github.com/agentes-chat/agentes-chat"
 },
+"agno-agi/agno": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "The self-managing agent platform",
+"env": [],
+"envfile": "",
+"fallback": [
+"python -m venv .venv",
+"source .venv/bin/activate   # Windows: .venv\\Scripts\\activate",
+"pip install -e ."
+],
+"fetched": 1795711601.6486468,
+"full": "agno-agi/agno",
+"homepage": "https://docs.agno.com",
+"language": "Python",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-26T16:45:41Z",
+"stack": [
+"Python"
+],
+"stars": 43315,
+"topics": [
+"agents",
+"ai",
+"ai-agents",
+"developer-tools",
+"python"
+],
+"url": "https://github.com/agno-agi/agno"
+},
 "ahmed-manai/docs-rag-mcp": {
 "archived": false,
 "branch": "main",
@@ -3277,6 +3309,43 @@
 ],
 "url": "https://github.com/jammaru/sakutto"
 },
+"johnwayneeee/free-seo-mcp": {
+"archived": false,
+"branch": "main",
+"commands": [
+"uv sync",
+"claude mcp add free-seo -- uv run --directory /path/to/free-seo-mcp free-seo-mcp",
+"uv run ruff check && uv run ruff format --check",
+"uv run pytest -q          # offline, mocked",
+"uv run pytest -m live     # real endpoints"
+],
+"description": "Free keyword research MCP server for Claude and Cursor. Pulls autocomplete, Google Trends, Bing search volume, Reddit threads and competitor sitemaps with no paid API.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795711601.6399832,
+"full": "JohnWayneeee/free-seo-mcp",
+"homepage": "",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-10-24T16:27:14Z",
+"stack": [
+"Python"
+],
+"stars": 7,
+"topics": [
+"ahrefs-alternative",
+"claude-code",
+"google-trends",
+"keyword-research",
+"mcp",
+"mcp-server",
+"model-context-protocol",
+"seo"
+],
+"url": "https://github.com/JohnWayneeee/free-seo-mcp"
+},
 "josssphzhou/poki": {
 "archived": false,
 "branch": "main",
@@ -4270,6 +4339,31 @@
 "mcp"
 ],
 "url": "https://github.com/modelcontextprotocol/ext-server-card"
+},
+"modelcontextprotocol/ext-skills": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "MCP Extension for Skills discovery and distribution through MCP primitives. Maintained by the Skills Over MCP Working Group.",
+"env": [],
+"envfile": "",
+"fallback": [
+"npm install",
+"npm run dev   # или npm start — смотрите scripts в package.json"
+],
+"fetched": 1795711601.67497,
+"full": "modelcontextprotocol/ext-skills",
+"homepage": "",
+"language": "TypeScript",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-25T15:04:57Z",
+"stack": [
+"Node.js"
+],
+"stars": 834,
+"topics": [],
+"url": "https://github.com/modelcontextprotocol/ext-skills"
 },
 "modelcontextprotocol/typescript-sdk": {
 "archived": false,
@@ -7220,6 +7314,35 @@
 "vibe-coding"
 ],
 "url": "https://github.com/upstash/context7"
+},
+"vaibhavsw942/llm-chatbot": {
+"archived": false,
+"branch": "main",
+"commands": [
+"python -m venv venv",
+"pip install -r requirements.txt",
+"copy .env.example .env",
+"python app.py"
+],
+"description": "",
+"env": [
+"GEMINI_API_KEY"
+],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795711601.6770349,
+"full": "vaibhavsw942/LLM-Chatbot",
+"homepage": "",
+"language": "Python",
+"license": null,
+"ok": true,
+"pushed": "2026-11-24T16:48:37Z",
+"stack": [
+"Python"
+],
+"stars": 1,
+"topics": [],
+"url": "https://github.com/vaibhavsw942/LLM-Chatbot"
 },
 "vladimir-pirotskiy/mcp-commerce-evals": {
 "archived": false,
