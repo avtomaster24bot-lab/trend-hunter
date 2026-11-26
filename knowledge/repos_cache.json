@@ -595,6 +595,34 @@
 ],
 "url": "https://github.com/alicexixi85/geo-seo-mcp-pro"
 },
+"anthropics/claude-code": {
+"archived": false,
+"branch": "main",
+"commands": [
+"curl -fsSL https://claude.ai/install.sh | bash",
+"brew install --cask claude-code",
+"irm https://claude.ai/install.ps1 | iex",
+"winget install Anthropic.ClaudeCode",
+"npm install -g @anthropic-ai/claude-code"
+],
+"description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795701822.8510556,
+"full": "anthropics/claude-code",
+"homepage": "https://code.claude.com/docs/en/overview",
+"language": "TypeScript",
+"license": null,
+"ok": true,
+"pushed": "2026-11-26T13:17:58Z",
+"stack": [
+"Node.js"
+],
+"stars": 157168,
+"topics": [],
+"url": "https://github.com/anthropics/claude-code"
+},
 "anthropics/claude-plugins-official": {
 "archived": false,
 "branch": "main",
@@ -624,6 +652,49 @@
 "skills"
 ],
 "url": "https://github.com/anthropics/claude-plugins-official"
+},
+"antoniocardenas/unmistakable": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npx skills add AntonioCardenas/unmistakable",
+"cd evals/fixtures && python3 ../../scripts/detect_slop.py slop-landing.html",
+"python3 ../../scripts/detect_slop.py unmistakable-landing.html",
+"python3 scripts/detect_slop.py src/                      # human-readable report with fixes",
+"python3 scripts/detect_slop.py src/ --fail-on P1         # exit 2 only for P0/P1 findings",
+"python3 scripts/detect_slop.py src/ --json               # machine-readable for agents",
+"python3 scripts/detect_slop.py src/ --sarif > out.sarif  # GitHub code scanning",
+"python3 scripts/detect_slop.py --list-rules              # all 57 rules",
+"python3 scripts/check_foundations.py .                   # 18 ship-readiness gates",
+"npm test   # unit tests, fixture checks, and skill-structure validation"
+],
+"description": "Anti-slop frontend design skill for coding agents: bans purple gradients, neon glows, glass cards, heavy shadows, and mixed icon sets, keeps micrographics in one graphic language, with a 57-rule offline scanner, living design systems",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795701822.8341963,
+"full": "AntonioCardenas/unmistakable",
+"homepage": "",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-26T07:11:05Z",
+"stack": [
+"Node.js",
+"Python"
+],
+"stars": 1,
+"topics": [
+"agent-skills",
+"ai",
+"anti-slop",
+"antigravity",
+"claude-code",
+"claude-skills",
+"codex-skill",
+"cursor"
+],
+"url": "https://github.com/AntonioCardenas/unmistakable"
 },
 "apache/httpcomponents-core": {
 "archived": false,
@@ -3925,6 +3996,51 @@
 ],
 "url": "https://github.com/m-mustufa/ai-api-cost-mcp"
 },
+"maziyarpanahi/openmed": {
+"archived": false,
+"branch": "master",
+"commands": [
+"./install-skills.sh          # installs for Claude Code, Codex, OpenCode, and ~/.agents/skills",
+"pip install --upgrade \"openmed[hf]\"",
+"pip install --upgrade \"openmed[hf,service]\"",
+"pip install --upgrade \"openmed[mlx]\"",
+"curl -X POST http://127.0.0.1:8080/pii/extract \\",
+"curl -X POST http://127.0.0.1:8080/models/unload -H \"Content-Type: application/json\" -d '{\"all\":true}'",
+"python examples/v30_clinical_brief.py",
+"npm install openmed @huggingface/transformers",
+"python -m openmed.service.logging \\",
+"python -m openmed.onnx.convert \\"
+],
+"description": "Local-first healthcare AI: clinical NER and HIPAA PII de-identification on hardware you control. 2,200+ medical models, 35 model-backed PII languages, and Python, MLX, Android and browser runtimes. Apache-2.0 SDK.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795701822.285082,
+"full": "maziyarpanahi/openmed",
+"homepage": "https://openmed.life/",
+"language": "Python",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-25T21:11:02Z",
+"stack": [
+"Python",
+"Docker",
+"Docker Compose",
+"Make"
+],
+"stars": 5849,
+"topics": [
+"android",
+"clinical-nlp",
+"healthcare",
+"hipaa",
+"ios",
+"javascript",
+"llm",
+"local-llm"
+],
+"url": "https://github.com/maziyarpanahi/openmed"
+},
 "mdiri-ai/soduwork": {
 "archived": false,
 "branch": "main",
@@ -4123,6 +4239,37 @@
 "konva"
 ],
 "url": "https://github.com/mir-ashiq/canvix"
+},
+"modelcontextprotocol/ext-server-card": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npm install",
+"npm run generate         # regenerates schema.json from schema.ts",
+"npm run validate         # runs all examples through ajv against schema.json",
+"npm run check            # asserts schema.json is in sync with schema.ts and tsc passes",
+"npm run format           # prettier write"
+],
+"description": "",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795701822.9291086,
+"full": "modelcontextprotocol/ext-server-card",
+"homepage": "",
+"language": "TypeScript",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-19T00:11:33Z",
+"stack": [
+"Node.js"
+],
+"stars": 14,
+"topics": [
+"extension",
+"mcp"
+],
+"url": "https://github.com/modelcontextprotocol/ext-server-card"
 },
 "modelcontextprotocol/typescript-sdk": {
 "archived": false,
@@ -4786,6 +4933,38 @@
 ],
 "url": "https://github.com/onlyreadai/onlyread"
 },
+"onlywanggg/weiyi-ai-apify-starter": {
+"archived": false,
+"branch": "main",
+"commands": [
+"pip install apify-client"
+],
+"description": "Zero-bloat Python & MCP starter kit for RAG docs chunking, GEO AI Search audits, and automated webpage/pricing diff monitoring.",
+"env": [
+"APIFY_TOKEN"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795701822.0422506,
+"full": "OnlyWanggg/weiyi-ai-apify-starter",
+"homepage": "https://apify.com/weiyi-ai",
+"language": null,
+"license": null,
+"ok": true,
+"pushed": "2026-11-26T13:50:45Z",
+"stack": [],
+"stars": 0,
+"topics": [
+"ai-agents",
+"apify",
+"geo",
+"langchain",
+"llm",
+"mcp",
+"rag"
+],
+"url": "https://github.com/OnlyWanggg/weiyi-ai-apify-starter"
+},
 "open-net-worth-ai/open-net-worth": {
 "archived": false,
 "branch": "main",
@@ -5112,6 +5291,53 @@
 ],
 "url": "https://github.com/pachca/openapi"
 },
+"paperclipai/paperclip": {
+"archived": false,
+"branch": "master",
+"commands": [
+"npx paperclipai@latest onboard --yes",
+"npm config get registry",
+"npx --registry https://registry.npmjs.org paperclipai@latest onboard --yes",
+"npx paperclipai@latest onboard --yes --bind lan",
+"npx paperclipai@latest onboard --yes --bind tailnet",
+"pnpm install",
+"pnpm dev",
+"pnpm dev              # Full dev (API + UI, watch mode)",
+"pnpm dev:once         # Full dev without file watching",
+"pnpm dev:server       # Server only"
+],
+"description": "The open-source app everyone uses to manage agents at work",
+"env": [
+"ANTHROPIC_API_KEY",
+"OPENAI_API_KEY",
+"OPENROUTER_API_KEY"
+],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795701822.7776885,
+"full": "paperclipai/paperclip",
+"homepage": "https://paperclip.ing",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-26T14:01:16Z",
+"stack": [
+"Node.js",
+"Docker"
+],
+"stars": 117256,
+"topics": [
+"acpx",
+"agent-orchestration",
+"agent-skills",
+"agentic-ai",
+"ai-agents",
+"ai-engineering",
+"ai-governance",
+"ai-tools"
+],
+"url": "https://github.com/paperclipai/paperclip"
+},
 "patch-gg/pixelfx": {
 "archived": false,
 "branch": "main",
@@ -5336,6 +5562,30 @@
 ],
 "url": "https://github.com/Pipelex/pipelex"
 },
+"plainrouter/meta-ads-mcp-benchmarks": {
+"archived": false,
+"branch": "main",
+"commands": [
+"node scripts/audit.mjs"
+],
+"description": "Reproducible static audit of Meta Ads MCP servers: tool count, schema footprint, and write safety",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795701822.1979117,
+"full": "plainrouter/meta-ads-mcp-benchmarks",
+"homepage": "",
+"language": "JavaScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-25T07:54:23Z",
+"stack": [
+"Node.js"
+],
+"stars": 0,
+"topics": [],
+"url": "https://github.com/plainrouter/meta-ads-mcp-benchmarks"
+},
 "plandex-ai/plandex": {
 "archived": false,
 "branch": "main",
@@ -5413,6 +5663,46 @@
 ],
 "url": "https://github.com/princejain756/ctxvitals"
 },
+"prismml-eng/bonsai-demo": {
+"archived": false,
+"branch": "main",
+"commands": [
+"export BONSAI_MODEL=4B    # 2B, 4B, or 9B (Bonsai 2); add BONSAI_FAMILY=bonsai2 for its 27B",
+"./setup.sh",
+".\\setup.ps1",
+"git clone -b prism https://github.com/PrismML-Eng/llama.cpp.git",
+"cd llama.cpp",
+"cmake -B build -DCMAKE_BUILD_TYPE=Release -DGGML_VULKAN=ON",
+"cmake --build build -j$(nproc)",
+"cmake -B build -DCMAKE_BUILD_TYPE=Release -DGGML_HIP=ON",
+"cmake -B build -DCMAKE_BUILD_TYPE=Release",
+"cmake --build build --config Release"
+],
+"description": "Bonsai Demo",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795701823.911618,
+"full": "PrismML-Eng/Bonsai-demo",
+"homepage": "https://prismml.com/",
+"language": "Shell",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-26T03:04:56Z",
+"stack": [
+"Python"
+],
+"stars": 3613,
+"topics": [
+"bonsai",
+"llamacpp",
+"llm",
+"mlx",
+"prism-ml",
+"small-models"
+],
+"url": "https://github.com/PrismML-Eng/Bonsai-demo"
+},
 "psyseal/psyseal-scan": {
 "archived": false,
 "branch": "main",
@@ -5446,6 +5736,39 @@
 "mcp"
 ],
 "url": "https://github.com/psyseal/psyseal-scan"
+},
+"qwenlm/qwen3-tts": {
+"archived": false,
+"branch": "main",
+"commands": [
+"conda create -n qwen3-tts python=3.12 -y",
+"conda activate qwen3-tts",
+"pip install -U qwen-tts",
+"pip install -e .",
+"pip install -U flash-attn --no-build-isolation",
+"pip install -U modelscope",
+"pip install -U \"huggingface_hub[cli]\"",
+"huggingface-cli download Qwen/Qwen3-TTS-Tokenizer-12Hz --local-dir ./Qwen3-TTS-Tokenizer-12Hz",
+"huggingface-cli download Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice --local-dir ./Qwen3-TTS-12Hz-1.7B-CustomVoice",
+"huggingface-cli download Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign --local-dir ./Qwen3-TTS-12Hz-1.7B-VoiceDesign"
+],
+"description": "Qwen3-TTS is an open-source series of TTS models developed by the Qwen team at Alibaba Cloud, supporting stable, expressive, and streaming speech generation, free-form voice design, and vivid voice cloning.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795701822.0651507,
+"full": "QwenLM/Qwen3-TTS",
+"homepage": "",
+"language": "Python",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-03-17T06:38:41Z",
+"stack": [
+"Python"
+],
+"stars": 14660,
+"topics": [],
+"url": "https://github.com/QwenLM/Qwen3-TTS"
 },
 "qybaihe/bla": {
 "archived": false,
@@ -5741,6 +6064,39 @@
 "salespeak"
 ],
 "url": "https://github.com/salespeak-ai/inbox-envoy"
+},
+"salute-developers/gigachat4": {
+"archived": false,
+"branch": "main",
+"commands": [
+"python3 -m pip install \\",
+"git clone https://github.com/vllm-project/vllm.git",
+"cd vllm",
+"git fetch origin c0c90837262bf3059b3d7b20bf120ffbe197a785",
+"git checkout --detach c0c90837262bf3059b3d7b20bf120ffbe197a785",
+"python3 -m pip install --upgrade pip",
+"git clone https://github.com/ggml-org/llama.cpp.git",
+"cd llama.cpp",
+"git fetch origin pull/32767/head:pr-32767",
+"git checkout pr-32767"
+],
+"description": "",
+"env": [
+"GIGACHAT_API_KEY"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795701822.0677106,
+"full": "salute-developers/gigachat4",
+"homepage": "",
+"language": null,
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-26T11:28:41Z",
+"stack": [],
+"stars": 9,
+"topics": [],
+"url": "https://github.com/salute-developers/gigachat4"
 },
 "sanmen87/cce-verified-continuity": {
 "archived": false,
@@ -6506,6 +6862,26 @@
 "stars": 5,
 "topics": [],
 "url": "https://github.com/temporal-community/temporal-ai-mcp-gateway"
+},
+"thinkmine/kobo": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "Kobo is an AI-conscious, general-purpose programming language built for the .NET ecosystem. Designed from the ground up with both human developers and AI code generation in mind, Kobo emphasizes syntactic consistency, expressive programming constructs, and reduced complexity.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795701822.0572124,
+"full": "thinkmine/Kobo",
+"homepage": "",
+"language": "Shell",
+"license": null,
+"ok": true,
+"pushed": "2026-11-20T17:59:19Z",
+"stack": [],
+"stars": 0,
+"topics": [],
+"url": "https://github.com/thinkmine/Kobo"
 },
 "threatdefence/agentic-attack-detections": {
 "archived": false,
