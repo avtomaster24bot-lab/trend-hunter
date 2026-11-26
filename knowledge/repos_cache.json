@@ -752,6 +752,41 @@
 ],
 "url": "https://github.com/apache/httpcomponents-core"
 },
+"apoorvdarshan/dot-bridge": {
+"archived": false,
+"branch": "master",
+"commands": [
+"npm install",
+"npm start"
+],
+"description": "A macOS menu bar app that connects ChatGPT dots to local files, shell commands, and Codex through MCP, with pairing approved on your Mac.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795734390.3047822,
+"full": "apoorvdarshan/dot-bridge",
+"homepage": "",
+"language": "Swift",
+"license": null,
+"ok": true,
+"pushed": "2026-11-26T22:36:59Z",
+"stack": [
+"Node.js",
+"Swift"
+],
+"stars": 0,
+"topics": [
+"chatgpt",
+"chatgpt-dots",
+"cloudflare-tunnel",
+"codex",
+"macos",
+"mcp",
+"mcp-server",
+"menu-bar-app"
+],
+"url": "https://github.com/apoorvdarshan/dot-bridge"
+},
 "aranaragan/kvalah": {
 "archived": false,
 "branch": "main",
@@ -908,6 +943,34 @@
 ],
 "url": "https://github.com/arxhr007/lxask"
 },
+"aviasoletechnologies/observra-sdk-node": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npm install observra"
+],
+"description": "Official Node.js SDK for Observra -capture AI application telemetry, LLM requests, responses, usage, latency, errors, and observability events.",
+"env": [
+"GROQ_API_KEY",
+"OPENAI_API_KEY",
+"TOKENROUTER_API_KEY"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795734390.8991356,
+"full": "aviasoletechnologies/observra-sdk-node",
+"homepage": "",
+"language": "TypeScript",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-09-01T06:59:48Z",
+"stack": [
+"Node.js"
+],
+"stars": 0,
+"topics": [],
+"url": "https://github.com/aviasoletechnologies/observra-sdk-node"
+},
 "avtomaster24bot-lab/trend-hunter": {
 "archived": false,
 "branch": "main",
@@ -1001,6 +1064,52 @@
 "headless"
 ],
 "url": "https://github.com/Balanov/uncut"
+},
+"basicmachines-co/basic-memory": {
+"archived": false,
+"branch": "main",
+"commands": [
+"uv tool install basic-memory --prerelease=allow",
+"uv tool install \"basic-memory[milvus]\" --prerelease=allow",
+"just package-check",
+"just package-check-claude-code",
+"just package-check-skills",
+"just package-check-hermes",
+"just package-check-openclaw",
+"npx skills add basicmachines-co/basic-memory/skills -g",
+"openclaw plugins install @basicmemory/openclaw-basic-memory",
+"claude mcp add basic-memory -- uvx --prerelease=allow basic-memory mcp"
+],
+"description": "AI conversations that actually remember. Never re-explain your project to your AI again. Join our Discord: https://discord.gg/tyvKNccgqN",
+"env": [
+"COHERE_API_KEY"
+],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795734390.326026,
+"full": "basicmachines-co/basic-memory",
+"homepage": "https://basicmemory.com",
+"language": "Python",
+"license": "AGPL-3.0",
+"ok": true,
+"pushed": "2026-11-26T17:18:29Z",
+"stack": [
+"Python",
+"Docker",
+"Docker Compose"
+],
+"stars": 4718,
+"topics": [
+"ai",
+"claude",
+"knowledge-management",
+"knowlege-graph",
+"llm",
+"local-first",
+"markdown",
+"mcp"
+],
+"url": "https://github.com/basicmachines-co/basic-memory"
 },
 "better-vault/better-vault": {
 "archived": false,
@@ -5432,6 +5541,42 @@
 ],
 "url": "https://github.com/paperclipai/paperclip"
 },
+"parallel-ai-inc/google-ads-skills": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npx skills add parallel-ai-inc/google-ads-skills -g",
+"npx skills add parallel-ai-inc/google-ads-skills --skill account-audit-for-google-ads -g",
+"python3 dev/tools/build.py",
+"python3 -m unittest discover -s dev/tests -p \"test_*.py\""
+],
+"description": "13 free, public Google Ads Agent Skills for Claude Code, Codex, and Cursor: account audits, search terms, budget pacing, PMax, campaign builds, and client reports. Deterministic Python 3 scripts, zero account changes.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795734390.3382242,
+"full": "parallel-ai-inc/google-ads-skills",
+"homepage": "https://www.withparallel.ai/skills",
+"language": "Python",
+"license": "NOASSERTION",
+"ok": true,
+"pushed": "2026-11-24T21:23:01Z",
+"stack": [
+"Python"
+],
+"stars": 0,
+"topics": [
+"agent-skills",
+"ai-agents",
+"claude-code",
+"claude-code-plugin",
+"claude-code-skills",
+"codex-skills",
+"cursor-skills",
+"gemini-cli-extension"
+],
+"url": "https://github.com/parallel-ai-inc/google-ads-skills"
+},
 "patch-gg/pixelfx": {
 "archived": false,
 "branch": "main",
@@ -6297,6 +6442,41 @@
 ],
 "url": "https://github.com/shinyobjectz/raea"
 },
+"shogunakatsukiremedy/capri-ai-desktop": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "Capri Capri Capri | AI Desktop Assistant and Friend",
+"env": [],
+"envfile": "",
+"fallback": [
+"python -m venv .venv",
+"source .venv/bin/activate   # Windows: .venv\\Scripts\\activate",
+"pip install -e ."
+],
+"fetched": 1795734390.3696525,
+"full": "shogunakatsukiremedy/capri-ai-desktop",
+"homepage": "",
+"language": "Python",
+"license": "NOASSERTION",
+"ok": true,
+"pushed": "2026-11-26T22:40:00Z",
+"stack": [
+"Python"
+],
+"stars": 155,
+"topics": [
+"ai-agent",
+"ai-companion",
+"ai-girlfriend",
+"ai-waifu",
+"anime",
+"automation",
+"claude",
+"claude-code"
+],
+"url": "https://github.com/shogunakatsukiremedy/capri-ai-desktop"
+},
 "simplexai-labs/linger": {
 "archived": false,
 "branch": "main",
@@ -7019,6 +7199,42 @@
 ],
 "url": "https://github.com/ThreatDefence/agentic-attack-detections"
 },
+"tidybytetools/agent-cost-saver": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npx skills add tidybytetools/agent-cost-saver",
+"python3 tests/test_cost_saver.py",
+"python3 scripts/cost_audit.py samples/demo-project",
+"python3 scripts/cost_audit.py /path/to/your/project"
+],
+"description": "Free guide and 4 scripts to cut Claude Code, Cursor and Codex token costs. Python stdlib only. MIT.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795734390.332954,
+"full": "tidybytetools/agent-cost-saver",
+"homepage": "https://tidybytetools.github.io/tools/agent-cost-saver/",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-26T03:40:43Z",
+"stack": [
+"Python"
+],
+"stars": 0,
+"topics": [
+"agent-skills",
+"agents-md",
+"claude-code",
+"claude-plugin",
+"claude-skills",
+"codex",
+"cursor",
+"cursor-rules"
+],
+"url": "https://github.com/tidybytetools/agent-cost-saver"
+},
 "tiger-ai-lab/websitebench": {
 "archived": false,
 "branch": "main",
@@ -7701,6 +7917,43 @@
 "stars": 0,
 "topics": [],
 "url": "https://github.com/Yosolita1978/mcp-prompt-injection-sandbox"
+},
+"yun87457-web/website-contacts-pricing-mcp": {
+"archived": false,
+"branch": "main",
+"commands": [
+"curl -sG \"https://website-contacts-socials-pricing-llm-brief-api.p.rapidapi.com/enrich\" \\",
+"npx -y github:yun87457-web/website-contacts-pricing-mcp"
+],
+"description": "Website Contact Scraper (Emails, Phones, 12+ Socials), SaaS Pricing Tiers, DNS MX/SPF & /llms.txt Markdown Brief API + MCP Server",
+"env": [
+"APIFY_TOKEN",
+"RAPIDAPI_KEY"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795734390.328272,
+"full": "yun87457-web/website-contacts-pricing-mcp",
+"homepage": "https://yun87457-web.github.io/website-contacts-pricing-mcp/",
+"language": "JavaScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-26T19:40:02Z",
+"stack": [
+"Node.js"
+],
+"stars": 0,
+"topics": [
+"ai-agents",
+"apify",
+"claude-code",
+"clay",
+"clearbit-alternative",
+"contact-scraper",
+"cursor",
+"email-extractor"
+],
+"url": "https://github.com/yun87457-web/website-contacts-pricing-mcp"
 },
 "zeekk0/openamika": {
 "archived": false,
