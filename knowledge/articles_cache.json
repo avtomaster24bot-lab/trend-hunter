@@ -72,6 +72,13 @@
 "status": 403,
 "t": 1795572868.5660188
 },
+"https://chszlab.github.io/AgenticAlgorithmEngineering/": {
+"desc": "Agents that optimize code like an algorithm engineer: falsifiable hypotheses, benchmarks, verified patches, and a PDF report. A skill for Claude Code and Codex.",
+"image": "https://chszlab.github.io/AgenticAlgorithmEngineering/assets/social-preview.png",
+"ok": true,
+"repo": "CHSZLab/AgenticAlgorithmEngineering",
+"t": 1795657548.168578
+},
 "https://dev.to/10xgraph/ai-agents-in-fall-2026-what-changed-and-how-to-build-for-it-with-10xgraph-2f1b": {
 "desc": "Cheaper models, a stateless MCP spec, MCP CVEs, approvals everywhere and EU transparency rules: what... Tagged with ai, agents, mcp, python.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fr5icd9507hwtq8y9yxb0.png",
@@ -295,6 +302,13 @@
 "ok": true,
 "repo": null,
 "t": 1795532486.6225033
+},
+"https://dev.to/cv-by-jd/a-200-response-can-still-be-a-failure-validating-llm-output-before-falling-back-3b13": {
+"desc": "Most LLM fallback code handles one kind of failure: the provider returns an error, so you try another... Tagged with ai, llm, langchain, architecture.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fv0v0c90avnqcu64l8it9.png",
+"ok": true,
+"repo": null,
+"t": 1795657548.578084
 },
 "https://dev.to/cybermax/make-a-claude-skill-run-a-script-so-the-totals-are-right-1iok": {
 "desc": "How to bundle a Python script inside a Claude skill with allowed-tools and CLAUDE_SKILL_DIR, with an invoice-aging example and the edge cases to test. Tagged with claudecode, ai, python, automation.",
@@ -539,6 +553,13 @@
 "repo": null,
 "t": 1795643464.9445596
 },
+"https://dev.to/jimclydegm/prismml-ternary-bonsai-25-27b-a-local-setup-guide-2110": {
+"desc": "PrismML released Ternary Bonsai 2.5 27B on November 24, 2026, an Apache-2.0 compressed derivative of Alibaba’s Qwen3.8 27B targeting multi-turn coding…. Tagged with llm, meta, modelrelease, ai.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fpub-ba5c43665e644241b633ec86c4967bb2.r2.dev%2Farticle-images%2F2026-11-25%2Fprismml-ternary-bonsai-2-5-27b-a-local-setup-guide-d36ozin9%2Fcover%2Fcover-20261125-074738-853.webp",
+"ok": true,
+"repo": null,
+"t": 1795657548.5780632
+},
 "https://dev.to/joelfaure/how-i-built-an-ai-first-inbox-for-five-dm-apps-on-mcp-without-storing-your-messages-5eol": {
 "desc": "I make Juncts, an AI-first inbox that centralizes your LinkedIn, X, Instagram, WhatsApp and Telegram... Tagged with mcp, ai, productivity, chrome.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftxfvoz9qlycvcijyf50t.png",
@@ -588,12 +609,26 @@
 "repo": null,
 "t": 1795626474.9892359
 },
+"https://dev.to/karisjunianto/my-ai-agent-built-a-help-desk-app-then-a-second-tool-checked-its-work-in-a-real-browser-4op": {
+"desc": "I entered the Kane CLI Online Hackathon with TicketTray, a zero-dependency help-desk board (add... Tagged with kanecli, buildinpublic, ai, testing.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcb40yuvrxa7sx7qaci45.png",
+"ok": true,
+"repo": "GHEA12/tickettray",
+"t": 1795657548.168573
+},
 "https://dev.to/kartik-nvjk/i-let-my-agent-call-its-tools-in-parallel-one-of-them-needed-another-ones-answer-phg": {
 "desc": "I wanted my support agent to feel faster, so I stopped making it wait on itself. The job was small.... Tagged with agents, llm, ai, performance.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnedocw0uecdrgcggsvwu.png",
 "ok": true,
 "repo": null,
 "t": 1795492441.7815113
+},
+"https://dev.to/kevinhall/linkedin-url-to-email-in-claude-code-100-profiles-in-74-emails-out-5die": {
+"desc": "Paste LinkedIn profile URLs into Claude Code and get the emails on record, each labelled: current employer, older job or personal. Misses are free. Tagged with sales, leadgeneration, claudecode, mcp.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2Fkeyvwin%2Fworkflows%2Fmain%2Fassets%2Fcovers%2Flinkedin-url-to-email.png",
+"ok": true,
+"repo": null,
+"t": 1795657548.6544464
 },
 "https://dev.to/kgluszczyk/would-i-buy-the-128-gb-m5-max-or-the-96-gb-m5-ultra-for-local-coding-4f83": {
 "desc": "I rented a 256 GB M5 Ultra to decide between three Mac Studio configurations for local coding. Here is what the tests changed. Tagged with llm, benchmark, macos, ai.",
@@ -637,6 +672,13 @@
 "repo": null,
 "t": 1795492765.8116546
 },
+"https://dev.to/lena-money/one-agent-skill-three-coding-tools-verify-the-output-not-just-the-text-4ilk": {
+"desc": "Say you ask an agent to compare two months of expenses. The answer might have the right total, yet... Tagged with agents, ai, llm, programming.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fres.cloudinary.com%2Fame5ahdn%2Fimage%2Fupload%2Fv1795656194%2Fblog%2F2026-11-26-cross-tool-agent-skills%2Fagent-skill-desk.jpg",
+"ok": true,
+"repo": null,
+"t": 1795657548.5780902
+},
 "https://dev.to/lijiumixin/connecting-claude-cursor-to-wall-street-sell-side-equity-research-via-remote-mcp-streamable-http-cn": {
 "desc": "Most financial Model Context Protocol (MCP) servers today focus on raw market data: stock quotes,... Tagged with mcp, ai, fintech, claude.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F5cisgssn6ls297h1fp05.png",
@@ -671,6 +713,13 @@
 "ok": true,
 "repo": "webmachinelearning/webmcp",
 "t": 1795492588.0196977
+},
+"https://dev.to/longdang2072/6-lessons-from-building-safe-mcp-servers-for-claude-162f": {
+"desc": "Connecting Claude to a database or an internal API through MCP (Model Context Protocol) takes about... Tagged with ai, python, mcp, claude.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F3vjuwi9tbjz3053tfn36.png",
+"ok": true,
+"repo": "longdang2072/mcp-crm-demo",
+"t": 1795657548.5780742
 },
 "https://dev.to/lucaautomated/production-python-agent-setups-on-8gb-hardware-sqlite-state-watchdogs-zero-cloud-bloat-3301": {
 "desc": "Most multi-agent tutorials break within forty-eight hours of real-world uptime—either drowning in... Tagged with ai, python, architecture, automation.",
@@ -854,6 +903,13 @@
 "repo": null,
 "t": 1795492443.7197795
 },
+"https://dev.to/pickaplugin/how-to-install-an-mcp-server-in-claude-desktop-cursor-and-codex-4b3c": {
+"desc": "Disclosure: I run PickAPlugin, an independent catalog of ChatGPT and Codex plugins and MCP servers.... Tagged with ai, mcp, tutorial, productivity.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fu5g10izund16hywy7acz.png",
+"ok": true,
+"repo": null,
+"t": 1795657548.5780778
+},
 "https://dev.to/pickyourapp/how-to-self-host-n8n-in-2026-the-manual-way-vs-one-click-deploy-10dn": {
 "desc": "Cross-posted from the PickYourApp blog. This tutorial is app-agnostic — it works with any VPS. If... Tagged with selfhosted, devops, automation, docker.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fn4ijyrp9clefvevwrwq0.png",
@@ -973,6 +1029,13 @@
 "repo": null,
 "t": 1795492442.1035564
 },
+"https://dev.to/renolu/coding-agents-relearn-your-repo-every-session-and-you-pay-for-it-59o2": {
+"desc": "Coding agents relearn your repo every session, and you pay for it. TokenEconomizer remembers repo facts, prunes unused tools and redirects s. Tagged with aiagents, claudecode, llm, cost.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2FRenoLu%2Fcontent-engine%2Fmain%2Fassets%2Fposts%2F0100-tokeneconomizer.jpg",
+"ok": true,
+"repo": null,
+"t": 1795657548.5780807
+},
 "https://dev.to/reventadata/how-to-pull-uk-property-listings-from-onthemarket-with-python-4m3a": {
 "desc": "Pull public OnTheMarket property listings from Python: buy or rent, a location slug and a row cap, then price, address, bedrooms and agent as JSON rows. Tagged with python, webscraping, tutorial, automation.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fpv7085qov2a847uelxh5.jpg",
@@ -1035,6 +1098,27 @@
 "ok": true,
 "repo": null,
 "t": 1795492439.5271451
+},
+"https://dev.to/sandscale/feeding-command-output-back-to-an-llm-truncation-cleanup-and-secret-masking-578": {
+"desc": "Raw tool output is the wrong shape for a model's context: too long, full of terminal noise, and sometimes full of secrets. A TypeScript helper that normalizes, masks, collapses and truncates output before the model sees it. Tagged with llm, typescript, ai, security.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgx1xqad77r7ltht9p4nm.png",
+"ok": true,
+"repo": null,
+"t": 1795657548.168581
+},
+"https://dev.to/sandscale/queueing-agent-runs-against-a-concurrency-cap-backpressure-fairness-and-limit-errors-3ogl": {
+"desc": "Every sandbox platform caps how many boxes run at once. A TypeScript queue that respects the cap, shares it fairly between users, tells a full queue from a refused start, and stops when waiting will not help. Tagged with typescript, architecture, ai, api.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2llgakoiushnc3shf92r.png",
+"ok": true,
+"repo": null,
+"t": 1795657548.5780933
+},
+"https://dev.to/sarantoon/cloudflare-search-for-agents-epidswitchediiyw-ewbphrmaih-ai-agent-khnhaa-1jk7": {
+"desc": "Cloudflare Search for Agents: เปิดสวิตช์เดียว เว็บพร้อมให้ AI Agent ค้นหา โดย Nokka... Tagged with ai, webdev, cloud, programming.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fa1k7rgd5zth48qic4ccv.png",
+"ok": true,
+"repo": null,
+"t": 1795657548.5780873
 },
 "https://dev.to/sarathkavuru/mcp-registry-growth-in-69-hours-3290-new-servers-1044-from-one-github-account-nov-2026-5db": {
 "desc": "On Friday morning I walked the entire official MCP registry. On Tuesday morning I walked it again and... Tagged with mcp, ai, opensource, agents.",
@@ -1225,6 +1309,13 @@
 "repo": null,
 "t": 1795572868.5467653
 },
+"https://dev.to/stackscale/extract-purchase-order-data-to-google-sheets-with-make-and-openai-58lj": {
+"desc": "Every week a purchase order lands in your inbox as a PDF, and someone types the PO number and total... Tagged with automation, nocode, ai, tutorial.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffbfn40w2n5v3efpb73ti.png",
+"ok": true,
+"repo": null,
+"t": 1795657548.578071
+},
 "https://dev.to/sugukavi/dont-build-your-first-toone-routine-from-scratch-steal-one-from-explore-and-rebuild-it-2mj8": {
 "desc": "Toone, notes from its official site, pricing page, Explore library, and launch posts. Independent... Tagged with ai, automation, macos, productivity.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fpo6okt30e8ex7kdszic6.png",
@@ -1309,6 +1400,13 @@
 "repo": null,
 "t": 1795492442.7180665
 },
+"https://dev.to/tigersg527/mistrals-leanstral-what-proof-oriented-code-generation-can-and-cannot-guarantee-1pmb": {
+"desc": "Mistral’s Lean 4 agent connects code generation with formal proof. Here is what the announcement establishes, how verification fits, and what developers should test. Tagged with agents, ai, code, opensource.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxvjfe0po41rdl9v0nnnv.png",
+"ok": true,
+"repo": null,
+"t": 1795657548.1685753
+},
 "https://dev.to/tintucai/boc-tach-kien-truc-claude-ship-tu-dong-hoa-vong-lap-pull-request-va-cicd-voi-bo-ba-ai-agent-4h04": {
 "desc": "Kỷ nguyên của những trợ lý lập trình thụ động chỉ dừng lại ở việc gợi ý cú pháp inline như GitHub... Tagged with anthropic, claudeship, aiagents, githubpullrequest.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Ftintucai.vercel.app%2Fimages%2Fposts%2Fanthropic-claude-ship-tu-dong-hoa-pull-request-github.webp",
@@ -1364,6 +1462,13 @@
 "ok": true,
 "repo": null,
 "t": 1795606127.38496
+},
+"https://dev.to/useaifix/chatgpt-usage-limits-are-changing-one-shared-meter-for-chat-work-and-codex-and-how-to-plan-for-it-492i": {
+"desc": "chatgpt usage limits are about to work differently. OpenAI says that starting in December, Plus, Pro... Tagged with ai, chatgpt, productivity, automation.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcf8t62lqltf67zu6k2bd.png",
+"ok": true,
+"repo": null,
+"t": 1795657548.5780568
 },
 "https://dev.to/venkatesh_bfcc04c25b5570e/how-to-automate-social-media-marketing-for-ecommerce-a-practical-guide-23i6": {
 "desc": "Managing an ecommerce business requires a lot of coordination between product management, customer... Tagged with automation, ecommerce, marketing, ai.",
@@ -1807,6 +1912,34 @@
 "repo": "AranAragan/kvalah",
 "t": 1795643464.8075337
 },
+"https://habr.com/ru/articles/1112458/": {
+"desc": "Привет! В этом материале — о том, как мы заменили скриптового робота с 60 сценариями на LLM‑бота, который работает полностью в закрытом контуре, отвечает голосом и...",
+"image": "https://habr.com/share/publication/1112458/74d0303682f4cedb084ca25fa000185c/",
+"ok": true,
+"repo": null,
+"t": 1795657548.1685307
+},
+"https://habr.com/ru/articles/1112458/?utm_campaign=1112458&utm_source=habrahabr&utm_medium=rss": {
+"desc": "Привет! В этом материале — о том, как мы заменили скриптового робота с 60 сценариями на LLM‑бота, который работает полностью в закрытом контуре, отвечает голосом и...",
+"image": "https://habr.com/share/publication/1112458/74d0303682f4cedb084ca25fa000185c/",
+"ok": true,
+"repo": null,
+"t": 1795657548.5780606
+},
+"https://habr.com/ru/articles/1112460/": {
+"desc": "В октябре Codex Desktop в режиме ultra стал заметно хуже справляться с кодом: модели начали мгновенно выплёвывать длинные куски текста, промахиваться мимо очевидных вещей, квота улетала быстрее, а...",
+"image": "https://habr.com/share/publication/1112460/6359057cada9be92663965c832762a47/",
+"ok": true,
+"repo": "openai/codex",
+"t": 1795657548.578042
+},
+"https://habr.com/ru/articles/1112460/?utm_campaign=1112460&utm_source=habrahabr&utm_medium=rss": {
+"desc": "В октябре Codex Desktop в режиме ultra стал заметно хуже справляться с кодом: модели начали мгновенно выплёвывать длинные куски текста, промахиваться мимо очевидных вещей, квота улетала быстрее, а...",
+"image": "https://habr.com/share/publication/1112460/6359057cada9be92663965c832762a47/",
+"ok": true,
+"repo": "openai/codex",
+"t": 1795657548.6544363
+},
 "https://habr.com/ru/articles/928038/": {
 "desc": "До 2022 года я думал, что автоматизация — это удел только крупных компаний. Но в 2022 году я открыл для себя n8n , и всё изменилось. Теперь я автоматизирую рутинную работу, отчёты и даже целые...",
 "image": "https://habrastorage.org/getpro/habr/upload_files/0fb/7ba/438/0fb7ba43805b11c432cc8689ab16e2db.png",
@@ -2106,6 +2239,11 @@
 "status": 403,
 "t": 1795492436.240714
 },
+"https://medium.com/@94p8r59r/how-to-make-your-first-digital-product-with-free-ai-tools-9944ae1cdf70?source=rss------side_hustle-5": {
+"ok": false,
+"status": 403,
+"t": 1795657548.5780542
+},
 "https://medium.com/@A.Rehman_/best-ai-agents-for-marketing-in-2027-one-agent-per-channel-judged-on-price-and-setup-c7845184f64a?source=rss------ai_agents-5": {
 "ok": false,
 "status": 403,
@@ -2165,6 +2303,11 @@
 "ok": false,
 "status": 403,
 "t": 1795568063.3606534
+},
+"https://medium.com/@enderyildirim/how-i-automated-all-of-a-salons-appointments-on-whatsapp-78c6a2d0e5ef?source=rss------automation-5": {
+"ok": false,
+"status": 403,
+"t": 1795657548.6544414
 },
 "https://medium.com/@gyanendra371/what-if-you-could-turn-claude-code-into-your-own-local-api-98b79c20b1bf?source=rss------automation-5": {
 "ok": false,
@@ -2295,6 +2438,11 @@
 "ok": false,
 "status": 403,
 "t": 1795541523.675764
+},
+"https://medium.com/@vinay221097/twilio-sms-vs-whatsapp-cloud-api-for-clinic-reminders-the-template-window-decides-7019cf1a6b17?source=rss------ai_agents-5": {
+"ok": false,
+"status": 403,
+"t": 1795657548.5780509
 },
 "https://medium.com/@wasowski.jarek/harness-engineering-agent-harness-at-the-source-inside-the-scaffold-claude-code-vs-codex-cli-17075f6721a3?source=rss------ai_agents-5": {
 "ok": false,

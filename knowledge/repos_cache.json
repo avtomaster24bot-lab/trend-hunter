@@ -1187,6 +1187,41 @@
 ],
 "url": "https://github.com/chowyu12/aiclaw"
 },
+"chszlab/agenticalgorithmengineering": {
+"archived": false,
+"branch": "main",
+"commands": [
+"python3 scripts/install_codex_skill.py",
+"python3 scripts/install_codex_skill.py --dest /path/to/project/.agents/skills",
+"export CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1"
+],
+"description": "Agents that optimize code like an algorithm engineer: falsifiable hypotheses, benchmarks, verified patches, PDF report",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795657549.3061988,
+"full": "CHSZLab/AgenticAlgorithmEngineering",
+"homepage": "https://chszlab.github.io/AgenticAlgorithmEngineering/",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-25T16:21:41Z",
+"stack": [
+"Python"
+],
+"stars": 92,
+"topics": [
+"agent-skills",
+"ai-agents",
+"ai-for-science",
+"algorithm-engineering",
+"autonomous-agents",
+"autoresearch",
+"benchmarking",
+"claude-code"
+],
+"url": "https://github.com/CHSZLab/AgenticAlgorithmEngineering"
+},
 "cloudmail-hq/cloudmail": {
 "archived": false,
 "branch": "main",
@@ -2385,6 +2420,33 @@
 "ggml"
 ],
 "url": "https://github.com/ggml-org/llama.cpp"
+},
+"ghea12/tickettray": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npm start",
+"npm test",
+"npm install -g @testmuai/kane-cli",
+"npm start                 # in a second terminal"
+],
+"description": "TicketTray — a tiny help-desk board verified end-to-end by Kane CLI",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795657549.272677,
+"full": "GHEA12/tickettray",
+"homepage": "",
+"language": "JavaScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-25T23:33:54Z",
+"stack": [
+"Node.js"
+],
+"stars": 0,
+"topics": [],
+"url": "https://github.com/GHEA12/tickettray"
 },
 "gitroomhq/postiz-app": {
 "archived": false,
@@ -3682,6 +3744,36 @@
 "stars": 0,
 "topics": [],
 "url": "https://github.com/lockin2026ethan-pixel/druve-agents"
+},
+"longdang2072/mcp-crm-demo": {
+"archived": false,
+"branch": "main",
+"commands": [
+"python -m venv .venv && source .venv/bin/activate",
+"pip install -r requirements.txt",
+"python demo_client.py   # calls every tool, like the demo above",
+"docker build -t mcp-crm-demo .",
+"docker run -i --rm mcp-crm-demo",
+"claude mcp add crm-demo -- /absolute/path/to/mcp-crm-demo/.venv/bin/python /absolute/path/to/mcp-crm-demo/server.py"
+],
+"description": "MCP server that lets Claude search customers, read orders and create invoices. Python, MCP SDK, SQLite, Docker.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795657549.4176092,
+"full": "longdang2072/mcp-crm-demo",
+"homepage": "",
+"language": "Python",
+"license": null,
+"ok": true,
+"pushed": "2026-11-24T03:50:29Z",
+"stack": [
+"Python",
+"Docker"
+],
+"stars": 0,
+"topics": [],
+"url": "https://github.com/longdang2072/mcp-crm-demo"
 },
 "m-mustufa/ai-api-cost-mcp": {
 "archived": false,
