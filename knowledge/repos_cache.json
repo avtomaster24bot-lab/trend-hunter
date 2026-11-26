@@ -1774,6 +1774,45 @@
 "topics": [],
 "url": "https://github.com/docker/mcp-gateway"
 },
+"doctorgth/live-context-ai-chat": {
+"archived": false,
+"branch": "main",
+"commands": [
+"python run.py",
+"cd backend",
+"python -m venv .venv",
+"pip install -r requirements.txt",
+"cd frontend",
+"npm install"
+],
+"description": "Desktop AI Chat & Code Agent built with FastAPI & Vue 3. Features live file context from disk, Gemini 3.6 Flash support, Multi-Canvas auto-patching, and FS-XML execution.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795666371.8628595,
+"full": "Doctorgth/live-context-ai-chat",
+"homepage": "https://github.com/Doctorgth/live-context-ai-chat/releases",
+"language": "Vue",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-08-08T17:26:55Z",
+"stack": [
+"Python",
+"Vue"
+],
+"stars": 0,
+"topics": [
+"ai-chat",
+"ai-chat-app",
+"ai-coding-assistant",
+"canvas",
+"desktop-app",
+"fastapi",
+"gemini-api",
+"gemini-api-free"
+],
+"url": "https://github.com/Doctorgth/live-context-ai-chat"
+},
 "dunhkpcc/claude-guardian": {
 "archived": false,
 "branch": "main",
@@ -2801,6 +2840,40 @@
 ],
 "url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit"
 },
+"hlintel/headron": {
+"archived": false,
+"branch": "main",
+"commands": [
+"uv tool install headron-software && headron doctor",
+"cd path/to/your-repo && headron init   # finds checks, wires agents, installs hook, runs once (--dry-run previews)"
+],
+"description": "The trust layer for agentic work. Contracts define what done means, checks run per task, and receipts prove it. Any agent, any model, any chat. CLI, MCP, CI.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795666371.8088512,
+"full": "HLIntel/Headron",
+"homepage": "https://headron.tech",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-26T04:06:16Z",
+"stack": [
+"Python"
+],
+"stars": 4,
+"topics": [
+"agent-tooling",
+"agents-md",
+"ai-agents",
+"ai-coding-agents",
+"ci-cd",
+"claude-code",
+"code-quality",
+"code-verification"
+],
+"url": "https://github.com/HLIntel/Headron"
+},
 "hyphatech/spindle": {
 "archived": false,
 "branch": "main",
@@ -2901,6 +2974,47 @@
 "llm"
 ],
 "url": "https://github.com/iflytek/astron-agent"
+},
+"iflytek/astron-rpa": {
+"archived": false,
+"branch": "main",
+"commands": [
+"cd docker",
+"cp .env.example .env",
+"docker compose up -d mysql casdoor",
+"python3 scripts/sync-casdoor-credentials.py",
+"docker compose up -d",
+"docker compose ps",
+"./build.bat --python-exe \"C:\\Program Files\\Python313\\python.exe\"",
+"./build.bat"
+],
+"description": "Agent-ready RPA suite with out-of-the-box automation tools. Built for individuals and enterprises.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795666371.8925734,
+"full": "iflytek/astron-rpa",
+"homepage": "http://www.iflyrpa.com",
+"language": "Python",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-19T06:54:04Z",
+"stack": [
+"Make",
+"Python"
+],
+"stars": 5242,
+"topics": [
+"agent",
+"ai",
+"astron",
+"automation",
+"data-privacy",
+"enterprise",
+"iflytek-astron",
+"llm"
+],
+"url": "https://github.com/iflytek/astron-rpa"
 },
 "infosave2007/cmf": {
 "archived": false,
@@ -6331,6 +6445,35 @@
 "stars": 0,
 "topics": [],
 "url": "https://github.com/tariqosmani/smai-leadgen"
+},
+"tecnomanu/pasala": {
+"archived": false,
+"branch": "main",
+"commands": [
+"cd apple && ./build.sh",
+"cp -R build/Pasala.app /Applications/ && open /Applications/Pasala.app",
+"claude mcp add --scope user pasala /Applications/Pasala.app/Contents/MacOS/pasala-mcp",
+"cd android",
+"cd desktop",
+"./gradlew :app:packageDeb :app:packageAppImage && tools/make-appimage.sh   # Linux"
+],
+"description": "Share files between your own Mac and Android devices, peer-to-peer over LAN or Tailscale. QR pairing, notch-style Mac app, MCP server.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795666371.9126127,
+"full": "tecnomanu/pasala",
+"homepage": "",
+"language": "Kotlin",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T23:42:25Z",
+"stack": [
+"Kotlin"
+],
+"stars": 0,
+"topics": [],
+"url": "https://github.com/tecnomanu/pasala"
 },
 "temporal-community/temporal-ai-mcp-gateway": {
 "archived": false,
