@@ -518,6 +518,13 @@
 "repo": null,
 "t": 1795711600.6641257
 },
+"https://dev.to/dorjamie/5-critical-mistakes-when-deploying-agentic-ai-in-cybersecurity-183p": {
+"desc": "5 Critical Mistakes When Deploying Agentic AI in Cybersecurity Autonomous AI agents... Tagged with cybersecurity, ai, bestpractices, security.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdfxh7fbywxx2sxdq0oen.png",
+"ok": true,
+"repo": null,
+"t": 1795769368.371233
+},
 "https://dev.to/doykim0903/whose-agent-is-it-the-principal-agent-problem-inside-llm-agents-and-how-to-engineer-around-it-4gca": {
 "desc": "A recent post, \"LLM agents work for their parent companies, not for you\" by Michael Harley, starts... Tagged with ai, llm, tutorial, opensource.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fteppchumnaemr2900b1u.png",
@@ -630,6 +637,13 @@
 "repo": null,
 "t": 1795492895.4014962
 },
+"https://dev.to/fenju_fu/agent-skills-are-getting-bundled-but-who-manages-the-bundles-2a42": {
+"desc": "Today's GitHub Trending list carries a clear signal: Agent skills are evolving from scattered scripts... Tagged with aiagents, skillregistry, governance, opensource.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fekjshyolr26pzc9vyust.png",
+"ok": true,
+"repo": "iflytek/skillhub",
+"t": 1795769368.371217
+},
 "https://dev.to/fenju_fu/bughunter-packs-84-skills-into-a-red-team-chain-but-what-happens-when-step-61-times-out-4o6f": {
 "desc": "Today's GitHub Trending tells a clear story: the community is done with... Tagged with aiagents, workflow, devops, opensource.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6z68ayfj096eafze6n6j.png",
@@ -663,6 +677,13 @@
 "repo": null,
 "t": 1795711600.8786833
 },
+"https://dev.to/forgeflows/typescript-ai-agents-framework-vs-raw-api-calls-5eon": {
+"desc": "In 2026, the question isn't whether your team will build AI agents. According to McKinsey's State of... Tagged with typescript, aiagents, llm, agentorchestration.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F9shdg0vrnihx57bdct3c.png",
+"ok": true,
+"repo": null,
+"t": 1795769368.3712113
+},
 "https://dev.to/frankchu/23-or-30-tools-googles-gmail-mcp-cant-decide-59j3": {
 "desc": "I asked Google's Gmail MCP server what tools it has, 30 times in 11 seconds. 18 times it said 23 tools. 12 times it said 30 — including send_message. Tagged with programming, mcp, gmail, discuss.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2Ffrankchu91%2FWhatTechPost%2Fmain%2Fpublished%2F2026-11-26-gmail-mcp-tools%2Fcover.png",
@@ -676,6 +697,13 @@
 "ok": true,
 "repo": null,
 "t": 1795492895.401484
+},
+"https://dev.to/gde/under-the-hood-of-google-cloud-data-agent-kit-mcp-tools-skillmd-playbooks-custom-guardrails-4568": {
+"desc": "Welcome&nbsp;! In Part 1, we set up Google Cloud Data Agent Kit (DAK) in Antigravity IDE and stayed... Tagged with agents, ai, cloud, mcp.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fawcv3gjxb14r9oa10b5s.png",
+"ok": true,
+"repo": null,
+"t": 1795769368.3712397
 },
 "https://dev.to/geekcoding101/mcp-authorization-protect-an-mcp-server-with-oauth-21-7ag": {
 "desc": "Originally published at GeekCoding101. You put an MCP server on an HTTP port, and now anyone who can... Tagged with mcp, security, oauth, ai.",
@@ -845,6 +873,13 @@
 "repo": null,
 "t": 1795626474.9892306
 },
+"https://dev.to/itxtayab/jan-open-source-chatgpt-replacement-that-runs-100-offline-42am": {
+"desc": "Jan is a free open-source ChatGPT alternative with 46,000+ stars on GitHub. Download Llama, Gemma and... Tagged with opensource, ai, llm, localai.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fwww.devpik.com%2Fopen-source%2Fjan.webp",
+"ok": true,
+"repo": "janhq/jan",
+"t": 1795769368.3711977
+},
 "https://dev.to/ivan609/how-to-detect-ai-generated-essays-in-2027-without-relying-on-guesswork-3bbn": {
 "desc": "A practical guide to AI content detection, writing analysis, false positives, and evidence-based... Tagged with ai, tutorial, beginners, career.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fzkvm1ah7frt8jefxmycc.png",
@@ -963,6 +998,13 @@
 "ok": true,
 "repo": null,
 "t": 1795606126.7881405
+},
+"https://dev.to/kkvlabs/how-to-connect-google-analytics-4-and-search-console-to-claude-code-free-local-15-minutes-2i0j": {
+"desc": "I run a few websites. Every week I opened Google Analytics 4 (GA4) in one tab and Google Search... Tagged with claude, mcp, seo, googleanalytics.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fq96f7jou11zbtmf4c9xv.png",
+"ok": true,
+"repo": "kkvlabs/ga4-gsc-mcp",
+"t": 1795769368.3712077
 },
 "https://dev.to/koreanstudentlee/an-mcp-file-tool-read-my-env-6-inputs-4-leaks-and-the-10-fix-407f": {
 "desc": "A file-reading tool inside an MCP server is a small piece of code with a large blast radius: it is... Tagged with security, ai, python, mcp.",
@@ -1118,6 +1160,13 @@
 "repo": null,
 "t": 1795492442.9738424
 },
+"https://dev.to/max_quimby/anthropics-agents-rewrote-its-messages-api-in-rust-kd2": {
+"desc": "Inside the production migration that cut CPU 70% and why verification, not generation, was the hard part. Tagged with aiagents, rust, anthropic, programming.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fagentconn.com%2Fblog%2Fanthropic-agents-rust-rewrite-hero.jpg",
+"ok": true,
+"repo": null,
+"t": 1795769368.3712301
+},
 "https://dev.to/mech_app_ai/ast-driven-agent-refactoring-how-claude-code-pipelines-verify-their-own-output-before-human-review-122i": {
 "desc": "Build refactoring pipelines that run TypeScript AST transforms through Claude Code and verify themselves with linters, type-checkers, and test suites. Tagged with agents, ai, automation, claude.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fimages.unsplash.com%2Fphoto-1619115445441-d6e75309000d%3Fcrop%3Dentropy%26cs%3Dtinysrgb%26fit%3Dmax%26fm%3Djpg%26ixid%3DM3w4Njk2ODR8MHwxfHNlYXJjaHwxfHxBU1QtRHJpdmVuJTIwQWdlbnQlMjBSZWZhY3RvcmluZyUzQSUyMEhvdyUyMENsYXVkZSUyMENvZGUlMjBQaXBlbGluZXMlMjBWZXJpZnklMjBUaGVpciUyME93biUyME91dHB1dCUyMEJlZm9yZSUyMEh1bWFuJTIwUmV2aWV3JTIwc29mdHdhcmUlMjBpbmZyYXN0cnVjdHVyZSUyMGRhc2hib2FyZHxlbnwxfDB8fHwxNzk1NjAxMTI1fDA%26ixlib%3Drb-4.1.0%26q%3D80%26w%3D1080",
@@ -1208,6 +1257,13 @@
 "ok": true,
 "repo": null,
 "t": 1795666370.8957164
+},
+"https://dev.to/mokshupadhyay/when-an-ai-agent-pays-twice-4gop": {
+"desc": "A retry can make an AI agent pay twice for one API call. Why it happens with x402, how x402-once prevents it, and what I measured on a real test chain. Tagged with payments, ai, typescript, webdev.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fmokshupadhyay.com%2Fwriting%2Fwhen-an-ai-agent-pays-twice%2Fopengraph-image%3F9acbf762fd9f016c",
+"ok": true,
+"repo": "x402-foundation/x402",
+"t": 1795769368.3712494
 },
 "https://dev.to/motion-y/traditional-automation-vs-ai-agents-what-business-leaders-need-to-know-381k": {
 "desc": "Traditional Automation vs. AI Agents: What Business Leaders Need to Know Automation has... Tagged with automation, aiagents, workflows, business.",
@@ -1349,6 +1405,13 @@
 "repo": null,
 "t": 1795568063.3606226
 },
+"https://dev.to/peakiqofficial/building-a-private-ai-stack-with-ollama-and-open-source-llms-gb5": {
+"desc": "Explore building a self-hosted AI stack using Ollama, open-source LLMs, and local hardware. Learn about cost, privacy, and infrastructure for your own AI. Tagged with ai, llm, ollama, selfhostedai.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fres.cloudinary.com%2Fdsoo3rqbe%2Fimage%2Fupload%2Fc_fill%2Cg_auto%2Cw_1200%2Ch_630%2Cq_auto%2Cf_auto%2Fv1795765687%2Fblogs%2Fog%2Fbe3fe75a-a567-414f-8653-031a1692196e.jpg",
+"ok": true,
+"repo": null,
+"t": 1795769368.3712223
+},
 "https://dev.to/peter11241342/how-to-build-an-instagram-dm-auto-reply-with-nodejs-2026-4hjm": {
 "desc": "You can build your own Instagram DM auto-reply in an afternoon with Node.js and the official Graph... Tagged with instagram, automation, javascript, node.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fk0autujzfp2wk0f48t8p.png",
@@ -1391,6 +1454,13 @@
 "repo": null,
 "t": 1795626474.9892173
 },
+"https://dev.to/pinnasys/building-voice-agents-with-livekit-and-anthropic-claude-a-practical-engineering-guide-367i": {
+"desc": "A voice agent can produce accurate answers and still feel unusable. A delayed response, an... Tagged with ai, claude, agents, llm.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fs4gkpa57igmkxlujgd41.png",
+"ok": true,
+"repo": null,
+"t": 1795769368.3711798
+},
 "https://dev.to/pirotskiy/i-measured-how-well-an-ai-assistant-shops-through-mcp-here-is-what-broke-1hp": {
 "desc": "An assistant that shops for a buyer can fail in two ways: it finds the wrong part, or it finds the... Tagged with mcp, rust, ai, testing.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F29wycdl7udap7ofvgiyi.png",
@@ -1425,6 +1495,13 @@
 "ok": true,
 "repo": "firecrawl/firecrawl",
 "t": 1795532486.6225114
+},
+"https://dev.to/postmanpat/designing-a-self-hosted-mcp-gateway-for-every-ai-client-695": {
+"desc": "When I counted, Claude Code on my Mac had 25 MCP servers configured. Some ran as local processes... Tagged with mcp, spiffe, security, kubernetes.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fblog.bsdserver.nl%2Fcontent%2Fimages%2F2026%2F11%2Fmcp-gateway-every-ai-client_hu_b6dea0654a3bc02b.jpg",
+"ok": true,
+"repo": null,
+"t": 1795769368.4881094
 },
 "https://dev.to/pranjalg13/simplifying-pdf-workflows-with-foxits-mcp-server-and-ai-agents-3i11": {
 "desc": "The article explains how Foxit's MCP Server allows AI tools like Claude, Cursor, and VS Code to... Tagged with ai, programming, productivity.",
@@ -1558,6 +1635,13 @@
 "ok": true,
 "repo": null,
 "t": 1795492438.0054905
+},
+"https://dev.to/rimsha_kanwal/day-3390-validating-tool-responses-in-ai-agents-54m3": {
+"desc": "Validating Tool Responses in AI Agents An AI agent calls an external tool. The request... Tagged with ai, agentaichallenge, llm, security.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fvwbbfx4m282q3lsgotf1.png",
+"ok": true,
+"repo": null,
+"t": 1795769368.3712277
 },
 "https://dev.to/robat_das_3c6e956212f6408/ai-agent-hangs-on-interactive-prompt-in-shell-command-fix-1ne1": {
 "desc": "An AI agent hangs on an interactive prompt because the shell command waits for stdin. Fix it with stdin closed, a hard timeout, and non-interactive flags. Tagged with aiagents, shellcommands, subprocess, stdin.",
@@ -2140,6 +2224,13 @@
 "repo": null,
 "t": 1795734389.86236
 },
+"https://dev.to/waeckerlin_federowicz_8da/best-tts-mcp-servers-for-claude-code-cursor-codex-2026-3d4": {
+"desc": "If you want Claude Code, Cursor, or Codex to generate speech via Model Context Protocol (MCP), the... Tagged with claudecode, cursor, codex, mcp.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fet47x3pkl1dlze78aj53.png",
+"ok": true,
+"repo": "elevenlabs/elevenlabs-mcp",
+"t": 1795769368.371242
+},
 "https://dev.to/walse/cara-menggunakan-glm-54-di-claude-code-dan-cursor-48g4": {
 "desc": "Cara Menggunakan GLM-5.4 di Claude Code dan Cursor Menyiapkan GLM-5.4 di Claude Code hanya... Tagged with ai, llm, tools, tutorial.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fassets.apidog.com%2Fblog-next%2F2026%2F11%2Fheader-153.png",
@@ -2244,6 +2335,13 @@
 "ok": true,
 "repo": null,
 "t": 1795541523.7858868
+},
+"https://dev.to/zzunkie/what-desktop-apps-for-coding-agents-add-to-claude-code-and-codex-4n5p": {
+"desc": "I make Yardlet, a free, open-source Mac app that runs coding agents like Claude Code and Codex in one... Tagged with ai, macos, opensource.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjckk0agbtf782dfuw7uv.png",
+"ok": true,
+"repo": "zzunkie/yardlet",
+"t": 1795769368.371247
 },
 "https://entrepreneurshandbook.co/a-web-designer-turned-his-side-project-into-a-700m-year-revenue-business-without-vc-money-55cd13ee560": {
 "ok": false,
@@ -2729,6 +2827,13 @@
 "repo": null,
 "t": 1795711600.6641154
 },
+"https://habr.com/ru/articles/1112804/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1112804": {
+"desc": "Citibank, третий по величине коммерческий банк в США, обновил условия обслуживания. Согласно изменениям, клиенты, использующие ИИ‑агентов, будут сами решать любые возникшие по их вине...",
+"image": "https://habr.com/share/publication/1112804/29d2c37de2432ad7990827a91d7f90e4/",
+"ok": true,
+"repo": null,
+"t": 1795769368.371225
+},
 "https://habr.com/ru/articles/1112806/": {
 "desc": "Страница открывается в браузере, а получает ли её поисковый ИИ-бот — непонятно. Чтобы проверить доступ сайта для ботов нейросетей, нужны правила обхода, логи и сам HTML. Иначе можно править...",
 "image": "https://habr.com/share/publication/1112806/a42425cd9a5d3cc9c0082ac799f23371/",
@@ -2742,6 +2847,20 @@
 "ok": true,
 "repo": null,
 "t": 1795711600.9507864
+},
+"https://habr.com/ru/articles/1112882/": {
+"desc": "Для работы с Claude из неподдерживаемого региона одного VPN может быть недостаточно: веб-версия, Claude Desktop и Claude Code CLI передают не только IP-адрес, но и параметры браузера, ОС и постоянные...",
+"image": "https://habr.com/share/publication/1112882/00ebbb3c590db3cfc8668f8ecac48d67/",
+"ok": true,
+"repo": "wtfwhs/tengu-decoded",
+"t": 1795769367.6994302
+},
+"https://habr.com/ru/articles/1112882/?utm_campaign=1112882&utm_source=habrahabr&utm_medium=rss": {
+"desc": "Для работы с Claude из неподдерживаемого региона одного VPN может быть недостаточно: веб-версия, Claude Desktop и Claude Code CLI передают не только IP-адрес, но и параметры браузера, ОС и постоянные...",
+"image": "https://habr.com/share/publication/1112882/00ebbb3c590db3cfc8668f8ecac48d67/",
+"ok": true,
+"repo": "wtfwhs/tengu-decoded",
+"t": 1795769368.3712199
 },
 "https://habr.com/ru/articles/928038/": {
 "desc": "До 2022 года я думал, что автоматизация — это удел только крупных компаний. Но в 2022 году я открыл для себя n8n , и всё изменилось. Теперь я автоматизирую рутинную работу, отчёты и даже целые...",
@@ -2791,6 +2910,20 @@
 "ok": true,
 "repo": "Kenya-West/licenses",
 "t": 1795492441.7815058
+},
+"https://habr.com/ru/companies/2gis/articles/1106468/": {
+"desc": "Представим обычное обсуждение в канале поддержки. Коллега спрашивает, где получить доступ к сервису. Дежурный находит инструкцию и отправляет ссылку. Через минуту к разговору подключается ИИ-бот и...",
+"image": "https://habr.com/share/publication/1106468/a93cf1e319e0275adafbc5c7a69e6bc9/",
+"ok": true,
+"repo": null,
+"t": 1795769368.3711686
+},
+"https://habr.com/ru/companies/2gis/articles/1106468/?utm_campaign=1106468&utm_source=habrahabr&utm_medium=rss": {
+"desc": "Представим обычное обсуждение в канале поддержки. Коллега спрашивает, где получить доступ к сервису. Дежурный находит инструкцию и отправляет ссылку. Через минуту к разговору подключается ИИ-бот и...",
+"image": "https://habr.com/share/publication/1106468/a93cf1e319e0275adafbc5c7a69e6bc9/",
+"ok": true,
+"repo": null,
+"t": 1795769368.3712356
 },
 "https://habr.com/ru/companies/airi/articles/1111066/": {
 "desc": "Привет, Хабр! Меня зовут Лев Осадчий, я работаю в команде «Передовой агентный интеллект» в AIRI и представляю проект Optimal Cognitive Core (OCC), где мы разрабатываем маленькие языковые...",
@@ -2882,6 +3015,34 @@
 "ok": true,
 "repo": null,
 "t": 1795626474.9891927
+},
+"https://habr.com/ru/companies/mws/articles/1112710/": {
+"desc": "Привет, Хабр! Добавили DeepSeek-V4.1-Flash в GPT Model Hub — сервис для работы с LLM через OpenAI-совместимый API внутри MWS Cloud Platform. В каталоге доступна актуальная версия модели —...",
+"image": "https://habr.com/share/publication/1112710/17bdfe4c08959845feb8721497c44eb4/",
+"ok": true,
+"repo": null,
+"t": 1795769367.6994374
+},
+"https://habr.com/ru/companies/mws/articles/1112710/?utm_campaign=1112710&utm_source=habrahabr&utm_medium=rss": {
+"desc": "Привет, Хабр! Добавили DeepSeek-V4.1-Flash в GPT Model Hub — сервис для работы с LLM через OpenAI-совместимый API внутри MWS Cloud Platform. В каталоге доступна актуальная версия модели —...",
+"image": "https://habr.com/share/publication/1112710/17bdfe4c08959845feb8721497c44eb4/",
+"ok": true,
+"repo": null,
+"t": 1795769368.3712056
+},
+"https://habr.com/ru/companies/mws/articles/938748/": {
+"desc": "Мы запустили собственную платформу полного цикла производства ПО с ИИ‑агентами — MWS DevRails . Решение позволяет управлять жизненным циклом продукта и контролировать все этапы создания ПО:...",
+"image": "https://habrastorage.org/getpro/habr/upload_files/9e7/c43/019/9e7c4301984a0fbd4749b189b34d70b2.jpg",
+"ok": true,
+"repo": "business-science/ai-data-science-team",
+"t": 1795769367.6994443
+},
+"https://habr.com/ru/companies/mws/articles/938748/?utm_source=habrahabr&utm_medium=rss&utm_campaign=938748": {
+"desc": "Мы запустили собственную платформу полного цикла производства ПО с ИИ‑агентами — MWS DevRails . Решение позволяет управлять жизненным циклом продукта и контролировать все этапы создания ПО:...",
+"image": "https://habrastorage.org/getpro/habr/upload_files/9e7/c43/019/9e7c4301984a0fbd4749b189b34d70b2.jpg",
+"ok": true,
+"repo": "business-science/ai-data-science-team",
+"t": 1795769368.3712442
 },
 "https://habr.com/ru/companies/oleg-bunin/articles/1112502/": {
 "desc": "На Продуктовую аллею HighLoad++ 2026 стоит заглянуть, если вы подбираете инструмент для своего проекта и хотите узнать, как он работает в реальных условиях. В этой части выставки можно познакомиться с...",
@@ -2995,6 +3156,20 @@
 "repo": null,
 "t": 1795492441.0031307
 },
+"https://habr.com/ru/companies/sberbank/articles/1111904/": {
+"desc": "Привет, Хабр! Меня зовут Ренат, я в Сбере руковожу аналитикой в направлении AI PDLC — если по-простому, мы встраиваем ИИ-инструменты в производственный процесс разработки, чтобы аналитики и инженеры...",
+"image": "https://habr.com/share/publication/1111904/a66014170a32db89d12ce4c27e64206d/",
+"ok": true,
+"repo": null,
+"t": 1795769368.3711824
+},
+"https://habr.com/ru/companies/sberbank/articles/1111904/?utm_campaign=1111904&utm_source=habrahabr&utm_medium=rss": {
+"desc": "Привет, Хабр! Меня зовут Ренат, я в Сбере руковожу аналитикой в направлении AI PDLC — если по-простому, мы встраиваем ИИ-инструменты в производственный процесс разработки, чтобы аналитики и инженеры...",
+"image": "https://habr.com/share/publication/1111904/a66014170a32db89d12ce4c27e64206d/",
+"ok": true,
+"repo": null,
+"t": 1795769368.4881032
+},
 "https://habr.com/ru/companies/sberbank/articles/1112118/": {
 "desc": "Привет, Хабр! Представляем GigaChat 4 — две новые модели: на 37 и 708 миллиардов параметров. Обе поддерживают контекст до миллиона токенов, работают с инструментами и предлагают два режима ответа:...",
 "image": "https://habr.com/share/publication/1112118/a40bec6b4b1213a504024b1184c34183/",
@@ -3057,6 +3232,13 @@
 "ok": true,
 "repo": null,
 "t": 1795492431.739438
+},
+"https://habr.com/ru/companies/technokratos/articles/1007440/": {
+"desc": "Amazon Web Services представила новую платформу на базе ИИ-агентов для медицинской отрасли — Amazon Connect Health . Сервис предназначен для автоматизации административных процессов в медицинских...",
+"image": "https://habrastorage.org/getpro/habr/upload_files/a85/4d6/7af/a854d67af674801dc7a8c29dfb51da20.png",
+"ok": true,
+"repo": null,
+"t": 1795769367.6994588
 },
 "https://habr.com/ru/companies/timeweb/articles/1095876/": {
 "desc": "Своя карта и API — две разные кривые расходов, а не «дорого» и «дешево» В феврале я считал знакомому, во что ему обойдётся «своя нейросеть». Восемь человек в бюро, все активно использовали ИИ в...",
@@ -3214,6 +3396,11 @@
 "status": 403,
 "t": 1795492436.8347883
 },
+"https://medium.com/@affsenseco/forget-passive-income-build-an-email-list-first-9685362b8907?source=rss------side_hustle-5": {
+"ok": false,
+"status": 403,
+"t": 1795769368.371214
+},
 "https://medium.com/@ai.anupsaurav/how-i-self-host-n8n-for-almost-0-on-oracle-clouds-free-tier-series-part-2a-the-server-setup-f53fc5a71028?source=rss------n8n-5": {
 "ok": false,
 "status": 403,
@@ -3238,6 +3425,11 @@
 "ok": false,
 "status": 403,
 "t": 1795734389.8623514
+},
+"https://medium.com/@bff_7573/how-i-create-passive-income-with-no-money-ea27ce009095?source=rss------side_hustle-5": {
+"ok": false,
+"status": 403,
+"t": 1795769368.371193
 },
 "https://medium.com/@bilal.pebi211/how-to-auto-alert-yourself-about-every-new-lead-with-n8n-free-workflow-8d2d534cccc7?source=rss------n8n-5": {
 "ok": false,
@@ -3294,6 +3486,11 @@
 "status": 403,
 "t": 1795711600.6641285
 },
+"https://medium.com/@iamsupcat/googles-gmail-calendar-and-drive-mcp-servers-in-claude-code-free-5-000-a-day-ai-trend-nov-27-04e5ce4bcbac?source=rss------ai_agents-5": {
+"ok": false,
+"status": 403,
+"t": 1795769368.3712003
+},
 "https://medium.com/@itsabdulmoiz369/why-most-n8n-ai-workflows-break-in-production-how-to-fix-it-f4075a0043ab?source=rss------n8n-5": {
 "ok": false,
 "status": 403,
@@ -3303,6 +3500,11 @@
 "ok": false,
 "status": 403,
 "t": 1795626474.989263
+},
+"https://medium.com/@kevinmenesesgonzalez/how-to-build-a-voice-ai-agent-in-2026-2027-pipecat-vs-livekit-vs-vapi-step-by-step-279779b6fa7b?source=rss------ai_agents-5": {
+"ok": false,
+"status": 403,
+"t": 1795769368.371238
 },
 "https://medium.com/@kofumoyuri/im-a-48-year-old-nurse-building-side-income-with-ai-the-whole-setup-bbfbd418f177?source=rss------automation-5": {
 "ok": false,

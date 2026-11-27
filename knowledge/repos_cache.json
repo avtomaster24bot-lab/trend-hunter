@@ -1245,6 +1245,42 @@
 ],
 "url": "https://github.com/BOHDANukr7777/gatrends-mcp"
 },
+"business-science/ai-data-science-team": {
+"archived": false,
+"branch": "master",
+"commands": [
+"pip install -e .",
+"streamlit run apps/ai-pipeline-studio-app/app.py",
+"ollama serve",
+"ollama pull llama3.1:8b"
+],
+"description": "An AI-powered data science team of agents to help you perform common data science tasks 10X faster.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795769369.0649493,
+"full": "business-science/ai-data-science-team",
+"homepage": "",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-01-28T15:44:35Z",
+"stack": [
+"Python"
+],
+"stars": 5518,
+"topics": [
+"agents",
+"ai",
+"ai-engineer",
+"ai-engineering",
+"copilot",
+"data-science",
+"data-scientist",
+"generative-ai"
+],
+"url": "https://github.com/business-science/ai-data-science-team"
+},
 "caprichooms/capricore": {
 "archived": false,
 "branch": "main",
@@ -2162,6 +2198,40 @@
 "mcp"
 ],
 "url": "https://github.com/EL4CTEO/fast-anything"
+},
+"elevenlabs/elevenlabs-mcp": {
+"archived": true,
+"branch": "main",
+"commands": [
+"uv venv",
+"source .venv/bin/activate",
+"uv pip install -e \".[dev]\"",
+"cp .env.example .env"
+],
+"description": "The official ElevenLabs MCP server",
+"env": [
+"ELEVENLABS_API_KEY"
+],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795769369.5261886,
+"full": "elevenlabs/elevenlabs-mcp",
+"homepage": "https://elevenlabs.io/blog/introducing-elevenlabs-mcp",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-08-20T17:12:11Z",
+"stack": [
+"Python",
+"Docker"
+],
+"stars": 1558,
+"topics": [
+"elevenlabs",
+"elevenlabs-api",
+"mcp"
+],
+"url": "https://github.com/elevenlabs/elevenlabs-mcp"
 },
 "emanuele-em/kanzo": {
 "archived": false,
@@ -3296,6 +3366,53 @@
 ],
 "url": "https://github.com/iflytek/astron-rpa"
 },
+"iflytek/skillhub": {
+"archived": false,
+"branch": "main",
+"commands": [
+"curl -fsSL https://imageless.oss-cn-beijing.aliyuncs.com/runtime.sh | sh -s -- up",
+"curl -fsSL https://imageless.oss-cn-beijing.aliyuncs.com/runtime.sh | sh -s -- up --public-url https://skillhub.your-company.com",
+"curl -fsSL https://imageless.oss-cn-beijing.aliyuncs.com/runtime.sh | sh -s -- up --aliyun --public-url https://skillhub.your-company.com --version latest",
+"npm install -g @astron-team/skillhub",
+"npx @astron-team/skillhub@latest version",
+"make dev-all",
+"make dev-all-down",
+"make dev-all-reset",
+"make test",
+"make test-backend-app"
+],
+"description": "Self-hosted, open-source agent skill registry for enterprises. Publish & version skill packages, govern with RBAC and audit logs, deploy   on-premise with Docker or Kubernetes.",
+"env": [
+"ACTUATOR_BASE_URL",
+"SKILLHUB_TOKEN"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795769369.0926769,
+"full": "iflytek/skillhub",
+"homepage": "https://skill.xfyun.cn",
+"language": "Java",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-27T08:44:29Z",
+"stack": [
+"Docker Compose",
+"Make",
+"Java"
+],
+"stars": 5505,
+"topics": [
+"agent-framework",
+"ai-agent",
+"ai-governance",
+"ai-infrastructure",
+"ai-orchestration",
+"audit-log",
+"dsh-plugin",
+"enterprise-ai"
+],
+"url": "https://github.com/iflytek/skillhub"
+},
 "infosave2007/cmf": {
 "archived": false,
 "branch": "master",
@@ -3485,6 +3602,45 @@
 "plamo"
 ],
 "url": "https://github.com/jammaru/sakutto"
+},
+"janhq/jan": {
+"archived": false,
+"branch": "main",
+"commands": [
+"make dev",
+"make dev JAN_ENGINE_VARIANT=cuda13",
+"yarn install",
+"yarn build",
+"yarn dev"
+],
+"description": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795769369.0174992,
+"full": "janhq/jan",
+"homepage": "https://jan.ai/",
+"language": "Rust",
+"license": "NOASSERTION",
+"ok": true,
+"pushed": "2026-11-23T07:01:13Z",
+"stack": [
+"Node.js",
+"Make",
+"Rust"
+],
+"stars": 46227,
+"topics": [
+"chatgpt",
+"gpt",
+"llamacpp",
+"llm",
+"localai",
+"open-source",
+"self-hosted",
+"tauri"
+],
+"url": "https://github.com/janhq/jan"
 },
 "johnwayneeee/free-seo-mcp": {
 "archived": false,
@@ -3885,6 +4041,47 @@
 "nodejs"
 ],
 "url": "https://github.com/KKKKhazix/agent-autoloop"
+},
+"kkvlabs/ga4-gsc-mcp": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npx -y ga4-gsc-mcp setup",
+"npx -y ga4-gsc-mcp check",
+"claude mcp add ga4-gsc --scope user -- npx -y ga4-gsc-mcp",
+"npx -y ga4-gsc-mcp auth --client-secret ~/Downloads/client_secret_XXXX.json",
+"claude mcp add ga4-gsc --scope user -e BING_WEBMASTER_API_KEY=your-key -- npx -y ga4-gsc-mcp",
+"npm install",
+"npm run check   # lint, typecheck, unit tests, then build and a stdio smoke test"
+],
+"description": "Free, open-source MCP server for Google Analytics 4 (GA4), Google Search Console (GSC) and Bing Webmaster Tools. Runs locally, read only. Works with Claude Desktop, Claude Code and Cursor.",
+"env": [
+"PAGESPEED_API_KEY"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795769368.9962494,
+"full": "kkvlabs/ga4-gsc-mcp",
+"homepage": "https://www.npmjs.com/package/ga4-gsc-mcp",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-27T08:14:22Z",
+"stack": [
+"Node.js"
+],
+"stars": 0,
+"topics": [
+"analytics",
+"bing-webmaster-tools",
+"claude",
+"claude-code",
+"cursor",
+"ga4",
+"google-analytics",
+"google-search-console"
+],
+"url": "https://github.com/kkvlabs/ga4-gsc-mcp"
 },
 "klad-app/klad": {
 "archived": false,
@@ -7848,6 +8045,59 @@
 "topics": [],
 "url": "https://github.com/worklore/worklore-mcp"
 },
+"wtfwhs/tengu-decoded": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "Reverse-engineering Claude Code's internals — feature flags, telemetry, device fingerprinting, and infrastructure, version by version.",
+"env": [],
+"envfile": "",
+"fallback": [
+"npm install",
+"npm run dev   # или npm start — смотрите scripts в package.json"
+],
+"fetched": 1795769369.0811968,
+"full": "wtfwhs/tengu-decoded",
+"homepage": "",
+"language": "JavaScript",
+"license": "NOASSERTION",
+"ok": true,
+"pushed": "2026-11-11T14:32:58Z",
+"stack": [
+"Node.js"
+],
+"stars": 107,
+"topics": [],
+"url": "https://github.com/wtfwhs/tengu-decoded"
+},
+"x402-foundation/x402": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npm install @x402/core \\",
+"npm install @x402/core @x402/evm @x402/svm @x402/fetch",
+"npm install @x402/core @x402/evm @x402/svm @x402/express",
+"pip install x402",
+"go get github.com/x402-foundation/x402/go/v2"
+],
+"description": "A payments protocol for the internet. Built on HTTP.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795769369.5490625,
+"full": "x402-foundation/x402",
+"homepage": "https://x402.org",
+"language": "TypeScript",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-26T18:54:37Z",
+"stack": [
+"Node.js"
+],
+"stars": 6834,
+"topics": [],
+"url": "https://github.com/x402-foundation/x402"
+},
 "xinatian/mroffice": {
 "archived": false,
 "branch": "main",
@@ -8103,5 +8353,41 @@
 "github-pages"
 ],
 "url": "https://github.com/ZSeven-W/dsh-game-studio"
+},
+"zzunkie/yardlet": {
+"archived": false,
+"branch": "main",
+"commands": [
+"brew install --cask zzunkie/tap/yardlet",
+"export YARDLET_SIGNING_IDENTITY=\"Developer ID Application: <name> (<team>)\"",
+"export YARDLET_PROVISIONING_PROFILE=\"$HOME/Library/Developer/Yardlet/Yardlet_Browser_Host_Developer_ID.provisionprofile\"",
+"export YARDLET_PATCH_CEF_WEBAUTHN_GROUP=1"
+],
+"description": "Lightweight, non-intrusive, yet versatile ADE. Run Claude Code, Codex and Antigravity side by side in one native Mac app, with no hooks, no wrappers and nothing written into their settings.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795769369.2040603,
+"full": "zzunkie/yardlet",
+"homepage": "https://yardlet.app",
+"language": "Swift",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-27T08:48:51Z",
+"stack": [
+"Swift"
+],
+"stars": 47,
+"topics": [
+"agent-orchestration",
+"agentic",
+"ai",
+"ai-agents",
+"ai-workbench",
+"anthropic-claude",
+"claude-code",
+"codex"
+],
+"url": "https://github.com/zzunkie/yardlet"
 }
 }
