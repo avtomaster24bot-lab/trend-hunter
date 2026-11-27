@@ -2095,6 +2095,49 @@
 ],
 "url": "https://github.com/Doctorgth/live-context-ai-chat"
 },
+"dokploy/mcp": {
+"archived": false,
+"branch": "main",
+"commands": [
+"claude mcp add dokploy-mcp -- npx -y @dokploy/mcp",
+"docker build -t dokploy-mcp .",
+"docker run -it --rm \\",
+"docker-compose up -d dokploy-mcp-http",
+"docker-compose logs -f dokploy-mcp-http",
+"npx -y @dokploy/mcp",
+"npx -y @dokploy/mcp --http",
+"pnpm install",
+"pnpm build",
+"pnpm generate:all"
+],
+"description": "The Official MCP package for Dokploy",
+"env": [
+"DOKPLOY_API_KEY"
+],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795807942.957915,
+"full": "Dokploy/mcp",
+"homepage": "",
+"language": "TypeScript",
+"license": "NOASSERTION",
+"ok": true,
+"pushed": "2026-11-27T10:51:30Z",
+"stack": [
+"Node.js",
+"Docker",
+"Docker Compose"
+],
+"stars": 442,
+"topics": [
+"agents",
+"ai",
+"dokploy",
+"dokploy-mcp",
+"mcp"
+],
+"url": "https://github.com/Dokploy/mcp"
+},
 "dunhkpcc/claude-guardian": {
 "archived": false,
 "branch": "main",
@@ -2421,6 +2464,40 @@
 "topics": [],
 "url": "https://github.com/eventually-consistent-code-org/cairn2"
 },
+"exa-labs/exa-mcp-server": {
+"archived": false,
+"branch": "main",
+"commands": [
+"claude plugin install exa@claude-plugins-official"
+],
+"description": "Exa MCP for web search and web crawling!",
+"env": [],
+"envfile": "env.example",
+"fallback": [],
+"fetched": 1795807942.9092393,
+"full": "exa-labs/exa-mcp-server",
+"homepage": "https://exa.ai/docs/reference/exa-mcp",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-21T00:16:23Z",
+"stack": [
+"Node.js",
+"Docker"
+],
+"stars": 5274,
+"topics": [
+"code-search",
+"codesearch",
+"crawling",
+"mcp",
+"mcp-server",
+"model-context-protocol",
+"web-search",
+"websearch"
+],
+"url": "https://github.com/exa-labs/exa-mcp-server"
+},
 "expo/exact": {
 "archived": false,
 "branch": "main",
@@ -2579,6 +2656,52 @@
 "html-to-markdown"
 ],
 "url": "https://github.com/firecrawl/firecrawl"
+},
+"firecrawl/firecrawl-mcp-server": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npm install -g firecrawl-mcp",
+"docker run -i --rm -e FIRECRAWL_API_KEY=fc-YOUR_API_KEY ghcr.io/firecrawl/firecrawl-mcp-server:latest",
+"docker run --rm -p 127.0.0.1:3000:3000 \\",
+"export FIRECRAWL_API_KEY=your-api-key",
+"export FIRECRAWL_API_URL=https://firecrawl.your-domain.com",
+"export FIRECRAWL_API_KEY=your-api-key  # If your instance requires auth",
+"GO cellular component (experimental)",
+"npm install --save-exact firecrawl-mcp zod",
+"npm install",
+"npm run build"
+],
+"description": "Official Firecrawl MCP server, the context API for AI agents: search, scrape, and interact with the web, plus parse, crawl, map, Agent and Monitor, from any MCP client.",
+"env": [
+"FIRECRAWL_API_KEY",
+"YOUR_API_KEY"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795807942.976131,
+"full": "firecrawl/firecrawl-mcp-server",
+"homepage": "https://firecrawl.dev",
+"language": "JavaScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-27T18:43:32Z",
+"stack": [
+"Node.js",
+"Docker"
+],
+"stars": 7933,
+"topics": [
+"batch-processing",
+"claude",
+"content-extraction",
+"data-collection",
+"firecrawl",
+"firecrawl-ai",
+"gemini-cli-extension",
+"javascript-rendering"
+],
+"url": "https://github.com/firecrawl/firecrawl-mcp-server"
 },
 "flamerix-ai/c3905705cc4205e5de3011fa2e74efce": {
 "fetched": 1795492900.5625057,
@@ -5189,6 +5312,33 @@
 "dsh"
 ],
 "url": "https://github.com/nexu-io/opengame"
+},
+"ngirchev/minibank-bench": {
+"archived": false,
+"branch": "master",
+"commands": [
+"cp -r tasks/minibank/fixture /tmp/minibank-attempt",
+"cd /tmp/minibank-attempt && git init -q && git add -A && git commit -qm initial",
+"python3 grade.py minibank /tmp/minibank-attempt",
+"python3 grade.py minibank --selfcheck"
+],
+"description": "",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795807942.9102468,
+"full": "NGirchev/minibank-bench",
+"homepage": "",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-10-28T17:54:04Z",
+"stack": [
+"Python"
+],
+"stars": 3,
+"topics": [],
+"url": "https://github.com/NGirchev/minibank-bench"
 },
 "nimblegate/nimblegate": {
 "archived": false,
@@ -8378,6 +8528,32 @@
 "cold-email"
 ],
 "url": "https://github.com/wonderpick/apify-b2b-ecom-automation-kit"
+},
+"worklore/research": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "Experiments behind worklore.dev stories and articles: scripts, data and reports",
+"env": [],
+"envfile": "",
+"fallback": [
+"python -m venv .venv",
+"source .venv/bin/activate   # Windows: .venv\\Scripts\\activate",
+"pip install -e ."
+],
+"fetched": 1795807943.00087,
+"full": "worklore/research",
+"homepage": "",
+"language": "Python",
+"license": null,
+"ok": true,
+"pushed": "2026-11-24T21:46:03Z",
+"stack": [
+"Python"
+],
+"stars": 0,
+"topics": [],
+"url": "https://github.com/worklore/research"
 },
 "worklore/worklore-mcp": {
 "archived": false,
