@@ -2132,6 +2132,37 @@
 ],
 "url": "https://github.com/DUNHKpcc/Claude-Guardian"
 },
+"e2b-dev/mcp-server": {
+"archived": true,
+"branch": "main",
+"commands": [
+"npx @smithery/cli install e2b --client claude"
+],
+"description": "Giving Claude ability to run code with E2B via MCP (Model Context Protocol)",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795797164.050401,
+"full": "e2b-dev/mcp-server",
+"homepage": "",
+"language": "JavaScript",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-04-16T15:51:25Z",
+"stack": [
+"Node.js",
+"Docker"
+],
+"stars": 394,
+"topics": [
+"anthropic",
+"claude",
+"claude-3-5-sonnet",
+"claude-ai",
+"model-context-protocol"
+],
+"url": "https://github.com/e2b-dev/mcp-server"
+},
 "el4cteo/blender-skills": {
 "archived": false,
 "branch": "main",
@@ -3189,6 +3220,46 @@
 "sop"
 ],
 "url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit"
+},
+"himanshu748/n8n-nodes-gmicloud": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npm install",
+"npm run build",
+"mkdir -p ~/.n8n/nodes",
+"cd ~/.n8n/nodes",
+"npm install /path/to/n8n-nodes-gmicloud",
+"npm run lint",
+"npm test",
+"npm run dev   # starts n8n with this package loaded",
+"export GMI_API_KEY=...",
+"npm run test:e2e"
+],
+"description": "n8n community node for GMI Cloud inference (chat model + AI Agent support)",
+"env": [
+"GMI_API_KEY"
+],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795797164.5630095,
+"full": "himanshu748/n8n-nodes-gmicloud",
+"homepage": "",
+"language": "JavaScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-26T19:21:25Z",
+"stack": [
+"Node.js"
+],
+"stars": 0,
+"topics": [
+"gmi-cloud",
+"llm",
+"n8n",
+"n8n-community-node-package"
+],
+"url": "https://github.com/himanshu748/n8n-nodes-gmicloud"
 },
 "hlintel/headron": {
 "archived": false,
@@ -4861,6 +4932,41 @@
 ],
 "url": "https://github.com/morganlinton/BeautifulRust"
 },
+"mr-wolf-dev/ats-jobs-mcp-server": {
+"archived": false,
+"branch": "main",
+"commands": [
+"curl -X POST \"https://api.apify.com/v2/acts/mr.wolf~ats-jobs-mcp-server/run-sync-get-dataset-items?token=YOUR_APIFY_TOKEN\" \\",
+"npm run typecheck && npm run lint && npm test && npm run build"
+],
+"description": "HTTP-only Apify Actor & Standby MCP Server extracting normalized tech jobs, salaries, remote roles, and B2B hiring signals from Greenhouse, Lever, Ashby, and SmartRecruiters.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795797164.5882785,
+"full": "Mr-Wolf-Dev/ats-jobs-mcp-server",
+"homepage": "https://apify.com/mr.wolf/ats-jobs-mcp-server",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-27T15:56:27Z",
+"stack": [
+"Node.js",
+"Docker"
+],
+"stars": 0,
+"topics": [
+"apify-actor",
+"ashby",
+"greenhouse",
+"hiring-signals",
+"job-scraper",
+"lever",
+"mcp-server",
+"smartrecruiters"
+],
+"url": "https://github.com/Mr-Wolf-Dev/ats-jobs-mcp-server"
+},
 "munitkala/selfsemester": {
 "archived": false,
 "branch": "main",
@@ -5045,6 +5151,44 @@
 "flint"
 ],
 "url": "https://github.com/nace-ai/kapitsa"
+},
+"nexu-io/opengame": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npx skills add https://github.com/nexu-io/opengame/tree/skills --skill opengame",
+"git -c filter.lfs.process= -c filter.lfs.smudge= -c filter.lfs.required=false clone --depth 1 --single-branch --branch main https://github.com/nexu-io/opengame.git",
+"git lfs install --local --skip-smudge",
+"npm ci",
+"npm run build:studio",
+"npm start"
+],
+"description": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795797164.0649393,
+"full": "nexu-io/opengame",
+"homepage": "",
+"language": "TypeScript",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-27T16:26:27Z",
+"stack": [
+"Node.js"
+],
+"stars": 1979,
+"topics": [
+"agent-skills",
+"ai-agents",
+"ai-game-generator",
+"claude-code",
+"codex",
+"deepseek",
+"deepseek-harness",
+"dsh"
+],
+"url": "https://github.com/nexu-io/opengame"
 },
 "nimblegate/nimblegate": {
 "archived": false,
@@ -5497,6 +5641,45 @@
 "stars": 562,
 "topics": [],
 "url": "https://github.com/open-telemetry/semantic-conventions-genai"
+},
+"open-webui/mcpo": {
+"archived": false,
+"branch": "main",
+"commands": [
+"uvx mcpo --port 8000 --api-key \"top-secret\" -- uvx mcp-server-time --local-timezone=America/New_York",
+"docker run -p 8000:8000 ghcr.io/open-webui/mcpo:main --api-key \"top-secret\" -- your_mcp_server_command",
+"uvx mcpo --port 8000 --api-key \"top-secret\" -- your_mcp_server_command",
+"pip install mcpo",
+"uv sync --dev",
+"uv run pytest",
+"uv run mcpo --port 8000 -- uvx mcp-server-time --local-timezone=America/New_York"
+],
+"description": "A simple, secure MCP-to-OpenAPI proxy server",
+"env": [
+"MCPO_API_KEY"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795797164.0005522,
+"full": "open-webui/mcpo",
+"homepage": "https://docs.openwebui.com/features/plugin/tools/openapi-servers/mcp",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-25T00:59:42Z",
+"stack": [
+"Python",
+"Docker"
+],
+"stars": 4431,
+"topics": [
+"mcp",
+"mcp-server",
+"mcp-to-openapi",
+"open-webui",
+"openapi"
+],
+"url": "https://github.com/open-webui/mcpo"
 },
 "open-webui/open-webui": {
 "archived": false,
@@ -7054,6 +7237,45 @@
 ],
 "url": "https://github.com/Speedrunlab/reverse-engineer-anything-self-learning-loop"
 },
+"stakater/reloader": {
+"archived": false,
+"branch": "v2",
+"commands": [
+"helm repo add stakater https://stakater.github.io/stakater-charts",
+"helm repo update",
+"helm install reloader stakater/reloader",
+"kubectl apply -f https://raw.githubusercontent.com/stakater/Reloader/master/deployments/kubernetes/reloader.yaml",
+"kubectl apply -k https://github.com/stakater/Reloader/deployments/kubernetes"
+],
+"description": "A Kubernetes controller to watch changes in ConfigMap and Secrets and do rolling upgrades on Pods with their associated Deployment, StatefulSet, DaemonSet and DeploymentConfig – [✩Star] if you're using it!",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795797165.6954556,
+"full": "stakater/Reloader",
+"homepage": "https://docs.stakater.com/reloader/",
+"language": "Go",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-24T15:09:58Z",
+"stack": [
+"Docker",
+"Go",
+"Make"
+],
+"stars": 10601,
+"topics": [
+"configmap",
+"daemonset",
+"deploymentconfigs",
+"deployments",
+"k8s",
+"kubernetes",
+"openshift",
+"pods"
+],
+"url": "https://github.com/stakater/Reloader"
+},
 "starlinghq/starling": {
 "archived": false,
 "branch": "main",
@@ -7272,6 +7494,39 @@
 "near-protocol"
 ],
 "url": "https://github.com/swapripper/swap-ripper"
+},
+"swe-rebench/swe-rebench-v2": {
+"archived": false,
+"branch": "main",
+"commands": [
+"python3 scripts/eval.py \\",
+"python3 scripts/build_base_images.py --dockerfiles-dir base_dockerfiles",
+"python3 scripts/build_instance_images.py \\",
+"python3 scripts/eval.py --json sample.json --patches patches.json",
+"python3 scripts/to_harbor.py --hf-dataset ibragim-bad/SWE-rebench-V2.1 --out tasks",
+"python3 scripts/to_harbor.py --hf-dataset ibragim-bad/SWE-rebench-V2.1 --out tasks \\",
+"pip install -r requirements.txt",
+"python3 scripts/annotation_script.py \\"
+],
+"description": "Tools and prompt templates used to build and evaluate SWE-rebench-v2 tasks for the paper.",
+"env": [
+"OPENAI_API_KEY"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795797164.072479,
+"full": "SWE-rebench/SWE-rebench-V2",
+"homepage": "https://arxiv.org/abs/2602.23866",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-17T16:51:40Z",
+"stack": [
+"Python"
+],
+"stars": 95,
+"topics": [],
+"url": "https://github.com/SWE-rebench/SWE-rebench-V2"
 },
 "ta0p1/resolvelab": {
 "archived": false,
@@ -7536,6 +7791,114 @@
 "full-stack"
 ],
 "url": "https://github.com/TIGER-AI-Lab/WebsiteBench"
+},
+"tonydzi/clawrush": {
+"archived": false,
+"branch": "main",
+"commands": [
+"python tools/build_feed.py --check   # exit 0: feed.xml matches longreads/; exit 1: feed.xml is stale",
+"python tools/_test_build_feed.py     # self-test of the feed builder",
+"npx skills add tonydzi/second-brain-starter-kit"
+],
+"description": "C(H+A)RM build diary — a CRM for Human & Agent collaboration, built in public with Claude Code. Framework: github.com/tonydzi/charm-os. English diary, longreads & reusable artifacts. RU: Telegram @ClawRus.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795797164.452615,
+"full": "tonydzi/clawrush",
+"homepage": "",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-27T16:18:55Z",
+"stack": [
+"Python"
+],
+"stars": 18,
+"topics": [
+"agent-skills",
+"ai-agents",
+"build-in-public",
+"building-in-public",
+"charm",
+"charm-os",
+"claude-code",
+"claude-skills"
+],
+"url": "https://github.com/tonydzi/clawrush"
+},
+"truonggiang0111/google-news-url-decoder": {
+"archived": false,
+"branch": "main",
+"commands": [
+"node decode-gnews-url.mjs --self-test",
+"npx skills add truonggiang0111/b2b-ai-mcp-skills --skill google-news-real-url-rag"
+],
+"description": "Decode opaque news.google.com/rss CBMi links into real publisher URLs for AI RAG, Claude MCP & n8n (Node.js CLI + MCP quickstart)",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795797164.0186658,
+"full": "truonggiang0111/google-news-url-decoder",
+"homepage": "https://truonggiang0111.github.io/mcp/",
+"language": "JavaScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-27T05:59:12Z",
+"stack": [
+"Node.js"
+],
+"stars": 0,
+"topics": [
+"ai-agents",
+"apify",
+"b2b-leads",
+"claude-code",
+"cursor",
+"google-news",
+"google-news-rss",
+"llm"
+],
+"url": "https://github.com/truonggiang0111/google-news-url-decoder"
+},
+"truonggiang0111/n8n-nodes-b2b-market-intel": {
+"archived": false,
+"branch": "main",
+"commands": [
+"export N8N_COMMUNITY_PACKAGES_ALLOW_TOOL_USAGE=true",
+"npm run build",
+"node --test test/smoke.test.js",
+"cd ~/.n8n/nodes",
+"npm install github:truonggiang0111/n8n-nodes-b2b-market-intel"
+],
+"description": "Zero-dependency n8n Community Node & AI Agent Tool: Google News URL decoder, UK Gov Tenders, ClinicalTrials.gov + 15 Apify B2B Market Intel Actors",
+"env": [
+"APIFY_TOKEN"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795797164.6243622,
+"full": "truonggiang0111/n8n-nodes-b2b-market-intel",
+"homepage": "https://truonggiang0111.github.io/mcp/",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-27T16:10:02Z",
+"stack": [
+"Node.js"
+],
+"stars": 0,
+"topics": [
+"ai-agents",
+"apify",
+"b2b-leads",
+"clinical-trials",
+"competitive-intelligence",
+"google-news",
+"government-procurement",
+"lead-generation"
+],
+"url": "https://github.com/truonggiang0111/n8n-nodes-b2b-market-intel"
 },
 "tsahospital-beep/wa-mcp": {
 "archived": false,
@@ -8235,6 +8598,28 @@
 "stars": 0,
 "topics": [],
 "url": "https://github.com/Yosolita1978/mcp-prompt-injection-sandbox"
+},
+"yossielimelech/bgsimulator": {
+"archived": false,
+"branch": "master",
+"commands": [],
+"description": "BGSimulator is a Hearthstone Battlegrounds deep learning simulator",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795797164.027645,
+"full": "yossielimelech/BGSimulator",
+"homepage": "",
+"language": "C#",
+"license": null,
+"ok": true,
+"pushed": "2020-01-11T08:00:37Z",
+"stack": [
+"C#"
+],
+"stars": 25,
+"topics": [],
+"url": "https://github.com/yossielimelech/BGSimulator"
 },
 "yun87457-web/website-contacts-pricing-mcp": {
 "archived": false,
