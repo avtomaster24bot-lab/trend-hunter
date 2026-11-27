@@ -75,6 +75,40 @@
 ],
 "url": "https://github.com/21stware/bowel"
 },
+"a895047059/nodebudget-vps-bench": {
+"archived": false,
+"branch": "main",
+"commands": [
+"curl -fsSL https://raw.githubusercontent.com/a895047059/nodebudget-vps-bench/main/nb_bench.py | python3 -",
+"python3 nb_bench.py --ops 500 --workers 12 --json"
+],
+"description": "Zero-dependency Linux 4K random fsync tail-latency & SQLite WAL webhook contention benchmark CLI for self-hosted n8n / AI agents (NodeBudget)",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795743725.303731,
+"full": "a895047059/nodebudget-vps-bench",
+"homepage": "https://nodebudget.dev/benchmarks/",
+"language": "Python",
+"license": "NOASSERTION",
+"ok": true,
+"pushed": "2026-11-27T01:32:54Z",
+"stack": [
+"Python"
+],
+"stars": 0,
+"topics": [
+"docker",
+"fsync",
+"iops",
+"linux",
+"n8n",
+"self-hosted",
+"sqlite",
+"vps-benchmark"
+],
+"url": "https://github.com/a895047059/nodebudget-vps-bench"
+},
 "abuzar-ansarii/jarvis": {
 "archived": false,
 "branch": "master",
@@ -2163,6 +2197,40 @@
 "mcp"
 ],
 "url": "https://github.com/emanuele-em/kanzo"
+},
+"ericjujianzou/rederive": {
+"archived": false,
+"branch": "master",
+"commands": [
+"npx skills add EricJujianZou/rederive",
+"cp -r rederive/skills/rederive ~/.agents/skills/"
+],
+"description": "Explain code that AI wrote for you, in an interview or at work. An open source Claude Code skill that asks how you would build each part of your repo, so you re-derive its design decisions yourself. It also works on open source repos you want to learn.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795743725.3110836,
+"full": "EricJujianZou/rederive",
+"homepage": "https://ericzou.dev/rederive/",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-19T16:36:37Z",
+"stack": [
+"Python"
+],
+"stars": 1751,
+"topics": [
+"agent-skills",
+"ai-generated-code",
+"claude-code",
+"claude-code-plugin",
+"claude-skills",
+"code-comprehension",
+"interview-prep",
+"learning"
+],
+"url": "https://github.com/EricJujianZou/rederive"
 },
 "ersinkoc/phonebox": {
 "archived": false,
