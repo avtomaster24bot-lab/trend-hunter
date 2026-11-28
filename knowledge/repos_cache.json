@@ -1324,6 +1324,35 @@
 ],
 "url": "https://github.com/business-science/ai-data-science-team"
 },
+"cabreradtm/repdix-telegram-database-bot": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "Repdix Telegram Database Bot - Community-Driven SQL Orchestrator with Local LLM Power",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795871856.7278287,
+"full": "CabreraDTM/repdix-telegram-database-bot",
+"homepage": "",
+"language": "HTML",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-28T09:58:10Z",
+"stack": [],
+"stars": 180,
+"topics": [
+"aiogram-bot",
+"anilist",
+"anilist-api",
+"anilist-client",
+"anilist-python",
+"anilist-tracker",
+"anime",
+"data-broker"
+],
+"url": "https://github.com/CabreraDTM/repdix-telegram-database-bot"
+},
 "caprichooms/capricore": {
 "archived": false,
 "branch": "main",
@@ -1511,6 +1540,34 @@
 "skills"
 ],
 "url": "https://github.com/chowyu12/aiclaw"
+},
+"chromium/chromium": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "The official GitHub mirror of the Chromium source",
+"env": [],
+"envfile": "",
+"fallback": [
+"npm install",
+"npm run dev   # или npm start — смотрите scripts в package.json"
+],
+"fetched": 1795871857.3609483,
+"full": "chromium/chromium",
+"homepage": "https://chromium.googlesource.com/chromium/src/",
+"language": null,
+"license": "BSD-3-Clause",
+"ok": true,
+"pushed": "2026-11-28T13:12:16Z",
+"stack": [
+"Node.js"
+],
+"stars": 25456,
+"topics": [
+"browser",
+"chromium"
+],
+"url": "https://github.com/chromium/chromium"
 },
 "chszlab/agenticalgorithmengineering": {
 "archived": false,
@@ -1739,6 +1796,48 @@
 "stars": 9,
 "topics": [],
 "url": "https://github.com/convex/convex-backend-skill"
+},
+"crab-grass/zenith-code-examples": {
+"archived": false,
+"branch": "main",
+"commands": [
+"python3 python/zenith_examples.py snapshot --symbol 7203",
+"python3 python/zenith_examples.py financials --symbol 6758",
+"python3 python/zenith_examples.py history --symbol 7203 --from 2026-09-01 --to 2026-09-30",
+"python3 python/zenith_examples.py full --symbol 7203",
+"python3 python/zenith_examples.py trend --symbol 7203 --years 5 --csv output/trend-7203.csv",
+"python3 python/zenith_examples.py compare --symbols 7203,7267 --csv output/compare.csv",
+"python3 python/zenith_examples.py search --query Toyota",
+"python3 python/zenith_examples.py statements --symbol 7203 --csv output/statements-7203.csv",
+"python3 python/zenith_examples.py metrics --symbol 7203 --csv output/metrics-7203.csv",
+"python3 python/zenith_examples.py peers --symbol 7203 --limit 5"
+],
+"description": "Official Python and JavaScript examples for Japanese stock prices, financial statements and MCP with ZENITH Code.",
+"env": [
+"ZENITH_API_KEY"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795871857.417793,
+"full": "Crab-grass/zenith-code-examples",
+"homepage": "https://zenithcode.net/en",
+"language": "JavaScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-27T10:23:35Z",
+"stack": [
+"Node.js"
+],
+"stars": 0,
+"topics": [
+"api",
+"financial-data",
+"japanese-stocks",
+"javascript",
+"mcp",
+"python"
+],
+"url": "https://github.com/Crab-grass/zenith-code-examples"
 },
 "ctoldigital/axuse": {
 "archived": false,
@@ -3536,6 +3635,47 @@
 ],
 "url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit"
 },
+"hermes-hq/hermes-ide": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npm ci",
+"npm run tauri dev           # full app with hot reload",
+"npm run tauri build         # production build",
+"npx tsc --noEmit            # type check",
+"npm run test                # frontend tests",
+"cd src-tauri && cargo test  # Rust tests"
+],
+"description": "One console for every coding agent. Claude Code, Codex, Copilot, OpenCode and any CLI run in their own terminal, each task on its own branch, with one inbox for agents waiting on you. Free desktop app for macOS, Windows and Linux.",
+"env": [
+"GITHUB_TOKEN"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795871856.759126,
+"full": "hermes-hq/hermes-ide",
+"homepage": "https://hermes-ide.com",
+"language": "TypeScript",
+"license": "NOASSERTION",
+"ok": true,
+"pushed": "2026-11-23T12:09:23Z",
+"stack": [
+"Node.js",
+"Make"
+],
+"stars": 361,
+"topics": [
+"ai",
+"developer-tools",
+"ide",
+"linux",
+"macos",
+"react",
+"rust",
+"tauri"
+],
+"url": "https://github.com/hermes-hq/hermes-ide"
+},
 "himanshu748/n8n-nodes-gmicloud": {
 "archived": false,
 "branch": "main",
@@ -4609,6 +4749,26 @@
 "managed-agents"
 ],
 "url": "https://github.com/langchain-ai/design-agent"
+},
+"laserdata/laser-sdk-plugin": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "Skills for coding agents building with the LaserData Laser SDK",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795871856.7785335,
+"full": "laserdata/laser-sdk-plugin",
+"homepage": "",
+"language": null,
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-16T23:18:55Z",
+"stack": [],
+"stars": 2,
+"topics": [],
+"url": "https://github.com/laserdata/laser-sdk-plugin"
 },
 "lemonadesaltbagel/airlock": {
 "archived": false,
@@ -5699,6 +5859,40 @@
 ],
 "url": "https://github.com/NVIDIA/Megatron-LM"
 },
+"oll4com/spaceapp": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npx --yes run-spaceapp@latest install"
+],
+"description": "Self-hosted workspace that runs several AI coding CLIs (OpenCode, Codex, Claude Code, Gemini) side by side in persistent rooms.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795871856.7754025,
+"full": "oll4com/spaceapp",
+"homepage": "https://spaceapp.dev",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-28T10:49:06Z",
+"stack": [
+"Node.js",
+"Docker"
+],
+"stars": 30,
+"topics": [
+"agentic-ai",
+"ai-agents",
+"ai-coding",
+"claude-code",
+"codex",
+"coding-agents",
+"developer-tools",
+"docker"
+],
+"url": "https://github.com/oll4com/spaceapp"
+},
 "ollama/ollama": {
 "archived": false,
 "branch": "main",
@@ -5979,6 +6173,50 @@
 "rag"
 ],
 "url": "https://github.com/OnlyWanggg/weiyi-ai-apify-starter"
+},
+"open-haul/open-haul-bench": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npm test                                          # free, offline",
+"npm run gate                                      # free: scripted cheat agents and the perfect solver, 12 h and 24 h shifts",
+"node tools/estimate-cost.mjs --hours 12           # free cost estimate per entry",
+"node run.mjs plain --variant compact --name plain-s1 --seed 20261201 --hours 12 --cap-usd 5",
+"node run.mjs --adapter ./adapters/TEMPLATE.mjs --name mine-s1 --seed 20261201 --hours 12 --cap-usd 5 --max-context 200000",
+"node tools/validate-run.mjs runs/mine-s1",
+"node tools/floor-rows.mjs --hours 12 --out floor.json     # free: the scripted floor and ceiling rows",
+"node tools/analyze.mjs runs/plain-s1 runs/plain-s2 runs/plain-s3 runs/mine-s1 runs/mine-s2 runs/mine-s3 --floor floor.json --out results",
+"node tools/compare.mjs runs/mine-s1 runs/mine-s2 runs/mine-s3 --vs runs/plain-s1 runs/plain-s2 runs/plain-s3     # paired, per seed",
+"node tools/leaderboard.mjs results/results.json --floor floor.json --out leaderboard.md"
+],
+"description": "An open benchmark for AI agents that work for hours: one simulated shift, graded by code on right, wrong and forgot. Add your own system.",
+"env": [
+"ANTHROPIC_API_KEY",
+"ARGENTIC_API_KEY",
+"MODEL_KEY"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795871856.7687817,
+"full": "open-haul/open-haul-bench",
+"homepage": "https://getargentic.com/research/",
+"language": "JavaScript",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-28T12:52:52Z",
+"stack": [
+"Node.js"
+],
+"stars": 0,
+"topics": [
+"agent-memory",
+"ai-agents",
+"benchmark",
+"context-engineering",
+"llm-evaluation",
+"long-running-agents"
+],
+"url": "https://github.com/open-haul/open-haul-bench"
 },
 "open-net-worth-ai/open-net-worth": {
 "archived": false,
@@ -6608,6 +6846,45 @@
 "stars": 765,
 "topics": [],
 "url": "https://github.com/pig-dot-dev/muscle-mem"
+},
+"piotrzapolski/booksy-mcp": {
+"archived": false,
+"branch": "master",
+"commands": [
+"npx -y booksy-biz-mcp setup",
+"npm ci",
+"npm run build",
+"npx -y booksy-biz-mcp extension ~/booksy-mcp/extension",
+"claude mcp add booksy --scope user -- npx -y booksy-biz-mcp",
+"npm run check   # lint, typecheck, tests"
+],
+"description": "Booksy MCP server and unofficial Booksy API access for AI agents. Claude Code, Codex and Claude Desktop read your Booksy Biz calendar, clients, staff and payments through your own logged-in Chrome tab. Free, MIT, self-hosted, no token extraction.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795871857.2783463,
+"full": "PiotrZapolski/booksy-mcp",
+"homepage": "https://piotrzapolski.com/booksy-mcp/",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-28T11:52:58Z",
+"stack": [
+"Node.js",
+"Docker"
+],
+"stars": 2,
+"topics": [
+"ai-agents",
+"appointment-scheduling",
+"barbershop",
+"booksy",
+"booksy-api",
+"booksy-automation",
+"booksy-biz",
+"booksy-mcp"
+],
+"url": "https://github.com/PiotrZapolski/booksy-mcp"
 },
 "pipelex/pipelex": {
 "archived": false,
@@ -8026,6 +8303,32 @@
 "topics": [],
 "url": "https://github.com/tariqosmani/smai-leadgen"
 },
+"technobonal/mcpmultiagentsresearch": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "",
+"env": [],
+"envfile": ".env.example",
+"fallback": [
+"python -m venv .venv",
+"source .venv/bin/activate   # Windows: .venv\\Scripts\\activate",
+"pip install -r requirements.txt"
+],
+"fetched": 1795871856.7771652,
+"full": "technobonal/MCPMultiAgentsResearch",
+"homepage": "",
+"language": "Python",
+"license": null,
+"ok": true,
+"pushed": "2026-10-22T00:26:21Z",
+"stack": [
+"Python"
+],
+"stars": 1,
+"topics": [],
+"url": "https://github.com/technobonal/MCPMultiAgentsResearch"
+},
 "tecnomanu/pasala": {
 "archived": false,
 "branch": "main",
@@ -8256,6 +8559,40 @@
 "claude-skills"
 ],
 "url": "https://github.com/tonydzi/clawrush"
+},
+"tpecka180/living-planet": {
+"archived": false,
+"branch": "main",
+"commands": [
+"python -m pip install -r requirements.txt",
+"python main.py"
+],
+"description": "Живая планета  — локальная AI-стратегия: государства, экономика, дипломатия и войны через подключение модели в папке models",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795871857.3874073,
+"full": "TPECKA180/living-planet",
+"homepage": "https://living-planet-global-observatory.branchingdragonfly2.chatgpt.site/",
+"language": "Python",
+"license": "NOASSERTION",
+"ok": true,
+"pushed": "2026-11-25T19:04:11Z",
+"stack": [
+"Python"
+],
+"stars": 8,
+"topics": [
+"ai-agents",
+"ai-game",
+"artificial-intelligence",
+"diplomacy",
+"game-development",
+"grand-strategy",
+"llm",
+"local-llm"
+],
+"url": "https://github.com/TPECKA180/living-planet"
 },
 "truonggiang0111/google-news-url-decoder": {
 "archived": false,
@@ -8691,6 +9028,47 @@
 "model-context-protocol"
 ],
 "url": "https://github.com/Vladimir-Pirotskiy/mcp-commerce-evals"
+},
+"vscarpenter/gsd-task-manager": {
+"archived": false,
+"branch": "main",
+"commands": [
+"bun install",
+"bun dev",
+"bun run test",
+"bun run test -- --coverage",
+"bun typecheck",
+"bun run typecheck:tests",
+"bun lint",
+"bun run quality:shape",
+"bun run knip",
+"bun run license:check"
+],
+"description": "Stop juggling, start finishing. GSD Task Manager makes it easy to sort your to-dos into what’s urgent and what’s important, so you can finally get stuff done without burning out. It’s simple, visual, and works entirely offline.",
+"env": [],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795871857.4879801,
+"full": "vscarpenter/gsd-task-manager",
+"homepage": "https://gsd.vinny.dev/",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-27T15:55:28Z",
+"stack": [
+"Node.js"
+],
+"stars": 41,
+"topics": [
+"eisenhower-matrix",
+"mcp-server",
+"model-context-protocol",
+"nextjs",
+"npm-package",
+"task-manager",
+"typescript"
+],
+"url": "https://github.com/vscarpenter/gsd-task-manager"
 },
 "w01fb0ss/pibot": {
 "archived": false,
