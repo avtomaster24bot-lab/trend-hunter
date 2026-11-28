@@ -359,6 +359,13 @@
 "repo": null,
 "t": 1795666371.2620964
 },
+"https://dev.to/binateai/stop-passing-paragraphs-between-your-agents-1p9c": {
+"desc": "If you've built a multi-step agent workflow, you've probably seen this. Step one does its job and... Tagged with ai, python, agents, llm.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyfih9qm0ne8sht6pdo79.jpg",
+"ok": true,
+"repo": null,
+"t": 1795829002.2089531
+},
 "https://dev.to/blablaprice/when-the-other-side-of-a-chat-is-another-agent-treating-counterparty-messages-as-data-4in2": {
 "desc": "Short answer: if your agent talks to a counterparty in a chat, every message from the other side is... Tagged with mcp, ai, security, agents.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Flmm8nwgrehqfa2svov65.png",
@@ -379,6 +386,13 @@
 "ok": true,
 "repo": "BOHDANukr7777/gatrends-mcp",
 "t": 1795643464.9445646
+},
+"https://dev.to/builditomi/four-ai-tools-we-built-at-builditomi-and-our-black-friday-offer-58m9": {
+"desc": "We are a small team in India building four AI products. Here is what each one does, honestly. Omi... Tagged with ai, webdev, productivity, showdev.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdrcc92utcrado7kg0jtk.png",
+"ok": true,
+"repo": null,
+"t": 1795829002.3340333
 },
 "https://dev.to/bursteri/auditing-6-meta-ads-mcp-servers-tool-count-schema-bloat-and-write-safety-ll0": {
 "desc": "When you connect Claude Code, Cursor, or ChatGPT to a Meta Ads MCP server, three engineering... Tagged with mcp, aiagents, meta, architecture.",
@@ -435,6 +449,13 @@
 "ok": true,
 "repo": "codepeel/mcp-server",
 "t": 1795626474.989242
+},
+"https://dev.to/codingcatdev/stop-paying-for-cloud-llms-how-edge-ai-actually-works-1i6f": {
+"desc": "Alex Patterson sits down with Shivay Lamba (Qualcomm) to break down PyTorch ExecuTorch, NPU hardware delegates (XNNPACK and Vulkan), quantization trade-offs, and a live walkthrough of an LLM inference graph. Tagged with edgeai, webassembly, ai, podcast.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fcdn.sanity.io%2Fmedia-libraries%2Fmlttp0BZbCpV%2Fimages%2Fb60d688a50dc657d709708b602f2a93690db19b3-1376x768.jpg%3Fw%3D1280%26fit%3Dmax%26auto%3Dformat",
+"ok": true,
+"repo": null,
+"t": 1795829002.2089553
 },
 "https://dev.to/commentllm/deepseek-v41-flash-1017-abliterated-as-a-hosted-api-1m-token-context-and-when-to-choose-it-446e": {
 "desc": "deepseek-v4.1-flash-1017-abliterated as a hosted API: 1,048,576-token context, 32,768-token max output, $3.00/$0.30/$5.00 per 1M tokens (23 Nov 2026), OpenAI and Anthropic SDK setup, and when the long context is worth it. Tagged with ai, llm, security, api.",
@@ -496,6 +517,13 @@
 "ok": true,
 "repo": null,
 "t": 1795541523.7998424
+},
+"https://dev.to/david_cifuentes_ece1c4569/shopify-cod-fraud-prevention-guide-cut-rto-in-2026-28lc": {
+"desc": "Cut Shopify cash-on-delivery returns and fake orders in 2026. Learn how automated risk scoring and 1-minute WhatsApp confirmation stop RTO. Tagged with shopify, ecommerce, webdev, automation.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fil9hlxkr03jd5iwmefyr.png",
+"ok": true,
+"repo": null,
+"t": 1795829001.9663427
 },
 "https://dev.to/debojyoti_chakraborty_037/i-built-an-ai-career-companion-to-solve-my-own-job-hunting-frustrations-3cig": {
 "desc": "Job hunting today feels like a full-time job in itself. Between hopping across dozens of company... Tagged with ai, webdev, career, showdev.",
@@ -725,6 +753,13 @@
 "ok": true,
 "repo": null,
 "t": 1795743724.678485
+},
+"https://dev.to/frankchu/3-telemetry-calls-before-your-app-exists-convex-skills-69f": {
+"desc": "Convex quickstart skills send your app idea to a remote server and fetch an unpinned 3,015-line bootstrap — with an instruction to dodge safety classifiers. I verified it all. Tagged with ai, agents, security, discuss.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2Ffrankchu91%2FWhatTechPost%2Fmain%2Fpublished%2F2026-11-27-convex-skills-telemetry%2Fcover.png",
+"ok": true,
+"repo": "convex/convex-backend-skill",
+"t": 1795829002.3340173
 },
 "https://dev.to/ganesh_raju_6a2557b4199e6/when-intelligence-becomes-abundant-what-is-left-to-lead-2n8g": {
 "desc": "A CTO and CAIO's perspective on leadership in the age of AI agents: what changes for the CTO, how to... Tagged with ai, leadership, management, agents.",
@@ -1279,6 +1314,13 @@
 "repo": null,
 "t": 1795492433.241625
 },
+"https://dev.to/matanrabi/im-an-engineer-who-never-liked-marketing-so-i-handed-the-legwork-to-ai-agents-a-year-of-1kjo": {
+"desc": "Im a software engineer and a bit of a digital nomad, and like a lot of people who travel a lot I got... Tagged with ai, startup, sideprojects, marketing.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffoauaab627o4ps64t76d.png",
+"ok": true,
+"repo": null,
+"t": 1795829002.208958
+},
 "https://dev.to/matintellect/test-a-voice-ai-agent-for-wrong-machine-answers-before-you-add-a-microphone-pfm": {
 "desc": "Ask a voice AI agent how much disk space is left on your server. It says \"42 GiB free.\" That can be a... Tagged with ai, agents, automation, productivity.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdxggowrfyirnanabowhr.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fsite-images%2Fsite-voice-ai-agent-work-1795490179.jpg",
@@ -1615,6 +1657,13 @@
 "repo": null,
 "t": 1795701820.683835
 },
+"https://dev.to/pickaplugin/a-no-vibes-filter-for-picking-a-codex-plugin-13l5": {
+"desc": "Disclosure: I run PickAPlugin, an independent catalog of ChatGPT and Codex plugins and MCP servers.... Tagged with ai, codex, mcp, productivity.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fb5f3mtade09lxgqtikf3.png",
+"ok": true,
+"repo": null,
+"t": 1795829002.3340278
+},
 "https://dev.to/pickaplugin/how-to-install-an-mcp-server-in-claude-desktop-cursor-and-codex-4b3c": {
 "desc": "Disclosure: I run PickAPlugin, an independent catalog of ChatGPT and Codex plugins and MCP servers.... Tagged with ai, mcp, tutorial, productivity.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fu5g10izund16hywy7acz.png",
@@ -1719,6 +1768,13 @@
 "ok": true,
 "repo": null,
 "t": 1795807942.251827
+},
+"https://dev.to/proofforge_live/free-security-scan-mcp-server-for-claude-code-cursor-windsurf-and-vs-code-setup-and-the-four-2e6k": {
+"desc": "If you use Claude Code, Cursor, Windsurf or VS Code to build, you can add a free security check to... Tagged with mcp, claude, cursor, security.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxgxz2bcyn48e06mq7hog.png",
+"ok": true,
+"repo": null,
+"t": 1795829002.208948
 },
 "https://dev.to/psyseal/what-your-ai-agent-loads-costs-and-exposes-a-free-offline-check-2hpa": {
 "desc": "Personal AI agents like OpenClaw, Hermes Agent or nanobot keep their memory, skills and config as... Tagged with ai, security, opensource, mcp.",
@@ -2105,6 +2161,13 @@
 "repo": null,
 "t": 1795626474.364676
 },
+"https://dev.to/slime_scout/shopify-orders-not-showing-up-as-deals-in-hubspot-check-these-six-things-3gbg": {
+"desc": "HubSpot's Shopify Data Sync records orders in CRM Orders, not Deals. A 10-minute check of the six usual causes. Tagged with hubspot, shopify, ecommerce, automation.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffqtonuywjmivffieoroi.png",
+"ok": true,
+"repo": null,
+"t": 1795829001.9663358
+},
 "https://dev.to/snakbacks_sheets/im-an-ai-agent-running-a-tiny-software-business-from-a0-week-one-a0-revenue-2-users-159e": {
 "desc": "I'm Claude, an AI agent. Six days ago a human gave me a domain, an email inbox and one instruction:... Tagged with ai, buildinpublic, googlesheets, sideprojects.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F360vua04c1i7voriysri.png",
@@ -2181,6 +2244,13 @@
 "ok": true,
 "repo": "GYYGUGUY/b2b-lead-datasets-and-n8n-workflows",
 "t": 1795643464.8075423
+},
+"https://dev.to/stablevoy/a-safe-mcp-server-for-a-payment-api-3enc": {
+"desc": "What an AI assistant can do with a payment API when a prompt injection gets through, and the design choices that keep the worst case harmless. Tagged with ai, api, mcp, security.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fstablevoy.com%2Fblog%2Fsafe-mcp-server-payments%2Fopengraph-image%3F88673c531201e85e",
+"ok": true,
+"repo": "stablevoy/stablevoy-mcp",
+"t": 1795829002.2089598
 },
 "https://dev.to/stackscale/extract-payslip-data-to-google-sheets-with-make-and-openai-24kk": {
 "desc": "Every month a payslip lands in your inbox as a PDF, and someone types the numbers into a sheet by... Tagged with automation, nocode, ai, tutorial.",
@@ -2469,6 +2539,13 @@
 "repo": null,
 "t": 1795532486.6225011
 },
+"https://dev.to/viswaretas_kotra/fsdp-vs-megatron-lm-which-scales-llm-training-better-11n1": {
+"desc": "FSDP is simpler and enough while a model fits on one 8-GPU machine. Megatron-LM's tensor and pipeline split wins across machines on slow links. Tagged with pytorch, machinelearning, gpu, llm.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxhx260vkbocx7w1bwt41.png",
+"ok": true,
+"repo": "NVIDIA/Megatron-LM",
+"t": 1795829002.3340366
+},
 "https://dev.to/visxa/what-three-queries-returned-from-visxas-bilingual-guide-search-4e01": {
 "desc": "In our previous engineering note, we proposed three questions for our public Model Context Protocol... Tagged with api, llm, mcp, search.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F0awmkmy2828r4vxfqrot.png",
@@ -2503,6 +2580,13 @@
 "ok": true,
 "repo": "parallel-ai-inc/google-ads-skills",
 "t": 1795734389.8623533
+},
+"https://dev.to/wolfejam/a-confirmation-with-no-session-268i": {
+"desc": "What a sealed requestState can and can't promise on MCP 2026-07-28 Some tools should ask before they... Tagged with mcp, security, tutorial, rust.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F5671e14szmjcq05mkcz0.gif",
+"ok": true,
+"repo": "Wolfe-Jam/mcp-better",
+"t": 1795829002.208922
 },
 "https://dev.to/wolfsea2357/llamacpp-v110-in-415-commits-slot-scheduler-refactor-prompt-cache-restore-fixes-and-what-to-3pl4": {
 "desc": "llama.cpp v1.1.0 landed 415 commits in 13 days. I sorted them by area: server slot scheduling, DFlash draft split, llama_batch deprecation, and a serv. Tagged with ai, opensource, llm, performance.",
@@ -3800,6 +3884,11 @@
 "status": 403,
 "t": 1795492436.8347883
 },
+"https://medium.com/@ab_metz/ai-agents-can-create-value-but-can-their-tokens-capture-it-529c6e9f4eca?source=rss------ai_agents-5": {
+"ok": false,
+"status": 403,
+"t": 1795829002.2089305
+},
 "https://medium.com/@affsenseco/forget-passive-income-build-an-email-list-first-9685362b8907?source=rss------side_hustle-5": {
 "ok": false,
 "status": 403,
@@ -3834,6 +3923,11 @@
 "ok": false,
 "status": 403,
 "t": 1795734389.8623514
+},
+"https://medium.com/@azgifshop/i-replaced-5-paid-subscriptions-with-one-local-ai-workflow-and-saved-240-month-9efd5e1db7bd?source=rss------side_hustle-5": {
+"ok": false,
+"status": 403,
+"t": 1795829002.2089458
 },
 "https://medium.com/@bff_7573/how-i-create-passive-income-with-no-money-ea27ce009095?source=rss------side_hustle-5": {
 "ok": false,
@@ -3880,6 +3974,11 @@
 "status": 403,
 "t": 1795657548.6544414
 },
+"https://medium.com/@facilityops_team/data-center-robotics-who-checks-the-robots-work-4ba853c1dab4?source=rss------automation-5": {
+"ok": false,
+"status": 403,
+"t": 1795829002.2089286
+},
 "https://medium.com/@gloriawrites1_74813/i-made-5-41-per-word-with-ai-6363ae7295f0?source=rss------side_hustle-5": {
 "ok": false,
 "status": 403,
@@ -3899,6 +3998,11 @@
 "ok": false,
 "status": 403,
 "t": 1795769368.3712003
+},
+"https://medium.com/@inkferry/how-to-calculate-true-profit-per-order-on-etsy-gumroad-and-stripe-ac324e5fc322?source=rss------side_hustle-5": {
+"ok": false,
+"status": 403,
+"t": 1795829002.2089508
 },
 "https://medium.com/@inovagratis/how-to-calculate-airbnb-net-cash-flow-roi-in-under-3-minutes-before-buying-a-vacation-rental-7dc162f01042?source=rss------side_hustle-5": {
 "ok": false,
@@ -4064,6 +4168,11 @@
 "ok": false,
 "status": 403,
 "t": 1795807942.2518306
+},
+"https://medium.com/@sumitrs.dev/what-if-ai-agents-could-apply-for-jobs-on-my-behalf-01bc9a7e6081?source=rss------n8n-5": {
+"ok": false,
+"status": 403,
+"t": 1795829002.2089627
 },
 "https://medium.com/@techsuneel99/stop-using-ai-like-a-coding-assistant-start-designing-an-ai-engineering-team-34ee7e95c79a?source=rss------ai_agents-5": {
 "ok": false,

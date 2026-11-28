@@ -324,6 +324,49 @@
 ],
 "url": "https://github.com/Ahmed-Manai/docs-rag-mcp"
 },
+"ahtx/kindi": {
+"archived": false,
+"branch": "main",
+"commands": [
+"curl -fsSL https://amirhusain.com/kindi/install.sh | bash",
+"irm https://amirhusain.com/kindi/install.ps1 | iex",
+"curl -s localhost:8093/v1/chat/completions -H \"Content-Type: application/json\"   -d '{\"model\": \"bonsai2-2b\", \"messages\": [{\"role\": \"user\", \"content\": \"Say hello.\"}]}'",
+"docker build -t kindi:0.8.0 -f docker/Dockerfile .   # downloads the CUDA 10.2 toolkit (~2.5 GB), ~15 minutes",
+"mkdir -p ~/.kindi",
+"docker run --rm --gpus all -u $(id -u):$(id -g) -v ~/.kindi:/data kindi:0.8.0 info",
+"docker run -d --name kindi --restart unless-stopped --gpus all -u $(id -u):$(id -g) \\",
+"python -m kindi.bonsai25_mtp Ternary-Bonsai-2.5-27B-PTQ1_0-mtp.gguf",
+"curl -fsSLO https://raw.githubusercontent.com/ahtx/kindi/main/compose.yaml",
+"pip install \"numpy==1.19.5\" \"fastrlock==0.8.3\" \"cupy-cuda102==9.6.0\" \"fastapi==0.79.1\" \"uvicorn==0.16.0\" \"pydantic==1.9.2\""
+],
+"description": "Kindi 0.8 speeds up local LLM inference on NVIDIA and AMD GPUs and on CPUs. Run DeepSeek V4.1 Flash, Qwen3.8-Flash-Next, Ternary Bonsai 2 and 2.5, AH-Nanbeige4.3-33B, Nemotron 3.5 Lightning and Bolt, and Inkling 2 Mini with an OpenAI-compatible API.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795829002.7832532,
+"full": "ahtx/kindi",
+"homepage": "https://amirhusain.com/software/kindi/",
+"language": "Python",
+"license": "AGPL-3.0",
+"ok": true,
+"pushed": "2026-11-27T22:07:57Z",
+"stack": [
+"Docker Compose",
+"Python"
+],
+"stars": 212,
+"topics": [
+"amd",
+"ampere",
+"bonsai",
+"cuda",
+"deepseek",
+"flash-next",
+"inkling",
+"kepler"
+],
+"url": "https://github.com/ahtx/kindi"
+},
 "ai-timon/timon": {
 "archived": false,
 "branch": "main",
@@ -1673,6 +1716,30 @@
 ],
 "url": "https://github.com/coneshare/coneshare"
 },
+"convex/convex-backend-skill": {
+"archived": false,
+"branch": "main",
+"commands": [
+"claude --plugin-dir ~/.claude-plugins/convex-backend-skill"
+],
+"description": "Convex backend skill for building reactive, type-safe, production-grade backends",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795829002.672081,
+"full": "convex/convex-backend-skill",
+"homepage": "https://convex.dev",
+"language": "JavaScript",
+"license": null,
+"ok": true,
+"pushed": "2026-11-26T00:40:08Z",
+"stack": [
+"Node.js"
+],
+"stars": 9,
+"topics": [],
+"url": "https://github.com/convex/convex-backend-skill"
+},
 "ctoldigital/axuse": {
 "archived": false,
 "branch": "main",
@@ -2575,6 +2642,51 @@
 ],
 "url": "https://github.com/Fanqi89/dsh-craft-anything"
 },
+"fendouai/viralforge": {
+"archived": false,
+"branch": "main",
+"commands": [
+"mkdir -p .claude/skills",
+"cp -R skills/viralforge .claude/skills/viralforge",
+"npm install",
+"npm run doctor      # optional: check local prerequisites",
+"npm run dev         # http://127.0.0.1:5173",
+"npm run build",
+"npm run preview      # http://127.0.0.1:4173",
+"npm run render       # re-render the three demo films (FFmpeg + dev server)",
+"node cli/viralforge.mjs analyze ./reference.mp4 --out dna.json",
+"node cli/viralforge.mjs report dna.json"
+],
+"description": "Agent-native viral video studio: deconstruct scripts, replicate structures, export editable projects and costed variants. Website: https://wearai.net/ai-video-generator",
+"env": [
+"DASHSCOPE_API_KEY",
+"OPENAI_API_KEY"
+],
+"envfile": ".env.example",
+"fallback": [],
+"fetched": 1795829003.1062815,
+"full": "fendouai/ViralForge",
+"homepage": "https://wearai.net/ai-video-generator",
+"language": "TypeScript",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-23T09:36:24Z",
+"stack": [
+"Node.js"
+],
+"stars": 559,
+"topics": [
+"ai-agent",
+"ai-agents",
+"short-video",
+"short-video-generator",
+"video-editing",
+"video-script-deconstruction",
+"viral-video",
+"viral-video-generator"
+],
+"url": "https://github.com/fendouai/ViralForge"
+},
 "fidemcheck/mvf-spec": {
 "archived": false,
 "branch": "main",
@@ -2823,6 +2935,46 @@
 "stars": 142487,
 "topics": [],
 "url": "https://github.com/garrytan/gstack"
+},
+"gary23w/f-ck_data_brokers": {
+"archived": false,
+"branch": "main",
+"commands": [
+"python fuck_data_brokers.py",
+"python fuck_data_brokers.py auto",
+"python fuck_data_brokers.py noid req-1a2b3c4d",
+"python fuck_data_brokers.py find \"people\"",
+"python fuck_data_brokers.py letters --match \"people\"",
+"python fuck_data_brokers.py skip \"advertising\"",
+"python fuck_data_brokers.py add \"Some Broker\" privacy@somebroker.example",
+"python -m unittest"
+],
+"description": "fck_data_brokers.py is a free, open-source Python script that sends opt-out and deletion requests to data brokers on your behalf.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795829002.7807605,
+"full": "gary23w/f-ck_data_brokers",
+"homepage": "https://agent.garrettstimpson.ca/remove",
+"language": "Python",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-27T22:09:21Z",
+"stack": [
+"Python"
+],
+"stars": 696,
+"topics": [
+"ccpa",
+"cli",
+"data-brokers",
+"data-deletion",
+"gdpr",
+"lgpd",
+"mcp",
+"mcp-server"
+],
+"url": "https://github.com/gary23w/f-ck_data_brokers"
 },
 "gauge-sh/gauge-cli": {
 "archived": false,
@@ -5446,6 +5598,35 @@
 ],
 "url": "https://github.com/NousResearch/hermes-agent"
 },
+"nvidia/megatron-lm": {
+"archived": false,
+"branch": "main",
+"commands": [
+"uv pip install megatron-core",
+"uv pip install -e ."
+],
+"description": "Ongoing research training transformer models at scale",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795829002.7961051,
+"full": "NVIDIA/Megatron-LM",
+"homepage": "https://docs.nvidia.com/megatron-core/developer-guide/latest/get-started/quickstart.html",
+"language": "Python",
+"license": "NOASSERTION",
+"ok": true,
+"pushed": "2026-11-27T23:54:42Z",
+"stack": [
+"Python"
+],
+"stars": 18569,
+"topics": [
+"large-language-models",
+"model-para",
+"transformers"
+],
+"url": "https://github.com/NVIDIA/Megatron-LM"
+},
 "ollama/ollama": {
 "archived": false,
 "branch": "main",
@@ -7387,6 +7568,33 @@
 ],
 "url": "https://github.com/Speedrunlab/reverse-engineer-anything-self-learning-loop"
 },
+"stablevoy/stablevoy-mcp": {
+"archived": false,
+"branch": "main",
+"commands": [
+"npx stablevoy-mcp login",
+"claude mcp add stablevoy -- npx -y stablevoy-mcp"
+],
+"description": "MCP server for Stablevoy: create USDT and USDC invoices and check payments from Claude, Cursor or any MCP client.",
+"env": [
+"STABLEVOY_API_KEY"
+],
+"envfile": "",
+"fallback": [],
+"fetched": 1795829002.768994,
+"full": "stablevoy/stablevoy-mcp",
+"homepage": "https://stablevoy.com/mcp/",
+"language": "TypeScript",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-28T00:37:33Z",
+"stack": [
+"Node.js"
+],
+"stars": 0,
+"topics": [],
+"url": "https://github.com/stablevoy/stablevoy-mcp"
+},
 "stakater/reloader": {
 "archived": false,
 "branch": "v2",
@@ -8490,6 +8698,45 @@
 "stars": 5030,
 "topics": [],
 "url": "https://github.com/withcoral/coral"
+},
+"wolfe-jam/mcp-better": {
+"archived": false,
+"branch": "main",
+"commands": [
+"cargo run --release -- --http",
+"cargo install mcp-better       # the install (crates.io, native binary)",
+"npx mcp-better --help          # try it with no Rust toolchain",
+"npx mcp-better --http          # Streamable HTTP on http://127.0.0.1:8787/mcp",
+"npx mcp-better --help",
+"npx mcp-better",
+"cargo build --bins",
+"cargo test",
+"cargo run --example stdio-client",
+"cargo run --example contrast-smoke"
+],
+"description": "A working MCP server in Rust, written as a textbook for MCP 2026-07-28. rmcp 3.10 · install with cargo or npx.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795829002.778027,
+"full": "Wolfe-Jam/mcp-better",
+"homepage": "https://wolfejam.dev/blog/stateless-confirmation",
+"language": "Rust",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-28T01:16:54Z",
+"stack": [
+"Node.js",
+"Rust"
+],
+"stars": 2,
+"topics": [
+"aaif",
+"mcp",
+"model-context-protocol",
+"rust"
+],
+"url": "https://github.com/Wolfe-Jam/mcp-better"
 },
 "wonderpick/apify-b2b-ecom-automation-kit": {
 "archived": false,
