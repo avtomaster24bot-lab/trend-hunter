@@ -2045,6 +2045,46 @@
 ],
 "url": "https://github.com/developerz-ai/db-mcp-gateway"
 },
+"different-ai/openmessageboard": {
+"archived": false,
+"branch": "main",
+"commands": [
+"pnpm --filter @openmessageboard/conformance start --url https://board.example.com --identities identities.json",
+"pnpm install",
+"pnpm --filter @openmessageboard/protocol build",
+"pnpm --filter @openmessageboard/sdk build",
+"pnpm --filter @openmessageboard/web build",
+"claude --dangerously-load-development-channels server:board"
+],
+"description": "The open specification for message boards where people and agents work together, served over MCP. With a conformance suite and two implementations.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795834138.3049088,
+"full": "different-ai/openmessageboard",
+"homepage": "",
+"language": "TypeScript",
+"license": "Apache-2.0",
+"ok": true,
+"pushed": "2026-11-28T02:26:19Z",
+"stack": [
+"Node.js",
+"Docker",
+"Make"
+],
+"stars": 1,
+"topics": [
+"ai-agents",
+"collaboration",
+"mcp",
+"message-board",
+"model-context-protocol",
+"open-spec",
+"self-hosted",
+"typescript"
+],
+"url": "https://github.com/different-ai/openmessageboard"
+},
 "diygod/pinky": {
 "archived": false,
 "branch": "main",
@@ -4353,6 +4393,38 @@
 "stars": 0,
 "topics": [],
 "url": "https://github.com/kgluszczyk/mac-studio-local-agent-bench"
+},
+"khorshedobs/macos-php-laravel-toolkit": {
+"archived": false,
+"branch": "main",
+"commands": [
+"curl -fsSL https://stratosapp.dev/tools/macos-laravel-stack-benchmark.sh | bash -s -- .",
+"curl -fsSL https://stratosapp.dev/tools/laravel-docker-to-native-migrator.sh | bash -s -- .",
+"curl -fsSL https://stratosapp.dev/tools/macos-local-ssl-doctor.sh | bash -s -- myapp.test"
+],
+"description": "Read-only macOS diagnostic & migration scripts for PHP, Laravel & WordPress devs: Local SSL/.test Doctor, Native vs Docker Stack Benchmark, and Sail-to-Native Migrator.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795834138.3160915,
+"full": "khorshedobs/macos-php-laravel-toolkit",
+"homepage": "https://stratosapp.dev",
+"language": null,
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-24T17:53:58Z",
+"stack": [],
+"stars": 0,
+"topics": [
+"benchmark",
+"devtools",
+"laravel",
+"macos",
+"php",
+"ssl",
+"wordpress"
+],
+"url": "https://github.com/khorshedobs/macos-php-laravel-toolkit"
 },
 "kkkkhazix/agent-autoloop": {
 "archived": false,
@@ -8298,6 +8370,40 @@
 ],
 "url": "https://github.com/tsahospital-beep/wa-mcp"
 },
+"tthanh2k6/turbo-android": {
+"archived": false,
+"branch": "master",
+"commands": [
+"claude mcp add turbo-android -- npx -y turbo-android-mcp",
+"node --test test/*.test.mjs"
+],
+"description": "ADB-first MCP server for Android automation without root: UI tree deltas, selector tap/type, bank/password deny zones, and Chrome/WebView CDP bridge.",
+"env": [],
+"envfile": "",
+"fallback": [],
+"fetched": 1795834138.2526846,
+"full": "Tthanh2k6/turbo-android",
+"homepage": "",
+"language": "Kotlin",
+"license": "MIT",
+"ok": true,
+"pushed": "2026-11-28T02:08:12Z",
+"stack": [
+"Node.js",
+"Kotlin"
+],
+"stars": 0,
+"topics": [
+"adb",
+"ai-agent",
+"android",
+"mcp",
+"mobile-automation",
+"nodejs",
+"playwright"
+],
+"url": "https://github.com/Tthanh2k6/turbo-android"
+},
 "tthanh2k6/turbo-browser-mcp": {
 "archived": false,
 "branch": "main",
@@ -8737,6 +8843,36 @@
 "rust"
 ],
 "url": "https://github.com/Wolfe-Jam/mcp-better"
+},
+"wolfgang186/betterdiscord-auto-installer-plugin-suite": {
+"archived": false,
+"branch": "main",
+"commands": [],
+"description": "DeepSeek R1 Ollama — DeepSeek R1 Local Ollama GUI",
+"env": [],
+"envfile": "",
+"fallback": [
+"go build ./..."
+],
+"fetched": 1795834138.309212,
+"full": "Wolfgang186/betterdiscord-auto-installer-plugin-suite",
+"homepage": "",
+"language": "Go",
+"license": "NOASSERTION",
+"ok": true,
+"pushed": "2026-11-28T00:28:08Z",
+"stack": [
+"Go"
+],
+"stars": 160,
+"topics": [
+"deepseek",
+"deepseek-r1",
+"deepseek-r1-ollama",
+"local-llm",
+"ollama"
+],
+"url": "https://github.com/Wolfgang186/betterdiscord-auto-installer-plugin-suite"
 },
 "wonderpick/apify-b2b-ecom-automation-kit": {
 "archived": false,

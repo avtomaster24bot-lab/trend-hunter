@@ -114,6 +114,13 @@
 "repo": null,
 "t": 1795711600.653992
 },
+"https://dev.to/_gary_f8a5c9d66a48f501/mcp-vs-skills-how-to-pick-ai-agent-add-ons-by-task-not-by-hype-list-jjc": {
+"desc": "MCP connects your AI assistant to tools and data; Skills tell it how to do the work. Here's a one-line boundary, four real decisions, and a checklist so you stop installing every popular add-on at once. Tagged with agents, ai, llm, mcp.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjd8zxgs8i7p9n8rq3vms.png",
+"ok": true,
+"repo": null,
+"t": 1795834137.5209262
+},
 "https://dev.to/aakira/claude-codetocursordeglm-54woshi-ufang-fa-5cli": {
 "desc": "GLM-5.4 を Claude Code と Cursor で使う方法 GLM-5.4 を Claude Code で使う設定は、たった3ステップです。Z.ai の GLM... Tagged with ai, claude, coding, llm.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fassets.apidog.com%2Fblog-next%2F2026%2F11%2Fheader-153.png",
@@ -532,6 +539,13 @@
 "repo": null,
 "t": 1795666371.2621188
 },
+"https://dev.to/dev_bek/before-your-agent-connects-to-an-mcp-server-a-10-minute-pre-flight-check-527b": {
+"desc": "An MCP server is a promise: \"these are the tools, this is what they do, and only the right people can... Tagged with mcp, security, ai, devops.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftgx1uf4wr70gumjfcqla.png",
+"ok": true,
+"repo": null,
+"t": 1795834137.745898
+},
 "https://dev.to/developerzai/what-actually-lands-in-your-audit-trail-when-an-ai-agent-queries-a-database-1n2l": {
 "desc": "The problem with agent database access Most teams adopting AI agents for operational work... Tagged with ai, database, mcp, security.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F987yymwyvu3tulh2i7cn.png",
@@ -714,6 +728,13 @@
 "repo": "iflytek/astron-rpa",
 "t": 1795666371.2620933
 },
+"https://dev.to/finpulse360_org/solana-slides-to-7165-as-ai-agent-micro-payments-rotate-to-base-l2-and-494-yields-cap-risk-i40": {
+"desc": "Solana Slides to $71.65 as AI Agent Micro-Payments Rotate to Base L2 and 4.94% Yields Cap... Tagged with solana, base, aiagents, crypto.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Ffinpulse360.org%2Fr2-images%2Fart_1795827627074.webp",
+"ok": true,
+"repo": null,
+"t": 1795834137.5209365
+},
 "https://dev.to/flexfitfury_f86c50450a09d/ai-appointment-setting-workflows-for-us-dental-medical-clinics-100-hipaa-compliant-architecture-2bhl": {
 "ok": false,
 "status": 404,
@@ -880,6 +901,13 @@
 "repo": null,
 "t": 1795797162.8698957
 },
+"https://dev.to/haoyi/finally-split-my-agent-setup-across-two-machines-991": {
+"desc": "Finally split my agent setup across two machines. Hermes lives on a cloud box, 2 cores and 4 GB of... Tagged with architecture, automation, devops, infrastructure.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F9rhxxlboh8fc2dinkiro.png",
+"ok": true,
+"repo": null,
+"t": 1795834137.5209386
+},
 "https://dev.to/haroonch_rashid_72f1d7e31/google-locks-ai-agents-into-mcp-for-gmail-and-drive-from-february-2027-gmail-cant-send-mail-31do": {
 "desc": "If you have an AI agent that reads your Gmail, files things in Drive, or books meetings in Calendar,... Tagged with ai, mcp.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fbom23exryc7mmzo0akkn.png",
@@ -907,6 +935,13 @@
 "ok": true,
 "repo": "HLIntel/Headron",
 "t": 1795666371.262078
+},
+"https://dev.to/hellohop/verify-signed-hellohop-webhooks-in-n8n-and-auto-reply-on-whatsapp-85p": {
+"desc": "Receive HelloHop webhook events in n8n, check the HMAC-SHA256 signature over the raw body, skip repeats, and answer inbound WhatsApp texts in direct chats. Tagged with n8n, whatsapp, webhooks, automation.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F0zs4qou9oknzm4w9b3wc.png",
+"ok": true,
+"repo": null,
+"t": 1795834137.7459013
 },
 "https://dev.to/henadz_453c70fee36bf148a4/how-ai-agents-find-verified-b2b-decision-makers-dns-mx-microsoft-365-via-mcp-44an": {
 "desc": "When an AI agent in your browser or IDE searches for B2B prospects, raw web search only gets you... Tagged with mcp, aiagents, b2b, opensource.",
@@ -1783,6 +1818,13 @@
 "repo": "psyseal/psyseal-scan",
 "t": 1795568063.360626
 },
+"https://dev.to/purist_online/n8n-webhook-not-working-10-causes-and-how-to-fix-each-one-3ali": {
+"desc": "\"My webhook does not work\" can mean ten different things. The fastest way to fix it is to start from... Tagged with ai, productivity, automation, webhooks.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxucz7w5x86p33t1mdgly.png",
+"ok": true,
+"repo": null,
+"t": 1795834137.5209303
+},
 "https://dev.to/pvisilias/promptdc-a-desktop-app-that-fixes-your-writing-and-ai-prompts-in-any-app-2dcl": {
 "desc": "Most AI writing help lives in one place. Grammar checkers underline words in the browser. AI chats... Tagged with ai, productivity, software, tools.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffk98wk0wfc9by1srv8y9.png",
@@ -1831,6 +1873,13 @@
 "ok": true,
 "repo": null,
 "t": 1795807942.2864106
+},
+"https://dev.to/reachjalil/how-to-tell-if-your-agents-need-a-message-board-177g": {
+"desc": "A totally accurate flowchart, and the six things a shared board for people and agents has to get right. Tagged with ai, agents, mcp, opensource.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fma2d60ga0dz4haylm4ic.webp",
+"ok": true,
+"repo": "different-ai/openmessageboard",
+"t": 1795834137.7458882
 },
 "https://dev.to/recallrundev/a-fail-closed-tool-gate-for-ai-agents-a-denylist-let-25-of-29-bad-calls-through-an-allowlist-0-2fjb": {
 "desc": "I ran 33 agent tool calls through a name denylist and a fail-closed allowlist gate. The denylist let 25 of 29 bad calls through; the allowlist let 0 through. Tagged with ai, python, security, mcp.",
@@ -2280,6 +2329,13 @@
 "repo": null,
 "t": 1795701820.0543985
 },
+"https://dev.to/stratos_mac/i-built-a-free-laravel-mcp-config-generator-vs-codecursor-companion-for-native-macos-php-stacks-25eg": {
+"desc": "Connecting Cursor, Claude Code, Claude Desktop, or Windsurf to a local Laravel or WordPress project... Tagged with laravel, cursor, mcp, php.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcgw8u2bme6y14hcnh1xq.png",
+"ok": true,
+"repo": "khorshedobs/macos-php-laravel-toolkit",
+"t": 1795834137.5209334
+},
 "https://dev.to/sudheer_kumar_148c18915a9/how-smm-panel-apis-work-ordering-status-polling-refills-error-handling-6e8": {
 "desc": "Automating social media marketing (SMM) workflows or integrating a reseller dashboard comes down to... Tagged with api, webdev, socialmedia, automation.",
 "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fzycgo9ko8xmrirnh25t2.png",
@@ -2468,6 +2524,13 @@
 "ok": true,
 "repo": "tsahospital-beep/wa-mcp",
 "t": 1795492431.0733182
+},
+"https://dev.to/tthanh2k6/driving-android-phones-over-adb-without-screenshot-loops-or-raw-xml-dumps-turbo-android-mcp-3ap5": {
+"desc": "Running an AI agent against an Android phone over adb usually hits two bottlenecks on the first... Tagged with mcp, android, node, ai.",
+"image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjt271b9mmout90h2bv5a.png",
+"ok": true,
+"repo": "Tthanh2k6/turbo-android",
+"t": 1795834137.5209413
 },
 "https://dev.to/tthanh2k6/my-ai-coding-agent-was-loading-1587-skills-and-69-browser-tools-on-every-prompt-116i": {
 "desc": "I wondered why my coding agent kept burning quota and picking the wrong tool. Then I ran a 40-line... Tagged with ai, mcp, claudecode, productivity.",
@@ -4198,6 +4261,11 @@
 "ok": false,
 "status": 403,
 "t": 1795606127.3849542
+},
+"https://medium.com/@ys.yogendra22/part-25-microsoft-agent-framework-building-ai-agents-a-company-can-trust-eb95238055d2?source=rss------ai_agents-5": {
+"ok": false,
+"status": 403,
+"t": 1795834137.7458947
 },
 "https://medium.com/@zack_liu/the-language-niche-playbook-9-automated-micro-products-that-command-15-29-month-0040b5913751?source=rss------side_hustle-5": {
 "ok": false,
